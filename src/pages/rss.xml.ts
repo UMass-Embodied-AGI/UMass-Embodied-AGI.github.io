@@ -15,13 +15,18 @@ export async function GET(context: APIContext) {
     description: siteConfig.subtitle || 'No description',
     site: context.site ?? 'https://fuwari.vercel.app',
     items: blog.map(post => {
+      // Ensure post.body is a string before parsing
+      const content = typeof post.body === 'string' 
+        ? sanitizeHtml(parser.render(post.body), {
+            allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
+          })
+        : ''
+
       return {
         title: post.data.title,
         description: post.data.description || '',
         link: `/posts/${post.slug}/`,
-        content: sanitizeHtml(parser.render(post.body), {
-          allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
-        }),
+        content,
       }
     }),
     customData: `<language>${siteConfig.lang}</language>`,
