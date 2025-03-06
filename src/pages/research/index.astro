@@ -1,0 +1,31 @@
+---
+import type { GetStaticPaths } from 'astro'
+import { getEntry } from 'astro:content'
+import Markdown from '@components/misc/Markdown.astro'
+import PostPage from '@components/PostPage.astro'
+import Pagination from '@components/control/Pagination.astro'
+import MainGridLayout from '@layouts/MainGridLayout.astro'
+import { getSortedPosts } from '@utils/content-utils'
+import ImageWrapper from '@components/misc/ImageWrapper.astro'
+import path from 'path'
+import { getDir } from '@utils/url-utils'
+import ResearchList from '@components/ResearchList.astro'
+export const getStaticPaths = (async ({ paginate }) => {
+  const allBlogPosts = await getSortedPosts()
+  return paginate(allBlogPosts, { pageSize: PAGE_SIZE })
+}) satisfies GetStaticPaths
+// https://github.com/withastro/astro/issues/6507#issuecomment-1489916992
+
+const { page } = Astro.props
+const aboutContent = await getEntry('main', 'about')
+const researchList = await getEntry('research', 'list')
+const { Content } = await aboutContent.render()
+---
+
+<MainGridLayout>
+    
+        
+    <ResearchList list={researchList} />
+    <!-- <PostPage page={page}></PostPage>
+    <Pagination class="mx-auto onload-animation" page={page} style=`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`></Pagination> -->
+</MainGridLayout>

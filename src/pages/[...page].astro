@@ -1,11 +1,16 @@
 ---
 import type { GetStaticPaths } from 'astro'
+import { getEntry } from 'astro:content'
+import Markdown from '@components/misc/Markdown.astro'
 import PostPage from '../components/PostPage.astro'
 import Pagination from '../components/control/Pagination.astro'
 import { PAGE_SIZE } from '../constants/constants'
 import MainGridLayout from '../layouts/MainGridLayout.astro'
 import { getSortedPosts } from '../utils/content-utils'
-
+import ImageWrapper from '../components/misc/ImageWrapper.astro'
+import path from 'path'
+import { getDir } from '../utils/url-utils'
+import ResearchList from '../components/ResearchList.astro'
 export const getStaticPaths = (async ({ paginate }) => {
   const allBlogPosts = await getSortedPosts()
   return paginate(allBlogPosts, { pageSize: PAGE_SIZE })
@@ -13,11 +18,26 @@ export const getStaticPaths = (async ({ paginate }) => {
 // https://github.com/withastro/astro/issues/6507#issuecomment-1489916992
 
 const { page } = Astro.props
-
+const aboutContent = await getEntry('main', 'about')
+const researchList = await getEntry('research', 'list')
 const len = page.data.length
+const { Content } = await aboutContent.render()
 ---
 
 <MainGridLayout>
-    <PostPage page={page}></PostPage>
-    <Pagination class="mx-auto onload-animation" page={page} style=`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`></Pagination>
+    <div class="card-base z-10 px-9 py-6 relative w-full ">
+        <div class="flex flex-col lg:flex-row gap-2 lg:gap-8">
+            
+        <ImageWrapper src={aboutContent.data.image} basePath={path.join("content/posts/", getDir(aboutContent.id))} alt="Cover Image of the Post" class="rounded-md"> </ImageWrapper>
+                <Markdown class="mt-2">
+                    <Content />
+                </Markdown>
+        </div>
+    </div>
+    <div class="py-6">
+    <h2 class="font-semibold text-3xl text-slate-500">Selected Publications</h2>
+    </div>    
+    <ResearchList list={researchList} selected={true}/>
+    <!-- <PostPage page={page}></PostPage>
+    <Pagination class="mx-auto onload-animation" page={page} style=`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`></Pagination> -->
 </MainGridLayout>

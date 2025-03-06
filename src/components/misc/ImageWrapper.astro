@@ -1,8 +1,9 @@
 ---
 import path from 'path'
+import { Icon } from 'astro-icon/components'
 interface Props {
   id?: string
-  src: string
+  src?: string
   class?: string
   alt?: string
   position?: string
@@ -10,22 +11,27 @@ interface Props {
 }
 import { Image } from 'astro:assets'
 import { url } from '../../utils/url-utils'
-
 const { id, src, alt, position = 'center', basePath = '/' } = Astro.props
 const className = Astro.props.class
 
-const isLocal = !(
-  src.startsWith('/') ||
+// Check if src is provided
+const isSrcEmpty = !src || src.trim() === ''
+// Initial validity - we'll assume image is valid if src exists
+let isValidImg = !isSrcEmpty
+
+// Only process image if src is provided
+const isLocal = !isSrcEmpty && !(
   src.startsWith('http') ||
   src.startsWith('https') ||
   src.startsWith('data:')
 )
-const isPublic = src.startsWith('/')
+const isPublic = !isSrcEmpty && src.startsWith('/')
 
 // TODO temporary workaround for images dynamic import
 // https://github.com/withastro/astro/issues/3373
 let img
 if (isLocal) {
+  console.log(src)
   const files = import.meta.glob<ImageMetadata>('../../**', {
     import: 'default',
   })
@@ -34,17 +40,43 @@ if (isLocal) {
     .replace(/\\/g, '/')
   const file = files[normalizedPath]
   if (!file) {
-    console.error(`\n[ERROR] Image file not found: ${normalizedPath.replace('../../', 'src/')}`)
+    console.error(
+      `\n[ERROR] Image file not found: ${normalizedPath.replace('../../', 'src/')}`,
+    )
+    isValidImg = false
+  } else {
+    try {
+      img = await file()
+    } catch (error) {
+      console.error(`\n[ERROR] Failed to load image: ${error}`)
+      isValidImg = false
+    }
   }
-  img = await file()
 }
-
-const imageClass = 'w-full h-full object-cover'
+const imageClass = 'w-full h-full object-contain'
 const imageStyle = `object-position: ${position}`
 ---
 <div id={id} class:list={[className, 'overflow-hidden relative']}>
     <div class="transition absolute inset-0 dark:bg-black/10 bg-opacity-50 pointer-events-none"></div>
-    {isLocal && img && <Image src={img} alt={alt || ""} class={imageClass} style={imageStyle}/>}
-    {!isLocal && <img src={isPublic ? url(src) : src} alt={alt || ""} class={imageClass} style={imageStyle}/>}
+    
+    {!isValidImg && (
+      <div class="w-full h-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
+        <Icon name="mdi:robot" class="w-16 h-16 text-gray-400 dark:text-gray-600" />
+      </div>
+    )}
+    
+    {isLocal && isValidImg && img && <Image src={img} alt={alt || ""} class={imageClass} style={imageStyle}/>}
+    
+    {!isLocal && isValidImg && (
+      <img 
+        src={isPublic ? url(src) : src} 
+        alt={alt || ""} 
+        class={imageClass} 
+        style={imageStyle}
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+      />
+      <div class="w-full h-full bg-gray-200 dark:bg-gray-800 hidden items-center justify-center">
+        <Icon name="mdi:robot" class="w-16 h-16 text-gray-400 dark:text-gray-600" />
+      </div>
+    )}
 </div>
-

@@ -35,9 +35,10 @@ export type Favicon = {
 }
 
 export enum LinkPreset {
-  Home = 0,
-  Archive = 1,
-  About = 2,
+  About = 0,
+  Home = 1,
+  Archive = 2,
+  Research = 3,
 }
 
 export type NavBarLink = {
@@ -75,7 +76,6 @@ export type LIGHT_DARK_MODE =
 export type BlogPostData = {
   body: string
   title: string
-  published: Date
   description: string
   tags: string[]
   draft?: boolean

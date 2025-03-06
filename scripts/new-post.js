@@ -38,7 +38,6 @@ if (fs.existsSync(fullPath)) {
 
 const content = `---
 title: ${args[0]}
-published: ${getDate()}
 description: ''
 image: ''
 tags: []

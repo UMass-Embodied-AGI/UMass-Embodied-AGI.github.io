@@ -7,14 +7,19 @@ import { url } from '../utils/url-utils'
 
 interface Props {
   class: string
-  published: Date
   updated?: Date
   tags: string[]
   category: string
   hideTagsForMobile?: boolean
   hideUpdateDate?: boolean
 }
-const { published, updated, tags, category, hideTagsForMobile = false, hideUpdateDate = false } = Astro.props
+const {
+  updated,
+  tags,
+  category,
+  hideTagsForMobile = false,
+  hideUpdateDate = false,
+} = Astro.props
 const className = Astro.props.class
 ---
 
@@ -25,19 +30,10 @@ const className = Astro.props.class
         >
             <Icon name="material-symbols:calendar-today-outline-rounded" class="text-xl"></Icon>
         </div>
-        <span class="text-50 text-sm font-medium">{formatDateToYYYYMMDD(published)}</span>
     </div>
 
     <!-- update date -->
-    {!hideUpdateDate && updated && updated.getTime() !== published.getTime() && (
-        <div class="flex items-center">
-            <div class="meta-icon"
-            >
-                <Icon name="material-symbols:edit-calendar-outline-rounded" class="text-xl"></Icon>
-            </div>
-            <span class="text-50 text-sm font-medium">{formatDateToYYYYMMDD(updated)}</span>
-        </div>
-    )}
+
 
     <!-- categories -->
     <div class="flex items-center">
