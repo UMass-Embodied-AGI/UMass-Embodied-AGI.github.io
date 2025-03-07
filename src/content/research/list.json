@@ -17,8 +17,8 @@
     "eprint": "2407.20228",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2407.20228",
-    "preview": "https://vis-www.cs.umass.edu/flexattention/static/assets/overview.jpg"
+    "url": "/research/flexattention/index.html",
+    "preview": "/research/flexattention/static/assets/overview.jpg"
   },
   {
     "id": "wang2024robogenunleashinginfinitedata",
@@ -89,8 +89,8 @@
     "eprint": "2404.10775",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2404.10775",
-    "preview": "https://vis-www.cs.umass.edu/combo/video/teaser.mp4"
+    "url": "/research/combo/index.html",
+    "preview": "/research/combo/video/teaser.mp4"
   },
   {
     "id": "sun2024salmonselfalignmentinstructablereward",
@@ -130,7 +130,7 @@
     "eprint": "2404.00451",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.RO",
-    "url": "https://arxiv.org/abs/2404.00451",
+    "url": "/research/ThinShellLab/index.html",
     "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif"
   },
   {
@@ -169,11 +169,11 @@
     "eprint": "2403.09631",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2403.09631",
-    "preview": "https://vis-www.cs.umass.edu/3dvla/static/video/demo.mp4",
+    "url": "/research/3dvla/index.html",
+    "preview": "/research/3dvla/static/video/demo.mp4",
     "booktitle": "International conference on machine learning",
     "selected": true,
-    "website": "https://vis-www.cs.umass.edu/3dvla/",
+    "website": "/research/3dvla/index.html",
     "arxiv": "https://arxiv.org/abs/2403.09631",
     "pdf": "https://arxiv.org/pdf/2403.09631",
     "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
@@ -197,8 +197,8 @@
     "eprint": "2307.02485",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.AI",
-    "url": "https://arxiv.org/abs/2307.02485",
-    "preview": "https://vis-www.cs.umass.edu/Co-LLM-Agents/figure/teaser_v1.7.jpg"
+    "url": "/research/Co-LLM-Agents/index.html",
+    "preview": "/research/Co-LLM-Agents/figure/teaser_v1.7.jpg"
   },
   {
     "id": "cai2024efficientvitmultiscalelinearattention",
@@ -231,8 +231,8 @@
     "eprint": "2401.12975",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2401.12975",
-    "preview": "https://vis-www.cs.umass.edu/hazard/video/teaser_new.mp4"
+    "url": "/research/hazard/index.html",
+    "preview": "https://github.com/UMass-Embodied-AGI/HAZARD/blob/main/pics/overview.png?raw=true"
   },
   {
     "id": "hong2024multiplymultisensoryobjectcentricembodied",
@@ -250,8 +250,8 @@
     "eprint": "2401.08577",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2401.08577",
-    "preview": "https://vis-www.cs.umass.edu/multiply/resources/cd_player.mp4"
+    "url": "/research/multiply/index.html",
+    "preview": "/research/multiply/resources/cd_player.mp4"
   },
   {
     "id": "lin2023dcirdynamicconsistencyintrinsic",
@@ -317,13 +317,13 @@
     "eprint": "2311.03354",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2311.03354",
-    "preview": "https://vis-www.cs.umass.edu/CoVLM/static/assets/demo.mp4"
+    "url": "/research/CoVLM/index.html",
+    "preview": "/research/CoVLM/static/assets/demo.mp4"
   },
   {
     "id": "chen2023a2navactionawarezeroshotrobot",
     "type": "misc",
-    "title": "$A^2$Nav: Action-Aware Zero-Shot Robot Navigation by Exploiting Vision-and-Language Ability of Foundation Models",
+    "title": "A^2Nav: Action-Aware Zero-Shot Robot Navigation by Exploiting Vision-and-Language Ability of Foundation Models",
     "authors": [
       "Peihao Chen",
       "Xinyu Sun",
@@ -376,12 +376,12 @@
     "eprint": "2307.12981",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2307.12981",
+    "url": "/research/3dllm/index.html",
     "selected": true,
     "arxiv": "https://arxiv.org/abs/2307.12981",
     "code": "https://github.com/umass-foundation-model/3d-llm",
-    "preview": "https://vis-www.cs.umass.edu/3dllm/data/new_chat_demo.mp4",
-    "website": "https://vis-www.cs.umass.edu/3dllm/",
+    "preview": "/research/3dllm/data/new_chat_demo.mp4",
+    "website": "/research/3dllm/",
     "pdf": "https://arxiv.org/pdf/2307.12981",
     "journal": "Advances in Neural Information Processing Systems",
     "topic": "Multimodal Language Models"
@@ -470,12 +470,12 @@
     "type": "article",
     "title": "Relation Attention for Temporal Action Localization",
     "authors": [
-      "Chen, Peihao",
-      "Gan, Chuang",
-      "Shen, Guangyao",
-      "Huang, Wenbing",
-      "Zeng, Runhao",
-      "Tan, Mingkui"
+      "Peihao Chen",
+      "Chuang Gan",
+      "Guangyao Shen",
+      "Wenbing Huang",
+      "Runhao Zeng",
+      "Mingkui Tan"
     ],
     "year": "2020",
     "journal": "IEEE Transactions on Multimedia",
@@ -483,7 +483,8 @@
     "number": "10",
     "pages": "2723-2733",
     "keywords": "Proposals;Feature extraction;Task analysis;Object detection;Deep learning;Sports;Semantics;Temporal action localization;relation attention",
-    "doi": "10.1109/TMM.2019.2959977"
+    "doi": "10.1109/TMM.2019.2959977",
+    "url": "https://ieeexplore.ieee.org/document/8933113"
   },
   {
     "id": "huang2020locationawaregraphconvolutionalnetworks",
@@ -514,12 +515,12 @@
     "journal": "IEEE Transactions on Image Processing",
     "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
     "authors": [
-      "Chen, Peihao",
-      "Zhang, Yang",
-      "Tan, Mingkui",
-      "Xiao, Hongdong",
-      "Huang, Deng",
-      "Gan, Chuang"
+      "Peihao Chen",
+      "Yang Zhang",
+      "Mingkui Tan",
+      "Hongdong Xiao",
+      "Deng Huang",
+      "Chuang Gan"
     ],
     "year": "2020",
     "pages": "8292-8302"
@@ -564,12 +565,12 @@
     "type": "article",
     "title": "Breaking Winner-Takes-All: Iterative-Winners-Out Networks for Weakly Supervised Temporal Action Localization",
     "authors": [
-      "Zeng, Runhao",
-      "Gan, Chuang",
-      "Chen, Peihao",
-      "Huang, Wenbing",
-      "Wu, Qingyao",
-      "Tan, Mingkui"
+      "Runhao Zeng",
+      "Chuang Gan",
+      "Peihao Chen",
+      "Wenbing Huang",
+      "Qingyao Wu",
+      "Mingkui Tan"
     ],
     "year": "2019",
     "journal": "IEEE Transactions on Image Processing",
@@ -577,7 +578,8 @@
     "number": "12",
     "pages": "5797-5808",
     "keywords": "Videos;Training;Proposals;Image segmentation;Correlation;Object detection;Semantics;Weakly supervised learning;action localization;winners-out;untrimmed video",
-    "doi": "10.1109/TIP.2019.2922108"
+    "doi": "10.1109/TIP.2019.2922108",
+    "url": "https://ieeexplore.ieee.org/document/8737877"    
   },
   {
     "id": "gan2019selfsupervisedmovingvehicletracking",
@@ -601,12 +603,12 @@
     "type": "inproceedings",
     "title": "The Sound of Pixels",
     "authors": [
-      "Zhao, Hang",
-      "Gan, Chuang",
-      "Rouditchenko, Andrew",
-      "Vondrick, Carl",
-      "McDermott, Josh",
-      "Torralba, Antonio"
+      "Hang Zhao",
+      "Chuang Gan",
+      "Andrew Rouditchenko",
+      "Carl Vondrick",
+      "Josh McDermott",
+      "Antonio Torralba"
     ],
     "booktitle": "The European Conference on Computer Vision (ECCV)",
     "month": "September",

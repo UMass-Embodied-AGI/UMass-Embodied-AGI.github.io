@@ -8,7 +8,9 @@ let delay = 0
 const interval = 50
 ---
 <div class="transition flex flex-col rounded-[var(--radius-large)] bg-[var(--card-bg)] py-1 md:py-0 md:bg-transparent md:gap-4 mb-4">
-    {list.data.filter(entry => !selected || entry.selected).map((entry: { data: { draft: boolean; title: string; tags: string[]; category: string;  image: string; description: string; updated: Date; }; slug: string; }) => {
+    {list.data
+      .filter(entry => !selected || entry.selected)
+      .map((entry: { data: { draft: boolean; title: string; tags: string[]; category: string;  image: string; description: string; updated: Date; }; slug: string; }) => {
         return (
             <ResearchCard
                 entry={entry}

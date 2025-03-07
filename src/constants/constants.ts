@@ -1,4 +1,5 @@
 export const UNCATEGORIZED = '__uncategorized__'
+export const BASE_URL = '/embodied-agi-website'
 
 export const PAGE_SIZE = 8
 

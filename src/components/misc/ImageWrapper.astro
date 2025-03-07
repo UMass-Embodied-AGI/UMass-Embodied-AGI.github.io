@@ -1,3 +1,4 @@
+
 ---
 import path from 'path'
 import { Icon } from 'astro-icon/components'
@@ -16,11 +17,15 @@ const className = Astro.props.class
 
 // Check if src is provided
 const isSrcEmpty = !src || src.trim() === ''
-// Initial validity - we'll assume image is valid if src exists
+// Initial validity - we'll assume image/video is valid if src exists
 let isValidImg = !isSrcEmpty
 
-// Only process image if src is provided
-const isLocal = !isSrcEmpty && !(
+// Check if the file is a video
+const isVideo = !isSrcEmpty && (src.endsWith('.mp4') || src.endsWith('.webm'))
+
+// Only process image if src is provided and it's not a video
+const isLocal = !isSrcEmpty && !isVideo && !(
+  src.startsWith('/') ||
   src.startsWith('http') ||
   src.startsWith('https') ||
   src.startsWith('data:')
@@ -31,7 +36,6 @@ const isPublic = !isSrcEmpty && src.startsWith('/')
 // https://github.com/withastro/astro/issues/3373
 let img
 if (isLocal) {
-  console.log(src)
   const files = import.meta.glob<ImageMetadata>('../../**', {
     import: 'default',
   })
@@ -59,15 +63,33 @@ const imageStyle = `object-position: ${position}`
 <div id={id} class:list={[className, 'overflow-hidden relative']}>
     <div class="transition absolute inset-0 dark:bg-black/10 bg-opacity-50 pointer-events-none"></div>
     
-    {!isValidImg && (
+    {!isValidImg && !isVideo && (
       <div class="w-full h-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
+        <Icon name="mdi:robot" class="w-16 h-16 text-gray-400 dark:text-gray-600" />
+      </div>
+    )}
+    
+    {isVideo && (
+      <video 
+        autoplay
+        loop
+        muted
+        playsinline
+        class={imageClass}
+        style={imageStyle}
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+      >
+        <source src={isPublic ? url(src) : src} type={`video/${src.split('.').pop()}`}>
+        Your browser does not support the video tag.
+      </video>
+      <div class="w-full h-full bg-gray-200 dark:bg-gray-800 hidden items-center justify-center">
         <Icon name="mdi:robot" class="w-16 h-16 text-gray-400 dark:text-gray-600" />
       </div>
     )}
     
     {isLocal && isValidImg && img && <Image src={img} alt={alt || ""} class={imageClass} style={imageStyle}/>}
     
-    {!isLocal && isValidImg && (
+    {!isLocal && isValidImg && !isVideo && (
       <img 
         src={isPublic ? url(src) : src} 
         alt={alt || ""} 
