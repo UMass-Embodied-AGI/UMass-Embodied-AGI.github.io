@@ -17,8 +17,8 @@
     "eprint": "2407.20228",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/research/flexattention/index.html",
-    "preview": "/research/flexattention/static/assets/overview.jpg"
+    "url": "/embodied-agi-website/research/flexattention/index.html",
+    "preview": "/embodied-agi-website/research/flexattention/static/assets/overview.jpg"
   },
   {
     "id": "wang2024robogenunleashinginfinitedata",
@@ -89,8 +89,8 @@
     "eprint": "2404.10775",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/research/combo/index.html",
-    "preview": "/research/combo/video/teaser.mp4"
+    "url": "/embodied-agi-website/research/combo/index.html",
+    "preview": "/embodied-agi-website/research/combo/video/teaser.mp4"
   },
   {
     "id": "sun2024salmonselfalignmentinstructablereward",
@@ -130,7 +130,7 @@
     "eprint": "2404.00451",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.RO",
-    "url": "/research/ThinShellLab/index.html",
+    "url": "/embodied-agi-website/research/ThinShellLab/index.html",
     "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif"
   },
   {
@@ -169,11 +169,11 @@
     "eprint": "2403.09631",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/research/3dvla/index.html",
-    "preview": "/research/3dvla/static/video/demo.mp4",
+    "url": "/embodied-agi-website/research/3dvla/index.html",
+    "preview": "/embodied-agi-website/research/3dvla/static/video/demo.mp4",
     "booktitle": "International conference on machine learning",
     "selected": true,
-    "website": "/research/3dvla/index.html",
+    "website": "/embodied-agi-website/research/3dvla/index.html",
     "arxiv": "https://arxiv.org/abs/2403.09631",
     "pdf": "https://arxiv.org/pdf/2403.09631",
     "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
@@ -197,8 +197,8 @@
     "eprint": "2307.02485",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.AI",
-    "url": "/research/Co-LLM-Agents/index.html",
-    "preview": "/research/Co-LLM-Agents/figure/teaser_v1.7.jpg"
+    "url": "/embodied-agi-website/research/Co-LLM-Agents/index.html",
+    "preview": "/embodied-agi-website/research/Co-LLM-Agents/figure/teaser_v1.7.jpg"
   },
   {
     "id": "cai2024efficientvitmultiscalelinearattention",
@@ -231,7 +231,7 @@
     "eprint": "2401.12975",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/research/hazard/index.html",
+    "url": "/embodied-agi-website/research/hazard/index.html",
     "preview": "https://github.com/UMass-Embodied-AGI/HAZARD/blob/main/pics/overview.png?raw=true"
   },
   {
@@ -250,8 +250,8 @@
     "eprint": "2401.08577",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/research/multiply/index.html",
-    "preview": "/research/multiply/resources/cd_player.mp4"
+    "url": "/embodied-agi-website/research/multiply/index.html",
+    "preview": "/embodied-agi-website/research/multiply/resources/cd_player.mp4"
   },
   {
     "id": "lin2023dcirdynamicconsistencyintrinsic",
@@ -317,8 +317,8 @@
     "eprint": "2311.03354",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/research/CoVLM/index.html",
-    "preview": "/research/CoVLM/static/assets/demo.mp4"
+    "url": "/embodied-agi-website/research/CoVLM/index.html",
+    "preview": "/embodied-agi-website/research/CoVLM/static/assets/demo.mp4"
   },
   {
     "id": "chen2023a2navactionawarezeroshotrobot",
@@ -376,12 +376,12 @@
     "eprint": "2307.12981",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/research/3dllm/index.html",
+    "url": "/embodied-agi-website/research/3dllm/index.html",
     "selected": true,
     "arxiv": "https://arxiv.org/abs/2307.12981",
     "code": "https://github.com/umass-foundation-model/3d-llm",
-    "preview": "/research/3dllm/data/new_chat_demo.mp4",
-    "website": "/research/3dllm/",
+    "preview": "/embodied-agi-website/research/3dllm/data/new_chat_demo.mp4",
+    "website": "/embodied-agi-website/research/3dllm/",
     "pdf": "https://arxiv.org/pdf/2307.12981",
     "journal": "Advances in Neural Information Processing Systems",
     "topic": "Multimodal Language Models"
