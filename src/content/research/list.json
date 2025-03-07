@@ -254,6 +254,43 @@
     "preview": "/embodied-agi-website/research/multiply/resources/cd_player.mp4"
   },
   {
+    "id": "hong20233dconceptlearningreasoning",
+    "type": "misc",
+    "title": "3D Concept Learning and Reasoning from Multi-View Images",
+    "authors": [
+      "Yining Hong",
+      "Chunru Lin",
+      "Yilun Du",
+      "Zhenfang Chen",
+      "Joshua B. Tenenbaum",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "eprint": "2303.11327",
+    "archiveprefix": "arXiv", 
+    "primaryclass": "cs.CV",
+    "url": "/embodied-agi-website/research/3d-clr/index.html",
+    "doi": "10.48550/arXiv.2303.11327"
+  },
+  {
+    "id": "chen2023genomegenerativeneurovisual",
+    "type": "misc",
+    "title": "GENOME: GenerativE Neuro-symbOlic visual reasoning by growing and reusing ModulEs",
+    "authors": [
+      "Zhenfang Chen",
+      "Rui Sun", 
+      "Wenjun Liu",
+      "Yining Hong",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "eprint": "2311.04901",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CV",
+    "url": "/embodied-agi-website/research/genome/index.html",
+    "doi": "10.48550/arXiv.2311.04901"
+  },
+  {
     "id": "lin2023dcirdynamicconsistencyintrinsic",
     "type": "misc",
     "title": "DCIR: Dynamic Consistency Intrinsic Reward for Multi-Agent Reinforcement Learning",

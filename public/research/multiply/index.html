@@ -1,0 +1,255 @@
+
+<!-- saved from url=(0035)https://vis-www.cs.umass.edu/3dllm/ -->
+<html class="wf-lato-n1-active wf-lato-i1-active wf-lato-n3-active wf-lato-i3-active wf-lato-n4-active wf-lato-i4-active wf-lato-n7-active wf-lato-i7-active wf-lato-n9-active wf-lato-i9-active wf-montserrat-n2-active wf-montserrat-n8-active wf-montserrat-n5-active wf-montserrat-n9-active wf-montserrat-n4-active wf-montserrat-n3-active wf-montserrat-n7-active wf-montserrat-n6-active wf-montserrat-n1-active wf-montserrat-i9-active wf-montserrat-i8-active wf-montserrat-i2-active wf-montserrat-i5-active wf-montserrat-i4-active wf-montserrat-i1-active wf-montserrat-i7-active wf-montserrat-i3-active wf-montserrat-i6-active wf-ubuntu-n3-active wf-ubuntu-i3-active wf-ubuntu-n4-active wf-ubuntu-i4-active wf-ubuntu-n5-active wf-ubuntu-i5-active wf-ubuntu-n7-active wf-ubuntu-i7-active wf-opensans-n3-active wf-opensans-n8-active wf-opensans-n6-active wf-opensans-n4-active wf-opensans-n7-active wf-opensans-i6-active wf-opensans-i4-active wf-opensans-i8-active wf-opensans-i7-active wf-opensans-i3-active wf-changaone-n4-active wf-changaone-i4-active wf-varelaround-n4-active wf-bungeeshade-n4-active wf-roboto-n3-active wf-roboto-n4-active wf-roboto-n5-active wf-bungeeoutline-n4-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-FYQNRK8LHK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FYQNRK8LHK');
+    </script> -->
+
+    
+    <title>MultiPLY: A Multisensory Object-Centric Embodied Large Language Model in 3D World</title>
+
+    <meta content="" name="description">
+    <meta content="" property="og:title">
+    <meta content="" property="og:description">
+    <meta content="http://lerf.io/data/lerf_meta_img.jpg" property="og:image">
+    <meta content="" property="twitter:title">
+    <meta content="" property="twitter:description">
+    <meta content="http://lerf.io/data/lerf_meta_img.jpg" property="twitter:image">
+    <meta property="og:type" content="website">
+    <meta content="summary_large_image" name="twitter:card">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+
+    <link href="https://fonts.googleapis.com/" rel="preconnect">
+    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="anonymous">
+    <script src="./resources/webfont.js.download" type="text/javascript"></script>
+    <link rel="stylesheet" href="./resources/css" media="all"><script type="text/javascript">WebFont.load({ google: { families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic", "Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Changa One:400,400italic", "Varela Round:400", "Bungee Shade:regular", "Roboto:300,regular,500", "Bungee Outline:regular"] } });</script>
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
+
+    <script src="./resources/jquery.min.js.download"></script>
+    <link href="./resources/style.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="./resources/font-awesome.min.css">
+<script>
+    function setImageGLIDE(select) {
+        var image = document.getElementsByName("image-swap-1")[0];
+        image.src = select.options[select.selectedIndex].value;
+    }
+    function setImageStable(select) {
+        var image = document.getElementsByName("image-swap-2")[0];
+        image.src = select.options[select.selectedIndex].value;
+    }
+</script></head>
+
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="title-row">
+                <h1 class="title">
+                    <a style="color:#8AB17D;">Multi</a><a style="color:#e9c46a">P</a><a style="color:#f4a261">L</a><a style="color:#e76f51">Y</a>
+                </h1>
+                <h1 class=" subheader"> A Multisensory Object-Centric Embodied Large Language Model in 3D World
+                </h1>
+            </div>
+            <div class="base-row author-row" style="align-items: center;">
+                <div class="base-col author-col">
+                    <a href="https://evelinehong.github.io/" target="_blank" class="author-text">
+                        Yining Hong<sup>1</sup>
+                    </a>
+                </div>
+                <div class="base-col author-col">
+                    <a href="https://zetaring.github.io/" target="_blank" class="author-text">
+                        Zishuo Zheng
+                    </a>
+                </div>
+                <div class="base-col author-col">
+                    <a href="https://peihaochen.github.io/" target="_blank" class="author-text">
+                        Peihao Chen<sup>2</sup>
+                    </a>
+                </div>
+                <div class="base-col author-col">
+                    <a href="https://wangyian-me.github.io/" target="_blank" class="author-text">
+                        Yian Wang<sup>3</sup>
+                    </a>
+                </div>
+                <div class="base-col author-col">
+                    <a href="https://senfu.github.io/" target="_blank" class="author-text">
+                        Junyan Li<sup>3</sup>
+                    </a>
+                </div>
+                <div class="base-col author-col">
+                    <a href="https://people.csail.mit.edu/ganchuang" target="_blank" class="author-text">
+                        Chuang Gan<sup>3,4</sup>
+                    </a>
+                </div>
+            </div>
+            <div class="" style="align-items: center;">
+                <p class="ex1">
+                    <span><sup>1</sup> UCLA</span> &nbsp; &nbsp; &nbsp;
+                    <span><sup>2</sup> SCUT</span> &nbsp; &nbsp; &nbsp;
+                    <span><sup>3</sup> Umass Amherst</span> &nbsp; &nbsp; &nbsp;
+                    <span><sup>4</sup> MIT-IBM Watson AI Lab</span> &nbsp; &nbsp; &nbsp;
+                    <br>
+                </p>
+            </div>
+
+            <div class="link-labels base-row">
+                <!-- TODO: Update arxiv link -->
+                <div class="base-col icon-col"><a href="https://arxiv.org/abs/2401.08577" target="_blank" class="link-block"><img src="./resources/5cab99df4998decfbf9e218e_paper-01.png" alt="paper" #sizes="(max-width: 479px) 12vw, (max-width: 767px) 7vw, (max-width: 991px) 41.8515625px, 56.6953125px" srcset="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01-p-500.png 500w, https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01.png 672w" class="icon-img"></a></div>
+                <!-- TODO: Update code link -->
+                <div class="base-col icon-col"><a href="https://github.com/UMass-Foundation-Model/MultiPLY" target="_blank" class="link-block"><img src="./resources/github.png" alt="paper" class="icon-img github-img-icon"></a></div>
+                <!-- TODO: Update data link -->
+
+            </div>
+            <div class="link-labels base-row">
+                <div class="base-col icon-col">
+                    <strong class="link-labels-text">Paper</strong>
+                </div>
+                <div class="base-col icon-col">
+                    <strong class="link-labels-text">&lt;/Code&gt;</strong>
+                </div>
+            </div>
+
+            <br><br>
+            <video id="main-video" controls="" autoplay="" width="60%" muted="" playsinline="" preload="auto" loop="">
+                <source src="resources/cd_player.mp4" type="video/mp4">
+            </video>
+
+            <h1 id="abstract">Overview</h1>
+            <p class="paragraph">                
+                In this work, we enpower the LLM with multisensory perception and active observation abiltiy.                               
+                We propose MultiPLY, a multisensory embodied large language model that could incorporate multisensory interactive data,
+                 including visual, audio, tactile, and thermal information into large language models, thereby establishing the correlation among words, actions, and perceptions.
+                MultiPLY can perform a diverse set of multisensory embodied tasks, including multisensory question answering, embodied question answering, task decomposition, object retrieval, and tool use.
+            </p>
+            <hr>
+            <h1>
+                How to enpower LLMs with embodied multisensory perception ability?
+            </h1>
+            <img src="./resources/framework.gif" alt="pipeline" style="width: 90%; margin-top:2em">
+            <br><br>
+            <hr>
+            <h1>Demos</h1>
+            <p style="font-size:18px">(enable audio in the control bar to hear the sound)</p>
+            <table width="100%"><tbody>
+                <tr>
+                    <td align="center" valign="top" width="33%">
+                        <h3>Impact Sound</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/hit_cup.mp4" type="video/mp4">
+                        </video>
+
+                    </td>
+                    <td align="center" valign="top" width="33%">
+                        <h3>Ambient Sound</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/door_bell.mp4" type="video/mp4">
+                        </video>
+
+                    </td>
+                    <td align="center" valign="top" width="33%">
+                        <h3>Visual Perception</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/visual.mp4" type="video/mp4">
+                        </video>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" width="33%">
+                        <h3>Tactile Sense</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/banana.mp4" type="video/mp4">
+                        </video>
+
+                    </td>
+                    <td align="center" valign="top" width="33%">
+                        <h3>Thermal Sense</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/burger.mp4" type="video/mp4">
+                        </video>
+
+                    </td>
+                    <td align="center" valign="top" width="33%">
+                        <h3>Navigation</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/navigation.mp4" type="video/mp4">
+                        </video>
+
+                    </td>
+                </tr>
+            </tbody></table>
+            <table width="100%">
+                <tr>
+                    <td align="center" valign="top" width="50%">
+                        <h3 class="alignleft">Tool Use</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/fork.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td align="center" valign="top" width="50%">
+                        <h3 class="alignleft">Multisensory Captioning</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/vase.mp4" type="video/mp4">
+                        </video>
+                    </td>                    
+                </tr>
+                <tr>
+                    <td align="center" valign="top" width="50%">
+                        <h3 class="alignleft">Question Answering</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/donut.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td align="center" valign="top" width="50%">
+                        <h3 class="alignleft">Object Retrieval</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/cup.mp4" type="video/mp4">
+                        </video>
+                    </td>                    
+                </tr>
+                <tr>
+                    <td align="center" valign="top" width="50%">
+                        <h3 class="alignleft">Task Decomposition</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/task_decomposition.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td align="center" valign="top" width="50%">
+                        <h3 class="alignleft">Rearrangement</h3>
+                        <video width="100%" controls="" loop="" autoplay="" muted="">
+                            <source src="resources/rearrangement.mp4" type="video/mp4">
+                        </video>
+                    </td>                    
+                </tr>
+            </tbody></table>
+            <br>               
+            <hr>
+            <div class="citation add-top-padding">
+                <h1 id="abstract"> Citation </h1>
+                <p> If you use this work or find it helpful, please consider citing: (bibtex) </p>
+                <pre id="codecell0">
+@misc{hong2024multiply,
+      title={MultiPLY: A Multisensory Object-Centric Embodied Large Language Model in 3D World}, 
+      author={Yining Hong and Zishuo Zheng and Peihao Chen and Yian Wang and Junyan Li and Chuang Gan},
+      year={2024},
+      eprint={2401.08577},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+} </pre>
+            </div>
+        </div>
+    </div>    
+    <br>
+    <hr>
+    <p align="center">
+        Thanks to <a href="https://kerrj.github.io/">Justin Kerr</a> for the <a href="https://www.lerf.io/">website
+            template</a>.
+    </p>
+</body></html>
