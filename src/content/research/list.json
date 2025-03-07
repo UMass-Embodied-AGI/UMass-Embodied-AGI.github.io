@@ -72,6 +72,25 @@
     "preview": "https://github.com/Li-ChangHao/CoNav/raw/main/assets/lustration.png"
   },
   {
+    "id": "zhou2024robodreamerlearningcompositionalworld",
+    "type": "misc",
+    "title": "RoboDreamer: Learning Compositional World Models for Robot Imagination",
+    "authors": [
+      "Siyuan Zhou",
+      "Yilun Du",
+      "Jiaben Chen", 
+      "Yandong Li",
+      "Dit-Yan Yeung",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "eprint": "2404.12377",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.RO",
+    "url": "/embodied-agi-website/research/robodreamer/index.html",
+    "preview": "/embodied-agi-website/research/robodreamer/method.png"
+  },
+  {
     "id": "zhang2024combocompositionalworldmodels",
     "type": "misc",
     "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
@@ -270,7 +289,8 @@
     "archiveprefix": "arXiv", 
     "primaryclass": "cs.CV",
     "url": "/embodied-agi-website/research/3d-clr/index.html",
-    "doi": "10.48550/arXiv.2303.11327"
+    "doi": "10.48550/arXiv.2303.11327",
+    "preview": "/embodied-agi-website/research/3d-clr/materials/3d-cg2.png"
   },
   {
     "id": "chen2023genomegenerativeneurovisual",
@@ -288,7 +308,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/embodied-agi-website/research/genome/index.html",
-    "doi": "10.48550/arXiv.2311.04901"
+    "doi": "10.48550/arXiv.2311.04901",
+    "preview": "/embodied-agi-website/research/genome/GNSVR_files/11_imgedit.gif"
   },
   {
     "id": "lin2023dcirdynamicconsistencyintrinsic",
@@ -442,6 +463,27 @@
     "primaryclass": "cs.CV",
     "url": "https://arxiv.org/abs/2210.06096",
     "preview": "https://github.com/XinyuSun/MME/raw/main/resource/arch.png"
+  },
+  {
+    "id": "chen2022modsquaddesigningmixtureexperts",
+    "type": "misc", 
+    "title": "Mod-Squad: Designing Mixture of Experts As Modular Multi-Task Learners",
+    "authors": [
+      "Zitian Chen",
+      "Yikang Shen",
+      "Mingyu Ding",
+      "Zhenfang Chen", 
+      "Hengshuang Zhao",
+      "Erik Learned-Miller",
+      "Chuang Gan"
+    ],
+    "year": "2022",
+    "eprint": "2212.08066",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CV",
+    "url": "/research/mod-squad/index.html",
+    "doi": "10.48550/arXiv.2212.08066",
+    "preview": "/research/mod-squad/materials/annimation.mp4"
   },
   {
     "id": "chen2022learningactivecameramultiobject",

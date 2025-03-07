@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RoboDreamer:  Learning Compositional  World Models for Robot Imagination</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="default-favicon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h2 class="title is-2 publication-title">
+            <span style="color: rgb(255, 0, 0);">R</span><span style="color: rgb(240, 0, 20);">o</span><span style="color: rgb(210, 5, 40);">b</span><span style="color: rgb(180, 10, 65);">o</span><span style="color: rgb(150, 10, 90);">D</span><span style="color: rgb(130, 15, 120);">r</span><span style="color: rgb(120, 25, 140);">e</span><span style="color: rgb(100, 35, 160);">a</span><span style="color: rgb(85, 40, 180);">m</span><span style="color: rgb(75, 40, 200);">e</span><span style="color: rgb(70, 46, 225);">r</span>
+            </h2>  
+          <h4 class="subtitle is-4 publication-subtitle">Learning Compositional  World Models for Robot Imagination</h4>
+          <h3 class="title is-3"></h3>
+            <div class=" is-size-5 publication-authors">
+              <span class="author-block"><a href="https://robovideo.github.io/">Siyuan Zhou</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://robovideo.github.io/">Yilun Du</a><sup>2</sup>,</span>
+              <span class="author-block"><a href="https://robovideo.github.io/">Jiaben Chen</a><sup>3</sup>,</span>
+              <span class="author-block"><a href="https://robovideo.github.io/">Yandong Li</a><sup>4</sup>,</span>
+              <span class="author-block"><a href="https://robovideo.github.io/">Dit-Yan Yeung</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://robovideo.github.io/">Chuang Gan</a><sup>5,6</sup></span>
+            </div>
+            <div class="is-size-6 publication-authors">
+              <span class="author-block"><sup>1</sup>HKUST</span>,
+              <span class="author-block"><sup>2</sup>MIT</span>,
+              <span class="author-block"><sup>3</sup>UCSD</span>,
+              <span class="author-block"><sup>4</sup>Google</span>,
+              <span class="author-block"><sup>5</sup>UMass Amherst</span>,
+              <span class="author-block"><sup>6</sup>MIT-IBM Watson AI Lab</span>
+            </div>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2404.12377"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/rainbow979/robodreamer"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                    </a>
+                </span>
+            </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hero teaser">
+  <div class="container is-max-widescreen">
+    <div class="rows">
+    <div class="columns is-centered">
+        <video poster="" id="" autoplay controls loop width="80%" playbackRate=2.0>
+          <source src="static/videos/demo.m4v" type="video/mp4">
+        </video>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-small">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <br>
+        <br>
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Text-to-video models have demonstrated substantial potential in robotic decision-making, enabling the imagination of realistic plans of future actions as well as accurate environment simulation. However, one major issue in such models is generalization -- models are limited to synthesizing videos subject to language instructions similar to those seen at training time. This is heavily limiting in decision-making, where we seek a powerful world model to synthesize plans of unseen combinations of objects and actions in order to solve previously unseen tasks in new environments. To resolve this issue, we introduce RoboDreamer, an innovative approach for learning a compositional world model by factorizing the video generation.  We leverage the natural compositionality of language to parse instructions into a set of lower-level primitives, which we condition a set of models on to generate videos. We illustrate how this factorization naturally enables compositional generalization,  by allowing us to formulate a new natural language instruction as a combination of previously seen components. We further show how such a factorization enables us to add additional multimodal goals, allowing us to specify a video we wish to generate given both natural language instructions and a goal image.  Our approach can successfully synthesize video plans on unseen goals in the RT-X, enables successful robot execution in simulation, and substantially outperforms monolithic baseline approaches to video generation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-widescreen">
+    <div class="rows">
+    <div class="rows is-centered ">
+      <div class="rows is-full-width">
+        </div>
+        <br>
+        <img src="./static/images/teaser.png" class="interpolation-image" alt="Interpolate start reference image.">
+        <p>
+          <b>Compositional World Models.</b> Given language instructions and multimodal instructions such as goal images and sketches, our approach factorizes the generation into a composition of diffusion models conditioned on inferred components. This enables our approach to generalize to both new combinations of language and multimodal input.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-widescreen">
+      <div class="rows">
+          <div class="rows is-centered ">
+              <div class="row is-full-width">
+                  <img src="./method.png" class="interpolation-image" alt="Interpolate start reference image.">
+                  <br>
+                  <p>
+                    <b>Overall framework of RoboDreamer.</b> On the left, We leverage the natural compositionally of language to parse instructions into components like action phrases and relation phrases. On the right, we show how RoboDreamer composes multiple components.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-widescreen">
+    <h2 class="title is-3">Qualitative Results</h2>
+    <p style="font-size: 18px;">This section contains video generation under Seen tasks and Unseen tasks;  multimodal generation; RLBench Results; generation under Partial Description; Other Datasets.</p>
+    <br>
+    <h3 class="title is-5">Seen Task Generation</h3>
+    <table width="100%" style="border-collapse:separate; border-spacing:0px 25px;">
+      <tbody><tr>
+          <td align="center" valign="top" width="25%">
+              <video width="80%" controls="" loop="" autoplay="" muted="">
+                  <source src="./result/Seen/0.mp4" type="video/mp4">
+              </video>
+              <p style="font-size: 14px;">move green can near water bottle</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+              <video width="80%" controls="" loop="" autoplay="" muted="">
+                <source src="./result/Seen/1.mp4" type="video/mp4">
+              </video>
+              <p style="font-size: 14px;">move apple near orange can</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Seen/2.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">move 7up can near paper bowl</p>
+        </td>
+        <td align="center" valign="top" width="25%">
+          <video width="80%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/Seen/3.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 14px;">move green chip bag near apple</p>
+        </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" width="25%">
+              <video width="80%" controls="" loop="" autoplay="" muted="">
+                  <source src="./result/Seen/4.mp4" type="video/mp4">
+              </video>
+              <p style="font-size: 14px;">move rxbar chocolate near coke can</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+              <video width="80%" controls="" loop="" autoplay="" muted="">
+                <source src="./result/Seen/5.mp4" type="video/mp4">
+              </video>
+              <p style="font-size: 14px;">move green chip bag near coke can</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Seen/6.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">move blue plastic bottle near redbull can</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Seen/7.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">move green can near orange</p>
+        </tr>
+        <tr>
+          <td align="center" valign="top" width="25%">
+              <video width="80%" controls="" loop="" autoplay="" muted="">
+                  <source src="./result/Seen/8.mp4" type="video/mp4">
+              </video>
+              <p style="font-size: 14px;">move sponge near blue plastic bottle</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+              <video width="80%" controls="" loop="" autoplay="" muted="">
+                <source src="./result/Seen/11.mp4" type="video/mp4">
+              </video>
+              <p style="font-size: 14px;">move apple near green chip bag</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Seen/9.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">move orange near blue rxbar blueberry</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Seen/10.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">move green can near rxbar blueberry</p>
+          </td>
+      </tbody></table>
+    <br>
+    <h3 class="title is-5">Unseen Task Generation</h3>
+    <table width="100%" style="border-collapse:separate; border-spacing:0px 25px;">
+      <tbody><tr>
+          <td align="center" valign="top" width="25%">
+              <video width="80%" controls="" loop="" autoplay="" muted="">
+                  <source src="./result/Unseen/0.mp4" type="video/mp4">
+              </video>
+              <p style="font-size: 14px;">move pepsi can near water bottle</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+              <video width="80%" controls="" loop="" autoplay="" muted="">
+                <source src="./result/Unseen/1.mp4" type="video/mp4">
+              </video>
+              <p style="font-size: 14px;">move sponge near orange</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Unseen/2.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">move rxbar chocolate near pepsi can</p>
+        </td>
+        <td align="center" valign="top" width="25%">
+          <video width="80%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/Unseen/3.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 14px;">move sponge near orange can</p>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+                <source src="./result/Unseen/4.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">move pepsi can near blue plastic bottle</p>
+        </td>
+        <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Unseen/5.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">move blue chip bag near coke can</p>
+        </td>
+        <td align="center" valign="top" width="25%">
+          <video width="80%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/Unseen/6.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 14px;">move apple near sponge</p>
+      </td>
+      <td align="center" valign="top" width="25%">
+        <video width="80%" controls="" loop="" autoplay="" muted="">
+          <source src="./result/Unseen/11.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: 14px;">move rxbar chocolate near pepsi can</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="25%">
+          <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Unseen/8.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 14px;">move pepsi can near apple</p>
+      </td>
+      <td align="center" valign="top" width="25%">
+          <video width="80%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/Unseen/9.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 14px;">move apple near blue chip bag</p>
+      </td>
+      <td align="center" valign="top" width="25%">
+        <video width="80%" controls="" loop="" autoplay="" muted="">
+          <source src="./result/Unseen/10.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: 14px;">move 7up can near green can</p>
+      </td>
+      <td align="center" valign="top" width="25%">
+        <video width="80%" controls="" loop="" autoplay="" muted="">
+          <source src="./result/Unseen/7.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: 14px;">move sponge near apple</p>
+      </td>
+    </tr>
+    </tbody></table>
+    <br>
+    <h3 class="title is-5">MultiModal Generation (Goal Image)</h3>
+    <table width="100%" style="border-collapse:separate; border-spacing:0px 25px;">
+      <tbody><tr>
+        <td align="center" valign="top" width="33%">
+            <img src="./result/test_images/0.png" style="width: 40%;">
+            <video width="40%" controls="" loop="" autoplay="" muted="">
+                <source src="./result/Multi/0.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 18px;">pick pepsi can from bottom drawer</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <img src="./result/test_images/1.png" style="width: 40%;">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Multi/1.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">open top drawer</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <img src="./result/test_images/2.png" style="width: 40%;">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Multi/2.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">pick apple from white bowl</p>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" width="33%">
+          <img src="./result/test_images/3.png" style="width: 40%;">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Multi/3.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">move rxbar bluecherry near blue plastic bottle</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <img src="./result/test_images/4.png" style="width: 40%;">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Multi/4.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">pick banana from white bowl</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <img src="./result/test_images/5.png" style="width: 40%;">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Multi/5.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">place orange into middle drawer</p>
+        </td>
+      </tr>
+    </tbody></table>
+    <br>
+    <h3 class="title is-5">MultiModal Generation (Goal Sketch)</h3>
+    <table width="100%" style="border-collapse:separate; border-spacing:0px 25px;">
+      <tbody><tr>
+        <td align="center" valign="top" width="33%">
+            <img src="./result/test_images/6.png" style="width: 40%;">
+            <video width="40%" controls="" loop="" autoplay="" muted="">
+                <source src="./result/Multi/6.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 18px;">pick apple from top drawer</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <img src="./result/test_images/7.png" style="width: 40%;">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Multi/7.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">open middle drawer</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <img src="./result/test_images/8.png" style="width: 40%;">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Multi/8.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">place blue plastic bottle upright</p>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" width="33%">
+          <img src="./result/test_images/9.png" style="width: 40%;">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Multi/9.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">place pepsi can upright</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <img src="./result/test_images/10.png" style="width: 40%;">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Multi/10.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">pick apple</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <img src="./result/test_images/11.png" style="width: 40%;">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/Multi/11.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">place 7up can into middle drawer</p>
+        </td>
+      </tr>
+    </tbody></table>
+    <br>
+    <h3 class="title is-5">RLBench</h3>
+    <p style="font-size: 18px;">Left shows the synthetic video and Right shows the results.</p>
+    <table width="100%" style="border-collapse:separate; border-spacing:0px 15px;">
+      <tbody><tr>
+        <td align="center" valign="top" width="33%">
+            <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/rlbench_results/rlbench_demo/0/stack_blocks_syn.mp4" type="video/mp4">
+            </video>
+            <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/rlbench_results/rlbench_demo/0/output.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 18px;">stack blocks</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/1/syn.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/1/output.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">lift block</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/2/take_shoes_out_of_box_syn.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/2/output.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">take shoes out of box</p>
+        </td>
+        
+        </tr>
+        <tr>
+        
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/3/take_shoes_out_of_box_syn.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/3/output.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">take shoes out of box</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/4/syn.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/4/output.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">lamp off</p>
+        </td>
+        
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/5/syn.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/5/output.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">close box</p>
+        </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" width="33%">
+            <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/rlbench_results/rlbench_demo/6/syn.mp4" type="video/mp4">
+            </video>
+            <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/rlbench_results/rlbench_demo/6/output.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 18px;">lamp off</p>
+          </td>
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/7/stack_blocks_syn.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/7/output.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">stack blocks</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/8/syn.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/8/output.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">lift block</p>
+        </td>
+        </tr>
+        <tr>
+        
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/9/syn.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/9/output.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">close box</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/10/take_shoes_out_of_box_syn.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/10/output.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">take shoes out of box</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/11/stack_blocks_syn.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/rlbench_results/rlbench_demo/11/output.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">stack blocks</p>
+        </td>
+        </tr>
+      </tbody></table>
+    <br>
+    <h3 class="title is-5">Partial Description</h3>
+    <table width="100%" style="border-collapse:separate; border-spacing:0px 25px;">
+      <tbody><tr>
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/par/0.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/par/1.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">move pepsi can</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/par/2.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/par/3.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">move blue chip bag</p>
+        </td>
+        <td align="center" valign="top" width="33%">
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/par/4.mp4" type="video/mp4">
+          </video>
+          <video width="40%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/par/5.mp4" type="video/mp4">
+          </video>
+          <p style="font-size: 18px;">move rxbar chocolate</p>
+        </td>
+      </tr>
+      <tr><td align="center" valign="top" width="33%">
+        <video width="40%" controls="" loop="" autoplay="" muted="">
+          <source src="./result/par/6.mp4" type="video/mp4">
+        </video>
+        <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/par/7.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: 18px;">move sponge</p>
+      </td>
+      <td align="center" valign="top" width="33%">
+        <video width="40%" controls="" loop="" autoplay="" muted="">
+          <source src="./result/par/8.mp4" type="video/mp4">
+        </video>
+        <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/par/9.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: 18px;">move rxbar chocolate</p>
+      </td>
+      <td align="center" valign="top" width="33%">
+        <video width="40%" controls="" loop="" autoplay="" muted="">
+          <source src="./result/par/10.mp4" type="video/mp4">
+        </video>
+        <video width="40%" controls="" loop="" autoplay="" muted="">
+            <source src="./result/par/11.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: 18px;">move pepsi can</p>
+      </td></tr>
+      </tbody></table>
+      <h3 class="title is-5">Other Datasets</h3>
+      <table width="100%" style="border-collapse:separate; border-spacing:0px 25px;">
+        <tbody><tr>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/0.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">put the ranch bottle into the pot</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/1.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">pick up red cup and put on blue napkin</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/2.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">place steak meat on the table</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/3.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">close microwave</p>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/4.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">place the burger meat in the oven</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/5.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">place the pan over the yellow cloth</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/6.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">pick up orange fruit</p>
+          </td>
+          
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/7.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">pick up the blue cup and put it into the brown cup</p>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/8.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">sweep the green cloth to the left side of the table</p>
+          </td>
+          
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/9.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">move purple cloth to the left of the table</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/10.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">open top drawer</p>
+          </td>
+          <td align="center" valign="top" width="25%">
+            <video width="80%" controls="" loop="" autoplay="" muted="">
+              <source src="./result/others/11.mp4" type="video/mp4">
+            </video>
+            <p style="font-size: 14px;">close bottom drawer</p>
+          </td>
+        </tr>
+        </tbody></table>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content has-text-centered">
+          <p>
+            Website template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">NeRFies</a> made by the amazing <a href="https://keunhong.com/">Keunhong Park</a>. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
