@@ -47,7 +47,24 @@ export const researchCollection = defineCollection({
   })),
 })
 
+export const peopleCollection = defineCollection({
+  type: 'data',
+  schema: z.array(z.object({
+    category: z.string(),
+    members: z.array(z.object({
+      name: z.string(),
+      photo: z.string().optional(),
+      title: z.string().optional(),
+      interests: z.string().optional(),
+      description: z.string().optional(),
+      achievements: z.string().optional(),
+      education: z.string().optional()
+    }))
+  }))
+})
+
 export const collections = {
   posts: postsCollection,
   research: researchCollection,
+  people: peopleCollection,
 }

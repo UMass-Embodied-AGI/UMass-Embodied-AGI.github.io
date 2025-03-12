@@ -17,8 +17,8 @@
     "eprint": "2407.20228",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/embodied-agi-website/research/flexattention/index.html",
-    "preview": "/embodied-agi-website/research/flexattention/static/assets/overview.jpg"
+    "url": "/research/flexattention/index.html",
+    "preview": "/research/flexattention/static/assets/overview.jpg"
   },
   {
     "id": "wang2024robogenunleashinginfinitedata",
@@ -87,8 +87,8 @@
     "eprint": "2404.12377",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.RO",
-    "url": "/embodied-agi-website/research/robodreamer/index.html",
-    "preview": "/embodied-agi-website/research/robodreamer/method.png"
+    "url": "/research/robodreamer/index.html",
+    "preview": "/research/robodreamer/method.png"
   },
   {
     "id": "zhang2024combocompositionalworldmodels",
@@ -108,8 +108,8 @@
     "eprint": "2404.10775",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/embodied-agi-website/research/combo/index.html",
-    "preview": "/embodied-agi-website/research/combo/video/teaser.mp4"
+    "url": "/research/combo/index.html",
+    "preview": "/research/combo/video/teaser.mp4"
   },
   {
     "id": "sun2024salmonselfalignmentinstructablereward",
@@ -149,7 +149,7 @@
     "eprint": "2404.00451",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.RO",
-    "url": "/embodied-agi-website/research/ThinShellLab/index.html",
+    "url": "/research/ThinShellLab/index.html",
     "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif"
   },
   {
@@ -187,8 +187,8 @@
     "eprint": "2411.17735",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/embodied-agi-website/research/3dmem/index.html",
-    "preview": "/embodied-agi-website/research/3dmem/static/videos/demo_gif_1.mp4"
+    "url": "/research/3dmem/index.html",
+    "preview": "/research/3dmem/static/videos/demo_gif_1.mp4"
   },
   {
     "id": "zhen20243dvla3dvisionlanguageactiongenerative",
@@ -208,11 +208,11 @@
     "eprint": "2403.09631",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/embodied-agi-website/research/3dvla/index.html",
-    "preview": "/embodied-agi-website/research/3dvla/static/video/demo.mp4",
+    "url": "/research/3dvla/index.html",
+    "preview": "/research/3dvla/static/video/demo.mp4",
     "booktitle": "International conference on machine learning",
     "selected": true,
-    "website": "/embodied-agi-website/research/3dvla/index.html",
+    "website": "/research/3dvla/index.html",
     "arxiv": "https://arxiv.org/abs/2403.09631",
     "pdf": "https://arxiv.org/pdf/2403.09631",
     "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
@@ -236,8 +236,8 @@
     "eprint": "2307.02485",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.AI",
-    "url": "/embodied-agi-website/research/Co-LLM-Agents/index.html",
-    "preview": "/embodied-agi-website/research/Co-LLM-Agents/figure/teaser_v1.7.jpg"
+    "url": "/research/Co-LLM-Agents/index.html",
+    "preview": "/research/Co-LLM-Agents/figure/teaser_v1.7.jpg"
   },
   {
     "id": "cai2024efficientvitmultiscalelinearattention",
@@ -270,7 +270,7 @@
     "eprint": "2401.12975",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/embodied-agi-website/research/hazard/index.html",
+    "url": "/research/hazard/index.html",
     "preview": "https://github.com/UMass-Embodied-AGI/HAZARD/blob/main/pics/overview.png?raw=true"
   },
   {
@@ -289,8 +289,8 @@
     "eprint": "2401.08577",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/embodied-agi-website/research/multiply/index.html",
-    "preview": "/embodied-agi-website/research/multiply/resources/cd_player.mp4"
+    "url": "/research/multiply/index.html",
+    "preview": "/research/multiply/resources/cd_player.mp4"
   },
   {
     "id": "hong20233dconceptlearningreasoning",
@@ -308,9 +308,9 @@
     "eprint": "2303.11327",
     "archiveprefix": "arXiv", 
     "primaryclass": "cs.CV",
-    "url": "/embodied-agi-website/research/3d-clr/index.html",
+    "url": "/research/3d-clr/index.html",
     "doi": "10.48550/arXiv.2303.11327",
-    "preview": "/embodied-agi-website/research/3d-clr/materials/3d-cg2.png"
+    "preview": "/research/3d-clr/materials/3d-cg2.png"
   },
   {
     "id": "chen2023genomegenerativeneurovisual",
@@ -327,9 +327,9 @@
     "eprint": "2311.04901",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/embodied-agi-website/research/genome/index.html",
+    "url": "/research/genome/index.html",
     "doi": "10.48550/arXiv.2311.04901",
-    "preview": "/embodied-agi-website/research/genome/GNSVR_files/11_imgedit.gif"
+    "preview": "/research/genome/GNSVR_files/11_imgedit.gif"
   },
   {
     "id": "lin2023dcirdynamicconsistencyintrinsic",
@@ -395,8 +395,8 @@
     "eprint": "2311.03354",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/embodied-agi-website/research/CoVLM/index.html",
-    "preview": "/embodied-agi-website/research/CoVLM/static/assets/demo.mp4"
+    "url": "/research/CoVLM/index.html",
+    "preview": "/research/CoVLM/static/assets/demo.mp4"
   },
   {
     "id": "chen2023a2navactionawarezeroshotrobot",
@@ -454,12 +454,12 @@
     "eprint": "2307.12981",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "/embodied-agi-website/research/3dllm/index.html",
+    "url": "/research/3dllm/index.html",
     "selected": true,
     "arxiv": "https://arxiv.org/abs/2307.12981",
     "code": "https://github.com/umass-foundation-model/3d-llm",
-    "preview": "/embodied-agi-website/research/3dllm/data/new_chat_demo.mp4",
-    "website": "/embodied-agi-website/research/3dllm/",
+    "preview": "/research/3dllm/data/new_chat_demo.mp4",
+    "website": "/research/3dllm/",
     "pdf": "https://arxiv.org/pdf/2307.12981",
     "journal": "Advances in Neural Information Processing Systems",
     "topic": "Multimodal Language Models"

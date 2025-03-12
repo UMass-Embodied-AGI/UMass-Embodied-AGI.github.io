@@ -22,9 +22,7 @@ const researchList = await getEntry('research', 'list')
 const { Content } = await aboutContent.render()
 ---
 
-<MainGridLayout>
-    
-        
+<MainGridLayout> 
     <ResearchList list={researchList} />
     <!-- <PostPage page={page}></PostPage>
     <Pagination class="mx-auto onload-animation" page={page} style=`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`></Pagination> -->
