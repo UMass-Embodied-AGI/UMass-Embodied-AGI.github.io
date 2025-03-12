@@ -21,8 +21,8 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://weebao.github.io/",
-  base: "embodied-agi-website",
+  site: "https://umass-embodied-agi.github.io",
+  base: "/",
   trailingSlash: "always",
   integrations: [
     tailwind(
