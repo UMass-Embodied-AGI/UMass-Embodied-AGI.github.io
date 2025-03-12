@@ -16,11 +16,12 @@ export async function GET(context: APIContext) {
     site: context.site ?? 'https://fuwari.vercel.app',
     items: blog.map(post => {
       // Ensure post.body is a string before parsing
-      const content = typeof post.body === 'string' 
-        ? sanitizeHtml(parser.render(post.body), {
-            allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
-          })
-        : ''
+      const content =
+        typeof post.body === 'string'
+          ? sanitizeHtml(parser.render(post.body), {
+              allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
+            })
+          : ''
 
       return {
         title: post.data.title,

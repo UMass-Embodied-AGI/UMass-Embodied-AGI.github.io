@@ -5,40 +5,20 @@ interface Props {
   person: {
     name: string
     photo?: string
-    title?: string
-    interests?: string
-    description?: string
-    achievements?: string
-    education?: string
+    role: string
+    url?: string
   }
 }
 
 const { person } = Astro.props
 ---
 
-<div class="card-base p-4 flex flex-col gap-3 hover:scale-[1.02] transition ease-in duration-300">
+<div class="group hover:cursor-pointer flex flex-col gap-3">
   {person.photo && (
-  <ImageWrapper src={person.photo}  basePath={"content/people/images"} alt="Preview" class="w-full rounded-md object-cover">
-          </ImageWrapper>
+    <ImageWrapper src={person.photo}  basePath={"content/people/images"} alt="Preview" class="w-full rounded-md object-cover" />
   )}
-  <div class="flex flex-col gap-1">
-    <h3 class="text-lg font-semibold">{person.name}</h3>
-    {person.title && <p class="text-75">{person.title}</p>}
-    {person.interests && (
-      <p class="text-sm">
-        <span class="text-[var(--primary)]">Research Interests:</span> {person.interests}
-      </p>
-    )}
-    {person.description && <p class="text-sm italic">{person.description}</p>}
-    {person.achievements && (
-      <p class="text-sm">
-        <span class="text-[var(--primary)]">Achievements:</span> {person.achievements}
-      </p>
-    )}
-    {person.education && (
-      <p class="text-sm">
-        <span class="text-[var(--primary)]">Education:</span> {person.education}
-      </p>
-    )}
+  <div class="flex flex-col items-center text-center">
+    <h3 class="text-lg font-medium group-hover:underline">{person.name}</h3>
+    {person.role && <p class="text-black/50 dark:text-white/50">{person.role}</p>}
   </div>
 </div>

@@ -1,0 +1,142 @@
+[
+  {
+    "category": "Faculty",
+    "members": [
+      {
+        "name": "Chuang Gan",
+        "photo": "pi_chuang.png"
+      }
+    ]
+  },
+  {
+    "category": "Members",
+    "members": [
+      {
+        "name": "Chunru Lin",
+        "photo": "phd_chunru.png",
+        "role": "Ph.D. Student",
+        "url": "https://xhrlyb.github.io/"
+      },
+      {
+        "name": "Hongxin Zhang", 
+        "photo": "phd_hongxin.jpg",
+        "role": "Ph.D. Student",
+        "url": "https://icefoxzhx.github.io/"
+      },
+      {
+        "name": "Junyan Li",
+        "photo": "phd_junyan.png",
+        "role": "Ph.D. Student",
+        "url": "https://senfu.github.io/"
+      },
+      {
+        "name": "Qinhong Zhou",
+        "photo": "phd_qinhong.png",
+        "role": "Ph.D. Student",
+        "url": "https://zhouqqhh.github.io/"
+      },
+      {
+        "name": "Tuan Duc Ngo",
+        "photo": "phd_tuan.png",
+        "role": "Ph.D. Student",
+        "url": "https://ngoductuanlhp.github.io/"
+      },
+      {
+        "name": "Yian Wang",
+        "photo": "phd_yian.png",
+        "role": "Ph.D. Student",
+        "url": "https://wangyian-me.github.io/"
+      },
+      {
+        "name": "Haoyu Zhen",
+        "photo": "phd_haoyu.jpg",
+        "role": "Ph.D. Student",
+        "url": "https://haoyuzhen.com/"
+      },
+      {
+        "name": "Jiaben Chen",
+        "photo": "phd_jiaben.png",
+        "role": "Ph.D. Student",
+        "url": "https://jiabenchen.github.io/"
+      },
+      {
+        "name": "Lixing Fang",
+        "photo": "phd_lixing.jpg",
+        "role": "Ph.D. Student",
+        "url": "https://owenowl.github.io/"
+      },
+      {
+        "name": "Sunli Chen",
+        "photo": "phd_sunli.png",
+        "role": "Ph.D. Student",
+        "url": "https://eeeeeerickkk.github.io/"
+      },
+      {
+        "name": "Yuncong Yang",
+        "photo": "phd_yuncong.jpg",
+        "role": "Ph.D. Student",
+        "url": "https://yyuncong.github.io/"
+      },
+      {
+        "name": "Zeyuan Yang",
+        "photo": "phd_zeyuan.jpg",
+        "role": "Ph.D. Student"
+      },
+      {
+        "name": "Xiaowen Qiu",
+        "photo": "ms_xiaowen.png",
+        "role": "Master Student"
+      },
+      {
+        "name": "Abhinav Sharma",
+        "photo": "ms_abhinav.jpg",
+        "role": "Master Student",
+        "url": "https://a1bhinav.netlify.app/"
+      },
+      {
+        "name": "Delin Chen",
+        "photo": "ms_delin.png",
+        "role": "Master Student",
+        "url": "https://chendl02.github.io/"
+      },
+      {
+        "name": "Jiageng Liu",
+        "photo": "ms_jiageng.png",
+        "role": "Master Student"
+      },
+      {
+        "name": "Muhammad Yusuf Hassan",
+        "photo": "ms_muhammad.jpeg",
+        "role": "Master Student",
+        "url": "https://md-hassan.github.io/"
+      },
+      {
+        "name": "Siyuan Cen",
+        "photo": "ms_siyuan.png",
+        "role": "Master Student"
+      },
+      {
+        "name": "Wenjun Liu",
+        "photo": "ms_wenjun.png",
+        "role": "Master Student"
+      },
+      {
+        "name": "Zhehuan Chen",
+        "photo": "ms_zhehuan.png",
+        "role": "Master Student",
+        "url": "https://acmlczh.github.io/"
+      },
+      {
+        "name": "Peihao Chen",
+        "photo": "vs_peihao.png",
+        "role": "Visiting Scholar",
+        "url": "https://peihaochen.github.io/"
+      },
+      {
+        "name": "Siyuan Zhou",
+        "photo": "vs_siyuan.jpg",
+        "role": "Visiting Scholar"
+      }
+    ]
+  }
+]

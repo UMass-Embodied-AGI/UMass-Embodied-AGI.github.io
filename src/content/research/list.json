@@ -78,7 +78,7 @@
     "authors": [
       "Siyuan Zhou",
       "Yilun Du",
-      "Jiaben Chen", 
+      "Jiaben Chen",
       "Yandong Li",
       "Dit-Yan Yeung",
       "Chuang Gan"
@@ -176,7 +176,7 @@
     "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
     "authors": [
       "Yuncong Yang",
-      "Han Yang", 
+      "Han Yang",
       "Jiachen Zhou",
       "Peihao Chen",
       "Hongxin Zhang",
@@ -306,7 +306,7 @@
     ],
     "year": "2023",
     "eprint": "2303.11327",
-    "archiveprefix": "arXiv", 
+    "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/3d-clr/index.html",
     "doi": "10.48550/arXiv.2303.11327",
@@ -318,7 +318,7 @@
     "title": "GENOME: GenerativE Neuro-symbOlic visual reasoning by growing and reusing ModulEs",
     "authors": [
       "Zhenfang Chen",
-      "Rui Sun", 
+      "Rui Sun",
       "Wenjun Liu",
       "Yining Hong",
       "Chuang Gan"
@@ -486,13 +486,13 @@
   },
   {
     "id": "chen2022modsquaddesigningmixtureexperts",
-    "type": "misc", 
+    "type": "misc",
     "title": "Mod-Squad: Designing Mixture of Experts As Modular Multi-Task Learners",
     "authors": [
       "Zitian Chen",
       "Yikang Shen",
       "Mingyu Ding",
-      "Zhenfang Chen", 
+      "Zhenfang Chen",
       "Hengshuang Zhao",
       "Erik Learned-Miller",
       "Chuang Gan"
@@ -678,7 +678,7 @@
     "pages": "5797-5808",
     "keywords": "Videos;Training;Proposals;Image segmentation;Correlation;Object detection;Semantics;Weakly supervised learning;action localization;winners-out;untrimmed video",
     "doi": "10.1109/TIP.2019.2922108",
-    "url": "https://ieeexplore.ieee.org/document/8737877"    
+    "url": "https://ieeexplore.ieee.org/document/8737877"
   },
   {
     "id": "gan2019selfsupervisedmovingvehicletracking",

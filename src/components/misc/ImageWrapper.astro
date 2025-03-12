@@ -24,12 +24,15 @@ let isValidImg = !isSrcEmpty
 const isVideo = !isSrcEmpty && (src.endsWith('.mp4') || src.endsWith('.webm'))
 
 // Only process image if src is provided and it's not a video
-const isLocal = !isSrcEmpty && !isVideo && !(
-  src.startsWith('/') ||
-  src.startsWith('http') ||
-  src.startsWith('https') ||
-  src.startsWith('data:')
-)
+const isLocal =
+  !isSrcEmpty &&
+  !isVideo &&
+  !(
+    src.startsWith('/') ||
+    src.startsWith('http') ||
+    src.startsWith('https') ||
+    src.startsWith('data:')
+  )
 const isPublic = !isSrcEmpty && src.startsWith('/')
 
 // TODO temporary workaround for images dynamic import

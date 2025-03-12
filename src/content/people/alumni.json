@@ -1,0 +1,53 @@
+[{
+    "category": "alumni",
+    "members": [
+        {
+            "name": "Sizhe Li",
+            "description": "now MIT Ph.D."
+        },
+        {
+            "name": "Jiaqi Li", 
+            "description": "now Stanford Ph.D."
+        },
+        {
+            "name": "Weihua Du",
+            "description": "now CMU Ph.D."
+        },
+        {
+            "name": "Juntian Zheng",
+            "description": "now CMU Ph.D."
+        },
+        {
+            "name": "Zheyu Zhang",
+            "description": "now UIUC Ph.D."
+        },
+        {
+            "name": "Ji Li",
+            "description": "now UIUC Ph.D."
+        },
+        {
+            "name": "Rui Sun",
+            "description": "now UCLA Ph.D."
+        },
+        {
+            "name": "Zhicheng Zheng",
+            "description": "now Princeton Ph.D."
+        },
+        {
+            "name": "Yi Gu",
+            "description": "now UCSD Ph.D."
+        },
+        {
+            "name": "Jiaming Shan",
+            "description": "now UCSB Ph.D."
+        },
+        {
+            "name": "Feng Chen",
+            "description": "now HKU Ph.D."
+        },
+        {
+            "name": "Qingwen Ben",
+            "description": "now CUHK Ph.D."
+        }
+    ]
+}]
