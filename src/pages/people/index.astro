@@ -2,6 +2,7 @@
 import type { GetStaticPaths } from 'astro'
 import { getEntry } from 'astro:content'
 import MainGridLayout from '@layouts/MainGridLayout.astro'
+import ImageWrapper from '@/components/misc/ImageWrapper.astro'
 import PersonCard from '@/components/PersonCard.astro'
 
 const memberList = await getEntry('people', 'members')
@@ -9,6 +10,7 @@ const alumniList = await getEntry('people', 'alumni')
 ---
 
 <MainGridLayout>
+  <ImageWrapper src="team.png" basePath="/content/people/images/" class="rounded-md" />
   <div class="max-w-7xl mx-auto px-4 py-6 text-black dark:text-white onload-animation" id="content-wrapper">
     {memberList.data.map((group) => (
       <section class="mb-12">

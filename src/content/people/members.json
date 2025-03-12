@@ -4,7 +4,8 @@
     "members": [
       {
         "name": "Chuang Gan",
-        "photo": "pi_chuang.png"
+        "photo": "pi_chuang.png",
+        "url": "https://people.csail.mit.edu/ganchuang/"
       }
     ]
   },
@@ -125,6 +126,12 @@
         "photo": "ms_zhehuan.png",
         "role": "Master Student",
         "url": "https://acmlczh.github.io/"
+      },
+      {
+        "name": "Bao Dang",
+        "photo": "bs_bao.jpg",
+        "role": "Undergraduate Student",
+        "url": "https://github.com/weebao"
       },
       {
         "name": "Peihao Chen",

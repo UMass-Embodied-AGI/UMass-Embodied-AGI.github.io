@@ -18,7 +18,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/flexattention/index.html",
-    "preview": "/research/flexattention/static/assets/overview.jpg"
+    "preview": "/research/flexattention/static/assets/overview.jpg",
+    "category": "Large Language Models"
   },
   {
     "id": "wang2024robogenunleashinginfinitedata",
@@ -47,7 +48,7 @@
     "booktitle": "International conference on machine learning",
     "code": "https://github.com/Genesis-Embodied-AI/RoboGen",
     "selected": true,
-    "topic": "Physical Reasoning and Interaction"
+    "category": "Physical Reasoning and Interaction"
   },
   {
     "id": "li2024conavbenchmarkhumancenteredcollaborative",
@@ -69,6 +70,7 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "https://arxiv.org/abs/2406.02425",
+    "category": "Physical Reasoning and Interaction",
     "preview": "https://github.com/Li-ChangHao/CoNav/raw/main/assets/lustration.png"
   },
   {
@@ -88,7 +90,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.RO",
     "url": "/research/robodreamer/index.html",
-    "preview": "/research/robodreamer/method.png"
+    "preview": "/research/robodreamer/method.png",
+    "category": "Physical Reasoning and Interaction"
   },
   {
     "id": "zhang2024combocompositionalworldmodels",
@@ -109,7 +112,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/combo/index.html",
-    "preview": "/research/combo/video/teaser.mp4"
+    "preview": "/research/combo/video/teaser.mp4",
+    "category": "Physical Reasoning and Interaction"
   },
   {
     "id": "sun2024salmonselfalignmentinstructablereward",
@@ -130,7 +134,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CL",
     "url": "https://arxiv.org/abs/2310.05910",
-    "preview": "https://github.com/IBM/SALMON/raw/main/assets/images/salmon_logo_with_text.jpeg"
+    "preview": "https://github.com/IBM/SALMON/raw/main/assets/images/salmon_logo_with_text.jpeg",
+    "category": "Large Language Models"
   },
   {
     "id": "wang2024thinshellobjectmanipulationsdifferentiable",
@@ -150,7 +155,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.RO",
     "url": "/research/ThinShellLab/index.html",
-    "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif"
+    "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif",
+    "category": "Physical Reasoning and Interaction"
   },
   {
     "id": "Chen2024VisualCP",
@@ -168,7 +174,8 @@
     "booktitle": "AAAI Conference on Artificial Intelligence",
     "year": "2024",
     "url": "https://api.semanticscholar.org/CorpusID:268678279",
-    "preview": "https://github.com/UMass-Foundation-Model/VisualCoT/raw/main/framework.png"
+    "preview": "https://github.com/UMass-Foundation-Model/VisualCoT/raw/main/framework.png",
+    "category": "Multimodal Language Models"
   },
   {
     "id": "yang20243dmem3dscenememory",
@@ -188,7 +195,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/3dmem/index.html",
-    "preview": "/research/3dmem/static/videos/demo_gif_1.mp4"
+    "preview": "/research/3dmem/static/videos/demo_gif_1.mp4",
+    "category": "Multimodal Language Models"
   },
   {
     "id": "zhen20243dvla3dvisionlanguageactiongenerative",
@@ -216,7 +224,7 @@
     "arxiv": "https://arxiv.org/abs/2403.09631",
     "pdf": "https://arxiv.org/pdf/2403.09631",
     "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
-    "topic": "Learning World Models"
+    "category": "Learning World Models"
   },
   {
     "id": "zhang2024buildingcooperativeembodiedagents",
@@ -237,7 +245,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.AI",
     "url": "/research/Co-LLM-Agents/index.html",
-    "preview": "/research/Co-LLM-Agents/figure/teaser_v1.7.jpg"
+    "preview": "/research/Co-LLM-Agents/figure/teaser_v1.7.jpg",
+    "category": "Multimodal Language Models"
   },
   {
     "id": "cai2024efficientvitmultiscalelinearattention",
@@ -249,7 +258,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "https://arxiv.org/abs/2205.14756",
-    "preview": "https://senfu.github.io/images/efficientvit/intro.png"
+    "preview": "https://senfu.github.io/images/efficientvit/intro.png",
+    "category": "Large Language Models"
   },
   {
     "id": "zhou2024hazardchallengeembodieddecision",
@@ -271,7 +281,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/hazard/index.html",
-    "preview": "https://github.com/UMass-Embodied-AGI/HAZARD/blob/main/pics/overview.png?raw=true"
+    "preview": "https://github.com/UMass-Embodied-AGI/HAZARD/blob/main/pics/overview.png?raw=true",
+    "category": "Physical Reasoning and Interaction"
   },
   {
     "id": "hong2024multiplymultisensoryobjectcentricembodied",
@@ -290,7 +301,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/multiply/index.html",
-    "preview": "/research/multiply/resources/cd_player.mp4"
+    "preview": "/research/multiply/resources/cd_player.mp4",
+    "category": "Audio-Visual Learning"
   },
   {
     "id": "hong20233dconceptlearningreasoning",
@@ -310,7 +322,8 @@
     "primaryclass": "cs.CV",
     "url": "/research/3d-clr/index.html",
     "doi": "10.48550/arXiv.2303.11327",
-    "preview": "/research/3d-clr/materials/3d-cg2.png"
+    "preview": "/research/3d-clr/materials/3d-cg2.png",
+    "category": "Learning World Models"
   },
   {
     "id": "chen2023genomegenerativeneurovisual",
@@ -329,7 +342,8 @@
     "primaryclass": "cs.CV",
     "url": "/research/genome/index.html",
     "doi": "10.48550/arXiv.2311.04901",
-    "preview": "/research/genome/GNSVR_files/11_imgedit.gif"
+    "preview": "/research/genome/GNSVR_files/11_imgedit.gif",
+    "category": "Learning World Models"
   },
   {
     "id": "lin2023dcirdynamicconsistencyintrinsic",
@@ -348,7 +362,8 @@
     "eprint": "2312.05783",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.LG",
-    "url": "https://arxiv.org/abs/2312.05783"
+    "url": "https://arxiv.org/abs/2312.05783",
+    "category": "Large Language Models"
   },
   {
     "id": "sun2023principledrivenselfalignmentlanguagemodels",
@@ -376,7 +391,7 @@
     "arxiv": "https://arxiv.org/abs/2305.03047",
     "code": "https://github.com/IBM/Dromedary",
     "journal": "Advances in Neural Information Processing Systems",
-    "topic": "Large Language Models"
+    "category": "Large Language Models"
   },
   {
     "id": "li2023covlmcomposingvisualentities",
@@ -396,7 +411,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/CoVLM/index.html",
-    "preview": "/research/CoVLM/static/assets/demo.mp4"
+    "preview": "/research/CoVLM/static/assets/demo.mp4",
+    "category": "Large Language Models"
   },
   {
     "id": "chen2023a2navactionawarezeroshotrobot",
@@ -416,7 +432,8 @@
     "eprint": "2308.07997",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2308.07997"
+    "url": "https://arxiv.org/abs/2308.07997",
+    "category": "Physical Reasoning and Interaction"
   },
   {
     "id": "lin2023learningvisionandlanguagenavigationyoutube",
@@ -435,7 +452,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "https://arxiv.org/abs/2307.11984",
-    "preview": "https://github.com/JeremyLinky/YouTube-VLN/raw/main/readme/lily.png"
+    "preview": "https://github.com/JeremyLinky/YouTube-VLN/raw/main/readme/lily.png",
+    "category": "Vision Learning & Navigation"
   },
   {
     "id": "hong20233dllminjecting3dworld",
@@ -462,7 +480,7 @@
     "website": "/research/3dllm/",
     "pdf": "https://arxiv.org/pdf/2307.12981",
     "journal": "Advances in Neural Information Processing Systems",
-    "topic": "Multimodal Language Models"
+    "category": "Multimodal Language Models"
   },
   {
     "id": "sun2023maskedmotionencodingselfsupervised",
@@ -482,7 +500,8 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "https://arxiv.org/abs/2210.06096",
-    "preview": "https://github.com/XinyuSun/MME/raw/main/resource/arch.png"
+    "preview": "https://github.com/XinyuSun/MME/raw/main/resource/arch.png",
+    "category": "Vision Learning & Navigation"
   },
   {
     "id": "chen2022modsquaddesigningmixtureexperts",
@@ -503,7 +522,8 @@
     "primaryclass": "cs.CV",
     "url": "/research/mod-squad/index.html",
     "doi": "10.48550/arXiv.2212.08066",
-    "preview": "/research/mod-squad/materials/annimation.mp4"
+    "preview": "/research/mod-squad/materials/annimation.mp4",
+    "category": "Multimodal Language Models"
   },
   {
     "id": "chen2022learningactivecameramultiobject",
@@ -523,7 +543,8 @@
     "eprint": "2210.07505",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2210.07505"
+    "url": "https://arxiv.org/abs/2210.07505",
+    "category": "Physical Reasoning and Interaction"
   },
   {
     "id": "chen2022weaklysupervisedmultigranularitymaplearning",
@@ -542,7 +563,8 @@
     "eprint": "2210.07506",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2210.07506"
+    "url": "https://arxiv.org/abs/2210.07506",
+    "category": "Physical Reasoning and Interaction"
   },
   {
     "id": "chen2021rspnetrelativespeedperception",
@@ -562,7 +584,8 @@
     "eprint": "2011.07949",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2011.07949"
+    "url": "https://arxiv.org/abs/2011.07949",
+    "category": "Vision Learning & Navigation"
   },
   {
     "id": "8933113",
@@ -583,7 +606,8 @@
     "pages": "2723-2733",
     "keywords": "Proposals;Feature extraction;Task analysis;Object detection;Deep learning;Sports;Semantics;Temporal action localization;relation attention",
     "doi": "10.1109/TMM.2019.2959977",
-    "url": "https://ieeexplore.ieee.org/document/8933113"
+    "url": "https://ieeexplore.ieee.org/document/8933113",
+    "category": "Vision Learning & Navigation"
   },
   {
     "id": "huang2020locationawaregraphconvolutionalnetworks",
@@ -601,7 +625,8 @@
     "eprint": "2008.09105",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2008.09105"
+    "url": "https://arxiv.org/abs/2008.09105",
+    "category": "Vision Learning & Navigation"
   },
   {
     "id": "Chen_2020",
@@ -622,7 +647,8 @@
       "Chuang Gan"
     ],
     "year": "2020",
-    "pages": "8292-8302"
+    "pages": "8292-8302",
+    "category": "Audio-Visual Learning"
   },
   {
     "id": "gan2020foleymusiclearninggenerate",
@@ -639,7 +665,8 @@
     "eprint": "2007.10984",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2007.10984"
+    "url": "https://arxiv.org/abs/2007.10984",
+    "category": "Audio-Visual Learning"
   },
   {
     "id": "zeng2020denseregressionnetworkvideo",
@@ -657,7 +684,8 @@
     "eprint": "2004.03545",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2004.03545"
+    "url": "https://arxiv.org/abs/2004.03545",
+    "category": "Vision Learning & Navigation"
   },
   {
     "id": "8737877",
@@ -678,7 +706,8 @@
     "pages": "5797-5808",
     "keywords": "Videos;Training;Proposals;Image segmentation;Correlation;Object detection;Semantics;Weakly supervised learning;action localization;winners-out;untrimmed video",
     "doi": "10.1109/TIP.2019.2922108",
-    "url": "https://ieeexplore.ieee.org/document/8737877"
+    "url": "https://ieeexplore.ieee.org/document/8737877",
+    "category": "Vision Learning & Navigation"
   },
   {
     "id": "gan2019selfsupervisedmovingvehicletracking",
@@ -695,7 +724,8 @@
     "eprint": "1910.11760",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/1910.11760"
+    "url": "https://arxiv.org/abs/1910.11760",
+    "category": "Audio-Visual Learning"
   },
   {
     "id": "Zhao_2018_ECCV",
@@ -718,6 +748,6 @@
     "arxiv": "https://arxiv.org/abs/1804.03160",
     "pdf": "https://arxiv.org/pdf/1804.03160",
     "code": "https://github.com/hangzhaomit/Sound-of-Pixels",
-    "topic": "Audio-Visual Learning"
+    "category": "Audio-Visual Learning"
   }
 ]

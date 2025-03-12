@@ -16,7 +16,7 @@ interface Props {
   style?: string
 }
 
-const { entry, title, url, authors, year, preview, description, style } =
+const { entry, title, url, authors, year, preview, description, style, category } =
   Astro.props
 const className = Astro.props.class
 
@@ -41,8 +41,17 @@ const previewWidth = '28%'
         <!-- metadata -->
         <div class="text-75 mb-4">
             <span>{authors.join(", ")}</span>
-            <span class="mx-2">•</span>
-            <span>{year}</span>
+        </div>
+        
+        <div class="flex gap-1 text-75">
+            <div class="group/year rounded-lg bg-[var(--btn-regular-bg)] font-semibold bg-opacity-50 px-3 py-1 hover:bg-[var(--btn-regular-bg-hover)] transition">
+                <span class="text-[var(--primary)]">{year}</span>
+            </div>
+            {category && (
+                <div class="group/category rounded-lg bg-[var(--btn-regular-bg)] font-semibold bg-opacity-50 px-3 py-1 hover:bg-[var(--btn-regular-bg-hover)]/30 transition">
+                    <span class="text-[var(--primary)]">{category}</span>
+                </div>
+            )}
         </div>
 
         {description && 

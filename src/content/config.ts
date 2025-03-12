@@ -39,7 +39,7 @@ export const researchCollection = defineCollection({
       booktitle: z.string().optional(),
       code: z.string().optional(),
       selected: z.boolean().optional(),
-      topic: z.string().optional(),
+      category: z.string().optional(),
       /* For internal use */
       prevTitle: z.string().default(''),
       prevSlug: z.string().default(''),
