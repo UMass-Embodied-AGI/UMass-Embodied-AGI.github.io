@@ -1,0 +1,23 @@
+[
+  {
+    "category": "Robots",
+    "members": [
+      {
+        "name": "G1",
+        "photo": "robot_g1.jpg"
+      },
+      {
+        "name": "Go2", 
+        "photo": "robot_go2.jpg"
+      },
+      {
+        "name": "Miniranger",
+        "photo": "robot_miniranger.jpg"
+      },
+      {
+        "name": "XArm",
+        "photo": "robot_xarm.jpg"
+      }
+    ]
+  }
+]

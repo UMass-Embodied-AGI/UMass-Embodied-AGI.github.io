@@ -18,39 +18,37 @@ export const getStaticPaths = (async ({ paginate }) => {
 
 
 const researchList = await getEntry('research', 'list')
-
-const yearList = await (await getResearchYearList()).sort((a, b) => b - a)
-const categoryList = await getResearchCategoryList()
-
-const researchByYear = new Map(yearList.map(year => [year.key, researchList.data.filter(item => item.year === year.key)]))
-const researchByCategory = new Map(categoryList.map(category => [category.key, researchList.data.filter(item => item.category === category.key)]))
-
-let groupByYear = true
-const title = "Publications"
-const displayedList = groupByYear ? researchByYear : researchByCategory
-
-const setGroupBy = (isYear) => {
-    groupByYear = isYear
-    displayedList = groupByYear ? researchByYear : researchByCategory
-}
-
+const researchByYear = new Map()
+researchList.data.forEach(research => {
+  const year = research.year
+  if (!researchByYear.has(year)) {
+    researchByYear.set(year, [])
+  }
+  researchByYear.get(year).push(research)
+})
+const sortedYears = Array.from(researchByYear.keys()).sort((a, b) => b - a)
 ---
 <MainGridLayout>
     <div>
-    <h1 class="text-4xl text-center mb-2">Publications</h1>
-    <div class="flex justify-center gap-2 mb-4">
-        <a href="/research/year/"
-        class='hover:underline'>
-        by year
-        </a>
-        <span>|</span> 
-        <a href="/research/category/"
-        class='hover:underline'>
-        by topic
-        </a>
+        <h1 class="text-4xl text-center mb-2">Publications</h1>
+        <div class="flex justify-center gap-2 mb-4">
+            <a href="/research/year/"
+            class='hover:underline text-blue-700'>
+            by year
+            </a>
+            <span>|</span> 
+            <a href="/research/category/"
+            class='hover:underline'>
+            by topic
+            </a>
+        </div>
     </div>
-    </div>
-    <ResearchList list={researchList} />
+    {sortedYears.map(year => (
+          <section class="mt-8">
+            <h2 class="text-black/50 dark:text-white/50 text-3xl mb-4">{year}</h2>
+            <ResearchList list={{ data: researchByYear.get(year) }} />
+          </section>
+        ))}
     <!-- <PostPage page={page}></PostPage>
     <Pagination class="mx-auto onload-animation" page={page} style=`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`></Pagination> -->
 </MainGridLayout>

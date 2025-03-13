@@ -11,6 +11,7 @@ interface Props {
   category?: string
   arxiv?: string
   code?: string
+  conference?: string
   hideTagsForMobile?: boolean
   hideUpdateDate?: boolean
 }
@@ -19,6 +20,7 @@ const {
   category,
   arxiv,
   code,
+  conference,
   hideTagsForMobile = false,
   hideUpdateDate = false,
 } = Astro.props
@@ -39,8 +41,22 @@ const className = Astro.props.class
 </div>
 )}
 
+<!-- conference -->
+{conference && (
+<div class="flex items-center">
+  <Icon name="material-symbols:newspaper" class="text-lg mr-1"></Icon>
+  <div class="flex flex-row flex-nowrap items-center">
+    <a href={url(`/research/conference/${conference.replace(/ /g, '-') || 'uncategorized'}/`)} aria-label={`View all posts in the ${conference} conference`}
+       class="text-50 text-sm font-medium
+                        hover:underline whitespace-nowrap">
+            {conference || i18n(I18nKey.uncategorized)}
+        </a>
+    </div>
+  </div>
+)}
+
 <!-- category -->
-{category && (
+<!-- {category && (
   <div class="flex items-center">
     <Icon name="material-symbols:folder-outline-rounded" class="text-lg mr-1"></Icon>
     <div class="flex flex-row flex-nowrap items-center">
@@ -51,7 +67,7 @@ const className = Astro.props.class
         </a>
     </div>
   </div>
-)}
+)} -->
 
 <!-- arxiv -->
 {arxiv && (

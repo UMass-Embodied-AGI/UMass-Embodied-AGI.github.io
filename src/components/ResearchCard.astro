@@ -16,6 +16,7 @@ interface Props {
   code?: string
   preview?: string
   description?: string
+  conference?: string
   style?: string
 }
 
@@ -29,6 +30,7 @@ const {
   code,
   preview,
   description,
+  conference,
   style,
   category,
 } = Astro.props
@@ -38,10 +40,10 @@ const hasPreview = preview !== undefined && preview !== null && preview !== ''
 const previewWidth = '28%'
 ---
 
-<div class:list={["card-base !rounded-none flex flex-col-reverse md:flex-col w-full overflow-hidden relative", className]} style={style}>
-    <div class:list={["pl-6 md:pl-9 pr-6 md:pr-2 pt-6 md:pt-7 pb-6 relative", {"w-full md:w-[calc(100%_-_52px_-_12px)]": !hasPreview, "w-full md:w-[calc(100%_-_var(--previewWidth)_-_12px)]": hasPreview}]}>
+<div class:list={["flex flex-col-reverse md:flex-col w-full overflow-hidden relative", className]} style={style}>
+    <div class:list={["pt-3 md:pt-4 pb-4 relative", {"w-full md:w-[calc(100%_-_52px_-_12px)]": !hasPreview, "w-full md:w-[calc(100%_-_var(--previewWidth)_-_12px)]": hasPreview}]}>
         <a href={url}
-           class="transition group w-full block font-bold mb-2 text-2xl
+           class="transition group w-full block mb-2 text-lg
         text-black dark:text-white hover:underline
         active:text-[var(--title-active)] dark:active:text-[var(--title-active)]
         ">
@@ -53,7 +55,7 @@ const previewWidth = '28%'
             <span>{authors.join(", ")}</span>
         </div>
         
-       <ResearchMeta year={year} category={category} arxiv={arxiv} code={code} />
+       <ResearchMeta year={year} category={category} arxiv={arxiv} code={code} conference={conference} />
 
         {description && 
           <div class="transition text-75 mb-3.5 pr-4 line-clamp-2">

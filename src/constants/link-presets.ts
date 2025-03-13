@@ -19,4 +19,8 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
     name: 'People',
     url: '/people/',
   },
+  [LinkPreset.Robots]: {
+    name: 'Robots',
+    url: '/robots/',
+  },
 }

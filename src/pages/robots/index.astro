@@ -1,0 +1,24 @@
+---
+import type { GetStaticPaths } from 'astro'
+import { getEntry } from 'astro:content'
+import MainGridLayout from '@layouts/MainGridLayout.astro'
+import ImageWrapper from '@/components/misc/ImageWrapper.astro'
+import PersonCard from '@/components/PersonCard.astro'
+
+const robotList = await getEntry('people', 'robots')
+---
+
+<MainGridLayout>
+  <div class="max-w-7xl mx-auto px-4 py-6 text-black dark:text-white onload-animation" id="content-wrapper">
+    {robotList.data.map((group) => (
+      <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-6">{group.category}</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+          {group.members.map((robot) => (
+            <PersonCard person={robot} />
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</MainGridLayout>

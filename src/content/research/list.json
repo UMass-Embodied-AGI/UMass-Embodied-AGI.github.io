@@ -18,9 +18,11 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/flexattention/index.html",
+    "code": "https://github.com/UMass-Embodied-AGI/FlexAttention",
     "arxiv": "https://arxiv.org/abs/2407.20228",
     "preview": "/research/flexattention/static/assets/overview.jpg",
-    "category": "Large Language Models"
+    "category": "Large Language Models",
+    "conference": "ECCV 2024"
   },
   {
     "id": "wang2024robogenunleashinginfinitedata",
@@ -49,7 +51,8 @@
     "booktitle": "International conference on machine learning",
     "code": "https://github.com/Genesis-Embodied-AI/RoboGen",
     "selected": true,
-    "category": "Physical Reasoning and Interaction"
+    "category": "Physical Reasoning and Interaction",
+    "conference": "ICML 2024"
   },
   {
     "id": "li2024conavbenchmarkhumancenteredcollaborative",
@@ -110,14 +113,16 @@
       "Yilun Du",
       "Chuang Gan"
     ],
-    "year": "2024",
+    "year": "2025",
     "eprint": "2404.10775",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/combo/index.html",
+    "code": "https://github.com/UMass-Embodied-AGI/COMBO",
     "arxiv": "https://arxiv.org/abs/2404.10775",
     "preview": "/research/combo/video/teaser.mp4",
-    "category": "Physical Reasoning and Interaction"
+    "category": "Physical Reasoning and Interaction",
+    "conference": "ICLR 2025"
   },
   {
     "id": "sun2024salmonselfalignmentinstructablereward",
@@ -140,7 +145,8 @@
     "url": "https://arxiv.org/abs/2310.05910",
     "arxiv": "https://arxiv.org/abs/2310.05910",
     "preview": "https://github.com/IBM/SALMON/raw/main/assets/images/salmon_logo_with_text.jpeg",
-    "category": "Large Language Models"
+    "category": "Large Language Models",
+    "conference": "ICLR 2024"
   },
   {
     "id": "wang2024thinshellobjectmanipulationsdifferentiable",
@@ -181,9 +187,11 @@
     "booktitle": "AAAI Conference on Artificial Intelligence",
     "year": "2024",
     "url": "https://api.semanticscholar.org/CorpusID:268678279",
+    "code": "https://github.com/UMass-Embodied-AGI/VisualCoT",
     "arxiv": "https://arxiv.org/abs/2404.00451",
-    "preview": "https://github.com/UMass-Foundation-Model/VisualCoT/raw/main/framework.png",
-    "category": "Multimodal Language Models"
+    "preview": "https://github.com/UMass-Embodied-AGI/VisualCoT/raw/main/framework.png",
+    "category": "Multimodal Language Models",
+    "conference": "AAAI 2024"
   },
   {
     "id": "yang20243dmem3dscenememory",
@@ -198,14 +206,16 @@
       "Yilun Du",
       "Chuang Gan"
     ],
-    "year": "2024",
+    "year": "2025",
     "eprint": "2411.17735",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/3dmem/index.html",
+    "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
     "arxiv": "https://arxiv.org/abs/2411.17735",
     "preview": "/research/3dmem/static/videos/demo_gif_1.mp4",
-    "category": "Multimodal Language Models"
+    "category": "Multimodal Language Models",
+    "conference": "CVPR 2025"
   },
   {
     "id": "zhen20243dvla3dvisionlanguageactiongenerative",
@@ -233,7 +243,8 @@
     "arxiv": "https://arxiv.org/abs/2403.09631",
     "pdf": "https://arxiv.org/pdf/2403.09631",
     "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
-    "category": "Learning World Models"
+    "category": "Learning World Models",
+    "conference": "ICML 2024"
   },
   {
     "id": "zhang2024buildingcooperativeembodiedagents",
@@ -256,20 +267,22 @@
     "url": "/research/Co-LLM-Agents/index.html",
     "arxiv": "https://arxiv.org/abs/2411.17735",
     "preview": "/research/Co-LLM-Agents/figure/teaser_v1.7.jpg",
-    "category": "Multimodal Language Models"
+    "category": "Multimodal Language Models",
+    "conference": "ICLR 2024"
   },
   {
     "id": "cai2024efficientvitmultiscalelinearattention",
     "type": "misc",
     "title": "EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction",
     "authors": ["Han Cai", "Junyan Li", "Muyan Hu", "Chuang Gan", "Song Han"],
-    "year": "2024",
+    "year": "2023",
     "eprint": "2205.14756",
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "https://arxiv.org/abs/2205.14756",
     "arxiv": "https://arxiv.org/abs/2411.17735",
     "preview": "https://senfu.github.io/images/efficientvit/intro.png",
+    "conference": "ICCV 2023",
     "category": "Large Language Models"
   },
   {
@@ -292,9 +305,11 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/hazard/index.html",
+    "code": "https://github.com/UMass-Embodied-AGI/HAZARD",
     "arxiv": "https://arxiv.org/abs/2411.17735",
     "preview": "https://github.com/UMass-Embodied-AGI/HAZARD/blob/main/pics/overview.png?raw=true",
-    "category": "Physical Reasoning and Interaction"
+    "category": "Physical Reasoning and Interaction",
+    "conference": "ICLR 2024"
   },
   {
     "id": "hong2024multiplymultisensoryobjectcentricembodied",
@@ -313,6 +328,7 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/multiply/index.html",
+    "code": "https://github.com/UMass-Embodied-AGI/MultiPLY",
     "arxiv": "https://arxiv.org/abs/2401.08577",
     "preview": "/research/multiply/resources/cd_player.mp4",
     "category": "Audio-Visual Learning"
@@ -355,6 +371,7 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/genome/index.html",
+    "code": "https://github.com/UMass-Embodied-AGI/genome",
     "arxiv": "https://arxiv.org/abs/2311.04901",
     "doi": "10.48550/arXiv.2311.04901",
     "preview": "/research/genome/GNSVR_files/11_imgedit.gif",
@@ -427,6 +444,7 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/CoVLM/index.html",
+    "code": "https://github.com/UMass-Embodied-AGI/CoVLM",
     "arxiv": "https://arxiv.org/abs/2311.03354",
     "preview": "/research/CoVLM/static/assets/demo.mp4",
     "category": "Large Language Models"
