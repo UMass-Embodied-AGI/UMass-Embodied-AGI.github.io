@@ -1,0 +1,1 @@
+['Alice wait.', 'Bob place the red-blue piece onto the bottom right corner of the puzzle box.', 'Charlie wait.', 'David wait.']

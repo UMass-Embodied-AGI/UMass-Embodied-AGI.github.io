@@ -1,0 +1,1 @@
+['Alice wait.', 'Bob pick up the black_bread_slice.']

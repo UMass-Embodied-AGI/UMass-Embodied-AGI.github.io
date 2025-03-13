@@ -1,0 +1,1 @@
+['Alice pick up the brown_bread_slice.', 'Bob pick up the burger_top.']

@@ -1,0 +1,1 @@
+['Alice wait.', 'Bob place the red-blue piece onto the left border of the reachable region.', 'Charlie wait.', 'David wait.']

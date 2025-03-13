@@ -1,0 +1,1 @@
+['Alice wait.', 'Bob place the red-blue piece onto the left border of the reachable region.', 'Charlie place the green-black piece onto the left border of the reachable region.', 'David place the blue-brown piece onto the private region left to the puzzle box.']

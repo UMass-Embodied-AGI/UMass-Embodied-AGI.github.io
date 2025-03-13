@@ -1,0 +1,1 @@
+['Alice place the burger_top onto the top right corner of the private region.', 'Bob wait.']
