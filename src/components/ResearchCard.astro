@@ -44,7 +44,7 @@ const previewWidth = '50%'
 
 <div class:list={["flex flex-col-reverse md:flex-row-reverse gap-2 md:items-center w-full overflow-hidden relative", className]} style={style}>
     <div class:list={["px-4 pt-3 md:pt-4 pb-4 relative w-full"]}>
-        <a href={url}
+        <a href={url} target="_blank"
            class="transition group w-full block mt-2 md:mt-0 mb-2 text-lg font-medium
         text-black dark:text-white hover:underline
         active:text-[var(--title-active)] dark:active:text-[var(--title-active)]
@@ -70,7 +70,7 @@ const previewWidth = '50%'
         }
     </div>
 
-    <a href={url} aria-label={title}
+    <a href={url} target="_blank" aria-label={title}
                     class:list={["group",
                         "max-h-[20vh] md:h-auto mx-4 mt-4 -mb-2 md:mb-0 md:mx-0 md:mt-0",
                         "md:w-[var(--previewWidth)] relative overflow-hidden active:scale-95"

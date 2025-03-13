@@ -76,7 +76,7 @@ const className = Astro.props.class
   <div class="flex items-center">
     <Icon name="academicons:arxiv" class="text-lg mr-1"></Icon>
     <div class="flex flex-row flex-nowrap items-center">
-        <a href={arxiv} aria-label={`View paper on arXiv`}
+        <a href={arxiv} target="_blank" aria-label={`View paper on arXiv`}
            class="text-50 text-sm font-medium
                         hover:underline whitespace-nowrap">
                         Paper
@@ -90,7 +90,7 @@ const className = Astro.props.class
   <div class="flex items-center">
     <Icon name="material-symbols:captive-portal" class="text-lg mr-1"></Icon>
     <div class="flex flex-row flex-nowrap items-center">
-        <a href={website} aria-label={`Visit website`}
+        <a href={website} target="_blank" aria-label={`Visit website`}
            class="text-50 text-sm font-medium
                         hover:underline whitespace-nowrap">
                         Website
@@ -104,7 +104,7 @@ const className = Astro.props.class
   <div class="flex items-center">
     <Icon name="fa6-brands:github" class="text-lg mr-1"></Icon>
     <div class="flex flex-row flex-nowrap items-center">
-        <a href={code} aria-label={`View code on GitHub`}
+        <a href={code} target="_blank" aria-label={`View code on GitHub`}
            class="text-50 text-sm font-medium
                         hover:underline whitespace-nowrap">
                         Code

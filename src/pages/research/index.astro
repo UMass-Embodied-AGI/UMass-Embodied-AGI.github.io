@@ -30,7 +30,7 @@ const sortedYears = [...researchByYear.keys()].sort((a, b) => parseInt(b) - pars
     <h1 class="text-3xl text-center my-2">Publications</h1>
     <div class="flex justify-center gap-2 mb-4">
         <a href="/research/year/"
-        class='hover:underline text-blue-700'>
+        class='hover:underline text-blue-700 dark:text-blue-300'>
         by year
         </a>
         <span>|</span> 
@@ -42,7 +42,7 @@ const sortedYears = [...researchByYear.keys()].sort((a, b) => parseInt(b) - pars
     </div>
     {sortedYears.map(year => (
         <section class="mt-8">
-            <h2 class="text-black/50 dark:text-white/50 text-2xl md:text-3xl mb-2 text-center md:text-left">{year}</h2>
+            <h2 class="text-black/50 dark:text-white/50 text-2xl mb-2 text-center md:text-left">{year}</h2>
             <ResearchList list={{ data: researchByYear.get(year) }} />
         </section>
     ))}
