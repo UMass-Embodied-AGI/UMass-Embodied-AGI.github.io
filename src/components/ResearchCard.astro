@@ -1,8 +1,9 @@
 ---
 import path from 'path'
 import ImageWrapper from './misc/ImageWrapper.astro'
+import ResearchMeta from './ResearchMeta.astro'
 import { Icon } from 'astro-icon/components'
-import { getDir } from '../utils/url-utils'
+import { getDir, url } from '../utils/url-utils'
 
 interface Props {
   entry: any
@@ -11,31 +12,40 @@ interface Props {
   url: string
   authors: string[]
   year: string
+  arxiv?: string
+  code?: string
   preview?: string
   description?: string
   style?: string
 }
 
-const { entry, title, url, authors, year, preview, description, style, category } =
-  Astro.props
+const {
+  entry,
+  title,
+  url,
+  authors,
+  year,
+  arxiv,
+  code,
+  preview,
+  description,
+  style,
+  category,
+} = Astro.props
 const className = Astro.props.class
 
 const hasPreview = preview !== undefined && preview !== null && preview !== ''
 const previewWidth = '28%'
 ---
 
-<div class:list={["card-base flex flex-col-reverse md:flex-col w-full rounded-[var(--radius-medium)] overflow-hidden relative", className]} style={style}>
+<div class:list={["card-base !rounded-none flex flex-col-reverse md:flex-col w-full overflow-hidden relative", className]} style={style}>
     <div class:list={["pl-6 md:pl-9 pr-6 md:pr-2 pt-6 md:pt-7 pb-6 relative", {"w-full md:w-[calc(100%_-_52px_-_12px)]": !hasPreview, "w-full md:w-[calc(100%_-_var(--previewWidth)_-_12px)]": hasPreview}]}>
         <a href={url}
            class="transition group w-full block font-bold mb-2 text-2xl
-        text-black dark:text-white hover:text-[var(--primary)] dark:hover:text-[var(--primary)]
+        text-black dark:text-white hover:underline
         active:text-[var(--title-active)] dark:active:text-[var(--title-active)]
-        before:w-1 before:h-5 before:rounded-md before:bg-[var(--primary)]
-        before:absolute before:top-[35px] before:left-[18px] before:hidden md:before:block
         ">
             {title}
-            <Icon class="inline text-[2rem] text-[var(--primary)] md:hidden translate-y-0.5 absolute" name="material-symbols:chevron-right-rounded" ></Icon>
-            <Icon class="text-[var(--primary)] text-[2rem] transition hidden md:inline absolute translate-y-0.5 opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0" name="material-symbols:chevron-right-rounded"></Icon>
         </a>
 
         <!-- metadata -->
@@ -43,16 +53,7 @@ const previewWidth = '28%'
             <span>{authors.join(", ")}</span>
         </div>
         
-        <div class="flex gap-1 text-75">
-            <div class="group/year rounded-lg bg-[var(--btn-regular-bg)] font-semibold bg-opacity-50 px-3 py-1 hover:bg-[var(--btn-regular-bg-hover)] transition">
-                <span class="text-[var(--primary)]">{year}</span>
-            </div>
-            {category && (
-                <div class="group/category rounded-lg bg-[var(--btn-regular-bg)] font-semibold bg-opacity-50 px-3 py-1 hover:bg-[var(--btn-regular-bg-hover)]/30 transition">
-                    <span class="text-[var(--primary)]">{category}</span>
-                </div>
-            )}
-        </div>
+       <ResearchMeta year={year} category={category} arxiv={arxiv} code={code} />
 
         {description && 
           <div class="transition text-75 mb-3.5 pr-4 line-clamp-2">
@@ -64,7 +65,7 @@ const previewWidth = '28%'
     {hasPreview && <a href={url} aria-label={title}
                     class:list={["group",
                         "max-h-[20vh] md:max-h-none mx-4 mt-4 -mb-2 md:mb-0 md:mx-0 md:mt-0",
-                        "md:w-[var(--previewWidth)] relative md:absolute md:top-3 md:bottom-3 md:right-3 rounded-xl overflow-hidden active:scale-95"
+                        "md:w-[var(--previewWidth)] relative md:absolute md:top-3 md:bottom-3 md:right-3 overflow-hidden active:scale-95"
                     ]} >
         <div class="absolute pointer-events-none z-10 w-full h-full group-hover:bg-black/30 group-active:bg-black/50 transition"></div>
         <div class="absolute pointer-events-none z-20 w-full h-full flex items-center justify-center ">
@@ -75,19 +76,8 @@ const previewWidth = '28%'
         <ImageWrapper src={preview}  basePath={"content/assets/research"} alt="Preview" class="w-full h-full object-cover">
         </ImageWrapper>
     </a>}
-
-    {!hasPreview &&
-        <a href={url} aria-label={title} class="!hidden md:!flex btn-regular w-[3.25rem]
-         absolute right-3 top-3 bottom-3 rounded-xl bg-[var(--enter-btn-bg)]
-         hover:bg-[var(--enter-btn-bg-hover)] active:bg-[var(--enter-btn-bg-active)] active:scale-95
-        ">
-            <Icon name="material-symbols:chevron-right-rounded"
-                  class="transition text-[var(--primary)] text-4xl mx-auto">
-            </Icon>
-        </a>
-    }
 </div>
-<div class="transition border-t-[1px] border-dashed mx-6 border-black/10 dark:border-white/[0.15] last:border-t-0 md:hidden"></div>
+<div class="transition border-t-[1px] mx-6 border-black/50 dark:border-white/50 last:border-t-0 md:hidden"></div>
 
 <style define:vars={{previewWidth}}>
 </style>

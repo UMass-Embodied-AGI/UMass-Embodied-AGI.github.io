@@ -1,0 +1,22 @@
+---
+import { getEntry } from 'astro:content'
+import MainGridLayout from '@layouts/MainGridLayout.astro'
+import ResearchList from '@components/ResearchList.astro'
+import { getResearchCategoryList } from '@utils/content-utils'
+
+export async function getStaticPaths() {
+  const categories = await getResearchCategoryList()
+  return categories.map(category => ({
+    params: { category: category.key },
+  }))
+}
+
+const category = Astro.params.category.replace(/-/g, ' ')
+const researchList = await getEntry('research', 'list')
+researchList.data = researchList.data.filter(item => item.category === category)
+---
+
+<MainGridLayout>
+    <h2 class="text-black/50 dark:text-white/50 text-3xl mt-8 mb-4">{category}</h2>
+    <ResearchList list={researchList} />
+</MainGridLayout>

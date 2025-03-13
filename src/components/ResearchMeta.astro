@@ -1,0 +1,84 @@
+---
+import { formatDateToYYYYMMDD } from '../utils/date-utils'
+import { Icon } from 'astro-icon/components'
+import { i18n } from '../i18n/translation'
+import I18nKey from '../i18n/i18nKey'
+import { url } from '../utils/url-utils'
+
+interface Props {
+  class: string
+  year?: number
+  category?: string
+  arxiv?: string
+  code?: string
+  hideTagsForMobile?: boolean
+  hideUpdateDate?: boolean
+}
+const {
+  year,
+  category,
+  arxiv,
+  code,
+  hideTagsForMobile = false,
+  hideUpdateDate = false,
+} = Astro.props
+const className = Astro.props.class
+---
+
+<div class:list={["flex flex-wrap text-neutral-500 dark:text-neutral-400 items-center gap-4 gap-x-4 gap-y-2", className]}>
+<!-- year -->
+{year && (
+<div class="flex items-center">
+  <Icon name="material-symbols:calendar-today-outline-rounded" class="text-lg mr-1"></Icon>
+  <div class="flex flex-row flex-nowrap items-center">
+    <a href={url(`/research/year/${year}/`)} aria-label={`View all posts from ${year}`}
+       class="text-50 text-sm font-medium hover:underline whitespace-nowrap">
+      {year}
+    </a>
+  </div>
+</div>
+)}
+
+<!-- category -->
+{category && (
+  <div class="flex items-center">
+    <Icon name="material-symbols:folder-outline-rounded" class="text-lg mr-1"></Icon>
+    <div class="flex flex-row flex-nowrap items-center">
+        <a href={url(`/research/category/${category.replace(/ /g, '-') || 'uncategorized'}/`)} aria-label=`View all posts in the ${category} category`
+           class="text-50 text-sm font-medium
+                        hover:underline whitespace-nowrap">
+            {category || i18n(I18nKey.uncategorized)}
+        </a>
+    </div>
+  </div>
+)}
+
+<!-- arxiv -->
+{arxiv && (
+  <div class="flex items-center">
+    <Icon name="academicons:arxiv" class="text-lg mr-1"></Icon>
+    <div class="flex flex-row flex-nowrap items-center">
+        <a href={arxiv} aria-label={`View paper on arXiv`}
+           class="text-50 text-sm font-medium
+                        hover:underline whitespace-nowrap">
+                        Paper
+        </a>
+    </div>
+  </div>
+)}
+
+<!-- code -->
+{code && (
+  <div class="flex items-center">
+    <Icon name="fa6-brands:github" class="text-lg mr-1"></Icon>
+    <div class="flex flex-row flex-nowrap items-center">
+        <a href={code} aria-label={`View code on GitHub`}
+           class="text-50 text-sm font-medium
+                        hover:underline whitespace-nowrap">
+                        Code
+        </a>
+    </div>
+  </div>
+)}
+
+</div>

@@ -32,6 +32,9 @@ importers:
       '@fontsource/ibm-plex-sans':
         specifier: ^5.2.5
         version: 5.2.5
+      '@iconify-json/academicons':
+        specifier: ^1.2.2
+        version: 1.2.2
       '@iconify-json/fa6-brands':
         specifier: ^1.2.3
         version: 1.2.3
@@ -1186,6 +1189,9 @@ packages:
 
   '@fontsource/ibm-plex-sans@5.2.5':
     resolution: {integrity: sha512-W1kkC/fpDuoKQ5pNSQt/Bg0rpV9AATreA9ABwZf678AlwSCY2TQBT1YwAxxB65E9jcT/ysDrU1sGVNUyWCBXRw==}
+
+  '@iconify-json/academicons@1.2.2':
+    resolution: {integrity: sha512-rOcj3ESbwXlT2pKQisnohQ9quXopb0/XdHfjTAY9vHEIR4c1hX9itKl0wPAqg/gKTvWJZr218Fgd4oKvJPZ+uQ==}
 
   '@iconify-json/fa6-brands@1.2.3':
     resolution: {integrity: sha512-vwdbeIpy9BgGonD6dwMIoZnzn/xo3w/mn1A+YcNxo42xTmVJeX2oobGlXlbN9P4BNi879dK9xvOjZpj7hYV2mg==}
@@ -6222,6 +6228,10 @@ snapshots:
   '@fontsource-variable/jetbrains-mono@5.1.1': {}
 
   '@fontsource/ibm-plex-sans@5.2.5': {}
+
+  '@iconify-json/academicons@1.2.2':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify-json/fa6-brands@1.2.3':
     dependencies:

@@ -19,7 +19,7 @@
         "url": "https://xhrlyb.github.io/"
       },
       {
-        "name": "Hongxin Zhang", 
+        "name": "Hongxin Zhang",
         "photo": "phd_hongxin.jpg",
         "role": "Ph.D. Student",
         "url": "https://icefoxzhx.github.io/"
@@ -128,12 +128,6 @@
         "url": "https://acmlczh.github.io/"
       },
       {
-        "name": "Bao Dang",
-        "photo": "bs_bao.jpg",
-        "role": "Undergraduate Student",
-        "url": "https://github.com/weebao"
-      },
-      {
         "name": "Peihao Chen",
         "photo": "vs_peihao.png",
         "role": "Visiting Scholar",
@@ -143,6 +137,12 @@
         "name": "Siyuan Zhou",
         "photo": "vs_siyuan.jpg",
         "role": "Visiting Scholar"
+      },
+      {
+        "name": "Bao Dang",
+        "photo": "bs_bao.jpg",
+        "role": "Undergraduate Student",
+        "url": "https://github.com/weebao"
       }
     ]
   }
