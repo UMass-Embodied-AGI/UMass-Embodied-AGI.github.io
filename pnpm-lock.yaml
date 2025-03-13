@@ -32,6 +32,9 @@ importers:
       '@fontsource/ibm-plex-sans':
         specifier: ^5.2.5
         version: 5.2.5
+      '@fontsource/merriweather':
+        specifier: ^5.2.6
+        version: 5.2.6
       '@iconify-json/academicons':
         specifier: ^1.2.2
         version: 1.2.2
@@ -1189,6 +1192,9 @@ packages:
 
   '@fontsource/ibm-plex-sans@5.2.5':
     resolution: {integrity: sha512-W1kkC/fpDuoKQ5pNSQt/Bg0rpV9AATreA9ABwZf678AlwSCY2TQBT1YwAxxB65E9jcT/ysDrU1sGVNUyWCBXRw==}
+
+  '@fontsource/merriweather@5.2.6':
+    resolution: {integrity: sha512-lPFH6+Kz3V7MK9SRDI/Y9hxMc+2Sjb/FjyNHlotRjL7eFRhJ8/LnnWsDTGAccTuoGEmfdaaia7SHw6LoNtoIyg==}
 
   '@iconify-json/academicons@1.2.2':
     resolution: {integrity: sha512-rOcj3ESbwXlT2pKQisnohQ9quXopb0/XdHfjTAY9vHEIR4c1hX9itKl0wPAqg/gKTvWJZr218Fgd4oKvJPZ+uQ==}
@@ -6228,6 +6234,8 @@ snapshots:
   '@fontsource-variable/jetbrains-mono@5.1.1': {}
 
   '@fontsource/ibm-plex-sans@5.2.5': {}
+
+  '@fontsource/merriweather@5.2.6': {}
 
   '@iconify-json/academicons@1.2.2':
     dependencies:

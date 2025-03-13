@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
   subtitle: '',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
-    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    hue: 150,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: true,     // Hide the theme color picker for visitors
   },
   banner: {
@@ -39,6 +39,7 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
   links: [
+    LinkPreset.Home,
     LinkPreset.Research,
     // LinkPreset.About,
     // LinkPreset.Archive,

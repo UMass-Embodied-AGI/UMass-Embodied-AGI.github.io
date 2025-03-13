@@ -3,7 +3,8 @@
 
 @layer base {
     html {
-        font-family: "IBM Plex Sans Variable", sans-serif;
+        /* font-family: "IBM Plex Sans Variable", sans-serif; */
+        font-family: "Merriweather", serif;
     }
 }
 

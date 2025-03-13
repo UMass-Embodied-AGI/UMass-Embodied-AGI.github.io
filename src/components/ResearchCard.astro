@@ -42,7 +42,7 @@ const hasPreview = preview !== undefined && preview !== null && preview !== ''
 const previewWidth = '50%'
 ---
 
-<div class:list={["flex flex-col-reverse md:flex-row-reverse md:items-center w-full overflow-hidden relative", className]} style={style}>
+<div class:list={["flex flex-col-reverse md:flex-row-reverse gap-2 md:items-center w-full overflow-hidden relative", className]} style={style}>
     <div class:list={["px-4 pt-3 md:pt-4 pb-4 relative w-full"]}>
         <a href={url}
            class="transition group w-full block mt-2 md:mt-0 mb-2 text-lg font-medium
@@ -53,11 +53,11 @@ const previewWidth = '50%'
         </a>
 
         <!-- metadata -->
-        <div class="text-base mb-2">
+        <div class="text-base text-black/80 dark:text-white/80 mb-2">
             <span>{authors.join(", ")}</span>
         </div>
         
-        <div class="text-base mb-4">
+        <div class="text-base text-black/80 dark:text-white/80 mb-4">
             <span>{conference}</span>
         </div>
         
