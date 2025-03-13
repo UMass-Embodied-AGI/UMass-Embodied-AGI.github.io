@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 
 const year = Astro.params.year
 const researchList = await getEntry('research', 'list')
-researchList.data = researchList.data.filter(item => item.year === year)
+researchList.data = researchList.data.filter(item => parseInt(item.year) === parseInt(year))
 ---
 
 <MainGridLayout>

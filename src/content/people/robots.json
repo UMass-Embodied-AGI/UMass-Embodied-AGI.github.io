@@ -3,19 +3,19 @@
     "category": "Robots",
     "members": [
       {
-        "name": "G1",
+        "name": "Unitree G1",
         "photo": "robot_g1.jpg"
       },
       {
-        "name": "Go2", 
+        "name": "Unitree Go2", 
         "photo": "robot_go2.jpg"
       },
       {
-        "name": "Miniranger",
+        "name": "Rander Mini 2.0",
         "photo": "robot_miniranger.jpg"
       },
       {
-        "name": "XArm",
+        "name": "XArm-7",
         "photo": "robot_xarm.jpg"
       }
     ]

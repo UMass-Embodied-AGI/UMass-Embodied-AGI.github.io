@@ -12,6 +12,7 @@ interface Props {
   arxiv?: string
   code?: string
   conference?: string
+  website?: string
   hideTagsForMobile?: boolean
   hideUpdateDate?: boolean
 }
@@ -21,6 +22,7 @@ const {
   arxiv,
   code,
   conference,
+  website,
   hideTagsForMobile = false,
   hideUpdateDate = false,
 } = Astro.props
@@ -29,7 +31,7 @@ const className = Astro.props.class
 
 <div class:list={["flex flex-wrap text-neutral-500 dark:text-neutral-400 items-center gap-4 gap-x-4 gap-y-2", className]}>
 <!-- year -->
-{year && (
+<!-- {year && (
 <div class="flex items-center">
   <Icon name="material-symbols:calendar-today-outline-rounded" class="text-lg mr-1"></Icon>
   <div class="flex flex-row flex-nowrap items-center">
@@ -39,10 +41,10 @@ const className = Astro.props.class
     </a>
   </div>
 </div>
-)}
+)} -->
 
 <!-- conference -->
-{conference && (
+<!-- {conference && (
 <div class="flex items-center">
   <Icon name="material-symbols:newspaper" class="text-lg mr-1"></Icon>
   <div class="flex flex-row flex-nowrap items-center">
@@ -53,7 +55,7 @@ const className = Astro.props.class
         </a>
     </div>
   </div>
-)}
+)} -->
 
 <!-- category -->
 <!-- {category && (
@@ -78,6 +80,20 @@ const className = Astro.props.class
            class="text-50 text-sm font-medium
                         hover:underline whitespace-nowrap">
                         Paper
+        </a>
+    </div>
+  </div>
+)}
+
+<!-- website -->
+{website && (
+  <div class="flex items-center">
+    <Icon name="material-symbols:captive-portal" class="text-lg mr-1"></Icon>
+    <div class="flex flex-row flex-nowrap items-center">
+        <a href={website} aria-label={`Visit website`}
+           class="text-50 text-sm font-medium
+                        hover:underline whitespace-nowrap">
+                        Website
         </a>
     </div>
   </div>

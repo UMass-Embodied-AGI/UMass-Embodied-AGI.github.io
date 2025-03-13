@@ -1,4 +1,11 @@
 @tailwind components;
+@tailwind base;
+
+@layer base {
+    html {
+        font-family: "IBM Plex Sans Variable", sans-serif;
+    }
+}
 
 @layer components {
     .card-base {

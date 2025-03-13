@@ -326,11 +326,11 @@ function initCustomScrollbar() {
 
 function showBanner() {
 	const banner = document.getElementById('banner')
-	if (!banner) {
-		console.error('Failed to find the banner element')
-		return
-	}
-	banner.classList.remove('opacity-0', 'scale-105')
+	// if (!banner) {
+	// 	console.error('Failed to find the banner element')
+	// 	return
+	// }
+	// banner.classList.remove('opacity-0', 'scale-105')
 }
 
 function init() {
@@ -428,7 +428,7 @@ let backToTopBtn = document.getElementById('back-to-top-btn');
 let toc = document.getElementById('toc-wrapper');
 let navbar = document.getElementById('navbar-wrapper')
 function scrollFunction() {
-	let bannerHeight = window.innerHeight * (BANNER_HEIGHT / 100)
+	let bannerHeight = window.innerHeight * (1 / 100)
 
 	if (backToTopBtn) {
 		if (document.body.scrollTop > bannerHeight || document.documentElement.scrollTop > bannerHeight) {

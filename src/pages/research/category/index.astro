@@ -32,7 +32,7 @@ const sortedCategories = Array.from(researchByCategory.keys()).sort((a, b) => b 
         <h1 class="text-4xl text-center mb-2">Publications</h1>
         <div class="flex justify-center gap-2 mb-4">
             <a href="/research/year/"
-            class='hover:underline'>
+            class='hover:underline' data-astro-prefetch>
             by year
             </a>
             <span>|</span> 
@@ -44,7 +44,7 @@ const sortedCategories = Array.from(researchByCategory.keys()).sort((a, b) => b 
     </div>
     {sortedCategories.map(category => (
           <section class="mt-8">
-            <h2 class="text-black/50 dark:text-white/50 text-3xl mb-4">{category}</h2>
+            <h2 class="text-black/50 dark:text-white/50 text-2xl md:text-3xl mb-2 text-center md:text-left">{category}</h2>
             <ResearchList list={{ data: researchByCategory.get(category) }} />
           </section>
         ))}
