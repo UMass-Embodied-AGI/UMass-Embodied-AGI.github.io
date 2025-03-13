@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3D-VLA</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.24/dist/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.24/dist/js/bulma-carousel.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/latex.min.js"></script> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV5K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ5lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title"><b>
+                <a style="color:#61a5c2;">3D</a>-<a style="color:#94D2BD;">V</a><a style="color:#EE9B00;">L</a><a
+                  style="color:#CA6502;">A</a></b></h1>
+            <h2 class="subtitle is-3 publication-subtitle">3D Vision-Language-Action Generative World Model</h2>
+            <h3 class="title is-3"></h3>
+            <div class=" is-size-5 publication-authors">
+              <span class="author-block"><a href="https://haoyuzhen.com/">Haoyu Zhen</a><sup>1,2</sup>,</span>
+              <span class="author-block"><a href="">Xiaowen Qiu</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://peihaochen.github.io">Peihao Chen</a><sup>3</sup>,</span>
+              <span class="author-block"><a href="https://github.com/Yang-Chincheng">Jincheng
+                  Yang</a><sup>2</sup>,</span>
+              <span class="author-block"><a href="https://cakeyan.github.io">Xin Yan</a><sup>4</sup>,</span>
+              <span class="author-block"><a href="https://yilundu.github.io">Yilun Du</a><sup>5</sup>,</span>
+              <span class="author-block"><a href="https://evelinehong.github.io">Yining Hong</a><sup>6</sup>,</span>
+              <span class="author-block"><a href="https://people.csail.mit.edu/ganchuang/">Chuang
+                  Gan</a><sup>1,7</sup></span>
+            </div>
+            <div class="is-size-6 publication-authors">
+              <span class="author-block"><sup>1</sup>UMass Amherst</span>,
+              <span class="author-block"><sup>2</sup>SJTU</span>,
+              <span class="author-block"><sup>3</sup>SCUT</span>,
+              <span class="author-block"><sup>4</sup>WHU</span>,
+              <span class="author-block"><sup>5</sup>MIT</span>,
+              <span class="author-block"><sup>6</sup>UCLA</span>,
+              <span class="author-block"><sup>7</sup>MIT-IBM Watson AI Lab</span>
+            </div>
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column has-text-centered is-5">
+            <div class="publication-links">
+              <div class="link-labels base-row">
+                <div class="base-col icon-col">
+                  <a href="https://arxiv.org/abs/2403.09631" target="_blank" class="link-block">
+                    <img
+                      src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01.png"
+                      alt="paper"
+                      #sizes="(max-width: 479px) 12vw, (max-width: 767px) 7vw, (max-width: 991px) 41.8515625px, 56.6953125px"
+                      srcset="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01-p-500.png 500w, https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01.png 672w"
+                      class="icon-img">
+                  </a>
+                </div>
+                <div class="base-col icon-col">
+                  <a href="https://github.com/UMass-Foundation-Model/3D-VLA" class="link-block">
+                    <img
+                      src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cae3b53b42ebb3dd4175a82_68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67.png"
+                      alt="paper" class="icon-img github-img-icon">
+                  </a>
+                </div>
+              </div>
+              <div class="link-labels base-row">
+                <div class="base-col icon-col">
+                  <p style="margin-top: -25px"><br></p> <!-- empty line -->
+                  <strong class="link-labels-text">Paper</strong>
+                </div>
+                <div class="base-col icon-col">
+                  <p style="margin-top: -25px"><br></p> <!-- empty line -->
+                  <strong class="link-labels-text">&lt;Code&gt;</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns is-centered is-vcentered">
+          <div class="column is-four-fifths has-text-centered">
+            <video autoplay muted loop controls playsinline webkit-playsinline>
+              <source src="static/video/demo.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-widescreen">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths has-text-centered">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Recent vision-language-action (VLA) models rely on 2D inputs, lacking integration with the broader realm
+              of the 3D physical world. Furthermore, they perform action prediction by learning a direct mapping from
+              perception to action, neglecting the vast dynamics of the world and the relations between actions and
+              dynamics. In contrast, human beings are endowed with world models that depict imagination about future
+              scenarios to plan actions accordingly.
+              To this end, we propose 3D-VLA by introducing a new family of embodied foundation models that
+              seamlessly link 3D perception, reasoning, and action through a generative world model. Specifically,
+              3D-VLA is built on top of a 3D-based large language model (LLM), and a set of interaction tokens is
+              introduced to engage with the embodied environment.
+              Furthermore, to inject generation abilities into the model, we train a series of embodied diffusion models
+              and align them into the LLM for predicting the goal images and point clouds.
+              To train our 3D-VLA, we curate a large-scale 3D embodied instruction dataset by extracting vast 3D-related
+              information from existing robotics datasets. Our experiments on held-in datasets demonstrate that
+              3D-VLA significantly improves the reasoning, multimodal generation and planning capabilities in
+              embodied environments, showcasing its potential in real-world applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container is-max-widescreen" style="margin-bottom: 20px; margin-top: 20px;">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths has-text-centered">
+        <h2 class="title is-3">How to design LLM as a generative world model for robotics?</h2>
+      </div>
+    </div>
+    <div class="columns is-centered is-vcentered">
+      <!-- static/video/3dvla_arch.mp4 -->
+      <video autoplay muted loop playsinline webkit-playsinline>
+        <source src="static/video/3dvla_arch.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-widescreen">
+      <h2 class="title is-3 has-text-centered">Qualitative Results</h2>
+      <p><br></p> <!-- empty line -->
+      <div class="columns is-centered" style="margin-top: -30px; margin-bottom: 20px;">
+        <div class="column is-four-fifths">
+          We demonstrate the effectiveness of our 3D-VLA model on the tasks of <b>goal image generalization, goal point
+            cloud generalization and action prediction</b> on synthetic and real-world datasets.
+        </div>
+      </div>
+      <!-- ================================ Goal Image >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+      <div class="colums is-centered my-4">
+        <h3 class="subtitle is-5 has-text-centered"> Goal Generation on Real World Scenes </h3>
+        <div class="container has-background-white-ter my-2 py-4">
+          <div class="columns is-centered">
+            <div class="column is-10 has-text-centered">
+              <b> Show Result by Selecting a Scene </b>
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-10 has-text-centered">
+              <div id="real-world-scene-slider" , class="carousel results-carousel">
+                <!-- to be appended with slider items -->
+              </div>
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-5 has-text-centered">
+              <b> Show Result by Selecting an Instruction </b>
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-5 has-text-centered">
+              <div class="control has-icons-left">
+                <div class="select is-rounded is-small">
+                  <select id="real-world-select">
+                    <!-- to be appended with selecter options -->
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="columns is-centered is-vcentered">
+            <div class="column is-5 is-12-mobile is-centered has-text-centered">
+              <b>Input</b>
+              <div class="columns is-centered my-2 is-mobile">
+                <div class="column is-6 is-centered has-text-centered">
+                  <img id="real-world-input-rgb" src="" width="100%">
+                  <div class="content has-text-centered mt-2">
+                    scene image
+                  </div>
+                </div>
+                <div class="column is-6 has-text-centered">
+                  <img id="real-world-input-depth" src="" width="100%">
+                  <div class="content has-text-centered mt-2">
+                    depth image
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-2 is-0-mobile is-hidden-mobile is-centered has-text-centered">
+              <span><i class="fas fa-solid fa-chevron-right fa-2x"></i></span>
+            </div>
+            <div class="column is-5 is-12-mobile is-centered has-text-centered">
+              <b>Predicted</b>
+              <div class="columns is-centered my-2 is-mobile">
+                <div class="column is-6 is-centered has-text-centered">
+                  <img id="real-world-predicted-rgb" src="" width="100%">
+                  <div class="content has-text-centered mt-2">
+                    scene image
+                  </div>
+                </div>
+                <div class="column is-6 has-text-centered">
+                  <img id="real-world-predicted-depth" src="" width="100%">
+                  <div class="content has-text-centered mt-2">
+                    depth image
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      <!-- ================================ Goal Long Horizon >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+      <h3 class="subtitle is-5 has-text-centered">Goal Generation of Real World Long Horizon Task</h3>
+      <div class="columns is-centered my-4">
+        <div class="column is-4">
+          <div class="columns is-centered">
+            <div class="column is-10" style="text-align: center;">
+              <b>Input</b>
+            </div>
+            <div class="column is-5" style="text-align: center; margin: auto; width: 30%;">
+              <b>Instructions</b>
+            </div>
+            <div class="column is-10" style="text-align: center;">
+              <b>Predicted Step1</b>
+            </div>
+            <div class="column is-5" style="text-align: center; margin: auto; width: 30%;">
+              <b>Instructions</b>
+            </div>
+            <div class="column is-10" style="text-align: center;">
+              <b>Predicted Step2</b>
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/0_in.jpg" width="100%">
+            </div>
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/0_in_depth.jpg" width="100%">
+            </div>
+            <div class="column is-5" style="text-align: center; margin: auto; width: 30%;">
+              <p class="arrow-right" style="font-size: 12px;">Move the distant can near Pepsi.</p>
+            </div>
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/0_pred.jpg" width="100%">
+            </div>
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/0_pred_depth.jpg" width="100%">
+            </div>
+            <div class="column is-5" style="text-align: center; margin: auto; width: 30%;">
+              <p class="arrow-right" style="font-size: 12px;">Lay the can down</p>
+            </div>
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/0_pred_2nd.jpg" width="100%">
+            </div>
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/0_pred_depth_2nd.jpg" class="image" width="100%">
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/1_in.jpg" width="100%">
+            </div>
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/1_in_depth.jpg" width="100%">
+            </div>
+            <div class="column is-5" style="text-align: center; margin: auto; width: 30%;">
+              <p class="arrow-right" style="font-size: 12px;">Place chip bag into top drawer</p>
+            </div>
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/1_pred.jpg" width="100%">
+            </div>
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/1_pred_depth.jpg" width="100%">
+            </div>
+            <div class="column is-5" style="text-align: center; margin: auto; width: 30%;">
+              <p class="arrow-right" style="font-size: 12px;">Close the drawer</p>
+            </div>
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/1_pred_2nd.jpg" width="100%">
+            </div>
+            <div class="column is-5">
+              <img src="static/img/goal_image/rt1-longhorizon/1_pred_depth_2nd.jpg" class="image" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- ================================ Goal RLBench >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+      <h3 class="subtitle is-5 has-text-centered"> Goal Generation on RLBench </h3>
+      <div class="colums is-centered my-4">
+        <div class="container has-background-white-ter my-2 py-4">
+          <div class="columns is-centered">
+            <div class="column is-10 has-text-centered">
+              <b> Show Result by Selecting a Scene </b>
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-10 has-text-centered">
+              <div id="rlbench-scene-slider" , class="carousel results-carousel">
+                <!-- to be appended with slider items -->
+              </div>
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-5 has-text-centered">
+              <b> Show Result by Selecting an Instruction </b>
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-5 has-text-centered">
+              <div class="control has-icons-left">
+                <div class="select is-rounded is-small">
+                  <select id="rlbench-select">
+                    <!-- to be appended with selecter options -->
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="columns is-centered is-vcentered">
+            <div class="column is-5 is-12-mobile is-centered has-text-centered">
+              <b>Input</b>
+              <div class="columns is-centered my-2 is-mobile">
+                <div class="column is-4 is-centered has-text-centered">
+                  <img id="rlbench-input-rgb" src="" width="100%">
+                  <div class="content has-text-centered mt-2">
+                    scene image
+                  </div>
+                </div>
+                <div class="column is-4 has-text-centered">
+                  <img id="rlbench-input-depth" src="" width="100%">
+                  <div class="content has-text-centered mt-2">
+                    depth image
+                  </div>
+                </div>
+                <div class="column is-4 has-text-centered">
+                  <!-- <img id="rlbench-input-pcd" src="" width="100%"> -->
+                  <video id="rlbench-input-pcd" autoplay muted loop playsinline webkit-playsinline>
+                    <source src="" type="video/mp4">
+                  </video>
+                  <div class="content has-text-centered mt-2">
+                    point cloud
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-2 is-hidden-mobile is-centered has-text-centered">
+              <span><i class="fas fa-solid fa-chevron-right fa-2x"></i></span>
+            </div>
+            <div class="column is-5 is-12-mobile is-centered has-text-centered">
+              <b>Predicted</b>
+              <div class="columns is-centered my-2 is-mobile">
+                <div class="column is-4 is-centered has-text-centered">
+                  <img id="rlbench-predicted-rgb" src="" width="100%">
+                  <div class="content has-text-centered mt-2">
+                    scene image
+                  </div>
+                </div>
+                <div class="column is-4 has-text-centered">
+                  <img id="rlbench-predicted-depth" src="" width="100%">
+                  <div class="content has-text-centered mt-2">
+                    depth image
+                  </div>
+                </div>
+                <div class="column is-4 has-text-centered">
+                  <!-- <img id="rlbench-predicted-pcd" src="" width="100%"> -->
+                  <video id="rlbench-predicted-pcd" autoplay muted loop playsinline webkit-playsinline>
+                    <source src="" type="video/mp4">
+                  </video>
+                  <div class="content has-text-centered mt-2">
+                    point cloud
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- ================================ RLBench >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+      <h3 class="subtitle is-5 has-text-centered">Evaluation on RLBench Manipulation Tasks</h3>
+      <div class="columns is-centered is-vcentered">
+        <div class="column is-four-fifths has-text-centered">
+          <div id="rlbench-manipulation-slider" , class="carousel results-carousel">
+            <div class="item">
+              <div class="columns is-centered is-mobile">
+                <div class="column is-5">
+                  <video autoplay muted loop playsinline webkit-playsinline style="width: 80%;">
+                    <source src="static/video/rlbench/knife_global.mp4" type="video/mp4">
+                  </video>
+                  <div class="content has-text-centered">
+                    Put knife on chopping board.
+                  </div>
+                </div>
+                <div class="column is-5">
+                  <video autoplay muted loop playsinline webkit-playsinline style="width: 80%;">
+                    <source src="static/video/rlbench/cup_global_0.mp4" type="video/mp4">
+                  </video>
+                  <div class="content has-text-centered">
+                    <!-- Pick up the green cup. -->
+                    Put knife on chopping board.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="columns is-centered is-mobile">
+                <div class="column is-5">
+                  <video autoplay muted loop playsinline webkit-playsinline style="width: 80%;">
+                    <source src="static/video/rlbench/button.mp4" type="video/mp4">
+                  </video>
+                  <div class="content has-text-centered">
+                    Push the button.
+                  </div>
+                </div>
+                <div class="column is-5">
+                  <video autoplay muted loop playsinline webkit-playsinline style="width: 80%;">
+                    <source src="static/video/rlbench/button_global.mp4" type="video/mp4">
+                  </video>
+                  <div class="content has-text-centered">
+                    Push the button.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="columns is-centered is-mobile">
+                <div class="column is-5">
+                  <video autoplay muted loop playsinline webkit-playsinline style="width: 80%;">
+                    <source src="static/video/rlbench/um_global.mp4" type="video/mp4">
+                  </video>
+                  <div class="content has-text-centered">
+                    Take unbrella out of unbrella stand.
+                  </div>
+                </div>
+                <div class="column is-5">
+                  <video autoplay muted loop playsinline webkit-playsinline style="width: 80%;">
+                    <source src="static/video/rlbench/um_global1.mp4" type="video/mp4">
+                  </video>
+                  <div class="content has-text-centered">
+                    Take unbrella out of unbrella stand.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3 has-text-centered">Citation</h2>
+          <pre style="text-wrap: wrap;"><code class="nohighlight">@article{zhen20243dvla,
+  author = {Zhen, Haoyu and Qiu, Xiaowen and Chen, Peihao and Yang, Jincheng and Yan, Xin and Du, Yilun and Hong, Yining and Gan, Chuang},
+  title = {3D-VLA: 3D Vision-Language-Action Generative World Model},
+  journal = {arXiv preprint arXiv:2403.09631},
+  year = {2024},
+}</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8 has-text-centered">
+          <div class="content">
+            <p>
+              This website is borrowed from <a href="https://github.comw/nerfies/nerfies.github.io">nerfies</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
