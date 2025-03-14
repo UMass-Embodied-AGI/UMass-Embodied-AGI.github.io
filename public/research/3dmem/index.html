@@ -38,6 +38,19 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  <style>
+    /* Optionally, ensure there is no clipping in publication-video containers */
+    .publication-video {
+      overflow: visible; /* or overflow: auto */
+    }
+    
+    /* Enforce video scaling rules */
+    .publication-video video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
 </head>
 <body>
 
@@ -93,8 +106,11 @@
           </h1>
           <h2 class="subtitle is-3 publication-subtitle">
             3D Scene Memory for Embodied Exploration and Reasoning      
-          </h2>    
-          <div class="is-size-5 publication-authors" style="margin-top: -10px;">
+          </h2>
+          <h2 class="subtitle publication-subtitle" style="font-size: 1.7rem;color:#000000; margin-top: -7px;">
+            CVPR 2025      
+          </h2>
+          <div class="is-size-5 publication-authors" style="margin-top: -7px;">
             <span class="author-block">
               <a href="https://yyuncong.github.io/">Yuncong Yang</a>*<sup>1</sup>,</span>
             <span class="author-block">
@@ -165,19 +181,19 @@
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code (coming soon)</span>
+                  <span>Code</span>
                   </a>
               </span>
               <!-- Dataset Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+              <span class="link-block">
+                <a href="https://x.com/YuncongYY/status/1896658892266074172"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="far fa-images"></i>
+                      <i class="fab fa-twitter"></i>
                   </span>
-                  <span>Data</span>
+                  <span>Twitter</span>
                   </a>
-              </span> -->
+              </span>
             </div>
 
           </div>
@@ -368,97 +384,18 @@
       <div class="column is-full-width">
         <h2 class="title is-3">Demos</h2>
 
-        <!-- Interpolating. -->
-        <!-- <h3 class="title is-4">Interpolating states</h3> -->
         <div class="content has-text-justified">
-          <!-- <p> 
-            We present demos of <strong>Embodied Q&A</strong> in <strong>lifelong</strong> exploration scenarios. 
-            The agent is initialized at a specific location in an unknown environment and tasked with <strong>answering a series of questions</strong>. 
-            The agent either selects a frontier to explore or uses the scene memory to reason about the questions. 
-          </p>  -->
           <p> 
             Each demo represents an Embodied Q&A episode in a Habitat-sim scene, where the agent is required to answer 6-8 questions in sequence. 
             <!-- In each frame, the current question is displayed at the top, followed by four columns of illustrations:  -->
           </p>
           <p>
             <strong>Top-down map.</strong> The notations are explained in the following:
-              <!-- Light green areas indicate explored regions, light grey areas represent unexplored regions, and black areas denote obstacles. 
-              Each purple arrow marks a frontier with its direction. A circular sector and the enclosed dots of the same color represent a memory snapshot, 
-              where each dot corresponds to an object in that snapshot, and the center of the sector is the observation position of the memory snapshot. 
-              The red star shows the target location the agent is currently navigating towards.  -->
-
               <div class="legend">
                 <img src="static/images/legend.png" alt="Legend for Top-down Map" />
               </div>
           </p>
-          <!-- <ul> 
-            <li> 
-              <strong>Top-down map.</strong> The notations in the top-down map are explained in the following:
-              <div class="legend">
-                <img src="static/images/legend.png" alt="Legend for Top-down Map" />
-              </div>
-
-            </li> 
-            <li> 
-              <strong>Egocentric views.</strong> 
-            </li> 
-            <li> 
-              <strong>The agent's decision</strong>. The reason for the choice is displayed at the bottom of the frame.
-            </li> 
-            <li>
-              <strong>All relevant snapshots.</strong> All the current frontier snapshots at the top and all the filtered memory snapshot at the bottom. 
-              The highlighted snapshot is the choice at the current step.
-            </li> 
-          </ul> -->
         </div>
-
-        <!-- <div class="columns is-vcentered interpolation-panel" style="margin-top: 10mm;">
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper-1">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider-1"
-                   step="1" min="0" max="107" value="0" type="range">
-          </div>
-        </div>
-        <br/>
-
-        <div class="columns is-vcentered interpolation-panel" style="margin-top: 10mm;">
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper-2">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider-2"
-                   step="1" min="0" max="106" value="0" type="range">
-          </div>
-        </div>
-        <br/>
-
-        <div class="columns is-vcentered interpolation-panel" style="margin-top: 10mm;">
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper-3">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider-3"
-                   step="1" min="0" max="91" value="0" type="range">
-          </div>
-        </div>
-        <br/>
-
-        <div class="columns is-vcentered interpolation-panel" style="margin-top: 10mm;">
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper-4">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider-4"
-                   step="1" min="0" max="118" value="0" type="range">
-          </div>
-        </div>
-        <br/> -->
 
         <div class="columns is-centered has-text-centered" style="margin-bottom: -15mm; margin-top: 30mm; ">
           <div class="column">
@@ -493,7 +430,7 @@
           </div>
         </div>
 
-        <div class="columns is-centered has-text-centered">
+        <div class="columns is-centered has-text-centered" style="margin-bottom: -15mm;">
           <div class="column">
             <div class="publication-video">
               <video src="static/videos/qualitative_4.mp4" controls autoplay muted
@@ -504,78 +441,120 @@
           </div>
         </div>
 
-
-
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <!-- <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div> -->
-        <!--/ Re-rendering. -->
-
       </div>
     </div>
-    <!--/ Animation. -->
-
-
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            Our work is built on 
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Concurrent Work. -->
 
   </div>
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
 
-<!-- <section class="section" id="BibTeX">
+    <!-- Demo -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Real-World Demo</h2>
+
+        <!-- Interpolating. -->
+        <!-- <h3 class="title is-4">Interpolating states</h3> -->
+        <div class="content has-text-justified">
+          <!-- <p> 
+            We present demos of <strong>Embodied Q&A</strong> in <strong>lifelong</strong> exploration scenarios. 
+            The agent is initialized at a specific location in an unknown environment and tasked with <strong>answering a series of questions</strong>. 
+            The agent either selects a frontier to explore or uses the scene memory to reason about the questions. 
+          </p>  -->
+          <p> 
+            Thanks to its training-free design, 3D-Mem seamlessly adapts to real robots—like low-height quadrupeds—enabling practical deployment in the real world. 
+            <!-- In each frame, the current question is displayed at the top, followed by four columns of illustrations:  -->
+          </p>
+        </div>
+
+        <div class="columns is-centered has-text-centered">
+          <div class="column">
+            <div class="publication-video">
+              <video src="static/videos/real-world.mp4" controls autoplay muted
+                    style="width: 100%; height: auto;">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Demo -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Memory Aggregation Demos</h2>
+
+        <!-- Interpolating. -->
+        <!-- <h3 class="title is-4">Interpolating states</h3> -->
+        <div class="content has-text-justified">
+          <p>
+            We further illustrate how 3D-Mem is aggregated during exploration with the following video. Each video illustrates a task-agnostic exploration episode.
+          </p>
+        </div>
+    
+        <!-- Single row of columns for all three videos -->
+    <div class="columns is-centered has-text-centered">
+
+      <!-- Column #1 -->
+      <div class="column">
+        <div class="publication-video">
+          <video controls autoplay muted
+                 style="display: block; width: 100%; height: auto;">
+            <source src="static/videos/topdown1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <!-- Column #2 -->
+      <div class="column">
+        <div class="publication-video">
+          <video controls autoplay muted
+                 style="display: block; width: 100%; height: auto;">
+            <source src="static/videos/topdown2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <!-- Column #3 -->
+      <div class="column">
+        <div class="publication-video">
+          <video controls autoplay muted
+                 style="display: block; width: 100%; height: auto;">
+            <source src="static/videos/topdown3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+        
+  </div>
+</section>
+
+<section class="section" id="BibTeX" style="margin-top: 30mm;">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@misc{yang20243dmem3dscenememory,
+      title={3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning}, 
+      author={Yuncong Yang and Han Yang and Jiachen Zhou and Peihao Chen and Hongxin Zhang and Yilun Du and Chuang Gan},
+      year={2024},
+      eprint={2411.17735},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2411.17735}, 
 }</code></pre>
   </div>
-</section> -->
+</section>
 
 
 <footer class="footer">
