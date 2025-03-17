@@ -349,6 +349,72 @@
       "conference": "NeurIPS 2024"
   },
   {
+    "id": "nguyen2024open3disopenvocabulary",
+    "type": "misc",
+    "title": "Open3DIS: Open-Vocabulary 3D Instance Segmentation with 2D Mask Guidance",
+    "authors": [
+      "Phuc D.A. Nguyen",
+      "Tuan Duc Ngo",
+      "Evangelos Kalogerakis",
+      "Chuang Gan",
+      "Cuong Pham",
+      "Khoi Nguyen"
+    ],
+    "year": "2024",
+    "eprint": "2312.10671",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.AI",
+    "url": "https://open3dis.github.io/assets/2312.10671.pdf",
+    "website": "https://open3dis.github.io/",
+    "arxiv": "https://arxiv.org/abs/2312.10671",
+    "preview": "/research/Open3DIS/preview.png",
+    "category": "Learning World Models",
+    "conference": "CVPR 2024"
+  },
+  {
+    "id": "wang2024sokbenchasituatedvideoreasoning",
+    "type": "misc",
+    "title": "SOK-Bench: A Situated Video Reasoning Benchmark with Aligned Open-World Knowledge",
+    "authors": [
+      "Andong Wang",
+      "Bo Wu",
+      "Sunli Chen",
+      "Zhenfang Chen",
+      "Wei-Ning Lee",
+      "Li Erran Li",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "eprint": "2405.09713",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.AI",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_SOK-Bench_A_Situated_Video_Reasoning_Benchmark_with_Aligned_Open-World_Knowledge_CVPR_2024_paper.html",
+    "website": "https://bobbywu.com/SOKBench/",
+    "arxiv": "https://arxiv.org/abs/2405.09713",
+    "preview": "/research/SOK/preview.png",
+    "category": "Multimodal Language Models",
+    "conference": "CVPR 2024"
+  },
+  {
+    "id": "yang2024rilareflectiveandimaginative",
+    "type": "misc",
+    "title": "RILA: Reflective and Imaginative Language Agent for Zero-Shot Semantic Audio-Visual Navigation",
+    "authors": [
+      "Zeyuan Yang",
+      "Jiageng Liu",
+      "Peihao Chen",
+      "Anoop Cherian",
+      "Tim K Marks",
+      "Jonathan Le Roux",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yang_RILA_Reflective_and_Imaginative_Language_Agent_for_Zero-Shot_Semantic_Audio-Visual_CVPR_2024_paper.html",
+    "preview": "/research/RILA/preview.png",
+    "category": "Vision Learning & Navigation",
+    "conference": "CVPR 2024"
+  },
+  {
     "id": "hong2024multiplymultisensoryobjectcentricembodied",
     "type": "misc",
     "title": "MultiPLY: A Multisensory Object-Centric Embodied Large Language Model in 3D World",
