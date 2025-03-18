@@ -217,10 +217,10 @@
     "archiveprefix": "arXiv",
     "primaryclass": "cs.CV",
     "url": "/research/3dmem/index.html",
-    "website": "/research/3dllm/index.html",
+    "website": "/research/3dmem/index.html",
     "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
     "arxiv": "https://arxiv.org/abs/2411.17735",
-    "preview": "/research/3dmem/static/videos/demo_gif_1.mp4",
+    "preview": "/research/3dmem/static/videos/intro_video.mp4",
     "category": "Multimodal Language Models",
     "conference": "CVPR 2025"
   },
