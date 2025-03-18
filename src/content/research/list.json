@@ -129,55 +129,6 @@
     "conference": "ICLR 2025"
   },
   {
-    "id": "sun2024salmonselfalignmentinstructablereward",
-    "type": "misc",
-    "title": "SALMON: Self-Alignment with Instructable Reward Models",
-    "authors": [
-      "Zhiqing Sun",
-      "Yikang Shen",
-      "Hongxin Zhang",
-      "Qinhong Zhou",
-      "Zhenfang Chen",
-      "David Cox",
-      "Yiming Yang",
-      "Chuang Gan"
-    ],
-    "year": "2024",
-    "eprint": "2310.05910",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CL",
-    "url": "https://arxiv.org/abs/2310.05910",
-    "code": "https://github.com/IBM/SALMON",
-    "arxiv": "https://arxiv.org/abs/2310.05910",
-    "preview": "https://github.com/IBM/SALMON/raw/main/assets/images/salmon_logo_with_text.jpeg",
-    "category": "Large Language Models",
-    "conference": "ICLR 2024"
-  },
-  {
-    "id": "wang2024thinshellobjectmanipulationsdifferentiable",
-    "type": "misc",
-    "title": "Thin-Shell Object Manipulations With Differentiable Physics Simulations",
-    "authors": [
-      "Yian Wang",
-      "Juntian Zheng",
-      "Zhehuan Chen",
-      "Zhou Xian",
-      "Gu Zhang",
-      "Chao Liu",
-      "Chuang Gan"
-    ],
-    "year": "2024",
-    "eprint": "2404.00451",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.RO",
-    "url": "/research/ThinShellLab/index.html",
-    "website": "/research/ThinShellLab/index.html",
-    "code": "https://github.com/wangyian-me/ThinShellLab",
-    "arxiv": "https://arxiv.org/abs/2404.00451",
-    "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif",
-    "category": "Physical Reasoning and Interaction"
-  },
-  {
     "id": "Chen2024VisualCP",
     "type": "inproceedings",
     "title": "Visual Chain-of-Thought Prompting for Knowledge-Based Visual Reasoning",
@@ -254,6 +205,56 @@
     "conference": "ICML 2024"
   },
   {
+    "id": "sun2024salmonselfalignmentinstructablereward",
+    "type": "misc",
+    "title": "SALMON: Self-Alignment with Instructable Reward Models",
+    "authors": [
+      "Zhiqing Sun",
+      "Yikang Shen",
+      "Hongxin Zhang",
+      "Qinhong Zhou",
+      "Zhenfang Chen",
+      "David Cox",
+      "Yiming Yang",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "eprint": "2310.05910",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CL",
+    "url": "https://arxiv.org/abs/2310.05910",
+    "code": "https://github.com/IBM/SALMON",
+    "arxiv": "https://arxiv.org/abs/2310.05910",
+    "preview": "https://github.com/IBM/SALMON/raw/main/assets/images/salmon_logo_with_text.jpeg",
+    "category": "Large Language Models",
+    "conference": "ICLR 2024"
+  },
+  {
+    "id": "wang2024thinshellobjectmanipulationsdifferentiable",
+    "type": "misc",
+    "title": "Thin-Shell Object Manipulations With Differentiable Physics Simulations",
+    "authors": [
+      "Yian Wang",
+      "Juntian Zheng",
+      "Zhehuan Chen",
+      "Zhou Xian",
+      "Gu Zhang",
+      "Chao Liu",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "eprint": "2404.00451",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.RO",
+    "url": "/research/ThinShellLab/index.html",
+    "website": "/research/ThinShellLab/index.html",
+    "code": "https://github.com/wangyian-me/ThinShellLab",
+    "arxiv": "https://arxiv.org/abs/2404.00451",
+    "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "ICLR 2024"
+  },
+  {
     "id": "zhang2024buildingcooperativeembodiedagents",
     "type": "misc",
     "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
@@ -277,21 +278,6 @@
     "preview": "/research/Co-LLM-Agents/figure/teaser_v1.7.jpg",
     "category": "Multimodal Language Models",
     "conference": "ICLR 2024"
-  },
-  {
-    "id": "cai2024efficientvitmultiscalelinearattention",
-    "type": "misc",
-    "title": "EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction",
-    "authors": ["Han Cai", "Junyan Li", "Muyan Hu", "Chuang Gan", "Song Han"],
-    "year": "2023",
-    "eprint": "2205.14756",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2205.14756",
-    "arxiv": "https://arxiv.org/abs/2411.17735",
-    "preview": "https://senfu.github.io/images/efficientvit/intro.png",
-    "conference": "ICCV 2023",
-    "category": "Large Language Models"
   },
   {
     "id": "zhou2024hazardchallengeembodieddecision",
@@ -319,6 +305,96 @@
     "preview": "https://github.com/UMass-Embodied-AGI/HAZARD/blob/main/pics/overview.png?raw=true",
     "category": "Physical Reasoning and Interaction",
     "conference": "ICLR 2024"
+  },
+  {
+    "id": "chen2023genomegenerativeneurovisual",
+    "type": "misc",
+    "title": "GENOME: GenerativE Neuro-symbOlic visual reasoning by growing and reusing ModulEs",
+    "authors": [
+      "Zhenfang Chen",
+      "Rui Sun",
+      "Wenjun Liu",
+      "Yining Hong",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "eprint": "2311.04901",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CV",
+    "url": "/research/genome/index.html",
+    "website": "/research/genome/index.html",
+    "code": "https://github.com/UMass-Embodied-AGI/genome",
+    "arxiv": "https://arxiv.org/abs/2311.04901",
+    "doi": "10.48550/arXiv.2311.04901",
+    "preview": "/research/genome/GNSVR_files/11_imgedit.gif",
+    "category": "Learning World Models",
+    "conference": "ICLR 2024"
+  },
+  {
+    "id": "si2024DiffTactile",
+    "type": "misc",
+    "title": "DiffTactile: A Physics-based Differentiable Tactile Simulator for Contact-rich Robotic Manipulation",
+    "authors": [
+      "Zilin Si",
+      "Gu Zhang",
+      "Qingwei Ben",
+      "Branden Romero",
+      "Zhou Xian",
+      "Chao Liu",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "eprint": "2403.08716",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CV",
+    "url": "https://difftactile.github.io/",
+    "website": "https://difftactile.github.io/",
+    "code": "https://github.com/Genesis-Embodied-AI/DiffTactile",
+    "arxiv": "https://arxiv.org/abs/2403.08716",
+    "doi": "10.48550/arXiv.2403.08716",
+    "preview": "/research/difftactile/difftactile.gif",
+    "category": "Learning World Models",
+    "conference": "ICLR 2024"
+  },
+  {
+    "id": "li2023covlmcomposingvisualentities",
+    "type": "misc",
+    "title": "CoVLM: Composing Visual Entities and Relationships in Large Language Models Via Communicative Decoding",
+    "authors": [
+      "Junyan Li",
+      "Delin Chen",
+      "Yining Hong",
+      "Zhenfang Chen",
+      "Peihao Chen",
+      "Yikang Shen",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "eprint": "2311.03354",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CV",
+    "url": "/research/CoVLM/index.html",
+    "website": "/research/CoVLM/index.html",
+    "code": "https://github.com/UMass-Embodied-AGI/CoVLM",
+    "arxiv": "https://arxiv.org/abs/2311.03354",
+    "preview": "/research/CoVLM/static/assets/demo.mp4",
+    "category": "Large Language Models",
+    "conference": "ICLR 2024"
+  },
+  {
+    "id": "cai2024efficientvitmultiscalelinearattention",
+    "type": "misc",
+    "title": "EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction",
+    "authors": ["Han Cai", "Junyan Li", "Muyan Hu", "Chuang Gan", "Song Han"],
+    "year": "2023",
+    "eprint": "2205.14756",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CV",
+    "url": "https://arxiv.org/abs/2205.14756",
+    "arxiv": "https://arxiv.org/abs/2411.17735",
+    "preview": "https://senfu.github.io/images/efficientvit/intro.png",
+    "conference": "ICCV 2023",
+    "category": "Large Language Models"
   },
   {
       "id": "du2024constrainedhumanaicooperation",
@@ -461,29 +537,6 @@
     "category": "Learning World Models"
   },
   {
-    "id": "chen2023genomegenerativeneurovisual",
-    "type": "misc",
-    "title": "GENOME: GenerativE Neuro-symbOlic visual reasoning by growing and reusing ModulEs",
-    "authors": [
-      "Zhenfang Chen",
-      "Rui Sun",
-      "Wenjun Liu",
-      "Yining Hong",
-      "Chuang Gan"
-    ],
-    "year": "2023",
-    "eprint": "2311.04901",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "/research/genome/index.html",
-    "website": "/research/genome/index.html",
-    "code": "https://github.com/UMass-Embodied-AGI/genome",
-    "arxiv": "https://arxiv.org/abs/2311.04901",
-    "doi": "10.48550/arXiv.2311.04901",
-    "preview": "/research/genome/GNSVR_files/11_imgedit.gif",
-    "category": "Learning World Models"
-  },
-  {
     "id": "lin2023dcirdynamicconsistencyintrinsic",
     "type": "misc",
     "title": "DCIR: Dynamic Consistency Intrinsic Reward for Multi-Agent Reinforcement Learning",
@@ -530,30 +583,6 @@
     "arxiv": "https://arxiv.org/abs/2305.03047",
     "code": "https://github.com/IBM/Dromedary",
     "journal": "Advances in Neural Information Processing Systems",
-    "category": "Large Language Models"
-  },
-  {
-    "id": "li2023covlmcomposingvisualentities",
-    "type": "misc",
-    "title": "CoVLM: Composing Visual Entities and Relationships in Large Language Models Via Communicative Decoding",
-    "authors": [
-      "Junyan Li",
-      "Delin Chen",
-      "Yining Hong",
-      "Zhenfang Chen",
-      "Peihao Chen",
-      "Yikang Shen",
-      "Chuang Gan"
-    ],
-    "year": "2023",
-    "eprint": "2311.03354",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "/research/CoVLM/index.html",
-    "website": "/research/CoVLM/index.html",
-    "code": "https://github.com/UMass-Embodied-AGI/CoVLM",
-    "arxiv": "https://arxiv.org/abs/2311.03354",
-    "preview": "/research/CoVLM/static/assets/demo.mp4",
     "category": "Large Language Models"
   },
   {
