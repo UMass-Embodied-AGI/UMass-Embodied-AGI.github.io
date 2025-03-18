@@ -171,7 +171,7 @@
     "website": "/research/3dmem/index.html",
     "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
     "arxiv": "https://arxiv.org/abs/2411.17735",
-    "preview": "/research/3dmem/static/videos/video_intro.mp4",
+    "preview": "/demo/3DMem_opening.mp4",
     "category": "Multimodal Language Models",
     "conference": "CVPR 2025"
   },
