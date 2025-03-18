@@ -969,5 +969,73 @@
     "pdf": "https://arxiv.org/pdf/1804.03160",
     "code": "https://github.com/hangzhaomit/Sound-of-Pixels",
     "category": "Audio-Visual Learning"
+  },
+  {
+    "id": "zhou2023adaptive",
+    "type": "misc",
+    "title": "Adaptive online replanning with diffusion models",
+    "authors": [
+      "Siyuan Zhou",
+      "Yilun Du",
+      "Shun Zhang",
+      "Mengdi Xu",
+      "Yikang Shen",
+      "Wei Xiao",
+      "Dit-Yan Yeung",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "conference": "NeurIPS 2023",
+    "pdf": "https://arxiv.org/pdf/2310.09629",
+    "arxiv": "https://arxiv.org/abs/2310.09629",
+    "code": "https://github.com/rainbow979/replandiffuser",
+    "preview": "/research/replandiffuser/preview.png",
+    "category": "Vision Learning & Navigation"
+  },
+  {
+    "id": "huang2023diffvlscalingsoftbody",
+    "type": "misc",
+    "title": "DiffVL: Scaling Up Soft Body Manipulation using Vision-Language Driven Differentiable Physics",
+    "authors": [
+      "Zhiao Huang",
+      "Feng Chen",
+      "Yewen Pu",
+      "Chunru Lin",
+      "Hao Su",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "eprint": "2312.06408",
+    "conference": "NeurIPS 2023",
+    "arxiv": "https://arxiv.org/abs/2312.06408",
+    "code": "https://github.com/Winniechen2002/DiffVL",
+    "website": "https://sites.google.com/view/diffvl/home",
+    "preview": "/research/diffvl/preview.png",
+    "category": "Physical Reasoning and Interaction"
+  },
+  {
+    "id": "wang2023diffusebotbreedingsoftrobots",
+    "type": "misc",
+    "title": "DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models",
+    "authors": [
+      "Tsun-Hsuan Wang",
+      "Juntian Zheng",
+      "Pingchuan Ma",
+      "Yilun Du",
+      "Byungchul Kim",
+      "Andrew Spielberg",
+      "Joshua Tenenbaum",
+      "Chuang Gan",
+      "Daniela Rus"
+    ],
+    "year": "2023",
+    "eprint": "2311.17053",
+    "conference": "NeurIPS 2023",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.RO",
+    "url": "https://arxiv.org/abs/2311.17053",
+    "website": "https://diffusebot.github.io/",
+    "preview": "/research/diffusebot/preview.mp4",
+    "category": "Physical Reasoning and Interaction"
   }
 ]
