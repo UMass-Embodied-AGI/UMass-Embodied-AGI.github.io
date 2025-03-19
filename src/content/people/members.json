@@ -16,13 +16,19 @@
         "name": "Chunru Lin",
         "photo": "phd_chunru.png",
         "role": "Ph.D. Student",
-        "url": "https://xhrlyb.github.io/"
+        "url": "https://chunru-lin.github.io/"
       },
       {
         "name": "Hongxin Zhang",
         "photo": "phd_hongxin.jpg",
         "role": "Ph.D. Student",
         "url": "https://icefoxzhx.github.io/"
+      },
+      {
+        "name": "Yian Wang",
+        "photo": "phd_yian.png",
+        "role": "Ph.D. Student",
+        "url": "https://wangyian-me.github.io/"
       },
       {
         "name": "Junyan Li",
@@ -41,12 +47,6 @@
         "photo": "phd_tuan.png",
         "role": "Ph.D. Student",
         "url": "https://ngoductuanlhp.github.io/"
-      },
-      {
-        "name": "Yian Wang",
-        "photo": "phd_yian.png",
-        "role": "Ph.D. Student",
-        "url": "https://wangyian-me.github.io/"
       },
       {
         "name": "Haoyu Zhen",
