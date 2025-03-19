@@ -473,7 +473,7 @@
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_SOK-Bench_A_Situated_Video_Reasoning_Benchmark_with_Aligned_Open-World_Knowledge_CVPR_2024_paper.html",
     "website": "https://bobbywu.com/SOKBench/",
     "paper": "https://arxiv.org/abs/2405.09713",
-    "preview": "/research/SOK/preview.png",
+    "preview": "/research/SOK-Bench/preview.png",
     "category": "Multimodal Language Models",
     "conference": "CVPR 2024"
   },
@@ -704,7 +704,7 @@
     "code": "https://github.com/Winniechen2002/DiffVL",
     "url": "https://sites.google.com/view/diffvl/home",
     "website": "https://sites.google.com/view/diffvl/home",
-    "preview": "/research/diffvl/preview.png",
+    "preview": "/research/DiffVL/preview.png",
     "category": "Physical Reasoning and Interaction"
   },
   {

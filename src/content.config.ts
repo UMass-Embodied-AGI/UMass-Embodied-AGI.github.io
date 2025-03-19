@@ -16,7 +16,7 @@ export const researchCollection = defineCollection({
       code: z.string().optional(),
       selected: z.boolean().optional(),
       category: z.string().optional(),
-      conference: z.string(),
+      conference: z.string().optional(),
       /* For internal use */
       prevTitle: z.string().default(""),
       prevSlug: z.string().default(""),
