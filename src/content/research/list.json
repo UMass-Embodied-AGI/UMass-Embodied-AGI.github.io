@@ -1,7 +1,6 @@
 [
   {
     "id": "yang20243dmem3dscenememory",
-    "type": "misc",
     "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
     "authors": [
       "Yuncong Yang",
@@ -23,7 +22,6 @@
   },
   {
     "id": "zhang2024combocompositionalworldmodels",
-    "type": "misc",
     "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
     "authors": [
       "Hongxin Zhang",
@@ -48,7 +46,6 @@
   },
   {
     "id": "Ngo2025delta",
-    "type": "misc",
     "title": "DELTA: Dense Efficient Long-range 3D Tracking for Any video.",
     "authors": [
       "Tuan Duc Ngo", "Peiye Zhuang", "Evangelos Kalogerakis", "Chuang Gan", "Sergey Tulyakov",
@@ -65,7 +62,6 @@
   },
   {
     "id": "chen2025scaling",
-    "type": "misc",
     "title": "Autonomous Agents from Automatic Reward Modeling and Planning",
     "authors": [
       "Zhenfang Chen*", "Delin Chen*", "Rui Sun*", "Wenjun Liu*", "Chuang Gan"
@@ -81,7 +77,6 @@
   },
   {
     "id": "xiong2025topogaussian",
-    "type": "misc",
     "title": "TopoGaussian: Inferring Internal Topology Structures from Visual Clues",
     "authors": [
       "Xiaoyu Xiong",
@@ -101,7 +96,6 @@
   },
   {
     "id": "li2024flexattentionefficienthighresolutionvisionlanguage",
-    "type": "misc",
     "title": "FlexAttention for Efficient High-Resolution Vision-Language Models",
     "authors": [
       "Junyan Li",
@@ -114,9 +108,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2407.20228",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "/research/flexattention/index.html",
     "website": "/research/flexattention/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/FlexAttention",
@@ -127,7 +118,6 @@
   },
   {
     "id": "lin2024ubsoft",
-    "type": "misc",
     "title": "UBSoft: A Simulation Platform for Robotic Skill Learning in Unbounded Soft Environments",
     "authors": [
       "Chunru Lin",
@@ -142,15 +132,11 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2411.12711",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.RO",
     "url": "https://arxiv.org/abs/2411.12711",
     "preview": "https://github.com/UMass-Embodied-AGI/UBSoft/blob/main/static/videos/teaser.mp4",
     "pdf": "https://arxiv.org/pdf/2411.12711",
     "arxiv": "https://arxiv.org/abs/2411.12711",
     "website": "https://umass-embodied-agi.github.io/UBSoft/",
-    "booktitle": "International conference on machine learning",
     "code": "https://umass-embodied-agi.github.io/UBSoft",
     "selected": true,
     "category": "Physics Simulation",
@@ -158,7 +144,6 @@
   },
   {
     "id": "wang2024robogenunleashinginfinitedata",
-    "type": "misc",
     "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
     "authors": [
       "Yufei Wang",
@@ -172,9 +157,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2311.01455",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.RO",
     "url": "https://arxiv.org/abs/2311.01455",
     "preview": "https://robogen-ai.github.io/videos/trailer.mp4",
     "pdf": "https://arxiv.org/pdf/2311.01455",
@@ -188,7 +170,6 @@
   },
   {
     "id": "li2024conavbenchmarkhumancenteredcollaborative",
-    "type": "misc",
     "title": "CoNav: A Benchmark for Human-Centered Collaborative Navigation",
     "authors": [
       "Changhao Li",
@@ -202,9 +183,6 @@
       "Mingkui Tan"
     ],
     "year": "2024",
-    "eprint": "2406.02425",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "https://arxiv.org/abs/2406.02425",
     "arxiv": "https://arxiv.org/abs/2406.02425",
     "category": "Physical Reasoning and Interaction",
@@ -213,7 +191,6 @@
   },
   {
     "id": "zhou2024robodreamerlearningcompositionalworld",
-    "type": "misc",
     "title": "RoboDreamer: Learning Compositional World Models for Robot Imagination",
     "authors": [
       "Siyuan Zhou",
@@ -224,9 +201,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2404.12377",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.RO",
     "url": "/research/robodreamer/index.html",
     "website": "/research/robodreamer/index.html",
     "arxiv": "https://arxiv.org/abs/2404.12377",
@@ -235,7 +209,6 @@
   },
   {
     "id": "Chen2024VisualCP",
-    "type": "inproceedings",
     "title": "Visual Chain-of-Thought Prompting for Knowledge-Based Visual Reasoning",
     "authors": [
       "Zhenfang Chen",
@@ -257,7 +230,6 @@
   },
   {
     "id": "zhen20243dvla3dvisionlanguageactiongenerative",
-    "type": "misc",
     "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
     "authors": [
       "Haoyu Zhen",
@@ -270,9 +242,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2403.09631",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "/research/3dvla/index.html",
     "preview": "/research/3dvla/static/video/demo.mp4",
     "booktitle": "International conference on machine learning",
@@ -286,7 +255,6 @@
   },
   {
     "id": "sun2024salmonselfalignmentinstructablereward",
-    "type": "misc",
     "title": "SALMON: Self-Alignment with Instructable Reward Models",
     "authors": [
       "Zhiqing Sun",
@@ -299,9 +267,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2310.05910",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CL",
     "url": "https://arxiv.org/abs/2310.05910",
     "code": "https://github.com/IBM/SALMON",
     "arxiv": "https://arxiv.org/abs/2310.05910",
@@ -311,7 +276,6 @@
   },
   {
     "id": "wang2024thinshellobjectmanipulationsdifferentiable",
-    "type": "misc",
     "title": "Thin-Shell Object Manipulations With Differentiable Physics Simulations",
     "authors": [
       "Yian Wang",
@@ -323,9 +287,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2404.00451",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.RO",
     "url": "/research/ThinShellLab/index.html",
     "website": "/research/ThinShellLab/index.html",
     "code": "https://github.com/wangyian-me/ThinShellLab",
@@ -336,7 +297,6 @@
   },
   {
     "id": "zhang2024buildingcooperativeembodiedagents",
-    "type": "misc",
     "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
     "authors": [
       "Hongxin Zhang",
@@ -349,9 +309,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2307.02485",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.AI",
     "url": "/research/Co-LLM-Agents/index.html",
     "website": "/research/Co-LLM-Agents/index.html",
     "arxiv": "https://arxiv.org/abs/2411.17735",
@@ -361,7 +318,6 @@
   },
   {
     "id": "zhou2024hazardchallengeembodieddecision",
-    "type": "misc",
     "title": "HAZARD Challenge: Embodied Decision Making in Dynamically Changing Environments",
     "authors": [
       "Qinhong Zhou",
@@ -375,9 +331,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2401.12975",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "/research/hazard/index.html",
     "website": "/research/hazard/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/HAZARD",
@@ -388,7 +341,6 @@
   },
   {
     "id": "chen2023genomegenerativeneurovisual",
-    "type": "misc",
     "title": "GENOME: GenerativE Neuro-symbOlic visual reasoning by growing and reusing ModulEs",
     "authors": [
       "Zhenfang Chen",
@@ -398,9 +350,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2311.04901",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "/research/genome/index.html",
     "website": "/research/genome/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/genome",
@@ -412,7 +361,6 @@
   },
   {
     "id": "si2024DiffTactile",
-    "type": "misc",
     "title": "DiffTactile: A Physics-based Differentiable Tactile Simulator for Contact-rich Robotic Manipulation",
     "authors": [
       "Zilin Si",
@@ -424,9 +372,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2403.08716",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "https://difftactile.github.io/",
     "website": "https://difftactile.github.io/",
     "code": "https://github.com/Genesis-Embodied-AI/DiffTactile",
@@ -438,7 +383,6 @@
   },
   {
     "id": "li2023covlmcomposingvisualentities",
-    "type": "misc",
     "title": "CoVLM: Composing Visual Entities and Relationships in Large Language Models Via Communicative Decoding",
     "authors": [
       "Junyan Li",
@@ -450,9 +394,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2311.03354",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "/research/CoVLM/index.html",
     "website": "/research/CoVLM/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/CoVLM",
@@ -463,13 +404,9 @@
   },
   {
     "id": "cai2024efficientvitmultiscalelinearattention",
-    "type": "misc",
     "title": "EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction",
     "authors": ["Han Cai", "Junyan Li", "Muyan Hu", "Chuang Gan", "Song Han"],
     "year": "2023",
-    "eprint": "2205.14756",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "https://arxiv.org/abs/2205.14756",
     "arxiv": "https://arxiv.org/abs/2411.17735",
     "preview": "https://senfu.github.io/images/efficientvit/intro.png",
@@ -478,7 +415,6 @@
   },
   {
       "id": "du2024constrainedhumanaicooperation",
-      "type": "misc",
       "title": "Constrained Human-AI Cooperation: An Inclusive Embodied Social Intelligence Challenge",
       "authors": [
         "Weihua Du",
@@ -494,9 +430,6 @@
         "Chuang Gan"
       ],
       "year": "2024",
-      "eprint": "2411.01796",
-      "archiveprefix": "arXiv",
-      "primaryclass": "cs.AI",
       "url": "/research/CHAIC/index.html",
       "website": "/research/CHAIC/index.html",
       "arxiv": "https://arxiv.org/abs/2411.01796",
@@ -506,7 +439,6 @@
   },
   {
     "id": "nguyen2024open3disopenvocabulary",
-    "type": "misc",
     "title": "Open3DIS: Open-Vocabulary 3D Instance Segmentation with 2D Mask Guidance",
     "authors": [
       "Phuc D.A. Nguyen",
@@ -517,9 +449,6 @@
       "Khoi Nguyen"
     ],
     "year": "2024",
-    "eprint": "2312.10671",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.AI",
     "url": "https://open3dis.github.io/assets/2312.10671.pdf",
     "website": "https://open3dis.github.io/",
     "arxiv": "https://arxiv.org/abs/2312.10671",
@@ -529,7 +458,6 @@
   },
   {
     "id": "wang2024sokbenchasituatedvideoreasoning",
-    "type": "misc",
     "title": "SOK-Bench: A Situated Video Reasoning Benchmark with Aligned Open-World Knowledge",
     "authors": [
       "Andong Wang",
@@ -541,9 +469,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2405.09713",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.AI",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_SOK-Bench_A_Situated_Video_Reasoning_Benchmark_with_Aligned_Open-World_Knowledge_CVPR_2024_paper.html",
     "website": "https://bobbywu.com/SOKBench/",
     "arxiv": "https://arxiv.org/abs/2405.09713",
@@ -553,7 +478,6 @@
   },
   {
     "id": "yang2024rilareflectiveandimaginative",
-    "type": "misc",
     "title": "RILA: Reflective and Imaginative Language Agent for Zero-Shot Semantic Audio-Visual Navigation",
     "authors": [
       "Zeyuan Yang",
@@ -572,7 +496,6 @@
   },
   {
     "id": "hong2024multiplymultisensoryobjectcentricembodied",
-    "type": "misc",
     "title": "MultiPLY: A Multisensory Object-Centric Embodied Large Language Model in 3D World",
     "authors": [
       "Yining Hong",
@@ -583,9 +506,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "eprint": "2401.08577",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "/research/multiply/index.html",
     "website": "/research/multiply/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/MultiPLY",
@@ -595,7 +515,6 @@
   },
   {
     "id": "gu2024conceptgraphs",
-    "type": "misc",
     "title": "ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning",
     "authors": [
       "Qiao Gu",
@@ -616,9 +535,6 @@
       "Liam Paull"
     ],
     "year": "2024",
-    "eprint": "2309.16650",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.RO",
     "url": "https://concept-graphs.github.io/",
     "website": "https://concept-graphs.github.io/",
     "code": "https://github.com/concept-graphs/concept-graphs",
@@ -629,7 +545,6 @@
   },
   {
     "id": "hong20233dconceptlearningreasoning",
-    "type": "misc",
     "title": "3D Concept Learning and Reasoning from Multi-View Images",
     "authors": [
       "Yining Hong",
@@ -640,9 +555,6 @@
       "Chuang Gan"
     ],
     "year": "2023",
-    "eprint": "2303.11327",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "/research/3d-clr/index.html",
     "website": "/research/3d-clr/index.html",
     "arxiv": "https://arxiv.org/abs/2303.11327",
@@ -652,7 +564,6 @@
   },
   {
     "id": "lin2023dcirdynamicconsistencyintrinsic",
-    "type": "misc",
     "title": "DCIR: Dynamic Consistency Intrinsic Reward for Multi-Agent Reinforcement Learning",
     "authors": [
       "Kunyang Lin",
@@ -664,16 +575,12 @@
       "Chuang Gan"
     ],
     "year": "2023",
-    "eprint": "2312.05783",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.LG",
     "url": "https://arxiv.org/abs/2312.05783",
     "arxiv": "https://arxiv.org/abs/2312.05783",
     "category": "Large Language Models"
   },
   {
     "id": "sun2023principledrivenselfalignmentlanguagemodels",
-    "type": "article",
     "title": "Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision",
     "authors": [
       "Zhiqing Sun",
@@ -686,9 +593,6 @@
       "Chuang Gan"
     ],
     "year": "2023",
-    "eprint": "2305.03047",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.LG",
     "url": "https://arxiv.org/abs/2305.03047",
     "selected": true,
     "website": "https://github.com/IBM/Dromedary",
@@ -701,7 +605,6 @@
   },
   {
     "id": "chen2023a2navactionawarezeroshotrobot",
-    "type": "misc",
     "title": "A^2Nav: Action-Aware Zero-Shot Robot Navigation by Exploiting Vision-and-Language Ability of Foundation Models",
     "authors": [
       "Peihao Chen",
@@ -714,16 +617,12 @@
       "Chuang Gan"
     ],
     "year": "2023",
-    "eprint": "2308.07997",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "https://arxiv.org/abs/2308.07997",
     "arxiv": "https://arxiv.org/abs/2308.07997",
     "category": "Physical Reasoning and Interaction"
   },
   {
     "id": "lin2023learningvisionandlanguagenavigationyoutube",
-    "type": "misc",
     "title": "Learning Vision-and-Language Navigation from YouTube Videos",
     "authors": [
       "Kunyang Lin",
@@ -734,9 +633,6 @@
       "Chuang Gan"
     ],
     "year": "2023",
-    "eprint": "2307.11984",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "https://arxiv.org/abs/2307.11984",
     "arxiv": "https://arxiv.org/abs/2307.11984",
     "preview": "https://github.com/JeremyLinky/YouTube-VLN/raw/main/readme/lily.png",
@@ -744,7 +640,6 @@
   },
   {
     "id": "hong20233dllminjecting3dworld",
-    "type": "article",
     "title": "3D-LLM: Injecting the 3D World into Large Language Models",
     "authors": [
       "Yining Hong",
@@ -756,9 +651,6 @@
       "Chuang Gan"
     ],
     "year": "2023",
-    "eprint": "2307.12981",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "/research/3dllm/index.html",
     "selected": true,
     "arxiv": "https://arxiv.org/abs/2307.12981",
@@ -771,7 +663,6 @@
   },
   {
     "id": "sun2023maskedmotionencodingselfsupervised",
-    "type": "misc",
     "title": "Masked Motion Encoding for Self-Supervised Video Representation Learning",
     "authors": [
       "Xinyu Sun",
@@ -783,9 +674,6 @@
       "Chuang Gan"
     ],
     "year": "2023",
-    "eprint": "2210.06096",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
     "url": "https://arxiv.org/abs/2210.06096",
     "arxiv": "https://arxiv.org/abs/2210.06096",
     "preview": "https://github.com/XinyuSun/MME/raw/main/resource/arch.png",
@@ -793,7 +681,6 @@
   },
   {
     "id": "zhou2023adaptive",
-    "type": "misc",
     "title": "Adaptive online replanning with diffusion models",
     "authors": [
       "Siyuan Zhou",
@@ -815,7 +702,6 @@
   },
   {
     "id": "huang2023diffvlscalingsoftbody",
-    "type": "misc",
     "title": "DiffVL: Scaling Up Soft Body Manipulation using Vision-Language Driven Differentiable Physics",
     "authors": [
       "Zhiao Huang",
@@ -826,7 +712,6 @@
       "Chuang Gan"
     ],
     "year": "2023",
-    "eprint": "2312.06408",
     "conference": "NeurIPS 2023",
     "arxiv": "https://arxiv.org/abs/2312.06408",
     "code": "https://github.com/Winniechen2002/DiffVL",
@@ -836,7 +721,6 @@
   },
   {
     "id": "wang2023diffusebotbreedingsoftrobots",
-    "type": "misc",
     "title": "DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models",
     "authors": [
       "Tsun-Hsuan Wang",
@@ -850,272 +734,10 @@
       "Daniela Rus"
     ],
     "year": "2023",
-    "eprint": "2311.17053",
     "conference": "NeurIPS 2023",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.RO",
     "url": "https://arxiv.org/abs/2311.17053",
     "website": "https://diffusebot.github.io/",
     "preview": "/research/diffusebot/preview.mp4",
     "category": "Physical Reasoning and Interaction"
   }
 ]
-  // {
-  //   "id": "chen2022modsquaddesigningmixtureexperts",
-  //   "type": "misc",
-  //   "title": "Mod-Squad: Designing Mixture of Experts As Modular Multi-Task Learners",
-  //   "authors": [
-  //     "Zitian Chen",
-  //     "Yikang Shen",
-  //     "Mingyu Ding",
-  //     "Zhenfang Chen",
-  //     "Hengshuang Zhao",
-  //     "Erik Learned-Miller",
-  //     "Chuang Gan"
-  //   ],
-  //   "year": "2022",
-  //   "eprint": "2212.08066",
-  //   "archiveprefix": "arXiv",
-  //   "primaryclass": "cs.CV",
-  //   "url": "/research/mod-squad/index.html",
-  //   "website": "/research/mod-squad/index.html",
-  //   "arxiv": "https://arxiv.org/abs/2212.08066",
-  //   "doi": "10.48550/arXiv.2212.08066",
-  //   "preview": "/research/mod-squad/materials/annimation.mp4",
-  //   "category": "Multimodal Language Models"
-  // },
-  // {
-  //   "id": "chen2022learningactivecameramultiobject",
-  //   "type": "misc",
-  //   "title": "Learning Active Camera for Multi-Object Navigation",
-  //   "authors": [
-  //     "Peihao Chen",
-  //     "Dongyu Ji",
-  //     "Kunyang Lin",
-  //     "Weiwen Hu",
-  //     "Wenbing Huang",
-  //     "Thomas H. Li",
-  //     "Mingkui Tan",
-  //     "Chuang Gan"
-  //   ],
-  //   "year": "2022",
-  //   "eprint": "2210.07505",
-  //   "archiveprefix": "arXiv",
-  //   "primaryclass": "cs.CV",
-  //   "url": "https://arxiv.org/abs/2210.07505",
-  //   "arxiv": "https://arxiv.org/abs/2210.07505",
-  //   "category": "Physical Reasoning and Interaction"
-  // },
-  // {
-  //   "id": "chen2022weaklysupervisedmultigranularitymaplearning",
-  //   "type": "misc",
-  //   "title": "Weakly-Supervised Multi-Granularity Map Learning for Vision-and-Language Navigation",
-  //   "authors": [
-  //     "Peihao Chen",
-  //     "Dongyu Ji",
-  //     "Kunyang Lin",
-  //     "Runhao Zeng",
-  //     "Thomas H. Li",
-  //     "Mingkui Tan",
-  //     "Chuang Gan"
-  //   ],
-  //   "year": "2022",
-  //   "eprint": "2210.07506",
-  //   "archiveprefix": "arXiv",
-  //   "primaryclass": "cs.CV",
-  //   "url": "https://arxiv.org/abs/2210.07506",
-  //   "arxiv": "https://arxiv.org/abs/2210.07506",
-  //   "category": "Physical Reasoning and Interaction"
-  // },
-  // {
-  //   "id": "chen2021rspnetrelativespeedperception",
-  //   "type": "misc",
-  //   "title": "RSPNet: Relative Speed Perception for Unsupervised Video Representation Learning",
-  //   "authors": [
-  //     "Peihao Chen",
-  //     "Deng Huang",
-  //     "Dongliang He",
-  //     "Xiang Long",
-  //     "Runhao Zeng",
-  //     "Shilei Wen",
-  //     "Mingkui Tan",
-  //     "Chuang Gan"
-  //   ],
-  //   "year": "2021",
-  //   "eprint": "2011.07949",
-  //   "archiveprefix": "arXiv",
-  //   "primaryclass": "cs.CV",
-  //   "url": "https://arxiv.org/abs/2011.07949",
-  //   "arxiv": "https://arxiv.org/abs/2011.07949",
-  //   "category": "Vision Learning & Navigation"
-  // },
-  // {
-  //   "id": "8933113",
-  //   "type": "article",
-  //   "title": "Relation Attention for Temporal Action Localization",
-  //   "authors": [
-  //     "Peihao Chen",
-  //     "Chuang Gan",
-  //     "Guangyao Shen",
-  //     "Wenbing Huang",
-  //     "Runhao Zeng",
-  //     "Mingkui Tan"
-  //   ],
-  //   "year": "2020",
-  //   "journal": "IEEE Transactions on Multimedia",
-  //   "volume": "22",
-  //   "number": "10",
-  //   "pages": "2723-2733",
-  //   "keywords": "Proposals;Feature extraction;Task analysis;Object detection;Deep learning;Sports;Semantics;Temporal action localization;relation attention",
-  //   "doi": "10.1109/TMM.2019.2959977",
-  //   "url": "https://ieeexplore.ieee.org/document/8933113",
-  //   "arxiv": "https://arxiv.org/abs/2011.07949",
-  //   "category": "Vision Learning & Navigation"
-  // },
-  // {
-  //   "id": "huang2020locationawaregraphconvolutionalnetworks",
-  //   "type": "misc",
-  //   "title": "Location-aware Graph Convolutional Networks for Video Question Answering",
-  //   "authors": [
-  //     "Deng Huang",
-  //     "Peihao Chen",
-  //     "Runhao Zeng",
-  //     "Qing Du",
-  //     "Mingkui Tan",
-  //     "Chuang Gan"
-  //   ],
-  //   "year": "2020",
-  //   "eprint": "2008.09105",
-  //   "archiveprefix": "arXiv",
-  //   "primaryclass": "cs.CV",
-  //   "url": "https://arxiv.org/abs/2008.09105",
-  //   "arxiv": "https://arxiv.org/abs/2008.09105",
-  //   "category": "Vision Learning & Navigation"
-  // },
-  // {
-  //   "id": "Chen_2020",
-  //   "type": "article",
-  //   "title": "Generating Visually Aligned Sound From Videos",
-  //   "volume": "29",
-  //   "issn": "1941-0042",
-  //   "url": "http://dx.doi.org/10.1109/TIP.2020.3009820",
-  //   "arxiv": "https://arxiv.org/abs/2008.09105",
-  //   "doi": "10.1109/tip.2020.3009820",
-  //   "journal": "IEEE Transactions on Image Processing",
-  //   "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-  //   "authors": [
-  //     "Peihao Chen",
-  //     "Yang Zhang",
-  //     "Mingkui Tan",
-  //     "Hongdong Xiao",
-  //     "Deng Huang",
-  //     "Chuang Gan"
-  //   ],
-  //   "year": "2020",
-  //   "pages": "8292-8302",
-  //   "category": "Audio-Visual Learning"
-  // },
-  // {
-  //   "id": "gan2020foleymusiclearninggenerate",
-  //   "type": "misc",
-  //   "title": "Foley Music: Learning to Generate Music from Videos",
-  //   "authors": [
-  //     "Chuang Gan",
-  //     "Deng Huang",
-  //     "Peihao Chen",
-  //     "Joshua B. Tenenbaum",
-  //     "Antonio Torralba"
-  //   ],
-  //   "year": "2020",
-  //   "eprint": "2007.10984",
-  //   "archiveprefix": "arXiv",
-  //   "primaryclass": "cs.CV",
-  //   "url": "https://arxiv.org/abs/2007.10984",
-  //   "arxiv": "https://arxiv.org/abs/2007.10984",
-  //   "category": "Audio-Visual Learning"
-  // },
-  // {
-  //   "id": "zeng2020denseregressionnetworkvideo",
-  //   "type": "misc",
-  //   "title": "Dense Regression Network for Video Grounding",
-  //   "authors": [
-  //     "Runhao Zeng",
-  //     "Haoming Xu",
-  //     "Wenbing Huang",
-  //     "Peihao Chen",
-  //     "Mingkui Tan",
-  //     "Chuang Gan"
-  //   ],
-  //   "year": "2020",
-  //   "eprint": "2004.03545",
-  //   "archiveprefix": "arXiv",
-  //   "primaryclass": "cs.CV",
-  //   "url": "https://arxiv.org/abs/2004.03545",
-  //   "arxiv": "https://arxiv.org/abs/2004.03545",
-  //   "category": "Vision Learning & Navigation"
-  // },
-  // {
-  //   "id": "8737877",
-  //   "type": "article",
-  //   "title": "Breaking Winner-Takes-All: Iterative-Winners-Out Networks for Weakly Supervised Temporal Action Localization",
-  //   "authors": [
-  //     "Runhao Zeng",
-  //     "Chuang Gan",
-  //     "Peihao Chen",
-  //     "Wenbing Huang",
-  //     "Qingyao Wu",
-  //     "Mingkui Tan"
-  //   ],
-  //   "year": "2019",
-  //   "journal": "IEEE Transactions on Image Processing",
-  //   "volume": "28",
-  //   "number": "12",
-  //   "pages": "5797-5808",
-  //   "keywords": "Videos;Training;Proposals;Image segmentation;Correlation;Object detection;Semantics;Weakly supervised learning;action localization;winners-out;untrimmed video",
-  //   "doi": "10.1109/TIP.2019.2922108",
-  //   "url": "https://ieeexplore.ieee.org/document/8737877",
-  //   "arxiv": "https://arxiv.org/abs/2004.03545",
-  //   "category": "Vision Learning & Navigation"
-  // },
-  // {
-  //   "id": "gan2019selfsupervisedmovingvehicletracking",
-  //   "type": "misc",
-  //   "title": "Self-supervised Moving Vehicle Tracking with Stereo Sound",
-  //   "authors": [
-  //     "Chuang Gan",
-  //     "Hang Zhao",
-  //     "Peihao Chen",
-  //     "David Cox",
-  //     "Antonio Torralba"
-  //   ],
-  //   "year": "2019",
-  //   "eprint": "1910.11760",
-  //   "archiveprefix": "arXiv",
-  //   "primaryclass": "cs.CV",
-  //   "url": "https://arxiv.org/abs/1910.11760",
-  //   "arxiv": "https://arxiv.org/abs/1910.11760",
-  //   "category": "Audio-Visual Learning"
-  // },
-  // {
-  //   "id": "Zhao_2018_ECCV",
-  //   "type": "inproceedings",
-  //   "title": "The Sound of Pixels",
-  //   "authors": [
-  //     "Hang Zhao",
-  //     "Chuang Gan",
-  //     "Andrew Rouditchenko",
-  //     "Carl Vondrick",
-  //     "Josh McDermott",
-  //     "Antonio Torralba"
-  //   ],
-  //   "booktitle": "The European Conference on Computer Vision (ECCV)",
-  //   "month": "September",
-  //   "year": "2018",
-  //   "selected": true,
-  //   "preview": "./soundofpixels.png",
-  //   "website": "http://sound-of-pixels.csail.mit.edu/",
-  //   "arxiv": "https://arxiv.org/abs/1804.03160",
-  //   "pdf": "https://arxiv.org/pdf/1804.03160",
-  //   "code": "https://github.com/hangzhaomit/Sound-of-Pixels",
-  //   "category": "Audio-Visual Learning"
-  // },
