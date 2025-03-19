@@ -1,5 +1,52 @@
 [
   {
+    "id": "zhang2024combocompositionalworldmodels",
+    "type": "misc",
+    "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
+    "authors": [
+      "Hongxin Zhang",
+      "Zeyuan Wang",
+      "Qiushi Lyu",
+      "Zheyuan Zhang",
+      "Sunli Chen",
+      "Tianmin Shu",
+      "Yilun Du",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "eprint": "2404.10775",
+    "archiveprefix": "arXiv",
+    "url": "https://umass-embodied-agi.github.io/COMBO",
+    "website": "https://umass-embodied-agi.github.io/COMBO",
+    "code": "https://github.com/UMass-Embodied-AGI/COMBO",
+    "arxiv": "https://arxiv.org/abs/2404.10775",
+    "preview": "/research/combo/video/teaser.mp4",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "ICLR 2025"
+  },
+  {
+    "id": "xiong2025topogaussian",
+    "type": "misc",
+    "title": "TopoGaussian: Inferring Internal Topology Structures from Visual Clues",
+    "authors": [
+      "Xiaoyu Xiong",
+      "Changyu Hu",
+      "Chunru Lin", 
+      "Pingchuan Ma",
+      "Chuang Gan",
+      "Tao Du"
+    ],
+    "year": "2025",
+    "eprint": "2503.12343",
+    "archiveprefix": "arXiv",
+    "url": "https://topo-gaussian.github.io/TopoGaussian/",
+    "website": "https://topo-gaussian.github.io/TopoGaussian/",
+    "arxiv": "https://arxiv.org/abs/2503.12343",
+    "preview": "/research/TopoGaussian.png",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "ICLR 2025"
+  },
+  {
     "id": "li2024flexattentionefficienthighresolutionvisionlanguage",
     "type": "misc",
     "title": "FlexAttention for Efficient High-Resolution Vision-Language Models",
@@ -132,32 +179,6 @@
     "arxiv": "https://arxiv.org/abs/2404.12377",
     "preview": "/research/robodreamer/method.png",
     "category": "Physical Reasoning and Interaction"
-  },
-  {
-    "id": "zhang2024combocompositionalworldmodels",
-    "type": "misc",
-    "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
-    "authors": [
-      "Hongxin Zhang",
-      "Zeyuan Wang",
-      "Qiushi Lyu",
-      "Zheyuan Zhang",
-      "Sunli Chen",
-      "Tianmin Shu",
-      "Yilun Du",
-      "Chuang Gan"
-    ],
-    "year": "2025",
-    "eprint": "2404.10775",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "/research/combo/index.html",
-    "website": "/research/combo/index.html",
-    "code": "https://github.com/UMass-Embodied-AGI/COMBO",
-    "arxiv": "https://arxiv.org/abs/2404.10775",
-    "preview": "/research/combo/video/teaser.mp4",
-    "category": "Physical Reasoning and Interaction",
-    "conference": "ICLR 2025"
   },
   {
     "id": "Chen2024VisualCP",
