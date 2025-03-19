@@ -1,5 +1,27 @@
 [
   {
+    "id": "yang20243dmem3dscenememory",
+    "type": "misc",
+    "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
+    "authors": [
+      "Yuncong Yang",
+      "Han Yang",
+      "Jiachen Zhou",
+      "Peihao Chen",
+      "Hongxin Zhang",
+      "Yilun Du",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "https://embodied-agi.cs.umass.edu/3dmem/",
+    "website": "https://embodied-agi.cs.umass.edu/3dmem/",
+    "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
+    "arxiv": "https://arxiv.org/abs/2411.17735",
+    "preview": "/research/3DMem_opening.mp4",
+    "category": "Multimodal Language Models",
+    "conference": "CVPR 2025"
+  },
+  {
     "id": "zhang2024combocompositionalworldmodels",
     "type": "misc",
     "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
@@ -10,17 +32,50 @@
       "Zheyuan Zhang",
       "Sunli Chen",
       "Tianmin Shu",
+      "Behzad Dariush", 
+      "Kwonjoon Lee",
       "Yilun Du",
       "Chuang Gan"
     ],
     "year": "2025",
-    "eprint": "2404.10775",
-    "archiveprefix": "arXiv",
     "url": "https://umass-embodied-agi.github.io/COMBO",
     "website": "https://umass-embodied-agi.github.io/COMBO",
     "code": "https://github.com/UMass-Embodied-AGI/COMBO",
     "arxiv": "https://arxiv.org/abs/2404.10775",
-    "preview": "/research/combo/video/teaser.mp4",
+    "preview": "/research/combo.mp4",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "ICLR 2025"
+  },
+  {
+    "id": "Ngo2025delta",
+    "type": "misc",
+    "title": "DELTA: Dense Efficient Long-range 3D Tracking for Any video.",
+    "authors": [
+      "Tuan Duc Ngo", "Peiye Zhuang", "Evangelos Kalogerakis", "Chuang Gan", "Sergey Tulyakov",
+"Hsin-Ying Lee", "Chaoyang Wang"
+    ],
+    "year": "2025",
+    "url": "https://snap-research.github.io/DELTA/",
+    "website": "https://snap-research.github.io/DELTA/",
+    "code": "https://github.com/snap-research/DELTA_densetrack3d",
+    "arxiv": "https://arxiv.org/abs/2410.24211",
+    "preview": "/research/DELTA.mp4",
+    "category": "3D Vision",
+    "conference": "ICLR 2025"
+  },
+  {
+    "id": "chen2025scaling",
+    "type": "misc",
+    "title": "Autonomous Agents from Automatic Reward Modeling and Planning",
+    "authors": [
+      "Zhenfang Chen*", "Delin Chen*", "Rui Sun*", "Wenjun Liu*", "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "https://armap-agent.github.io/",
+    "website": "https://armap-agent.github.io/",
+    "code": "https://github.com/heaplax/ARMAP",
+    "arxiv": "https://arxiv.org/abs/2502.12130",
+    "preview": "/research/armap.svg",
     "category": "Physical Reasoning and Interaction",
     "conference": "ICLR 2025"
   },
@@ -37,8 +92,6 @@
       "Tao Du"
     ],
     "year": "2025",
-    "eprint": "2503.12343",
-    "archiveprefix": "arXiv",
     "url": "https://topo-gaussian.github.io/TopoGaussian/",
     "website": "https://topo-gaussian.github.io/TopoGaussian/",
     "arxiv": "https://arxiv.org/abs/2503.12343",
@@ -201,31 +254,6 @@
     "preview": "https://github.com/UMass-Embodied-AGI/VisualCoT/raw/main/framework.png",
     "category": "Multimodal Language Models",
     "conference": "AAAI 2024"
-  },
-  {
-    "id": "yang20243dmem3dscenememory",
-    "type": "misc",
-    "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
-    "authors": [
-      "Yuncong Yang",
-      "Han Yang",
-      "Jiachen Zhou",
-      "Peihao Chen",
-      "Hongxin Zhang",
-      "Yilun Du",
-      "Chuang Gan"
-    ],
-    "year": "2025",
-    "eprint": "2411.17735",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "/research/3dmem/index.html",
-    "website": "/research/3dmem/index.html",
-    "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
-    "arxiv": "https://arxiv.org/abs/2411.17735",
-    "preview": "/demo/3DMem_opening.mp4",
-    "category": "Multimodal Language Models",
-    "conference": "CVPR 2025"
   },
   {
     "id": "zhen20243dvla3dvisionlanguageactiongenerative",
@@ -764,265 +792,6 @@
     "category": "Vision Learning & Navigation"
   },
   {
-    "id": "chen2022modsquaddesigningmixtureexperts",
-    "type": "misc",
-    "title": "Mod-Squad: Designing Mixture of Experts As Modular Multi-Task Learners",
-    "authors": [
-      "Zitian Chen",
-      "Yikang Shen",
-      "Mingyu Ding",
-      "Zhenfang Chen",
-      "Hengshuang Zhao",
-      "Erik Learned-Miller",
-      "Chuang Gan"
-    ],
-    "year": "2022",
-    "eprint": "2212.08066",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "/research/mod-squad/index.html",
-    "website": "/research/mod-squad/index.html",
-    "arxiv": "https://arxiv.org/abs/2212.08066",
-    "doi": "10.48550/arXiv.2212.08066",
-    "preview": "/research/mod-squad/materials/annimation.mp4",
-    "category": "Multimodal Language Models"
-  },
-  {
-    "id": "chen2022learningactivecameramultiobject",
-    "type": "misc",
-    "title": "Learning Active Camera for Multi-Object Navigation",
-    "authors": [
-      "Peihao Chen",
-      "Dongyu Ji",
-      "Kunyang Lin",
-      "Weiwen Hu",
-      "Wenbing Huang",
-      "Thomas H. Li",
-      "Mingkui Tan",
-      "Chuang Gan"
-    ],
-    "year": "2022",
-    "eprint": "2210.07505",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2210.07505",
-    "arxiv": "https://arxiv.org/abs/2210.07505",
-    "category": "Physical Reasoning and Interaction"
-  },
-  {
-    "id": "chen2022weaklysupervisedmultigranularitymaplearning",
-    "type": "misc",
-    "title": "Weakly-Supervised Multi-Granularity Map Learning for Vision-and-Language Navigation",
-    "authors": [
-      "Peihao Chen",
-      "Dongyu Ji",
-      "Kunyang Lin",
-      "Runhao Zeng",
-      "Thomas H. Li",
-      "Mingkui Tan",
-      "Chuang Gan"
-    ],
-    "year": "2022",
-    "eprint": "2210.07506",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2210.07506",
-    "arxiv": "https://arxiv.org/abs/2210.07506",
-    "category": "Physical Reasoning and Interaction"
-  },
-  {
-    "id": "chen2021rspnetrelativespeedperception",
-    "type": "misc",
-    "title": "RSPNet: Relative Speed Perception for Unsupervised Video Representation Learning",
-    "authors": [
-      "Peihao Chen",
-      "Deng Huang",
-      "Dongliang He",
-      "Xiang Long",
-      "Runhao Zeng",
-      "Shilei Wen",
-      "Mingkui Tan",
-      "Chuang Gan"
-    ],
-    "year": "2021",
-    "eprint": "2011.07949",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2011.07949",
-    "arxiv": "https://arxiv.org/abs/2011.07949",
-    "category": "Vision Learning & Navigation"
-  },
-  {
-    "id": "8933113",
-    "type": "article",
-    "title": "Relation Attention for Temporal Action Localization",
-    "authors": [
-      "Peihao Chen",
-      "Chuang Gan",
-      "Guangyao Shen",
-      "Wenbing Huang",
-      "Runhao Zeng",
-      "Mingkui Tan"
-    ],
-    "year": "2020",
-    "journal": "IEEE Transactions on Multimedia",
-    "volume": "22",
-    "number": "10",
-    "pages": "2723-2733",
-    "keywords": "Proposals;Feature extraction;Task analysis;Object detection;Deep learning;Sports;Semantics;Temporal action localization;relation attention",
-    "doi": "10.1109/TMM.2019.2959977",
-    "url": "https://ieeexplore.ieee.org/document/8933113",
-    "arxiv": "https://arxiv.org/abs/2011.07949",
-    "category": "Vision Learning & Navigation"
-  },
-  {
-    "id": "huang2020locationawaregraphconvolutionalnetworks",
-    "type": "misc",
-    "title": "Location-aware Graph Convolutional Networks for Video Question Answering",
-    "authors": [
-      "Deng Huang",
-      "Peihao Chen",
-      "Runhao Zeng",
-      "Qing Du",
-      "Mingkui Tan",
-      "Chuang Gan"
-    ],
-    "year": "2020",
-    "eprint": "2008.09105",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2008.09105",
-    "arxiv": "https://arxiv.org/abs/2008.09105",
-    "category": "Vision Learning & Navigation"
-  },
-  {
-    "id": "Chen_2020",
-    "type": "article",
-    "title": "Generating Visually Aligned Sound From Videos",
-    "volume": "29",
-    "issn": "1941-0042",
-    "url": "http://dx.doi.org/10.1109/TIP.2020.3009820",
-    "arxiv": "https://arxiv.org/abs/2008.09105",
-    "doi": "10.1109/tip.2020.3009820",
-    "journal": "IEEE Transactions on Image Processing",
-    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-    "authors": [
-      "Peihao Chen",
-      "Yang Zhang",
-      "Mingkui Tan",
-      "Hongdong Xiao",
-      "Deng Huang",
-      "Chuang Gan"
-    ],
-    "year": "2020",
-    "pages": "8292-8302",
-    "category": "Audio-Visual Learning"
-  },
-  {
-    "id": "gan2020foleymusiclearninggenerate",
-    "type": "misc",
-    "title": "Foley Music: Learning to Generate Music from Videos",
-    "authors": [
-      "Chuang Gan",
-      "Deng Huang",
-      "Peihao Chen",
-      "Joshua B. Tenenbaum",
-      "Antonio Torralba"
-    ],
-    "year": "2020",
-    "eprint": "2007.10984",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2007.10984",
-    "arxiv": "https://arxiv.org/abs/2007.10984",
-    "category": "Audio-Visual Learning"
-  },
-  {
-    "id": "zeng2020denseregressionnetworkvideo",
-    "type": "misc",
-    "title": "Dense Regression Network for Video Grounding",
-    "authors": [
-      "Runhao Zeng",
-      "Haoming Xu",
-      "Wenbing Huang",
-      "Peihao Chen",
-      "Mingkui Tan",
-      "Chuang Gan"
-    ],
-    "year": "2020",
-    "eprint": "2004.03545",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/2004.03545",
-    "arxiv": "https://arxiv.org/abs/2004.03545",
-    "category": "Vision Learning & Navigation"
-  },
-  {
-    "id": "8737877",
-    "type": "article",
-    "title": "Breaking Winner-Takes-All: Iterative-Winners-Out Networks for Weakly Supervised Temporal Action Localization",
-    "authors": [
-      "Runhao Zeng",
-      "Chuang Gan",
-      "Peihao Chen",
-      "Wenbing Huang",
-      "Qingyao Wu",
-      "Mingkui Tan"
-    ],
-    "year": "2019",
-    "journal": "IEEE Transactions on Image Processing",
-    "volume": "28",
-    "number": "12",
-    "pages": "5797-5808",
-    "keywords": "Videos;Training;Proposals;Image segmentation;Correlation;Object detection;Semantics;Weakly supervised learning;action localization;winners-out;untrimmed video",
-    "doi": "10.1109/TIP.2019.2922108",
-    "url": "https://ieeexplore.ieee.org/document/8737877",
-    "arxiv": "https://arxiv.org/abs/2004.03545",
-    "category": "Vision Learning & Navigation"
-  },
-  {
-    "id": "gan2019selfsupervisedmovingvehicletracking",
-    "type": "misc",
-    "title": "Self-supervised Moving Vehicle Tracking with Stereo Sound",
-    "authors": [
-      "Chuang Gan",
-      "Hang Zhao",
-      "Peihao Chen",
-      "David Cox",
-      "Antonio Torralba"
-    ],
-    "year": "2019",
-    "eprint": "1910.11760",
-    "archiveprefix": "arXiv",
-    "primaryclass": "cs.CV",
-    "url": "https://arxiv.org/abs/1910.11760",
-    "arxiv": "https://arxiv.org/abs/1910.11760",
-    "category": "Audio-Visual Learning"
-  },
-  {
-    "id": "Zhao_2018_ECCV",
-    "type": "inproceedings",
-    "title": "The Sound of Pixels",
-    "authors": [
-      "Hang Zhao",
-      "Chuang Gan",
-      "Andrew Rouditchenko",
-      "Carl Vondrick",
-      "Josh McDermott",
-      "Antonio Torralba"
-    ],
-    "booktitle": "The European Conference on Computer Vision (ECCV)",
-    "month": "September",
-    "year": "2018",
-    "selected": true,
-    "preview": "./soundofpixels.png",
-    "website": "http://sound-of-pixels.csail.mit.edu/",
-    "arxiv": "https://arxiv.org/abs/1804.03160",
-    "pdf": "https://arxiv.org/pdf/1804.03160",
-    "code": "https://github.com/hangzhaomit/Sound-of-Pixels",
-    "category": "Audio-Visual Learning"
-  },
-  {
     "id": "zhou2023adaptive",
     "type": "misc",
     "title": "Adaptive online replanning with diffusion models",
@@ -1091,3 +860,262 @@
     "category": "Physical Reasoning and Interaction"
   }
 ]
+  // {
+  //   "id": "chen2022modsquaddesigningmixtureexperts",
+  //   "type": "misc",
+  //   "title": "Mod-Squad: Designing Mixture of Experts As Modular Multi-Task Learners",
+  //   "authors": [
+  //     "Zitian Chen",
+  //     "Yikang Shen",
+  //     "Mingyu Ding",
+  //     "Zhenfang Chen",
+  //     "Hengshuang Zhao",
+  //     "Erik Learned-Miller",
+  //     "Chuang Gan"
+  //   ],
+  //   "year": "2022",
+  //   "eprint": "2212.08066",
+  //   "archiveprefix": "arXiv",
+  //   "primaryclass": "cs.CV",
+  //   "url": "/research/mod-squad/index.html",
+  //   "website": "/research/mod-squad/index.html",
+  //   "arxiv": "https://arxiv.org/abs/2212.08066",
+  //   "doi": "10.48550/arXiv.2212.08066",
+  //   "preview": "/research/mod-squad/materials/annimation.mp4",
+  //   "category": "Multimodal Language Models"
+  // },
+  // {
+  //   "id": "chen2022learningactivecameramultiobject",
+  //   "type": "misc",
+  //   "title": "Learning Active Camera for Multi-Object Navigation",
+  //   "authors": [
+  //     "Peihao Chen",
+  //     "Dongyu Ji",
+  //     "Kunyang Lin",
+  //     "Weiwen Hu",
+  //     "Wenbing Huang",
+  //     "Thomas H. Li",
+  //     "Mingkui Tan",
+  //     "Chuang Gan"
+  //   ],
+  //   "year": "2022",
+  //   "eprint": "2210.07505",
+  //   "archiveprefix": "arXiv",
+  //   "primaryclass": "cs.CV",
+  //   "url": "https://arxiv.org/abs/2210.07505",
+  //   "arxiv": "https://arxiv.org/abs/2210.07505",
+  //   "category": "Physical Reasoning and Interaction"
+  // },
+  // {
+  //   "id": "chen2022weaklysupervisedmultigranularitymaplearning",
+  //   "type": "misc",
+  //   "title": "Weakly-Supervised Multi-Granularity Map Learning for Vision-and-Language Navigation",
+  //   "authors": [
+  //     "Peihao Chen",
+  //     "Dongyu Ji",
+  //     "Kunyang Lin",
+  //     "Runhao Zeng",
+  //     "Thomas H. Li",
+  //     "Mingkui Tan",
+  //     "Chuang Gan"
+  //   ],
+  //   "year": "2022",
+  //   "eprint": "2210.07506",
+  //   "archiveprefix": "arXiv",
+  //   "primaryclass": "cs.CV",
+  //   "url": "https://arxiv.org/abs/2210.07506",
+  //   "arxiv": "https://arxiv.org/abs/2210.07506",
+  //   "category": "Physical Reasoning and Interaction"
+  // },
+  // {
+  //   "id": "chen2021rspnetrelativespeedperception",
+  //   "type": "misc",
+  //   "title": "RSPNet: Relative Speed Perception for Unsupervised Video Representation Learning",
+  //   "authors": [
+  //     "Peihao Chen",
+  //     "Deng Huang",
+  //     "Dongliang He",
+  //     "Xiang Long",
+  //     "Runhao Zeng",
+  //     "Shilei Wen",
+  //     "Mingkui Tan",
+  //     "Chuang Gan"
+  //   ],
+  //   "year": "2021",
+  //   "eprint": "2011.07949",
+  //   "archiveprefix": "arXiv",
+  //   "primaryclass": "cs.CV",
+  //   "url": "https://arxiv.org/abs/2011.07949",
+  //   "arxiv": "https://arxiv.org/abs/2011.07949",
+  //   "category": "Vision Learning & Navigation"
+  // },
+  // {
+  //   "id": "8933113",
+  //   "type": "article",
+  //   "title": "Relation Attention for Temporal Action Localization",
+  //   "authors": [
+  //     "Peihao Chen",
+  //     "Chuang Gan",
+  //     "Guangyao Shen",
+  //     "Wenbing Huang",
+  //     "Runhao Zeng",
+  //     "Mingkui Tan"
+  //   ],
+  //   "year": "2020",
+  //   "journal": "IEEE Transactions on Multimedia",
+  //   "volume": "22",
+  //   "number": "10",
+  //   "pages": "2723-2733",
+  //   "keywords": "Proposals;Feature extraction;Task analysis;Object detection;Deep learning;Sports;Semantics;Temporal action localization;relation attention",
+  //   "doi": "10.1109/TMM.2019.2959977",
+  //   "url": "https://ieeexplore.ieee.org/document/8933113",
+  //   "arxiv": "https://arxiv.org/abs/2011.07949",
+  //   "category": "Vision Learning & Navigation"
+  // },
+  // {
+  //   "id": "huang2020locationawaregraphconvolutionalnetworks",
+  //   "type": "misc",
+  //   "title": "Location-aware Graph Convolutional Networks for Video Question Answering",
+  //   "authors": [
+  //     "Deng Huang",
+  //     "Peihao Chen",
+  //     "Runhao Zeng",
+  //     "Qing Du",
+  //     "Mingkui Tan",
+  //     "Chuang Gan"
+  //   ],
+  //   "year": "2020",
+  //   "eprint": "2008.09105",
+  //   "archiveprefix": "arXiv",
+  //   "primaryclass": "cs.CV",
+  //   "url": "https://arxiv.org/abs/2008.09105",
+  //   "arxiv": "https://arxiv.org/abs/2008.09105",
+  //   "category": "Vision Learning & Navigation"
+  // },
+  // {
+  //   "id": "Chen_2020",
+  //   "type": "article",
+  //   "title": "Generating Visually Aligned Sound From Videos",
+  //   "volume": "29",
+  //   "issn": "1941-0042",
+  //   "url": "http://dx.doi.org/10.1109/TIP.2020.3009820",
+  //   "arxiv": "https://arxiv.org/abs/2008.09105",
+  //   "doi": "10.1109/tip.2020.3009820",
+  //   "journal": "IEEE Transactions on Image Processing",
+  //   "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  //   "authors": [
+  //     "Peihao Chen",
+  //     "Yang Zhang",
+  //     "Mingkui Tan",
+  //     "Hongdong Xiao",
+  //     "Deng Huang",
+  //     "Chuang Gan"
+  //   ],
+  //   "year": "2020",
+  //   "pages": "8292-8302",
+  //   "category": "Audio-Visual Learning"
+  // },
+  // {
+  //   "id": "gan2020foleymusiclearninggenerate",
+  //   "type": "misc",
+  //   "title": "Foley Music: Learning to Generate Music from Videos",
+  //   "authors": [
+  //     "Chuang Gan",
+  //     "Deng Huang",
+  //     "Peihao Chen",
+  //     "Joshua B. Tenenbaum",
+  //     "Antonio Torralba"
+  //   ],
+  //   "year": "2020",
+  //   "eprint": "2007.10984",
+  //   "archiveprefix": "arXiv",
+  //   "primaryclass": "cs.CV",
+  //   "url": "https://arxiv.org/abs/2007.10984",
+  //   "arxiv": "https://arxiv.org/abs/2007.10984",
+  //   "category": "Audio-Visual Learning"
+  // },
+  // {
+  //   "id": "zeng2020denseregressionnetworkvideo",
+  //   "type": "misc",
+  //   "title": "Dense Regression Network for Video Grounding",
+  //   "authors": [
+  //     "Runhao Zeng",
+  //     "Haoming Xu",
+  //     "Wenbing Huang",
+  //     "Peihao Chen",
+  //     "Mingkui Tan",
+  //     "Chuang Gan"
+  //   ],
+  //   "year": "2020",
+  //   "eprint": "2004.03545",
+  //   "archiveprefix": "arXiv",
+  //   "primaryclass": "cs.CV",
+  //   "url": "https://arxiv.org/abs/2004.03545",
+  //   "arxiv": "https://arxiv.org/abs/2004.03545",
+  //   "category": "Vision Learning & Navigation"
+  // },
+  // {
+  //   "id": "8737877",
+  //   "type": "article",
+  //   "title": "Breaking Winner-Takes-All: Iterative-Winners-Out Networks for Weakly Supervised Temporal Action Localization",
+  //   "authors": [
+  //     "Runhao Zeng",
+  //     "Chuang Gan",
+  //     "Peihao Chen",
+  //     "Wenbing Huang",
+  //     "Qingyao Wu",
+  //     "Mingkui Tan"
+  //   ],
+  //   "year": "2019",
+  //   "journal": "IEEE Transactions on Image Processing",
+  //   "volume": "28",
+  //   "number": "12",
+  //   "pages": "5797-5808",
+  //   "keywords": "Videos;Training;Proposals;Image segmentation;Correlation;Object detection;Semantics;Weakly supervised learning;action localization;winners-out;untrimmed video",
+  //   "doi": "10.1109/TIP.2019.2922108",
+  //   "url": "https://ieeexplore.ieee.org/document/8737877",
+  //   "arxiv": "https://arxiv.org/abs/2004.03545",
+  //   "category": "Vision Learning & Navigation"
+  // },
+  // {
+  //   "id": "gan2019selfsupervisedmovingvehicletracking",
+  //   "type": "misc",
+  //   "title": "Self-supervised Moving Vehicle Tracking with Stereo Sound",
+  //   "authors": [
+  //     "Chuang Gan",
+  //     "Hang Zhao",
+  //     "Peihao Chen",
+  //     "David Cox",
+  //     "Antonio Torralba"
+  //   ],
+  //   "year": "2019",
+  //   "eprint": "1910.11760",
+  //   "archiveprefix": "arXiv",
+  //   "primaryclass": "cs.CV",
+  //   "url": "https://arxiv.org/abs/1910.11760",
+  //   "arxiv": "https://arxiv.org/abs/1910.11760",
+  //   "category": "Audio-Visual Learning"
+  // },
+  // {
+  //   "id": "Zhao_2018_ECCV",
+  //   "type": "inproceedings",
+  //   "title": "The Sound of Pixels",
+  //   "authors": [
+  //     "Hang Zhao",
+  //     "Chuang Gan",
+  //     "Andrew Rouditchenko",
+  //     "Carl Vondrick",
+  //     "Josh McDermott",
+  //     "Antonio Torralba"
+  //   ],
+  //   "booktitle": "The European Conference on Computer Vision (ECCV)",
+  //   "month": "September",
+  //   "year": "2018",
+  //   "selected": true,
+  //   "preview": "./soundofpixels.png",
+  //   "website": "http://sound-of-pixels.csail.mit.edu/",
+  //   "arxiv": "https://arxiv.org/abs/1804.03160",
+  //   "pdf": "https://arxiv.org/pdf/1804.03160",
+  //   "code": "https://github.com/hangzhaomit/Sound-of-Pixels",
+  //   "category": "Audio-Visual Learning"
+  // },

@@ -1,1 +1,0 @@
-['Alice wait.', 'Bob pick up the burger_top.']

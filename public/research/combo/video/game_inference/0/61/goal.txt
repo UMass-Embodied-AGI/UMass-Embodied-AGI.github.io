@@ -1,1 +1,0 @@
-['Alice pick up the aqua-black piece.', 'Bob wait.', 'Charlie pick up the red-blue piece.', 'David pick up the aqua-yellow piece.']
