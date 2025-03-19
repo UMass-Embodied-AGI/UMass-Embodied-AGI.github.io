@@ -1,53 +1,33 @@
-import { defineCollection, z } from 'astro:content'
-import { file } from 'astro/loaders'
-
-const postsCollection = defineCollection({
-  schema: z.object({
-    title: z.string(),
-    updated: z.date().optional(),
-    draft: z.boolean().optional().default(false),
-    description: z.string().optional().default(''),
-    image: z.string().optional().default(''),
-    tags: z.array(z.string()).optional().default([]),
-    category: z.string().optional().default(''),
-    lang: z.string().optional().default(''),
-
-    /* For internal use */
-    prevTitle: z.string().default(''),
-    prevSlug: z.string().default(''),
-    nextTitle: z.string().default(''),
-    nextSlug: z.string().default(''),
-  }),
-})
+import { defineCollection, z } from "astro:content";
+import { file } from "astro/loaders";
 
 export const researchCollection = defineCollection({
-  type: 'data',
+  type: "data",
   schema: z.array(
     z.object({
       title: z.string(),
       url: z.string().optional(),
       authors: z.array(z.string()).optional().default([]),
       year: z.string().optional(),
-      preview: z.string().optional().default(''),
-      pdf: z.string().optional(),
-      arxiv: z.string().optional(),
+      preview: z.string().optional().default(""),
+      paper: z.string().optional(),
       website: z.string().optional(),
       booktitle: z.string().optional(),
       code: z.string().optional(),
       selected: z.boolean().optional(),
       category: z.string().optional(),
-      conference: z.string().optional(),
+      conference: z.string(),
       /* For internal use */
-      prevTitle: z.string().default(''),
-      prevSlug: z.string().default(''),
-      nextTitle: z.string().default(''),
-      nextSlug: z.string().default(''),
+      prevTitle: z.string().default(""),
+      prevSlug: z.string().default(""),
+      nextTitle: z.string().default(""),
+      nextSlug: z.string().default(""),
     }),
   ),
-})
+});
 
 export const peopleCollection = defineCollection({
-  type: 'data',
+  type: "data",
   schema: z.array(
     z.object({
       category: z.string(),
@@ -62,10 +42,9 @@ export const peopleCollection = defineCollection({
       ),
     }),
   ),
-})
+});
 
 export const collections = {
-  posts: postsCollection,
   research: researchCollection,
   people: peopleCollection,
-}
+};

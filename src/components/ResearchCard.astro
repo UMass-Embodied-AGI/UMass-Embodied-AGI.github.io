@@ -1,24 +1,24 @@
 ---
-import path from 'path'
-import ImageWrapper from './misc/ImageWrapper.astro'
-import ResearchMeta from './ResearchMeta.astro'
-import { Icon } from 'astro-icon/components'
-import { getDir, url } from '../utils/url-utils'
+import path from "path";
+import ImageWrapper from "./misc/ImageWrapper.astro";
+import ResearchMeta from "./ResearchMeta.astro";
+import { Icon } from "astro-icon/components";
+import { getDir, url } from "../utils/url-utils";
 
 interface Props {
-  entry: any
-  class?: string
-  title: string
-  url: string
-  authors: string[]
-  year: string
-  arxiv?: string
-  code?: string
-  preview?: string
-  description?: string
-  conference?: string
-  website?: string
-  style?: string
+  entry: any;
+  class?: string;
+  title: string;
+  url: string;
+  authors: string[];
+  year: string;
+  paper?: string;
+  code?: string;
+  preview?: string;
+  description?: string;
+  conference?: string;
+  website?: string;
+  style?: string;
 }
 
 const {
@@ -27,7 +27,7 @@ const {
   url,
   authors,
   year,
-  arxiv,
+  paper,
   code,
   preview,
   description,
@@ -35,60 +35,104 @@ const {
   website,
   style,
   category,
-} = Astro.props
-const className = Astro.props.class
+} = Astro.props;
+const className = Astro.props.class;
 
-const hasPreview = preview !== undefined && preview !== null && preview !== ''
-const previewWidth = '50%'
+const hasPreview = preview !== undefined && preview !== null && preview !== "";
+const previewWidth = "50%";
 ---
 
-<div class:list={["flex flex-col-reverse md:flex-row-reverse gap-2 md:items-center w-full overflow-hidden relative", className]} style={style}>
-    <div class:list={["px-4 pt-3 md:pt-4 pb-4 relative w-full"]}>
-        <a href={url} target="_blank"
-           class="transition group w-full block mt-2 md:mt-0 mb-2 text-lg font-medium
-        text-black dark:text-white hover:underline
-        active:text-[var(--title-active)] dark:active:text-[var(--title-active)]
-        ">
-            {title}
-        </a>
+<div
+  class:list={[
+    "flex flex-col-reverse md:flex-row-reverse gap-2 md:items-center w-full overflow-hidden relative",
+    className,
+  ]}
+  style={style}
+>
+  <div class:list={["px-4 pt-3 md:pt-4 pb-4 relative w-full"]}>
+    <a
+      href={url}
+      target="_blank"
+      class:list={[
+        "transition group w-full block mt-2 md:mt-0 mb-2 text-lg font-medium text-black dark:text-white",
+        url &&
+          "hover:underline cursor-pointer active:text-[var(--title-active)] dark:active:text-[var(--title-active)]",
+        !url && "cursor-default",
+      ]}
+    >
+      {title}
+    </a>
 
-        <!-- metadata -->
-        <div class="text-base text-black/80 dark:text-white/80 mb-2">
-            <span>{authors.join(", ")}</span>
-        </div>
-        
-        <div class="text-base text-black/80 dark:text-white/80 mb-4">
-            <span>{conference}</span>
-        </div>
-        
-       <ResearchMeta year={year} category={category} arxiv={arxiv} code={code} conference={conference} website={website} />
-
-        {description && 
-          <div class="transition text-75 mb-3.5 pr-4 line-clamp-2">
-              {description}
-          </div>
-        }
+    <!-- metadata -->
+    <div class="text-base text-black/80 dark:text-white/80 mb-2">
+      <span>{authors.join(", ")}</span>
     </div>
 
-    <a href={url} target="_blank" aria-label={title}
-                    class:list={["group",
-                        "max-h-[20vh] md:h-auto mx-4 mt-4 -mb-2 md:mb-0 md:mx-0 md:mt-0",
-                        "md:w-[var(--previewWidth)] relative overflow-hidden active:scale-95"
-                    ]} >
-        <div class="absolute pointer-events-none z-10 w-full h-full group-hover:bg-black/30 group-active:bg-black/50 transition"></div>
-        <div class="absolute pointer-events-none z-20 w-full h-full flex items-center justify-center ">
-            <Icon name="material-symbols:chevron-right-rounded"
-                  class="transition opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 text-white text-5xl">
-            </Icon>
-        </div>
-        <div class="md:aspect-[16/10]">
-        <ImageWrapper src={preview}  basePath={"content/assets/research"} alt="Preview" class="w-full h-full object-contain">
-        </ImageWrapper>
-        </div>
-        
-    </a>
-</div>
-<div class="transition border-t-[1px] mx-6 border-black/50 dark:border-white/50 last:border-t-0 md:hidden"></div>
+    <div class="text-base text-black/80 dark:text-white/80 mb-4">
+      <span>{conference}</span>
+    </div>
 
-<style define:vars={{previewWidth}}>
-</style>
+    <ResearchMeta
+      year={year}
+      category={category}
+      paper={paper}
+      code={code}
+      conference={conference}
+      website={website}
+    />
+
+    {
+      description && (
+        <div class="transition text-75 mb-3.5 pr-4 line-clamp-2">
+          {description}
+        </div>
+      )
+    }
+  </div>
+
+  <a
+    href={url}
+    target="_blank"
+    aria-label={title}
+    class:list={[
+      "group",
+      "max-h-[20vh] md:h-auto mx-4 mt-4 -mb-2 md:mb-0 md:mx-0 md:mt-0",
+      "md:w-[var(--previewWidth)] relative overflow-hidden active:scale-95",
+    ]}
+  >
+    <div
+      class:list={[
+        "absolute pointer-events-none z-10 w-full h-full transition",
+        url && "group-hover:bg-black/30 group-active:bg-black/50",
+      ]}
+    >
+    </div>
+    <div
+      class="absolute pointer-events-none z-20 w-full h-full flex items-center justify-center"
+    >
+      <Icon
+        name="material-symbols:chevron-right-rounded"
+        class:list={[
+          "transition scale-50 text-white text-5xl",
+          url
+            ? "opacity-0 group-hover:opacity-100 group-hover:scale-100"
+            : "hidden",
+        ]}
+      />
+    </div>
+    <div class="md:aspect-[16/10]">
+      <ImageWrapper
+        src={preview}
+        basePath={"content/assets/research"}
+        alt="Preview"
+        class="w-full h-full object-contain"
+      />
+    </div>
+  </a>
+</div>
+<div
+  class="transition border-t-[1px] mx-6 border-black/50 dark:border-white/50 last:border-t-0 md:hidden"
+>
+</div>
+
+<style define:vars={{ previewWidth }}></style>

@@ -1,6 +1,27 @@
 [
   {
-    "id": "yang20243dmem3dscenememory",
+      "title": "Virtual Community: A Generative Social World for Embodied AI",
+      "authors": [
+        "Qinhong Zhou*",
+        "Hongxin Zhang*",
+        "Yutian Chen", 
+        "Zheyuan Zhang",
+        "Xiangye Lin",
+        "Jincheng Yang",
+        "Lixing Fang",
+        "Jiageng Liu",
+        "Xinyu Sun",
+        "Chuang Gan"
+      ],
+      "year": "2025",
+      "url": "/research/virtual-community/index.html",
+      "website": "/research/virtual-community/index.html",
+      "preview": "/research/virtual-community/static/Virtual-Community-main/Community_Simulation_mp4/ezgif-4-3e37cf3da7.mp4",
+      "paper": "https://openreview.net/forum?id=aRxLDcxFcL",
+      "category": "Physical Reasoning and Interaction",
+      "conference": "ICLR 2025"
+    },
+  {
     "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
     "authors": [
       "Yuncong Yang*",
@@ -15,13 +36,12 @@
     "url": "https://embodied-agi.cs.umass.edu/3dmem/",
     "website": "https://embodied-agi.cs.umass.edu/3dmem/",
     "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
-    "arxiv": "https://arxiv.org/abs/2411.17735",
+    "paper": "https://arxiv.org/abs/2411.17735",
     "preview": "/research/3DMem_opening.mp4",
     "category": "Multimodal Language Models",
     "conference": "CVPR 2025"
   },
   {
-    "id": "zhang2024combocompositionalworldmodels",
     "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
     "authors": [
       "Hongxin Zhang*",
@@ -30,7 +50,7 @@
       "Zheyuan Zhang",
       "Sunli Chen",
       "Tianmin Shu",
-      "Behzad Dariush", 
+      "Behzad Dariush",
       "Kwonjoon Lee",
       "Yilun Du",
       "Chuang Gan"
@@ -39,49 +59,55 @@
     "url": "https://umass-embodied-agi.github.io/COMBO",
     "website": "https://umass-embodied-agi.github.io/COMBO",
     "code": "https://github.com/UMass-Embodied-AGI/COMBO",
-    "arxiv": "https://arxiv.org/abs/2404.10775",
+    "paper": "https://arxiv.org/abs/2404.10775",
     "preview": "/research/combo.mp4",
     "category": "Physical Reasoning and Interaction",
     "conference": "ICLR 2025"
   },
   {
-    "id": "Ngo2025delta",
     "title": "DELTA: Dense Efficient Long-range 3D Tracking for Any video.",
     "authors": [
-      "Tuan Duc Ngo", "Peiye Zhuang", "Evangelos Kalogerakis", "Chuang Gan", "Sergey Tulyakov",
-"Hsin-Ying Lee", "Chaoyang Wang"
+      "Tuan Duc Ngo",
+      "Peiye Zhuang",
+      "Evangelos Kalogerakis",
+      "Chuang Gan",
+      "Sergey Tulyakov",
+      "Hsin-Ying Lee",
+      "Chaoyang Wang"
     ],
     "year": "2025",
     "url": "https://snap-research.github.io/DELTA/",
     "website": "https://snap-research.github.io/DELTA/",
     "code": "https://github.com/snap-research/DELTA_densetrack3d",
-    "arxiv": "https://arxiv.org/abs/2410.24211",
+    "paper": "https://arxiv.org/abs/2410.24211",
     "preview": "/research/DELTA.mp4",
     "category": "3D Vision",
     "conference": "ICLR 2025"
   },
   {
-    "id": "chen2025scaling",
     "title": "Autonomous Agents from Automatic Reward Modeling and Planning",
     "authors": [
-      "Zhenfang Chen*", "Delin Chen*", "Rui Sun*", "Wenjun Liu*", "Chuang Gan"
+      "Zhenfang Chen*",
+      "Delin Chen*",
+      "Rui Sun*",
+      "Wenjun Liu*",
+      "Chuang Gan"
     ],
     "year": "2025",
     "url": "https://armap-agent.github.io/",
     "website": "https://armap-agent.github.io/",
     "code": "https://github.com/heaplax/ARMAP",
-    "arxiv": "https://arxiv.org/abs/2502.12130",
+    "paper": "https://arxiv.org/abs/2502.12130",
     "preview": "/research/armap.svg",
     "category": "Physical Reasoning and Interaction",
     "conference": "ICLR 2025"
   },
   {
-    "id": "xiong2025topogaussian",
     "title": "TopoGaussian: Inferring Internal Topology Structures from Visual Clues",
     "authors": [
       "Xiaoyu Xiong",
       "Changyu Hu",
-      "Chunru Lin", 
+      "Chunru Lin",
       "Pingchuan Ma",
       "Chuang Gan",
       "Tao Du"
@@ -89,13 +115,12 @@
     "year": "2025",
     "url": "https://topo-gaussian.github.io/TopoGaussian/",
     "website": "https://topo-gaussian.github.io/TopoGaussian/",
-    "arxiv": "https://arxiv.org/abs/2503.12343",
+    "paper": "https://arxiv.org/abs/2503.12343",
     "preview": "/research/TopoGaussian.png",
     "category": "Physical Reasoning and Interaction",
     "conference": "ICLR 2025"
   },
   {
-    "id": "li2024flexattentionefficienthighresolutionvisionlanguage",
     "title": "FlexAttention for Efficient High-Resolution Vision-Language Models",
     "authors": [
       "Junyan Li",
@@ -111,13 +136,12 @@
     "url": "/research/flexattention/index.html",
     "website": "/research/flexattention/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/FlexAttention",
-    "arxiv": "https://arxiv.org/abs/2407.20228",
+    "paper": "https://arxiv.org/abs/2407.20228",
     "preview": "/research/flexattention/static/assets/overview.jpg",
     "category": "Large Language Models",
     "conference": "ECCV 2024"
   },
   {
-    "id": "lin2024ubsoft",
     "title": "UBSoft: A Simulation Platform for Robotic Skill Learning in Unbounded Soft Environments",
     "authors": [
       "Chunru Lin",
@@ -134,14 +158,12 @@
     "year": "2024",
     "url": "https://arxiv.org/abs/2411.12711",
     "preview": "/research/UBsoft.mp4",
-    "pdf": "https://arxiv.org/pdf/2411.12711",
-    "arxiv": "https://arxiv.org/abs/2411.12711",
+    "paper": "https://arxiv.org/abs/2411.12711",
     "website": "https://umass-embodied-agi.github.io/UBSoft/",
     "category": "Physics Simulation",
     "conference": "CoRL 2024"
   },
   {
-    "id": "wang2024robogenunleashinginfinitedata",
     "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
     "authors": [
       "Yufei Wang",
@@ -157,8 +179,7 @@
     "year": "2024",
     "url": "https://arxiv.org/abs/2311.01455",
     "preview": "https://robogen-ai.github.io/videos/trailer.mp4",
-    "pdf": "https://arxiv.org/pdf/2311.01455",
-    "arxiv": "https://arxiv.org/abs/2311.01455",
+    "paper": "https://arxiv.org/abs/2311.01455",
     "website": "https://robogen-ai.github.io/",
     "booktitle": "International conference on machine learning",
     "code": "https://github.com/Genesis-Embodied-AI/RoboGen",
@@ -167,7 +188,6 @@
     "conference": "ICML 2024"
   },
   {
-    "id": "li2024conavbenchmarkhumancenteredcollaborative",
     "title": "CoNav: A Benchmark for Human-Centered Collaborative Navigation",
     "authors": [
       "Changhao Li",
@@ -182,13 +202,12 @@
     ],
     "year": "2024",
     "url": "https://arxiv.org/abs/2406.02425",
-    "arxiv": "https://arxiv.org/abs/2406.02425",
+    "paper": "https://arxiv.org/abs/2406.02425",
     "category": "Physical Reasoning and Interaction",
     "code": "https://github.com/Li-ChangHao/CoNav",
     "preview": "https://github.com/Li-ChangHao/CoNav/raw/main/assets/lustration.png"
   },
   {
-    "id": "zhou2024robodreamerlearningcompositionalworld",
     "title": "RoboDreamer: Learning Compositional World Models for Robot Imagination",
     "authors": [
       "Siyuan Zhou",
@@ -201,12 +220,11 @@
     "year": "2024",
     "url": "/research/robodreamer/index.html",
     "website": "/research/robodreamer/index.html",
-    "arxiv": "https://arxiv.org/abs/2404.12377",
+    "paper": "https://arxiv.org/abs/2404.12377",
     "preview": "/research/robodreamer/method.png",
     "category": "Physical Reasoning and Interaction"
   },
   {
-    "id": "Chen2024VisualCP",
     "title": "Visual Chain-of-Thought Prompting for Knowledge-Based Visual Reasoning",
     "authors": [
       "Zhenfang Chen",
@@ -221,13 +239,12 @@
     "year": "2024",
     "url": "https://api.semanticscholar.org/CorpusID:268678279",
     "code": "https://github.com/UMass-Embodied-AGI/VisualCoT",
-    "arxiv": "https://arxiv.org/abs/2404.00451",
+    "paper": "https://arxiv.org/abs/2404.00451",
     "preview": "https://github.com/UMass-Embodied-AGI/VisualCoT/raw/main/framework.png",
     "category": "Multimodal Language Models",
     "conference": "AAAI 2024"
   },
   {
-    "id": "zhen20243dvla3dvisionlanguageactiongenerative",
     "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
     "authors": [
       "Haoyu Zhen",
@@ -245,14 +262,12 @@
     "booktitle": "International conference on machine learning",
     "selected": true,
     "website": "/research/3dvla/index.html",
-    "arxiv": "https://arxiv.org/abs/2403.09631",
-    "pdf": "https://arxiv.org/pdf/2403.09631",
+    "paper": "https://arxiv.org/abs/2403.09631",
     "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
     "category": "Learning World Models",
     "conference": "ICML 2024"
   },
   {
-    "id": "sun2024salmonselfalignmentinstructablereward",
     "title": "SALMON: Self-Alignment with Instructable Reward Models",
     "authors": [
       "Zhiqing Sun",
@@ -267,13 +282,12 @@
     "year": "2024",
     "url": "https://arxiv.org/abs/2310.05910",
     "code": "https://github.com/IBM/SALMON",
-    "arxiv": "https://arxiv.org/abs/2310.05910",
+    "paper": "https://arxiv.org/abs/2310.05910",
     "preview": "https://github.com/IBM/SALMON/raw/main/assets/images/salmon_logo_with_text.jpeg",
     "category": "Large Language Models",
     "conference": "ICLR 2024"
   },
   {
-    "id": "wang2024thinshellobjectmanipulationsdifferentiable",
     "title": "Thin-Shell Object Manipulations With Differentiable Physics Simulations",
     "authors": [
       "Yian Wang",
@@ -288,13 +302,12 @@
     "url": "/research/ThinShellLab/index.html",
     "website": "/research/ThinShellLab/index.html",
     "code": "https://github.com/wangyian-me/ThinShellLab",
-    "arxiv": "https://arxiv.org/abs/2404.00451",
+    "paper": "https://arxiv.org/abs/2404.00451",
     "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif",
     "category": "Physical Reasoning and Interaction",
     "conference": "ICLR 2024"
   },
   {
-    "id": "zhang2024buildingcooperativeembodiedagents",
     "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
     "authors": [
       "Hongxin Zhang",
@@ -309,13 +322,12 @@
     "year": "2024",
     "url": "https://umass-embodied-agi.github.io/CoELA/",
     "website": "https://umass-embodied-agi.github.io/CoELA/",
-    "arxiv": "https://arxiv.org/abs/2411.17735",
+    "paper": "https://arxiv.org/abs/2411.17735",
     "preview": "/research/CoELA.jpg",
     "category": "Multimodal Language Models",
     "conference": "ICLR 2024"
   },
   {
-    "id": "zhou2024hazardchallengeembodieddecision",
     "title": "HAZARD Challenge: Embodied Decision Making in Dynamically Changing Environments",
     "authors": [
       "Qinhong Zhou",
@@ -332,13 +344,12 @@
     "url": "/research/hazard/index.html",
     "website": "/research/hazard/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/HAZARD",
-    "arxiv": "https://arxiv.org/abs/2411.17735",
+    "paper": "https://arxiv.org/abs/2411.17735",
     "preview": "https://github.com/UMass-Embodied-AGI/HAZARD/blob/main/pics/overview.png?raw=true",
     "category": "Physical Reasoning and Interaction",
     "conference": "ICLR 2024"
   },
   {
-    "id": "chen2023genomegenerativeneurovisual",
     "title": "GENOME: GenerativE Neuro-symbOlic visual reasoning by growing and reusing ModulEs",
     "authors": [
       "Zhenfang Chen",
@@ -351,13 +362,12 @@
     "url": "https://github.com/UMass-Embodied-AGI/genome",
     "website": "https://github.com/UMass-Embodied-AGI/genome",
     "code": "https://github.com/UMass-Embodied-AGI/genome",
-    "arxiv": "https://arxiv.org/abs/2311.04901",
+    "paper": "https://arxiv.org/abs/2311.04901",
     "preview": "/research/genome.gif",
     "category": "Learning World Models",
     "conference": "ICLR 2024"
   },
   {
-    "id": "si2024DiffTactile",
     "title": "DiffTactile: A Physics-based Differentiable Tactile Simulator for Contact-rich Robotic Manipulation",
     "authors": [
       "Zilin Si",
@@ -372,13 +382,12 @@
     "url": "https://difftactile.github.io/",
     "website": "https://difftactile.github.io/",
     "code": "https://github.com/Genesis-Embodied-AI/DiffTactile",
-    "arxiv": "https://arxiv.org/abs/2403.08716",
+    "paper": "https://arxiv.org/abs/2403.08716",
     "preview": "/research/difftactile/difftactile.gif",
     "category": "Learning World Models",
     "conference": "ICLR 2024"
   },
   {
-    "id": "li2023covlmcomposingvisualentities",
     "title": "CoVLM: Composing Visual Entities and Relationships in Large Language Models Via Communicative Decoding",
     "authors": [
       "Junyan Li",
@@ -393,48 +402,45 @@
     "url": "/research/CoVLM/index.html",
     "website": "/research/CoVLM/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/CoVLM",
-    "arxiv": "https://arxiv.org/abs/2311.03354",
+    "paper": "https://arxiv.org/abs/2311.03354",
     "preview": "/research/CoVLM/static/assets/demo.mp4",
     "category": "Large Language Models",
     "conference": "ICLR 2024"
   },
   {
-    "id": "cai2024efficientvitmultiscalelinearattention",
     "title": "EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction",
     "authors": ["Han Cai", "Junyan Li", "Muyan Hu", "Chuang Gan", "Song Han"],
     "year": "2023",
     "url": "https://arxiv.org/abs/2205.14756",
-    "arxiv": "https://arxiv.org/abs/2411.17735",
+    "paper": "https://arxiv.org/abs/2411.17735",
     "preview": "https://senfu.github.io/images/efficientvit/intro.png",
     "conference": "ICCV 2023",
     "category": "Large Language Models"
   },
   {
-      "id": "du2024constrainedhumanaicooperation",
-      "title": "Constrained Human-AI Cooperation: An Inclusive Embodied Social Intelligence Challenge",
-      "authors": [
-        "Weihua Du",
-        "Qiushi Lyu",
-        "Jiaming Shan",
-        "Zhenting Qi", 
-        "Hongxin Zhang",
-        "Sunli Chen",
-        "Andi Peng",
-        "Tianmin Shu",
-        "Kwonjoon Lee",
-        "Behzad Dariush",
-        "Chuang Gan"
-      ],
-      "year": "2024",
-      "url": "https://embodied-agi.cs.umass.edu/CHAIC/",
-      "website": "https://embodied-agi.cs.umass.edu/CHAIC/",
-      "arxiv": "https://arxiv.org/abs/2411.01796",
-      "preview": "/research/CHAIC.png",
-      "category": "Physical Reasoning and Interaction",
-      "conference": "NeurIPS 2024"
+    "title": "Constrained Human-AI Cooperation: An Inclusive Embodied Social Intelligence Challenge",
+    "authors": [
+      "Weihua Du",
+      "Qiushi Lyu",
+      "Jiaming Shan",
+      "Zhenting Qi",
+      "Hongxin Zhang",
+      "Sunli Chen",
+      "Andi Peng",
+      "Tianmin Shu",
+      "Kwonjoon Lee",
+      "Behzad Dariush",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "url": "https://embodied-agi.cs.umass.edu/CHAIC/",
+    "website": "https://embodied-agi.cs.umass.edu/CHAIC/",
+    "paper": "https://arxiv.org/abs/2411.01796",
+    "preview": "/research/CHAIC.png",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "NeurIPS 2024"
   },
   {
-    "id": "nguyen2024open3disopenvocabulary",
     "title": "Open3DIS: Open-Vocabulary 3D Instance Segmentation with 2D Mask Guidance",
     "authors": [
       "Phuc D.A. Nguyen",
@@ -447,13 +453,12 @@
     "year": "2024",
     "url": "https://open3dis.github.io/assets/2312.10671.pdf",
     "website": "https://open3dis.github.io/",
-    "arxiv": "https://arxiv.org/abs/2312.10671",
+    "paper": "https://arxiv.org/abs/2312.10671",
     "preview": "/research/Open3DIS/preview.png",
     "category": "Learning World Models",
     "conference": "CVPR 2024"
   },
   {
-    "id": "wang2024sokbenchasituatedvideoreasoning",
     "title": "SOK-Bench: A Situated Video Reasoning Benchmark with Aligned Open-World Knowledge",
     "authors": [
       "Andong Wang",
@@ -467,13 +472,12 @@
     "year": "2024",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_SOK-Bench_A_Situated_Video_Reasoning_Benchmark_with_Aligned_Open-World_Knowledge_CVPR_2024_paper.html",
     "website": "https://bobbywu.com/SOKBench/",
-    "arxiv": "https://arxiv.org/abs/2405.09713",
+    "paper": "https://arxiv.org/abs/2405.09713",
     "preview": "/research/SOK/preview.png",
     "category": "Multimodal Language Models",
     "conference": "CVPR 2024"
   },
   {
-    "id": "yang2024rilareflectiveandimaginative",
     "title": "RILA: Reflective and Imaginative Language Agent for Zero-Shot Semantic Audio-Visual Navigation",
     "authors": [
       "Zeyuan Yang",
@@ -491,7 +495,6 @@
     "conference": "CVPR 2024"
   },
   {
-    "id": "hong2024multiplymultisensoryobjectcentricembodied",
     "title": "MultiPLY: A Multisensory Object-Centric Embodied Large Language Model in 3D World",
     "authors": [
       "Yining Hong",
@@ -505,12 +508,11 @@
     "url": "/research/multiply/index.html",
     "website": "/research/multiply/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/MultiPLY",
-    "arxiv": "https://arxiv.org/abs/2401.08577",
+    "paper": "https://arxiv.org/abs/2401.08577",
     "preview": "/research/multiply/resources/cd_player.mp4",
     "category": "Audio-Visual Learning"
   },
   {
-    "id": "gu2024conceptgraphs",
     "title": "ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning",
     "authors": [
       "Qiao Gu",
@@ -534,13 +536,12 @@
     "url": "https://concept-graphs.github.io/",
     "website": "https://concept-graphs.github.io/",
     "code": "https://github.com/concept-graphs/concept-graphs",
-    "arxiv": "https://arxiv.org/abs/2309.16650",
+    "paper": "https://arxiv.org/abs/2309.16650",
     "preview": "https://concept-graphs.github.io/static/images/pipeline.png",
     "category": "Vision Learning & Navigation",
     "conference": "ICRA 2024"
   },
   {
-    "id": "hong20233dconceptlearningreasoning",
     "title": "3D Concept Learning and Reasoning from Multi-View Images",
     "authors": [
       "Yining Hong",
@@ -553,12 +554,12 @@
     "year": "2023",
     "url": "/research/3d-clr/index.html",
     "website": "/research/3d-clr/index.html",
-    "arxiv": "https://arxiv.org/abs/2303.11327",
+    "paper": "https://arxiv.org/abs/2303.11327",
     "preview": "/research/3d-clr/materials/3d-cg2.png",
+    "conference": "CVPR 2023",
     "category": "Learning World Models"
   },
   {
-    "id": "lin2023dcirdynamicconsistencyintrinsic",
     "title": "DCIR: Dynamic Consistency Intrinsic Reward for Multi-Agent Reinforcement Learning",
     "authors": [
       "Kunyang Lin",
@@ -571,11 +572,10 @@
     ],
     "year": "2023",
     "url": "https://arxiv.org/abs/2312.05783",
-    "arxiv": "https://arxiv.org/abs/2312.05783",
+    "paper": "https://arxiv.org/abs/2312.05783",
     "category": "Large Language Models"
   },
   {
-    "id": "sun2023principledrivenselfalignmentlanguagemodels",
     "title": "Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision",
     "authors": [
       "Zhiqing Sun",
@@ -592,14 +592,12 @@
     "selected": true,
     "website": "https://github.com/IBM/Dromedary",
     "preview": "https://github.com/IBM/Dromedary/raw/main/assets/images/dromedary_logo_with_text.svg",
-    "pdf": "https://arxiv.org/pdf/2305.03047",
-    "arxiv": "https://arxiv.org/abs/2305.03047",
+    "paper": "https://arxiv.org/abs/2305.03047",
     "code": "https://github.com/IBM/Dromedary",
     "journal": "Advances in Neural Information Processing Systems",
     "category": "Large Language Models"
   },
   {
-    "id": "chen2023a2navactionawarezeroshotrobot",
     "title": "A^2Nav: Action-Aware Zero-Shot Robot Navigation by Exploiting Vision-and-Language Ability of Foundation Models",
     "authors": [
       "Peihao Chen",
@@ -613,11 +611,10 @@
     ],
     "year": "2023",
     "url": "https://arxiv.org/abs/2308.07997",
-    "arxiv": "https://arxiv.org/abs/2308.07997",
+    "paper": "https://arxiv.org/abs/2308.07997",
     "category": "Physical Reasoning and Interaction"
   },
   {
-    "id": "lin2023learningvisionandlanguagenavigationyoutube",
     "title": "Learning Vision-and-Language Navigation from YouTube Videos",
     "authors": [
       "Kunyang Lin",
@@ -629,12 +626,11 @@
     ],
     "year": "2023",
     "url": "https://arxiv.org/abs/2307.11984",
-    "arxiv": "https://arxiv.org/abs/2307.11984",
+    "paper": "https://arxiv.org/abs/2307.11984",
     "preview": "https://github.com/JeremyLinky/YouTube-VLN/raw/main/readme/lily.png",
     "category": "Vision Learning & Navigation"
   },
   {
-    "id": "hong20233dllminjecting3dworld",
     "title": "3D-LLM: Injecting the 3D World into Large Language Models",
     "authors": [
       "Yining Hong",
@@ -648,16 +644,14 @@
     "year": "2023",
     "url": "/research/3dllm/index.html",
     "selected": true,
-    "arxiv": "https://arxiv.org/abs/2307.12981",
+    "paper": "https://arxiv.org/abs/2307.12981",
     "code": "https://github.com/umass-foundation-model/3d-llm",
     "preview": "/research/3dllm/data/new_chat_demo.mp4",
     "website": "/research/3dllm/index.html",
-    "pdf": "https://arxiv.org/pdf/2307.12981",
     "journal": "Advances in Neural Information Processing Systems",
     "category": "Multimodal Language Models"
   },
   {
-    "id": "sun2023maskedmotionencodingselfsupervised",
     "title": "Masked Motion Encoding for Self-Supervised Video Representation Learning",
     "authors": [
       "Xinyu Sun",
@@ -670,12 +664,11 @@
     ],
     "year": "2023",
     "url": "https://arxiv.org/abs/2210.06096",
-    "arxiv": "https://arxiv.org/abs/2210.06096",
+    "paper": "https://arxiv.org/abs/2210.06096",
     "preview": "https://github.com/XinyuSun/MME/raw/main/resource/arch.png",
     "category": "Vision Learning & Navigation"
   },
   {
-    "id": "zhou2023adaptive",
     "title": "Adaptive online replanning with diffusion models",
     "authors": [
       "Siyuan Zhou",
@@ -689,14 +682,13 @@
     ],
     "year": "2023",
     "conference": "NeurIPS 2023",
-    "pdf": "https://arxiv.org/pdf/2310.09629",
-    "arxiv": "https://arxiv.org/abs/2310.09629",
+    "url": "https://arxiv.org/abs/2310.09629",
+    "paper": "https://arxiv.org/abs/2310.09629",
     "code": "https://github.com/rainbow979/replandiffuser",
     "preview": "/research/replandiffuser/preview.png",
     "category": "Vision Learning & Navigation"
   },
   {
-    "id": "huang2023diffvlscalingsoftbody",
     "title": "DiffVL: Scaling Up Soft Body Manipulation using Vision-Language Driven Differentiable Physics",
     "authors": [
       "Zhiao Huang",
@@ -708,14 +700,14 @@
     ],
     "year": "2023",
     "conference": "NeurIPS 2023",
-    "arxiv": "https://arxiv.org/abs/2312.06408",
+    "paper": "https://arxiv.org/abs/2312.06408",
     "code": "https://github.com/Winniechen2002/DiffVL",
+    "url": "https://sites.google.com/view/diffvl/home",
     "website": "https://sites.google.com/view/diffvl/home",
     "preview": "/research/diffvl/preview.png",
     "category": "Physical Reasoning and Interaction"
   },
   {
-    "id": "wang2023diffusebotbreedingsoftrobots",
     "title": "DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models",
     "authors": [
       "Tsun-Hsuan Wang",

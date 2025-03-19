@@ -1,32 +1,51 @@
 ---
-import { getPostUrlBySlug } from '@utils/url-utils'
-import ResearchCard from './ResearchCard.astro'
+import { getPostUrlBySlug } from "@utils/url-utils";
+import ResearchCard from "./ResearchCard.astro";
 
-const { list, selected } = Astro.props
+const { list, selected } = Astro.props;
 
-let delay = 0
-const interval = 50
+let delay = 0;
+const interval = 50;
 ---
-<div class="transition flex flex-col rounded-[var(--radius-large)] bg-[var(--card-bg)] py-1 md:py-0 md:bg-transparent md:gap-4 mb-4">
-    {list.data
-      .filter(entry => !selected || entry.selected)
-      .map((entry: { data: { draft: boolean; title: string; tags: string[]; category: string; conference: string; image: string; description: string; updated: Date; }; slug: string; }) => {
-        return (
+
+<div
+  class="transition flex flex-col bg-[var(--card-bg)] py-1 md:py-0 md:bg-transparent md:gap-4 mb-4"
+>
+  {
+    list.data
+      .filter((entry) => !selected || entry.selected)
+      .map(
+        (entry: {
+          data: {
+            draft: boolean;
+            title: string;
+            tags: string[];
+            category: string;
+            conference: string;
+            image: string;
+            description: string;
+            updated: Date;
+          };
+          slug: string;
+        }) => {
+          return (
             <ResearchCard
-                entry={entry}
-                title={entry.title}
-                url={entry.url}
-                authors={entry.authors}
-                year={entry.year}
-                arxiv={entry.arxiv}
-                code={entry.code}
-                preview={entry.preview}
-                description={entry.description}
-                category={entry.category}
-                conference={entry.conference}
-                website={entry.website}
-                style={`animation-delay: calc(var(--content-delay) + ${delay++ * interval}ms);`}
-            ></ResearchCard>
-        );
-    })}
+              entry={entry}
+              title={entry.title}
+              url={entry.url}
+              authors={entry.authors}
+              year={entry.year}
+              paper={entry.paper}
+              code={entry.code}
+              preview={entry.preview}
+              description={entry.description}
+              category={entry.category}
+              conference={entry.conference}
+              website={entry.website}
+              style={`animation-delay: calc(var(--content-delay) + ${delay++ * interval}ms);`}
+            />
+          );
+        },
+      )
+  }
 </div>

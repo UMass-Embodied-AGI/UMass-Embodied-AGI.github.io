@@ -1,77 +1,124 @@
 ---
-import type { GetStaticPaths } from 'astro'
-import { getEntry } from 'astro:content'
-import Markdown from '@components/misc/Markdown.astro'
-import PostPage from '../components/PostPage.astro'
-import Pagination from '../components/control/Pagination.astro'
-import { PAGE_SIZE } from '../constants/constants'
-import MainGridLayout from '../layouts/MainGridLayout.astro'
-import { getSortedPosts } from '../utils/content-utils'
-import ImageWrapper from '../components/misc/ImageWrapper.astro'
-import path from 'path'
-import { getDir } from '../utils/url-utils'
-import ResearchList from '../components/ResearchList.astro'
+import type { GetStaticPaths } from "astro";
+import { getEntry } from "astro:content";
+import Markdown from "@components/misc/Markdown.astro";
+import PostPage from "../components/PostPage.astro";
+import Pagination from "../components/control/Pagination.astro";
+import { PAGE_SIZE } from "../constants/constants";
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+import { getSortedPosts } from "../utils/content-utils";
+import ImageWrapper from "../components/misc/ImageWrapper.astro";
+import path from "path";
+import { getDir } from "../utils/url-utils";
+import ResearchList from "../components/ResearchList.astro";
 export const getStaticPaths = (async ({ paginate }) => {
-  const allBlogPosts = await getSortedPosts()
-  return paginate(allBlogPosts, { pageSize: PAGE_SIZE })
-}) satisfies GetStaticPaths
+  const allBlogPosts = await getSortedPosts();
+  return paginate(allBlogPosts, { pageSize: PAGE_SIZE });
+}) satisfies GetStaticPaths;
 // https://github.com/withastro/astro/issues/6507#issuecomment-1489916992
 
-const { page } = Astro.props
-const aboutContent = await getEntry('main', 'about')
-const researchList = await getEntry('research', 'list')
-const len = page.data.length
-const { Content } = await aboutContent.render()
+const { page } = Astro.props;
+const aboutContent = await getEntry("main", "about");
+const researchList = await getEntry("research", "list");
+const len = page.data.length;
+const { Content } = await aboutContent.render();
 ---
 
 <MainGridLayout>
-<div class="px-4">
+  <div class="px-4">
+    <div class="mt-8 mx-auto grid grid-cols-2 grid-rows-3 gap-2">
+      <div class="aspect-video flex items-center justify-center">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          class="w-full h-full object-cover"
+        >
+          <source src="/demo/3DMem_real.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-<div class="mt-8 mx-auto grid grid-cols-2 grid-rows-3 gap-2">
+      <div class="aspect-video flex items-center justify-center">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          class="w-full h-full object-cover"
+        >
+          <source src="/demo/3DMem_real.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-<div class="aspect-video flex items-center justify-center">
-  <video autoplay loop muted playsinline class="w-full h-full object-cover">
-    <source src="/demo/3DMem_real.mp4" type="video/mp4">
-</div>
+      <div class="aspect-video flex items-center justify-center">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          class="w-full h-full object-cover"
+        >
+          <source src="/demo/robogen.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-<div class="aspect-video flex items-center justify-center">
-  <video autoplay loop muted playsinline class="w-full h-full object-cover">
-    <source src="/demo/3DMem_real.mp4" type="video/mp4">
-</div>
+      <div class="aspect-video flex items-center justify-center">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          class="w-full h-full object-cover"
+        >
+          <source src="/demo/robogen.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-<div class="aspect-video flex items-center justify-center">
-  <video autoplay loop muted playsinline class="w-full h-full object-cover">
-    <source src="/demo/robogen.mp4" type="video/mp4">
-  </video>
-</div>
+      <div class="aspect-video flex items-center justify-center">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          class="w-full h-full object-cover"
+        >
+          <source src="/demo/VirtualCommunity.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-<div class="aspect-video flex items-center justify-center">
-  <video autoplay loop muted playsinline class="w-full h-full object-cover">
-    <source src="/demo/robogen.mp4" type="video/mp4">
-  </video>
-</div>
+      <div class="aspect-video flex items-center justify-center">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          class="w-full h-full object-cover"
+        >
+          <source src="/demo/CoELA.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
 
-<div class="aspect-video flex items-center justify-center">
-  <video autoplay loop muted playsinline class="w-full h-full object-cover">
-    <source src="/demo/VirtualCommunity.mp4" type="video/mp4">
-</div>
+    <div
+      class="mt-8 flex flex-col items-center text-center text-black/80 dark:text-white/80"
+    >
+      <h1 class="text-2xl font-bold mb-4">Welcome to Embodied AGI Lab!</h1>
+      <p class="text-base mb-6">
+        Our goal is to develop embodied intelligent agents capable of
+        understanding and interacting with the world in a human-like manner. By
+        combining physical and social intelligence with advanced models, we aim
+        to push the boundaries of embodied general intelligence for virtual and
+        real-world environments.
+      </p>
+      <p>LGRC A101, 740 N. Pleasant Street, Amherst, MA 01003</p>
+    </div>
 
-<div class="aspect-video flex items-center justify-center">
-  <video autoplay loop muted playsinline class="w-full h-full object-cover">
-    <source src="/demo/CoELA.mp4" type="video/mp4">
-  </video>
-</div>
-</div>
-
-<div class="mt-8 flex flex-col items-center text-center text-black/80 dark:text-white/80">
-  <h1 class="text-2xl font-bold mb-4">Welcome to Embodied AGI Lab!</h1>
-  <p class="text-base mb-6">Our goal is to develop embodied intelligent agents capable of understanding and interacting with the world in a human-like manner. By combining physical and social intelligence with advanced models, we aim to push the boundaries of embodied general intelligence for virtual and real-world environments.</p>
-  <p>LGRC A101, 740 N. Pleasant Street, Amherst, MA 01003</p>
-</div>
-
-<div class="mt-12 text-black/80 dark:text-white/80">
-  <h2 class="text-2xl font-bold mb-6">Latest News</h2>
-  <div class="space-y-4 [&>ul]:list-disc [&>ul]:pl-8">
-    <Content />
-  </div>
-</MainGridLayout>
+    <div class="mt-12 text-black/80 dark:text-white/80">
+      <h2 class="text-2xl font-bold mb-6">Latest News</h2>
+      <div class="space-y-4 [&>ul]:list-disc [&>ul]:pl-8">
+        <Content />
+      </div>
+    </div>
+  </div></MainGridLayout
+>
