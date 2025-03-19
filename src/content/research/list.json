@@ -26,6 +26,38 @@
     "conference": "ECCV 2024"
   },
   {
+    "id": "lin2024ubsoft",
+    "type": "misc",
+    "title": "UBSoft: A Simulation Platform for Robotic Skill Learning in Unbounded Soft Environments",
+    "authors": [
+      Lin, Chunru and Fan, Jugang and Wang, Yian and Yang, Zeyuan and Chen, Zhehuan and Fang, Lixing and Wang, Tsun-Hsuan and Xian, Zhou and Gan, Chuang
+      "Chunru Lin",
+      "Jugang Fan",
+      "Feng Chen",
+      "Yian Wang",
+      "Zeyuan Yang",
+      "Zhehuan Chen",
+      "Lixing Fang",
+      "Tsun-Hsuan Wang",
+      "Zhou Xian",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "eprint": "2411.12711",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.RO",
+    "url": "https://arxiv.org/abs/2411.12711",
+    "preview": "https://github.com/UMass-Embodied-AGI/UBSoft/blob/main/static/videos/teaser.mp4",
+    "pdf": "https://arxiv.org/pdf/2411.12711",
+    "arxiv": "https://arxiv.org/abs/2411.12711",
+    "website": "https://umass-embodied-agi.github.io/UBSoft/",
+    "booktitle": "International conference on machine learning",
+    "code": "https://umass-embodied-agi.github.io/UBSoft",
+    "selected": true,
+    "category": "Physics Simulation",
+    "conference": "CoRL 2024"
+  },
+  {
     "id": "wang2024robogenunleashinginfinitedata",
     "type": "misc",
     "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
