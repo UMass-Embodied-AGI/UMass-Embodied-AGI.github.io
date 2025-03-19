@@ -3,8 +3,8 @@
     "id": "yang20243dmem3dscenememory",
     "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
     "authors": [
-      "Yuncong Yang",
-      "Han Yang",
+      "Yuncong Yang*",
+      "Han Yang*",
       "Jiachen Zhou",
       "Peihao Chen",
       "Hongxin Zhang",
@@ -24,9 +24,9 @@
     "id": "zhang2024combocompositionalworldmodels",
     "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
     "authors": [
-      "Hongxin Zhang",
-      "Zeyuan Wang",
-      "Qiushi Lyu",
+      "Hongxin Zhang*",
+      "Zeyuan Wang*",
+      "Qiushi Lyu*",
       "Zheyuan Zhang",
       "Sunli Chen",
       "Tianmin Shu",
@@ -133,12 +133,10 @@
     ],
     "year": "2024",
     "url": "https://arxiv.org/abs/2411.12711",
-    "preview": "https://github.com/UMass-Embodied-AGI/UBSoft/blob/main/static/videos/teaser.mp4",
+    "preview": "/research/UBsoft.mp4",
     "pdf": "https://arxiv.org/pdf/2411.12711",
     "arxiv": "https://arxiv.org/abs/2411.12711",
     "website": "https://umass-embodied-agi.github.io/UBSoft/",
-    "code": "https://umass-embodied-agi.github.io/UBSoft",
-    "selected": true,
     "category": "Physics Simulation",
     "conference": "CoRL 2024"
   },
@@ -309,10 +307,10 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "url": "/research/Co-LLM-Agents/index.html",
-    "website": "/research/Co-LLM-Agents/index.html",
+    "url": "https://umass-embodied-agi.github.io/CoELA/",
+    "website": "https://umass-embodied-agi.github.io/CoELA/",
     "arxiv": "https://arxiv.org/abs/2411.17735",
-    "preview": "/research/Co-LLM-Agents/figure/teaser_v1.7.jpg",
+    "preview": "/research/CoELA.jpg",
     "category": "Multimodal Language Models",
     "conference": "ICLR 2024"
   },
@@ -350,12 +348,11 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "url": "/research/genome/index.html",
-    "website": "/research/genome/index.html",
+    "url": "https://github.com/UMass-Embodied-AGI/genome",
+    "website": "https://github.com/UMass-Embodied-AGI/genome",
     "code": "https://github.com/UMass-Embodied-AGI/genome",
     "arxiv": "https://arxiv.org/abs/2311.04901",
-    "doi": "10.48550/arXiv.2311.04901",
-    "preview": "/research/genome/GNSVR_files/11_imgedit.gif",
+    "preview": "/research/genome.gif",
     "category": "Learning World Models",
     "conference": "ICLR 2024"
   },
@@ -376,7 +373,6 @@
     "website": "https://difftactile.github.io/",
     "code": "https://github.com/Genesis-Embodied-AI/DiffTactile",
     "arxiv": "https://arxiv.org/abs/2403.08716",
-    "doi": "10.48550/arXiv.2403.08716",
     "preview": "/research/difftactile/difftactile.gif",
     "category": "Learning World Models",
     "conference": "ICLR 2024"
@@ -430,10 +426,10 @@
         "Chuang Gan"
       ],
       "year": "2024",
-      "url": "/research/CHAIC/index.html",
-      "website": "/research/CHAIC/index.html",
+      "url": "https://embodied-agi.cs.umass.edu/CHAIC/",
+      "website": "https://embodied-agi.cs.umass.edu/CHAIC/",
       "arxiv": "https://arxiv.org/abs/2411.01796",
-      "preview": "/research/CHAIC/figure/teaser_v4.png",
+      "preview": "/research/CHAIC.png",
       "category": "Physical Reasoning and Interaction",
       "conference": "NeurIPS 2024"
   },
@@ -490,7 +486,7 @@
     ],
     "year": "2024",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yang_RILA_Reflective_and_Imaginative_Language_Agent_for_Zero-Shot_Semantic_Audio-Visual_CVPR_2024_paper.html",
-    "preview": "/research/RILA/preview.png",
+    "preview": "/research/RILA.png",
     "category": "Vision Learning & Navigation",
     "conference": "CVPR 2024"
   },
@@ -558,7 +554,6 @@
     "url": "/research/3d-clr/index.html",
     "website": "/research/3d-clr/index.html",
     "arxiv": "https://arxiv.org/abs/2303.11327",
-    "doi": "10.48550/arXiv.2303.11327",
     "preview": "/research/3d-clr/materials/3d-cg2.png",
     "category": "Learning World Models"
   },
