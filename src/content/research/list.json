@@ -142,28 +142,6 @@
     "conference": "CoRL 2024"
   },
   {
-    "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
-    "authors": [
-      "Haoyu Zhen",
-      "Xiaowen Qiu",
-      "Peihao Chen",
-      "Jincheng Yang",
-      "Xin Yan",
-      "Yilun Du",
-      "Yining Hong",
-      "Chuang Gan"
-    ],
-    "year": "2024",
-    "url": "https://arxiv.org/abs/2403.09631",
-    "preview": "https://robogen-ai.github.io/videos/trailer.mp4",
-    "paper": "https://arxiv.org/abs/2403.09631",
-    "website": "https://umass-embodied-agi.github.io/research/3dvla/",
-    "booktitle": "International conference on machine learning",
-    "code": "https://github.com/UMass-Embodied-AGI/3D-VLA",
-    "category": "Multimodal Language Models",
-    "conference": "ICML 2024"
-  },
-  {
     "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
     "authors": [
       "Yufei Wang",
@@ -266,6 +244,47 @@
     "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
     "category": "Learning World Models",
     "conference": "ICML 2024"
+  },
+  {
+    "title": "LLM and Simulation as Bilevel Optimizers: A New Paradigm to Advance Physical Scientific Discovery",
+    "authors": [
+      "Pingchuan Ma",
+      "Johnson Tsun-Hsuan Wang",
+      "Minghao Guo",
+      "Zhiqing Sun",
+      "Josh Tenenbaum",
+      "Daniela Rus",
+      "Chuang Gan",
+      "Wojciech Matusik"
+    ],
+    "url": "https://github.com/PingchuanMa/SGA",
+    "website": "https://github.com/PingchuanMa/SGA",
+    "code": "https://github.com/PingchuanMa/SGA",
+    "paper": "https://arxiv.org/abs/2405.09783",
+    "year": "2024",
+    "booktitle": "International conference on machine learning",
+    "conference": "ICML 2024",
+    "category": "Physical Reasoning and Interaction"
+  },
+  {
+    "title": "ContPhy: Continuum Physical Concept Learning and Reasoning from Videos",
+    "authors": [
+      "Zhicheng Zheng",
+      "Xin Yan",
+      "Zhenfang Chen",
+      "Jingzhou Wang",
+      "Qin Zhi Eddie Lim",
+      "Joshua Tenenbaum",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "url": "https://physical-reasoning-project.github.io/",
+    "website": "https://physical-reasoning-project.github.io/",
+    "code": "https://github.com/zzcnewly/ContPhy-Gen",
+    "booktitle": "International conference on machine learning",
+    "conference": "ICML 2024",
+    "paper": "https://arxiv.org/abs/2402.06119",
+    "category": "Physical Reasoning and Interaction"
   },
   {
     "title": "SALMON: Self-Alignment with Instructable Reward Models",
