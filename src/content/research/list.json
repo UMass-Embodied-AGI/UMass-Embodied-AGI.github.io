@@ -14,6 +14,7 @@
       "Chuang Gan"
     ],
     "year": "2025",
+    "url": "https://openreview.net/forum?id=aRxLDcxFcL",
     "preview": "/research/vico.mp4",
     "paper": "https://openreview.net/forum?id=aRxLDcxFcL",
     "category": "Physical Reasoning and Interaction",
@@ -133,6 +134,7 @@
     "year": "2024",
     "code": "https://github.com/UMass-Embodied-AGI/FlexAttention",
     "paper": "https://arxiv.org/abs/2407.20228",
+    "url": "https://arxiv.org/abs/2407.20228",
     "preview": "/research/flexattention.jpg",
     "category": "Large Language Models",
     "conference": "ECCV 2024"
@@ -215,6 +217,7 @@
     ],
     "year": "2024",
     "paper": "https://arxiv.org/abs/2404.12377",
+    "url": "https://arxiv.org/abs/2404.12377",
     "preview": "/research/robodreamer.png",
     "category": "Physical Reasoning and Interaction"
   },
@@ -253,8 +256,9 @@
     "year": "2024",
     "booktitle": "International conference on machine learning",
     "selected": true,
-    "website": "/research/3dvla.html",
+    "preview": "/research/3dVLA.mp4",
     "paper": "https://arxiv.org/abs/2403.09631",
+    "url": "https://arxiv.org/abs/2403.09631",
     "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
     "category": "Learning World Models",
     "conference": "ICML 2024"
@@ -275,6 +279,7 @@
     "website": "https://github.com/PingchuanMa/SGA",
     "code": "https://github.com/PingchuanMa/SGA",
     "paper": "https://arxiv.org/abs/2405.09783",
+    "preview": "https://github.com/PingchuanMa/SGA/blob/main/assets/pipeline.jpg?raw=true",
     "year": "2024",
     "booktitle": "International conference on machine learning",
     "conference": "ICML 2024",
@@ -295,6 +300,7 @@
     "url": "https://physical-reasoning-project.github.io/",
     "website": "https://physical-reasoning-project.github.io/",
     "code": "https://github.com/zzcnewly/ContPhy-Gen",
+    "preview": "https://physical-reasoning-project.github.io/static/images/ContPRO.png",
     "booktitle": "International conference on machine learning",
     "conference": "ICML 2024",
     "paper": "https://arxiv.org/abs/2402.06119",
@@ -668,6 +674,7 @@
     ],
     "year": "2023",
     "selected": true,
+    "url": "https://arxiv.org/abs/2307.12981",
     "paper": "https://arxiv.org/abs/2307.12981",
     "code": "https://github.com/umass-foundation-model/3d-llm",
     "preview": "/research/3dllm.mp4",
@@ -745,7 +752,8 @@
     ],
     "year": "2023",
     "conference": "NeurIPS 2023",
-    "url": "https://arxiv.org/abs/2311.17053",
+    "url": "https://diffusebot.github.io/",
+    "paper": "https://arxiv.org/abs/2311.17053",
     "website": "https://diffusebot.github.io/",
     "preview": "/research/diffusebot.mp4",
     "category": "Physical Reasoning and Interaction"
