@@ -14,9 +14,7 @@
         "Chuang Gan"
       ],
       "year": "2025",
-      "url": "/research/virtual-community/index.html",
-      "website": "/research/virtual-community/index.html",
-      "preview": "/research/virtual-community/static/Virtual-Community-main/Community_Simulation_mp4/ezgif-4-3e37cf3da7.mp4",
+      "preview": "/research/vico.mp4",
       "paper": "https://openreview.net/forum?id=aRxLDcxFcL",
       "category": "Physical Reasoning and Interaction",
       "conference": "ICLR 2025"
@@ -37,7 +35,7 @@
     "website": "https://embodied-agi.cs.umass.edu/3dmem/",
     "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
     "paper": "https://arxiv.org/abs/2411.17735",
-    "preview": "/research/3DMem_opening.mp4",
+    "preview": "/research/3DMem.mp4",
     "category": "Multimodal Language Models",
     "conference": "CVPR 2025"
   },
@@ -133,11 +131,9 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "url": "/research/flexattention/index.html",
-    "website": "/research/flexattention/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/FlexAttention",
     "paper": "https://arxiv.org/abs/2407.20228",
-    "preview": "/research/flexattention/static/assets/overview.jpg",
+    "preview": "/research/flexattention.jpg",
     "category": "Large Language Models",
     "conference": "ECCV 2024"
   },
@@ -218,10 +214,8 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "url": "/research/robodreamer/index.html",
-    "website": "/research/robodreamer/index.html",
     "paper": "https://arxiv.org/abs/2404.12377",
-    "preview": "/research/robodreamer/method.png",
+    "preview": "/research/robodreamer.png",
     "category": "Physical Reasoning and Interaction"
   },
   {
@@ -257,11 +251,9 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "url": "/research/3dvla/index.html",
-    "preview": "/research/3dvla/static/video/demo.mp4",
     "booktitle": "International conference on machine learning",
     "selected": true,
-    "website": "/research/3dvla/index.html",
+    "website": "/research/3dvla.html",
     "paper": "https://arxiv.org/abs/2403.09631",
     "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
     "category": "Learning World Models",
@@ -299,8 +291,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "url": "/research/ThinShellLab/index.html",
-    "website": "/research/ThinShellLab/index.html",
     "code": "https://github.com/wangyian-me/ThinShellLab",
     "paper": "https://arxiv.org/abs/2404.00451",
     "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif",
@@ -341,8 +331,6 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "url": "/research/hazard/index.html",
-    "website": "/research/hazard/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/HAZARD",
     "paper": "https://arxiv.org/abs/2411.17735",
     "preview": "https://github.com/UMass-Embodied-AGI/HAZARD/blob/main/pics/overview.png?raw=true",
@@ -383,7 +371,7 @@
     "website": "https://difftactile.github.io/",
     "code": "https://github.com/Genesis-Embodied-AI/DiffTactile",
     "paper": "https://arxiv.org/abs/2403.08716",
-    "preview": "/research/difftactile/difftactile.gif",
+    "preview": "/research/difftactile.gif",
     "category": "Learning World Models",
     "conference": "ICLR 2024"
   },
@@ -403,7 +391,7 @@
     "website": "/research/CoVLM/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/CoVLM",
     "paper": "https://arxiv.org/abs/2311.03354",
-    "preview": "/research/CoVLM/static/assets/demo.mp4",
+    "preview": "/research/CoVLM.mp4",
     "category": "Large Language Models",
     "conference": "ICLR 2024"
   },
@@ -454,7 +442,7 @@
     "url": "https://open3dis.github.io/assets/2312.10671.pdf",
     "website": "https://open3dis.github.io/",
     "paper": "https://arxiv.org/abs/2312.10671",
-    "preview": "/research/Open3DIS/preview.png",
+    "preview": "/research/Open3DIS.png",
     "category": "Learning World Models",
     "conference": "CVPR 2024"
   },
@@ -473,7 +461,7 @@
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_SOK-Bench_A_Situated_Video_Reasoning_Benchmark_with_Aligned_Open-World_Knowledge_CVPR_2024_paper.html",
     "website": "https://bobbywu.com/SOKBench/",
     "paper": "https://arxiv.org/abs/2405.09713",
-    "preview": "/research/SOK-Bench/preview.png",
+    "preview": "/research/SOK-Bench.png",
     "category": "Multimodal Language Models",
     "conference": "CVPR 2024"
   },
@@ -505,11 +493,9 @@
       "Chuang Gan"
     ],
     "year": "2024",
-    "url": "/research/multiply/index.html",
-    "website": "/research/multiply/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/MultiPLY",
     "paper": "https://arxiv.org/abs/2401.08577",
-    "preview": "/research/multiply/resources/cd_player.mp4",
+    "preview": "/research/multiply.mp4",
     "category": "Audio-Visual Learning"
   },
   {
@@ -552,10 +538,8 @@
       "Chuang Gan"
     ],
     "year": "2023",
-    "url": "/research/3d-clr/index.html",
-    "website": "/research/3d-clr/index.html",
     "paper": "https://arxiv.org/abs/2303.11327",
-    "preview": "/research/3d-clr/materials/3d-cg2.png",
+    "preview": "/research/3dclr.png",
     "conference": "CVPR 2023",
     "category": "Learning World Models"
   },
@@ -642,12 +626,10 @@
       "Chuang Gan"
     ],
     "year": "2023",
-    "url": "/research/3dllm/index.html",
     "selected": true,
     "paper": "https://arxiv.org/abs/2307.12981",
     "code": "https://github.com/umass-foundation-model/3d-llm",
-    "preview": "/research/3dllm/data/new_chat_demo.mp4",
-    "website": "/research/3dllm/index.html",
+    "preview": "/research/3dllm.mp4",
     "journal": "Advances in Neural Information Processing Systems",
     "category": "Multimodal Language Models"
   },
@@ -685,7 +667,7 @@
     "url": "https://arxiv.org/abs/2310.09629",
     "paper": "https://arxiv.org/abs/2310.09629",
     "code": "https://github.com/rainbow979/replandiffuser",
-    "preview": "/research/replandiffuser/preview.png",
+    "preview": "/research/replandiffuser.png",
     "category": "Vision Learning & Navigation"
   },
   {
@@ -704,7 +686,7 @@
     "code": "https://github.com/Winniechen2002/DiffVL",
     "url": "https://sites.google.com/view/diffvl/home",
     "website": "https://sites.google.com/view/diffvl/home",
-    "preview": "/research/DiffVL/preview.png",
+    "preview": "/research/DiffVL.png",
     "category": "Physical Reasoning and Interaction"
   },
   {
@@ -724,7 +706,7 @@
     "conference": "NeurIPS 2023",
     "url": "https://arxiv.org/abs/2311.17053",
     "website": "https://diffusebot.github.io/",
-    "preview": "/research/diffusebot/preview.mp4",
+    "preview": "/research/diffusebot.mp4",
     "category": "Physical Reasoning and Interaction"
   }
 ]
