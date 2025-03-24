@@ -142,6 +142,20 @@
     "conference": "NeurIPS 2024"
   },
   {
+    "title": "Constrained Human-AI Cooperation: An Inclusive Embodied Social Intelligence Challenge",
+    "authors": [
+      "Weihua Du*", "Qiushi Lyu*", "Jiaming Shan", "Zhenting Qi", "Hongxin Zhang", "Sunli Chen", "Andi Peng", "Tianmin Shu", "Kwonjoon Lee", "Behzad Dariush", "Chuang Gan"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2411.01796",
+    "preview": "https://icefoxzhx.github.io/images/CHAIC.png",
+    "paper": "https://arxiv.org/abs/2411.01796",
+    "website": "",
+    "code": "https://github.com/UMass-Embodied-AGI/CHAIC",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "NeurIPS 2024"
+  },
+  {
     "title": "FlexAttention for Efficient High-Resolution Vision-Language Models",
     "authors": [
       "Junyan Li",
