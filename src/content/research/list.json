@@ -1,26 +1,5 @@
 [
   {
-    "title": "Virtual Community: A Generative Social World for Embodied AI",
-    "authors": [
-      "Qinhong Zhou*",
-      "Hongxin Zhang*",
-      "Yutian Chen", 
-      "Zheyuan Zhang",
-      "Xiangye Lin",
-      "Jincheng Yang",
-      "Lixing Fang",
-      "Jiageng Liu",
-      "Xinyu Sun",
-      "Chuang Gan"
-    ],
-    "year": "2025",
-    "url": "https://openreview.net/forum?id=aRxLDcxFcL",
-    "preview": "/research/vico.mp4",
-    "paper": "https://openreview.net/forum?id=aRxLDcxFcL",
-    "category": "Physical Reasoning and Interaction",
-    "conference": "ICLR 2025"
-  },
-  {
     "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
     "authors": [
       "Yuncong Yang*",
