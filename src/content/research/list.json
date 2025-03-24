@@ -200,26 +200,6 @@
     "conference": "ICML 2024"
   },
   {
-    "title": "CoNav: A Benchmark for Human-Centered Collaborative Navigation",
-    "authors": [
-      "Changhao Li",
-      "Xinyu Sun",
-      "Peihao Chen",
-      "Jugang Fan",
-      "Zixu Wang",
-      "Yanxia Liu",
-      "Jinhui Zhu",
-      "Chuang Gan",
-      "Mingkui Tan"
-    ],
-    "year": "2024",
-    "url": "https://arxiv.org/abs/2406.02425",
-    "paper": "https://arxiv.org/abs/2406.02425",
-    "category": "Physical Reasoning and Interaction",
-    "code": "https://github.com/Li-ChangHao/CoNav",
-    "preview": "https://github.com/Li-ChangHao/CoNav/raw/main/assets/lustration.png"
-  },
-  {
     "title": "RoboDreamer: Learning Compositional World Models for Robot Imagination",
     "authors": [
       "Siyuan Zhou",
@@ -233,7 +213,11 @@
     "paper": "https://arxiv.org/abs/2404.12377",
     "url": "https://arxiv.org/abs/2404.12377",
     "preview": "/research/robodreamer.png",
-    "category": "Physical Reasoning and Interaction"
+    "category": "Physical Reasoning and Interaction",
+    "booktitle": "International conference on machine learning",
+    "website": "https://robovideo.github.io/",
+    "code": "https://github.com/rainbow979/robodreamer",
+    "conference": "ICML 2024"
   },
   {
     "title": "Visual Chain-of-Thought Prompting for Knowledge-Based Visual Reasoning",
