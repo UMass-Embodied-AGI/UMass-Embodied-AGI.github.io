@@ -15,7 +15,7 @@
     "website": "https://embodied-agi.cs.umass.edu/3dmem/",
     "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
     "paper": "https://arxiv.org/abs/2411.17735",
-    "preview": "/research/3DMem.mp4",
+    "preview": "/research/3DMem.webm",
     "category": "Multimodal Language Models",
     "conference": "CVPR 2025"
   },
@@ -38,7 +38,7 @@
     "website": "https://umass-embodied-agi.github.io/COMBO",
     "code": "https://github.com/UMass-Embodied-AGI/COMBO",
     "paper": "https://arxiv.org/abs/2404.10775",
-    "preview": "/research/combo.mp4",
+    "preview": "/research/combo.webm",
     "category": "Physical Reasoning and Interaction",
     "conference": "ICLR 2025"
   },
@@ -58,7 +58,7 @@
     "website": "https://snap-research.github.io/DELTA/",
     "code": "https://github.com/snap-research/DELTA_densetrack3d",
     "paper": "https://arxiv.org/abs/2410.24211",
-    "preview": "/research/DELTA.mp4",
+    "preview": "/research/DELTA.webm",
     "category": "3D Vision",
     "conference": "ICLR 2025"
   },
@@ -134,7 +134,7 @@
     ],
     "year": "2024",
     "url": "https://arxiv.org/abs/2411.12711",
-    "preview": "/research/UBsoft.mp4",
+    "preview": "/research/UBsoft.webm",
     "paper": "https://arxiv.org/abs/2411.12711",
     "website": "https://umass-embodied-agi.github.io/UBSoft/",
     "category": "Physics Simulation",
@@ -155,7 +155,7 @@
     ],
     "year": "2024",
     "url": "https://arxiv.org/abs/2311.01455",
-    "preview": "https://robogen-ai.github.io/videos/trailer.mp4",
+    "preview": "/research/robogen.webm",
     "paper": "https://arxiv.org/abs/2311.01455",
     "website": "https://robogen-ai.github.io/",
     "booktitle": "International conference on machine learning",
@@ -235,7 +235,7 @@
     "year": "2024",
     "booktitle": "International conference on machine learning",
     "selected": true,
-    "preview": "/research/3dVLA.mp4",
+    "preview": "/research/3dVLA.webm",
     "paper": "https://arxiv.org/abs/2403.09631",
     "url": "https://arxiv.org/abs/2403.09631",
     "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
@@ -417,7 +417,7 @@
     "website": "/research/CoVLM/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/CoVLM",
     "paper": "https://arxiv.org/abs/2311.03354",
-    "preview": "/research/CoVLM.mp4",
+    "preview": "/research/CoVLM.webm",
     "category": "Large Language Models",
     "conference": "ICLR 2024"
   },
@@ -521,7 +521,7 @@
     "year": "2024",
     "code": "https://github.com/UMass-Embodied-AGI/MultiPLY",
     "paper": "https://arxiv.org/abs/2401.08577",
-    "preview": "/research/multiply.mp4",
+    "preview": "/research/multiply.webm",
     "category": "Audio-Visual Learning"
   },
   {
@@ -656,7 +656,7 @@
     "url": "https://arxiv.org/abs/2307.12981",
     "paper": "https://arxiv.org/abs/2307.12981",
     "code": "https://github.com/umass-foundation-model/3d-llm",
-    "preview": "/research/3dllm.mp4",
+    "preview": "/research/3dllm.webm",
     "journal": "Advances in Neural Information Processing Systems",
     "category": "Multimodal Language Models"
   },
@@ -734,7 +734,7 @@
     "url": "https://diffusebot.github.io/",
     "paper": "https://arxiv.org/abs/2311.17053",
     "website": "https://diffusebot.github.io/",
-    "preview": "/research/diffusebot.mp4",
+    "preview": "/research/diffusebot.webm",
     "category": "Physical Reasoning and Interaction"
   }
 ]
