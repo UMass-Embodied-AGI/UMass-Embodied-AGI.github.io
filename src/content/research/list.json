@@ -99,6 +99,73 @@
     "conference": "ICLR 2025"
   },
   {
+    "title": "UBSoft: A Simulation Platform for Robotic Skill Learning in Unbounded Soft Environments",
+    "authors": [
+      "Chunru Lin*",
+      "Jugang Fan*",
+      "Yian Wang",
+      "Zeyuan Yang",
+      "Zhehuan Chen",
+      "Lixing Fang",
+      "Tsun-Hsuan Wang",
+      "Zhou Xian",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2411.12711",
+    "preview": "/research/UBsoft.webm",
+    "paper": "https://arxiv.org/abs/2411.12711",
+    "website": "https://umass-embodied-agi.github.io/UBSoft/",
+    "category": "Physics Simulation",
+    "conference": "CoRL 2024"
+  },
+  {
+    "title": "ARCHITECT: Generating Vivid and Interactive 3D Scenes with Hierarchical 2D Inpainting",
+    "authors": [
+      "Yian Wang*",
+      "Xiaowen Qiu*",
+      "Jiageng Liu*",
+      "Zhehuan Chen",
+      "Jiting Cai",
+      "Tsun-Hsuan Wang",
+      "Yufei Wang",
+      "Zhou Xian",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2411.09823",
+    "preview": "https://wangyian-me.github.io/images/architect.gif",
+    "paper": "https://arxiv.org/abs/2411.09823",
+    "website": "https://wangyian-me.github.io/Architect/",
+    "code": "https://github.com/wangyian-me/architect_official_code",
+    "category": "Scene Generation",
+    "conference": "NeurIPS 2024"
+  },
+  {
+    "title": "Constrained Human-AI Cooperation: An Inclusive Embodied Social Intelligence Challenge",
+    "authors": [
+      "Weihua Du*",
+      "Qiushi Lyu*",
+      "Jiaming Shan",
+      "Zhenting Qi",
+      "Hongxin Zhang",
+      "Sunli Chen",
+      "Andi Peng",
+      "Tianmin Shu",
+      "Kwonjoon Lee",
+      "Behzad Dariush",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2411.01796",
+    "preview": "/research/CHAIC.png",
+    "paper": "https://arxiv.org/abs/2411.01796",
+    "website": "https://embodied-agi.cs.umass.edu/CHAIC/",
+    "code": "https://github.com/UMass-Embodied-AGI/CHAIC",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "NeurIPS 2024"
+  },
+  {
     "title": "FlexAttention for Efficient High-Resolution Vision-Language Models",
     "authors": [
       "Junyan Li",
@@ -165,26 +232,6 @@
     "conference": "ICML 2024"
   },
   {
-    "title": "CoNav: A Benchmark for Human-Centered Collaborative Navigation",
-    "authors": [
-      "Changhao Li",
-      "Xinyu Sun",
-      "Peihao Chen",
-      "Jugang Fan",
-      "Zixu Wang",
-      "Yanxia Liu",
-      "Jinhui Zhu",
-      "Chuang Gan",
-      "Mingkui Tan"
-    ],
-    "year": "2024",
-    "url": "https://arxiv.org/abs/2406.02425",
-    "paper": "https://arxiv.org/abs/2406.02425",
-    "category": "Physical Reasoning and Interaction",
-    "code": "https://github.com/Li-ChangHao/CoNav",
-    "preview": "https://github.com/Li-ChangHao/CoNav/raw/main/assets/lustration.png"
-  },
-  {
     "title": "RoboDreamer: Learning Compositional World Models for Robot Imagination",
     "authors": [
       "Siyuan Zhou",
@@ -198,7 +245,11 @@
     "paper": "https://arxiv.org/abs/2404.12377",
     "url": "https://arxiv.org/abs/2404.12377",
     "preview": "/research/robodreamer.png",
-    "category": "Physical Reasoning and Interaction"
+    "category": "Physical Reasoning and Interaction",
+    "booktitle": "International conference on machine learning",
+    "website": "https://robovideo.github.io/",
+    "code": "https://github.com/rainbow979/robodreamer",
+    "conference": "ICML 2024"
   },
   {
     "title": "Visual Chain-of-Thought Prompting for Knowledge-Based Visual Reasoning",
@@ -430,29 +481,6 @@
     "preview": "https://senfu.github.io/images/efficientvit/intro.png",
     "conference": "ICCV 2023",
     "category": "Large Language Models"
-  },
-  {
-    "title": "Constrained Human-AI Cooperation: An Inclusive Embodied Social Intelligence Challenge",
-    "authors": [
-      "Weihua Du",
-      "Qiushi Lyu",
-      "Jiaming Shan",
-      "Zhenting Qi",
-      "Hongxin Zhang",
-      "Sunli Chen",
-      "Andi Peng",
-      "Tianmin Shu",
-      "Kwonjoon Lee",
-      "Behzad Dariush",
-      "Chuang Gan"
-    ],
-    "year": "2024",
-    "url": "https://embodied-agi.cs.umass.edu/CHAIC/",
-    "website": "https://embodied-agi.cs.umass.edu/CHAIC/",
-    "paper": "https://arxiv.org/abs/2411.01796",
-    "preview": "/research/CHAIC.png",
-    "category": "Physical Reasoning and Interaction",
-    "conference": "NeurIPS 2024"
   },
   {
     "title": "Open3DIS: Open-Vocabulary 3D Instance Segmentation with 2D Mask Guidance",
