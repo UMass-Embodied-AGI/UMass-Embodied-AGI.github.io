@@ -186,28 +186,6 @@
     "conference": "ECCV 2024"
   },
   {
-    "title": "UBSoft: A Simulation Platform for Robotic Skill Learning in Unbounded Soft Environments",
-    "authors": [
-      "Chunru Lin",
-      "Jugang Fan",
-      "Feng Chen",
-      "Yian Wang",
-      "Zeyuan Yang",
-      "Zhehuan Chen",
-      "Lixing Fang",
-      "Tsun-Hsuan Wang",
-      "Zhou Xian",
-      "Chuang Gan"
-    ],
-    "year": "2024",
-    "url": "https://arxiv.org/abs/2411.12711",
-    "preview": "/research/UBsoft.webm",
-    "paper": "https://arxiv.org/abs/2411.12711",
-    "website": "https://umass-embodied-agi.github.io/UBSoft/",
-    "category": "Physics Simulation",
-    "conference": "CoRL 2024"
-  },
-  {
     "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
     "authors": [
       "Yufei Wang",
