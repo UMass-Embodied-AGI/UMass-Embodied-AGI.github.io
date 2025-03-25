@@ -3,6 +3,12 @@ import type { BlogPostData } from "@/types/config";
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 
+export type ResearchTypes = {
+  name: string;
+  key: string;
+  count: number;
+};
+
 export async function getResearchCategoryList(): Promise<ResearchTypes[]> {
   const researchList = await getEntry("research", "list");
   if (!researchList) {

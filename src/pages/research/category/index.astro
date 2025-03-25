@@ -9,11 +9,6 @@ import ImageWrapper from "@components/misc/ImageWrapper.astro";
 import path from "path";
 import { getDir } from "@utils/url-utils";
 import ResearchList from "@components/ResearchList.astro";
-export const getStaticPaths = (async ({ paginate }) => {
-  const allBlogPosts = await getSortedPosts();
-  return paginate(allBlogPosts, { pageSize: PAGE_SIZE });
-}) satisfies GetStaticPaths;
-// https://github.com/withastro/astro/issues/6507#issuecomment-1489916992
 
 const researchList = await getEntry("research", "list");
 const researchByCategory = new Map();
