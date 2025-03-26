@@ -9,47 +9,44 @@ interface Props {
   alt?: string
   position?: string
   basePath?: string
+  priority?: boolean
+  lazyLoad?: boolean
+  sizes?: string
 }
 import { Image } from 'astro:assets'
 import { url } from '../../utils/url-utils'
-const { id, src, alt, position = 'center', basePath = '/' } = Astro.props
-const className = Astro.props.class
 
-// Check if src is provided
+const { 
+  id, 
+  src, 
+  alt = "", 
+  position = 'center', 
+  basePath = '/',
+  priority = false,
+  lazyLoad = !priority,
+  sizes = '(max-width: 768px) 100vw, 50vw'
+} = Astro.props
+
+const className = Astro.props.class
+const uniqueId = id || `media-${Math.random().toString(36).substring(7)}`
+
+// Check if src is provided - strict validation
 const isSrcEmpty = !src || src.trim() === ''
-// Initial validity - we'll assume image/video is valid if src exists
 let isValidImg = !isSrcEmpty
 
-// Check if the file is a video
-const isVideo = !isSrcEmpty && (src.endsWith('.mp4') || src.endsWith('.webm'))
-
-// Only process image if src is provided and it's not a video
-const isLocal =
-  !isSrcEmpty &&
-  !isVideo &&
-  !(
-    src.startsWith('/') ||
-    src.startsWith('http') ||
-    src.startsWith('https') ||
-    src.startsWith('data:')
-  )
+// Determine media type
+const isVideo = !isSrcEmpty && (src.endsWith('.mp4') || src.endsWith('.webm') || src.endsWith('.mov'))
+const isLocal = !isSrcEmpty && !isVideo && !(src.startsWith('/') || src.startsWith('http') || src.startsWith('data:'))
 const isPublic = !isSrcEmpty && src.startsWith('/')
 
-// TODO temporary workaround for images dynamic import
-// https://github.com/withastro/astro/issues/3373
+// Local image handling
 let img
 if (isLocal) {
-  const files = import.meta.glob<ImageMetadata>('../../**', {
-    import: 'default',
-  })
-  let normalizedPath = path
-    .normalize(path.join('../../', basePath, src))
-    .replace(/\\/g, '/')
+  const files = import.meta.glob<ImageMetadata>('../../**', { import: 'default' })
+  let normalizedPath = path.normalize(path.join('../../', basePath, src)).replace(/\\/g, '/')
   const file = files[normalizedPath]
   if (!file) {
-    console.error(
-      `\n[ERROR] Image file not found: ${normalizedPath.replace('../../', 'src/')}`,
-    )
+    console.error(`\n[ERROR] Image file not found: ${normalizedPath.replace('../../', 'src/')}`)
     isValidImg = false
   } else {
     try {
@@ -60,48 +57,198 @@ if (isLocal) {
     }
   }
 }
+
 const imageClass = 'w-full h-full object-contain'
 const imageStyle = `object-position: ${position}`
 ---
-<div id={id} class:list={[className, 'overflow-hidden relative']}>
-    <div class="transition absolute inset-0 dark:bg-black/10 bg-opacity-50 pointer-events-none"></div>
-    
-    {!isValidImg && !isVideo && (
-      <div class="w-full h-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
-        <Icon name="mdi:robot" class="w-16 h-16 text-gray-400 dark:text-gray-600" />
-      </div>
-    )}
-    
-    {isVideo && (
-      <video 
-        autoplay
-        loop
-        muted
-        playsinline
-        class={imageClass}
-        style={imageStyle}
-        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-      >
-        <source src={isPublic ? url(src) : src} type={`video/${src.split('.').pop()}`}>
-        Your browser does not support the video tag.
-      </video>
-      <div class="w-full h-full bg-gray-200 dark:bg-gray-800 hidden items-center justify-center">
-        <Icon name="mdi:robot" class="w-16 h-16 text-gray-400 dark:text-gray-600" />
-      </div>
-    )}
-    
-    {isLocal && isValidImg && img && <Image src={img} alt={alt || ""} class={imageClass} style={imageStyle}/>}
-    
-    {!isLocal && isValidImg && !isVideo && (
-      <img 
-        src={isPublic ? url(src) : src} 
-        alt={alt || ""} 
-        class={imageClass} 
-        style={imageStyle}
-        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-      />
-      <div class="w-full h-full bg-gray-200 dark:bg-gray-800 hidden items-center justify-center">
-        <Icon name="mdi:robot" class="w-16 h-16 text-gray-400 dark:text-gray-600" />
-      </div>
-    )}
+
+<div id={uniqueId} class:list={[className, 'overflow-hidden relative']} data-media-container>
+  {/* Only show loading indicator when src is valid */}
+  {isValidImg && (
+    <div class="loading-indicator absolute inset-0 bg-gray-100 dark:bg-gray-800 flex items-center justify-center z-10">
+      <div class="w-8 h-8 border-4 border-gray-300 dark:border-gray-600 border-t-blue-500 rounded-full animate-spin"></div>
+    </div>
+  )}
+  
+  {/* Background overlay */}
+  <div class="absolute inset-0 dark:bg-black/10 bg-opacity-50 pointer-events-none"></div>
+  
+  {/* Video content */}
+  {isVideo && (
+    <video 
+      class={imageClass}
+      style={imageStyle}
+      muted
+      playsinline
+      autoplay={false}
+      loop
+      data-src={isPublic ? url(src) : src}
+      data-media-type="video"
+      data-media-id={uniqueId}
+    >
+      <source type={`video/${src.split('.').pop()}`}>
+      Your browser does not support the video tag.
+    </video>
+  )}
+  
+  {/* Local images using Astro Image component */}
+  {isLocal && isValidImg && img && (
+    <Image 
+      src={img} 
+      alt={alt} 
+      class={imageClass}
+      style={imageStyle}
+      loading={priority ? "eager" : "lazy"}
+      widths={[400, 800, 1200]} 
+      sizes={sizes}
+      format="webp"
+      data-media-id={uniqueId}
+      data-media-type="image"
+    />
+  )}
+  
+  {/* Remote or public images */}
+  {!isLocal && isValidImg && !isVideo && (
+    <img 
+      src={isPublic ? url(src) : src} 
+      alt={alt} 
+      class={imageClass}
+      style={imageStyle}
+      loading={priority ? "eager" : "lazy"}
+      data-media-id={uniqueId}
+      data-media-type="image"
+    />
+  )}
+  
+  {/* Fallback for invalid content */}
+  {!isValidImg && (
+    <div class="fallback w-full h-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
+      <Icon name="mdi:robot" class="w-16 h-16 text-gray-400 dark:text-gray-600" />
+    </div>
+  )}
 </div>
+
+<script>
+  // Use a more reliable approach to handle video loading
+  document.addEventListener('DOMContentLoaded', () => {
+    // Find all video elements to initialize
+    const videoElements = document.querySelectorAll('video[data-media-type="video"]');
+    
+    videoElements.forEach(videoEl => {
+      const container = videoEl.closest('[data-media-container]');
+      const loadingIndicator = container?.querySelector('.loading-indicator');
+      const videoSrc = videoEl.getAttribute('data-src');
+      
+      if (!videoSrc) {
+        // Invalid source, show fallback
+        if (loadingIndicator) loadingIndicator.remove();
+        showFallback(container);
+        return;
+      }
+      
+      // Create a new source element with proper src
+      const sourceEl = videoEl.querySelector('source');
+      if (sourceEl) sourceEl.src = videoSrc;
+      
+      // Set video src directly as well (better browser compatibility)
+      videoEl.src = videoSrc;
+      
+      // Reset video element to force proper loading
+      videoEl.load();
+      
+      // Track loading state with multiple event listeners for better browser support
+      let hasLoaded = false;
+      
+      const markAsLoaded = () => {
+        if (hasLoaded) return;
+        hasLoaded = true;
+        
+        // Hide loading indicator
+        if (loadingIndicator) {
+          loadingIndicator.style.opacity = '0';
+          setTimeout(() => loadingIndicator.remove(), 300);
+        }
+        
+        // Start playing video
+        try {
+          videoEl.play().catch(err => {
+            console.warn('Autoplay prevented:', err);
+            // Still consider it loaded even if autoplay fails
+          });
+        } catch (e) {
+          console.warn('Error playing video:', e);
+        }
+      };
+      
+      const handleError = () => {
+        console.error('Video failed to load:', videoSrc);
+        if (loadingIndicator) loadingIndicator.remove();
+        showFallback(container);
+        videoEl.style.display = 'none';
+      };
+      
+      // Multiple event listeners for better browser compatibility
+      videoEl.addEventListener('loadeddata', markAsLoaded, { once: true });
+      videoEl.addEventListener('canplay', markAsLoaded, { once: true });
+      videoEl.addEventListener('playing', markAsLoaded, { once: true });
+      videoEl.addEventListener('error', handleError, { once: true });
+      
+      // Set a timeout to handle videos that never trigger events
+      const timeout = setTimeout(() => {
+        if (!hasLoaded && videoEl.readyState < 2) {
+          console.warn('Video loading timed out:', videoSrc);
+          handleError();
+        }
+      }, 10000); // 10-second timeout
+      
+      // Clean up timeout if any event fires
+      videoEl.addEventListener('loadeddata', () => clearTimeout(timeout), { once: true });
+      videoEl.addEventListener('canplay', () => clearTimeout(timeout), { once: true });
+      videoEl.addEventListener('error', () => clearTimeout(timeout), { once: true });
+    });
+    
+    // Handle image loading too
+    const imageElements = document.querySelectorAll('[data-media-type="image"]');
+    
+    imageElements.forEach(imgEl => {
+      const container = imgEl.closest('[data-media-container]');
+      const loadingIndicator = container?.querySelector('.loading-indicator');
+      
+      if (imgEl.complete) {
+        // Already loaded
+        if (loadingIndicator) loadingIndicator.remove();
+      } else {
+        imgEl.addEventListener('load', () => {
+          if (loadingIndicator) {
+            loadingIndicator.style.opacity = '0';
+            setTimeout(() => loadingIndicator.remove(), 300);
+          }
+        }, { once: true });
+        
+        imgEl.addEventListener('error', () => {
+          if (loadingIndicator) loadingIndicator.remove();
+          showFallback(container);
+          imgEl.style.display = 'none';
+        }, { once: true });
+      }
+    });
+    
+    function showFallback(container) {
+      if (!container) return;
+      
+      // Check if fallback already exists
+      let fallback = container.querySelector('.fallback');
+      
+      if (!fallback) {
+        // Create new fallback
+        fallback = document.createElement('div');
+        fallback.className = 'fallback w-full h-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center';
+        fallback.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 text-gray-400 dark:text-gray-600" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 1 10 10a10 10 0 0 1-10 10A10 10 0 0 1 2 12A10 10 0 0 1 12 2m0 2a8 8 0 0 0-8 8a8 8 0 0 0 8 8a8 8 0 0 0 8-8a8 8 0 0 0-8-8m0 7a1 1 0 0 1 1 1a1 1 0 0 1-1 1a1 1 0 0 1-1-1a1 1 0 0 1 1-1m3-4a1 1 0 0 1 1 1a1 1 0 0 1-1 1a1 1 0 0 1-1-1a1 1 0 0 1 1-1m-6 0a1 1 0 0 1 1 1a1 1 0 0 1-1 1a1 1 0 0 1-1-1a1 1 0 0 1 1-1Z"/></svg>';
+        container.appendChild(fallback);
+      } else {
+        // Make sure existing fallback is visible
+        fallback.style.display = 'flex';
+      }
+    }
+  });
+</script>
