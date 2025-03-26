@@ -35,7 +35,7 @@ export const peopleCollection = defineCollection({
         z.object({
           name: z.string(),
           photo: z.string().optional(),
-          role: z.string(),
+          role: z.string().optional(),
           url: z.string().optional(),
           description: z.string().optional(),
         }),
