@@ -95,20 +95,6 @@ export default defineConfig({
           properties: {
             className: ["anchor"],
           },
-          content: {
-            type: "element",
-            tagName: "span",
-            properties: {
-              className: ["anchor-icon"],
-              "data-pagefind-ignore": true,
-            },
-            children: [
-              {
-                type: "text",
-                value: "#",
-              },
-            ],
-          },
         },
       ],
     ],

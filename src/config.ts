@@ -46,6 +46,7 @@ export const navBarConfig: NavBarConfig = {
     // LinkPreset.Archive,
     LinkPreset.People,
     LinkPreset.Robots,
+    LinkPreset.Opportunity
   ],
 };
 

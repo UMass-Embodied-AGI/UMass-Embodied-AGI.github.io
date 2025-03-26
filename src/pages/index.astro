@@ -12,113 +12,53 @@ import path from "path";
 import { getDir } from "../utils/url-utils";
 import ResearchList from "../components/ResearchList.astro";
 // https://github.com/withastro/astro/issues/6507#issuecomment-1489916992
-
-const aboutContent = await getEntry("main", "about");
+const introContent = await getEntry("main", "intro");
+const newsContent = await getEntry("main", "news");
 const researchList = await getEntry("research", "list");
-const { Content } = await aboutContent.render();
+
+const { Content: IntroContent } = await introContent.render();
+const { Content: NewsContent } = await newsContent.render();
+
+const demoVideos = [
+  "/demo/3DMem_real.webm",
+  "/demo/3dvla.webm", 
+  "/demo/robogen.webm",
+  "/demo/genesis.webm",
+  "/demo/VirtualCommunity.webm",
+  "/demo/CoELA.webm"
+];
 ---
 
 <MainGridLayout>
   <div class="px-4">
     <div
-      class="mt-8 max-w-screen-md mx-auto grid grid-cols-2 grid-rows-3 gap-2"
+      class="mt-8 md:max-w-[40vw] mx-auto grid grid-cols-2 grid-rows-3 gap-2"
     >
-      <div class="aspect-video flex items-center justify-center">
-        <video
-          autoplay
-          loop
-          muted
-          playsinline
-          class="w-full h-full object-cover"
-        >
-          <source src="/demo/3DMem_real.webm" type="video/webm" />
-        </video>
-      </div>
-
-      <div class="aspect-video flex items-center justify-center">
-        <video
-          autoplay
-          loop
-          muted
-          playsinline
-          class="w-full h-full object-cover"
-        >
-          <source src="/demo/3dvla.webm" type="video/webm" />
-        </video>
-      </div>
-
-      <div class="aspect-video flex items-center justify-center">
-        <video
-          autoplay
-          loop
-          muted
-          playsinline
-          class="w-full h-full object-cover"
-        >
-          <source src="/demo/robogen.webm" type="video/webm" />
-        </video>
-      </div>
-
-      <div class="aspect-video flex items-center justify-center">
-        <video
-          autoplay
-          loop
-          muted
-          playsinline
-          class="w-full h-full object-cover"
-        >
-          <source src="/demo/genesis.webm" type="video/webm" />
-        </video>
-      </div>
-
-      <div class="aspect-video flex items-center justify-center">
-        <video
-          autoplay
-          loop
-          muted
-          playsinline
-          class="w-full h-full object-cover"
-        >
-          <source src="/demo/VirtualCommunity.webm" type="video/webm" />
-        </video>
-      </div>
-
-      <div class="aspect-video flex items-center justify-center">
-        <video
-          autoplay
-          loop
-          muted
-          playsinline
-          class="w-full h-full object-fill"
-        >
-          <source src="/demo/CoELA.webm" type="video/webm" />
-        </video>
-      </div>
+      {demoVideos.map((src) => (
+        <div class="aspect-video flex items-center justify-center">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            class="w-full h-full object-fill"
+          >
+            <source src={src} type="video/webm" />
+          </video>
+        </div>
+      ))}
     </div>
 
     <div
-      class="mt-8 flex flex-col items-center text-center text-black/80 dark:text-white/80"
+      class="mt-8 flex flex-col items-center text-center text-balance text-black/80 dark:text-white/80 [&_h1]:text-2xl [&_h1]:font-bold [&_h1]:mb-4 [&_p]:text-base [&_p]:max-w-[80ch] [&_p]:mb-6 [&_a]:cursor-pointer [&_a]:hover:underline"
     >
-      <h1 class="text-2xl font-bold mb-4">Welcome to Embodied AGI Lab!</h1>
-      <p class="text-base mb-6">
-        Our goal is to develop embodied intelligent agents capable of
-        understanding and interacting with the world in a human-like manner. By
-        combining physical and social intelligence with advanced models, we aim
-        to push the boundaries of embodied general intelligence for virtual and
-        real-world environments.
-      </p>
-      <a
-        href="https://maps.app.goo.gl/Tdhui5bm6dgtEn1R7"
-        target="_blank"
-        class="cursor-pointer hover:underline"
-        >LGRC A101, 740 N. Pleasant Street, Amherst, MA 01003</a
-      >
+      <IntroContent />
     </div>
 
     <div class="mt-12 text-black/80 dark:text-white/80">
       <h2 class="text-2xl font-bold mb-6">Latest News</h2>
       <div class="space-y-4 [&>ul]:list-disc [&>ul]:pl-8">
-        <Content />
+        <NewsContent />
       </div>
     </div>
   </div></MainGridLayout

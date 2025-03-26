@@ -23,4 +23,8 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
     name: "Robots",
     url: "/robots/",
   },
+  [LinkPreset.Opportunity]: {
+    name: "Opportunity",
+    url: "/opportunity/",
+  },
 };
