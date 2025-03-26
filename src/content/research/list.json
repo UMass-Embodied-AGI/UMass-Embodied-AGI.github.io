@@ -15,7 +15,7 @@
     "website": "https://embodied-agi.cs.umass.edu/3dmem/",
     "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
     "paper": "https://arxiv.org/abs/2411.17735",
-    "preview": "/research/3DMem.webm",
+    "preview": "/research/3DMem.mp4",
     "category": "Multimodal Language Models",
     "conference": "CVPR 2025"
   },
@@ -58,7 +58,7 @@
     "website": "https://snap-research.github.io/DELTA/",
     "code": "https://github.com/snap-research/DELTA_densetrack3d",
     "paper": "https://arxiv.org/abs/2410.24211",
-    "preview": "/research/DELTA.webm",
+    "preview": "/research/DELTA.mp4",
     "category": "3D Vision",
     "conference": "ICLR 2025"
   },
@@ -113,7 +113,7 @@
     ],
     "year": "2024",
     "url": "https://arxiv.org/abs/2411.12711",
-    "preview": "/research/UBsoft.webm",
+    "preview": "/research/UBsoft.mp4",
     "paper": "https://arxiv.org/abs/2411.12711",
     "website": "https://umass-embodied-agi.github.io/UBSoft/",
     "category": "Physics Simulation",
