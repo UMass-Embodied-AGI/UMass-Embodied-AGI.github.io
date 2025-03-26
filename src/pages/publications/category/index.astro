@@ -1,0 +1,55 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getEntry } from "astro:content";
+import Markdown from "@components/misc/Markdown.astro";
+import PostPage from "@components/PostPage.astro";
+import Pagination from "@components/control/Pagination.astro";
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+import ImageWrapper from "@components/misc/ImageWrapper.astro";
+import path from "path";
+import { getDir } from "@utils/url-utils";
+import ResearchList from "@components/ResearchList.astro";
+
+const researchList = await getEntry("research", "list");
+const researchByCategory = new Map();
+researchList.data.forEach((research) => {
+  const category = research.category;
+  if (!researchByCategory.has(category)) {
+    researchByCategory.set(category, []);
+  }
+  researchByCategory.get(category).push(research);
+});
+const sortedCategories = Array.from(researchByCategory.keys()).sort(
+  (a, b) => b - a,
+);
+---
+
+<MainGridLayout>
+  <div class="text-black/80 dark:text-white/80">
+    <h1 class="text-3xl text-center mb-2">Publications</h1>
+    <div class="flex justify-center gap-2 mb-4">
+      <a href="/publications/year/" class="hover:underline" data-astro-prefetch>
+        by year
+      </a>
+      <span>|</span>
+      <a
+        href="/publications/category/"
+        class="hover:underline text-blue-700 dark:text-blue-300"
+      >
+        by topic
+      </a>
+    </div>
+  </div>
+  {
+    sortedCategories.map((category) => (
+      <section class="mt-8">
+        <h2 class="text-black/50 dark:text-white/50 text-2xl mb-2 text-center md:text-left">
+          {category}
+        </h2>
+        <ResearchList list={{ data: researchByCategory.get(category) }} />
+      </section>
+    ))
+  }
+  <!-- <PostPage page={page}></PostPage>
+    <Pagination class="mx-auto onload-animation" page={page} style=`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`></Pagination> -->
+</MainGridLayout>

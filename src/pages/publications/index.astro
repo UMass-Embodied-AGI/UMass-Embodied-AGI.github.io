@@ -1,0 +1,61 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getEntry } from "astro:content";
+import Markdown from "@components/misc/Markdown.astro";
+import PostPage from "@components/PostPage.astro";
+import Pagination from "@components/control/Pagination.astro";
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+import {
+  getResearchYearList,
+  getResearchCategoryList,
+} from "@utils/content-utils";
+import ImageWrapper from "@components/misc/ImageWrapper.astro";
+import path from "path";
+import { getDir } from "@utils/url-utils";
+import ResearchList from "@components/ResearchList.astro";
+
+const researchList = await getEntry("research", "list");
+
+const yearList = await (await getResearchYearList()).sort((a, b) => b - a);
+const categoryList = await getResearchCategoryList();
+
+const researchByYear = new Map(
+  yearList.map((year) => [
+    year.key,
+    researchList.data.filter((item) => item.year === year.key),
+  ]),
+);
+const sortedYears = [...researchByYear.keys()].sort(
+  (a, b) => parseInt(b) - parseInt(a),
+);
+---
+
+<MainGridLayout>
+  <div class="text-black/80 dark:text-white/80">
+    <h1 class="text-3xl text-center my-2">Publications</h1>
+    <div class="flex justify-center gap-2 mb-4">
+      <a
+        href="/publications/year/"
+        class="hover:underline text-blue-700 dark:text-blue-300"
+      >
+        by year
+      </a>
+      <span>|</span>
+      <a href="/publications/category/" class="hover:underline" data-astro-prefetch>
+        by topic
+      </a>
+    </div>
+  </div>
+  {
+    sortedYears.map((year) => (
+      <section class="mt-8">
+        <h2 class="text-black/50 dark:text-white/50 text-2xl mb-2 text-center md:text-left">
+          {year}
+        </h2>
+        <ResearchList list={{ data: researchByYear.get(year) }} />
+      </section>
+    ))
+  }
+  <!-- <PostPage page={page}></PostPage>
+    <Pagination class="mx-auto onload-animation" page={page} style=`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`></Pagination> -->
+</MainGridLayout>
