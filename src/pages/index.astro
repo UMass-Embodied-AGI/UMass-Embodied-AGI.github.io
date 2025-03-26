@@ -21,11 +21,11 @@ const { Content: NewsContent } = await newsContent.render();
 
 const demoVideos = [
   "/demo/3DMem_real.webm",
-  "/demo/3dvla.webm", 
+  "/demo/3dvla.webm",
   "/demo/robogen.webm",
   "/demo/genesis.webm",
   "/demo/VirtualCommunity.webm",
-  "/demo/CoELA.webm"
+  "/demo/CoELA.webm",
 ];
 ---
 
@@ -34,19 +34,21 @@ const demoVideos = [
     <div
       class="mt-8 md:max-w-[40vw] mx-auto grid grid-cols-2 grid-rows-3 gap-2"
     >
-      {demoVideos.map((src) => (
-        <div class="aspect-video flex items-center justify-center">
-          <video
-            autoplay
-            loop
-            muted
-            playsinline
-            class="w-full h-full object-fill"
-          >
-            <source src={src} type="video/webm" />
-          </video>
-        </div>
-      ))}
+      {
+        demoVideos.map((src) => (
+          <div class="aspect-video flex items-center justify-center">
+            <video
+              autoplay
+              loop
+              muted
+              playsinline
+              class="w-full h-full object-fill"
+            >
+              <source src={src} type="video/webm" />
+            </video>
+          </div>
+        ))
+      }
     </div>
 
     <div

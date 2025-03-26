@@ -36,6 +36,8 @@
     "astro": "5.1.6",
     "astro-compress": "^2.3.5",
     "astro-icon": "^1.1.4",
+    "embla-carousel": "^8.5.2",
+    "embla-carousel-autoplay": "^8.5.2",
     "hastscript": "^9.0.0",
     "katex": "^0.16.19",
     "markdown-it": "^14.1.0",

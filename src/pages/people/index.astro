@@ -4,23 +4,37 @@ import { getEntry } from "astro:content";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import ImageWrapper from "@/components/misc/ImageWrapper.astro";
 import PersonCard from "@/components/PersonCard.astro";
+import Carousel from "@/components/widget/Carousel.astro";
 
 const memberList = await getEntry("people", "members");
 const alumniList = await getEntry("people", "alumni");
+const teamImgList = [
+  "team-1.jpg",
+  "team-2.jpg",
+  "team-3.jpg",
+  "team-4.jpg",
+  "team-5.jpg",
+  "team-6.jpg",
+  "team-7.jpg",
+];
 ---
 
 <MainGridLayout>
-  <ImageWrapper
-    src="team.png"
-    basePath="/content/people/images/"
-    class="rounded-md"
-  />
+  <Carousel>
+    {
+      teamImgList.map((img) => (
+        <div class="embla__slide">
+          <ImageWrapper src={img} basePath="/content/people/images/team" />
+        </div>
+      ))
+    }
+  </Carousel>
   <div
     class="max-w-7xl mx-auto px-4 py-6 text-black dark:text-white onload-animation"
     id="content-wrapper"
   >
     {
-      memberList.data.map((group) => (
+      memberList?.data.map((group) => (
         <section class="mb-12">
           <h2 class="text-2xl font-bold mb-6">{group.category}</h2>
           <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
@@ -32,7 +46,7 @@ const alumniList = await getEntry("people", "alumni");
       ))
     }
     {
-      alumniList.data.map((group) => (
+      alumniList?.data.map((group) => (
         <section class="mb-12">
           <h2 class="text-2xl font-bold mb-6">Alumni</h2>
           <ul class="list-disc pl-6">

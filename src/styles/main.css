@@ -48,7 +48,6 @@
   .search-panel mark {
     @apply bg-transparent text-black/80;
   }
-
   .btn-card {
     @apply transition flex items-center justify-center bg-[var(--card-bg)] hover:bg-[var(--btn-card-bg-hover)]
         active:bg-[var(--btn-card-bg-active)];

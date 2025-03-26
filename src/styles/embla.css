@@ -1,0 +1,21 @@
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+.embla__dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.embla__dot {
+  @apply w-2 h-2 rounded-full bg-black/20 dark:bg-white/20 mx-1;
+}
+.embla__dot--selected {
+  @apply bg-black dark:bg-white;
+}
