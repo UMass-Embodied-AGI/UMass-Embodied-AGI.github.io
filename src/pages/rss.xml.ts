@@ -17,7 +17,7 @@ export async function GET(context: APIContext) {
     items: researchYears.map((year) => ({
       title: year.name,
       description: `Research from ${year.name} - ${year.count} publications`,
-      link: `/research/${year.key}/`,
+      link: `/publications/${year.key}/`,
       content: `Number of publications: ${year.count}`,
     })),
     customData: `<language>${siteConfig.lang}</language>`,

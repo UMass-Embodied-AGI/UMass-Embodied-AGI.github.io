@@ -664,7 +664,8 @@
     "code": "https://github.com/umass-foundation-model/3d-llm",
     "preview": "/research/3dllm.webm",
     "journal": "Advances in Neural Information Processing Systems",
-    "category": "Multimodal Language Models"
+    "category": "Multimodal Language Models",
+    "conference": "NeurIPS 2023"
   },
   {
     "title": "Masked Motion Encoding for Self-Supervised Video Representation Learning",

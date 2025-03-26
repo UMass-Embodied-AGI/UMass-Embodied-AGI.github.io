@@ -12,8 +12,8 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
     url: "/about/",
   },
   [LinkPreset.Research]: {
-    name: "Research",
-    url: "/research/",
+    name: "Publications",
+    url: "/publications/",
   },
   [LinkPreset.People]: {
     name: "People",

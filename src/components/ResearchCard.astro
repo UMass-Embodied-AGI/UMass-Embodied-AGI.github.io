@@ -53,7 +53,7 @@ const previewWidth = "50%";
     <a
       href={url}
       class:list={[
-        "transition group w-full block mt-2 md:mt-0 mb-2 text-lg font-medium text-black dark:text-white",
+        "transition group w-full block mt-2 md:mt-0 mb-2 text-lg font-semibold text-blue-600 dark:text-blue-300",
         url &&
           "hover:underline cursor-pointer active:text-[var(--title-active)] dark:active:text-[var(--title-active)]",
         !url && "cursor-default",
@@ -63,11 +63,11 @@ const previewWidth = "50%";
     </a>
 
     <!-- metadata -->
-    <div class="text-base text-black/80 dark:text-white/80 mb-2">
+    <div class="text-base italic text-black/80 dark:text-white/80 mb-2">
       <span>{authors.join(", ")}</span>
     </div>
 
-    <div class="text-base text-black/80 dark:text-white/80 mb-4">
+    <div class="text-base font-extrabold text-blue-900/80 dark:text-blue-100/80 mb-4">
       <span>{conference}</span>
     </div>
 

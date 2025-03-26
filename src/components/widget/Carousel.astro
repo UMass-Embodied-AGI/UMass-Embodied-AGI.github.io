@@ -9,24 +9,22 @@ import { Icon } from "astro-icon/components";
     </div>
     <div class="embla__controls">
       <div
-        class="embla__buttons absolute top-0 w-full h-[calc(100%-1rem)] flex justify-between"
+        class="embla__buttons absolute top-1/2 w-full flex justify-between"
       >
         <button
-          class="embla__button embla__button--prev embla__button--gradient-left"
+          class="embla__button embla__button--prev embla__button--round embla__button--round-left"
           type="button"
         >
           <Icon
             name="material-symbols:chevron-left-rounded"
-            class="text-4xl text-white relative z-10"
           />
         </button>
         <button
-          class="embla__button embla__button--next embla__button--gradient-right"
+          class="embla__button embla__button--next embla__button--round embla__button--round-right"
           type="button"
         >
           <Icon
             name="material-symbols:chevron-right-rounded"
-            class="text-4xl text-white relative ml-auto z-10"
           />
         </button>
       </div>
@@ -36,13 +34,13 @@ import { Icon } from "astro-icon/components";
 </div>
 
 <style>
-  .embla__button--gradient-left {
-    @apply w-1/4 pl-2 after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-r after:from-black/60 after:to-black/0 after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-300 relative;
-  }
-
-  .embla__button--gradient-right {
-    @apply w-1/4 pr-2 after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-l after:from-black/60 after:to-black/0 after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-300 relative;
-  }
+    .embla__button--round {
+        @apply w-8 h-8 flex items-center justify-center text-3xl rounded-full bg-white dark:bg-black hover:brightness-95 hover:dark:bg-white/20 active:scale-90 transition-all ease-out duration-150 border border-black/20 dark:border-white/20 text-black/50 dark:text-white/50;
+        
+        &-left {
+            @apply pr-px;
+        }
+    }
 </style>
 
 <script>

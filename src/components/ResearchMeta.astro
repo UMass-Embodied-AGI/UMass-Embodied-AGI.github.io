@@ -40,7 +40,7 @@ const className = Astro.props.class;
 <div class="flex items-center">
   <Icon name="material-symbols:calendar-today-outline-rounded" class="text-lg mr-1"></Icon>
   <div class="flex flex-row flex-nowrap items-center">
-    <a href={url(`/research/year/${year}/`)} aria-label={`View all posts from ${year}`}
+    <a href={url(`/publications/year/${year}/`)} aria-label={`View all posts from ${year}`}
        class="text-50 text-sm font-medium hover:underline whitespace-nowrap">
       {year}
     </a>
@@ -53,7 +53,7 @@ const className = Astro.props.class;
 <div class="flex items-center">
   <Icon name="material-symbols:newspaper" class="text-lg mr-1"></Icon>
   <div class="flex flex-row flex-nowrap items-center">
-    <a href={url(`/research/conference/${conference.replace(/ /g, '-') || 'uncategorized'}/`)} aria-label={`View all posts in the ${conference} conference`}
+    <a href={url(`/publications/conference/${conference.replace(/ /g, '-') || 'uncategorized'}/`)} aria-label={`View all posts in the ${conference} conference`}
        class="text-50 text-sm font-medium
                         hover:underline whitespace-nowrap">
             {conference || i18n(I18nKey.uncategorized)}
@@ -67,7 +67,7 @@ const className = Astro.props.class;
   <div class="flex items-center">
     <Icon name="material-symbols:folder-outline-rounded" class="text-lg mr-1"></Icon>
     <div class="flex flex-row flex-nowrap items-center">
-        <a href={url(`/research/category/${category.replace(/ /g, '-') || 'uncategorized'}/`)} aria-label=`View all posts in the ${category} category`
+        <a href={url(`/publications/category/${category.replace(/ /g, '-') || 'uncategorized'}/`)} aria-label=`View all posts in the ${category} category`
            class="text-50 text-sm font-medium
                         hover:underline whitespace-nowrap">
             {category || i18n(I18nKey.uncategorized)}
