@@ -346,6 +346,7 @@
       "Chuang Gan"
     ],
     "year": "2024",
+    "website": "https://embodied-agi.cs.umass.edu/ThinShellLab/index.html",
     "code": "https://github.com/wangyian-me/ThinShellLab",
     "paper": "https://arxiv.org/abs/2404.00451",
     "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif",
@@ -386,6 +387,8 @@
       "Chuang Gan"
     ],
     "year": "2024",
+    "url": "/research/hazard/index.html",
+    "website": "https://embodied-agi.cs.umass.edu/hazard/index.html",
     "code": "https://github.com/UMass-Embodied-AGI/HAZARD",
     "paper": "https://arxiv.org/abs/2411.17735",
     "preview": "https://github.com/UMass-Embodied-AGI/HAZARD/blob/main/pics/overview.png?raw=true",
@@ -443,7 +446,7 @@
     ],
     "year": "2024",
     "url": "/research/CoVLM/index.html",
-    "website": "/research/CoVLM/index.html",
+    "website": "https://embodied-agi.cs.umass.edu/CoVLM",
     "code": "https://github.com/UMass-Embodied-AGI/CoVLM",
     "paper": "https://arxiv.org/abs/2311.03354",
     "preview": "/research/CoVLM.webm",
