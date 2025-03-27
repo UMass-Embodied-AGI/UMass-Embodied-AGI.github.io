@@ -1,5 +1,24 @@
 [
   {
+    "title": "MatchMaker: Automated Asset Generation for Robotic Assembly",
+    "authors": [
+      "Yian Wang",
+      "Bingjie Tang",
+      "Chuang Gan",
+      "Dieter Fox",
+      "Kaichun Mo",
+      "Yashraj Narang",
+      "Iretiayo Akinola"
+    ],
+    "year": "2025",
+    "url": "https://wangyian-me.github.io/MatchMaker/",
+    "website": "https://wangyian-me.github.io/MatchMaker/",
+    "paper": "https://arxiv.org/abs/2503.05887",
+    "preview": "https://wangyian-me.github.io/MatchMaker/static/images/teaser-3.png",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "ICRA 2025"
+  },
+  {
     "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
     "authors": [
       "Yuncong Yang*",
