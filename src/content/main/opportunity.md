@@ -1,4 +1,3 @@
-## 🧑‍🔬 Opportunities
 
 We are always looking for motivated individuals who are passionate about research in AI, robotics, and related fields. Here’s how to get involved depending on your background:
 

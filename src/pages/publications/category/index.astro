@@ -19,9 +19,8 @@ researchList.data.forEach((research) => {
   }
   researchByCategory.get(category).push(research);
 });
-const sortedCategories = Array.from(researchByCategory.keys()).sort(
-  (a, b) => b - a,
-);
+const categories = Array.from(researchByCategory.keys());
+const convertToSlug = (str: string) => str.toLowerCase().replace(/\s+/g, "-");
 ---
 
 <MainGridLayout>
@@ -40,9 +39,19 @@ const sortedCategories = Array.from(researchByCategory.keys()).sort(
       </a>
     </div>
   </div>
+  <div class="flex flex-wrap justify-center gap-2 mb-4">
+    {categories.map((category) => (
+      <a
+        href={`#${convertToSlug(category)}`}
+        class="px-4 py-1 text-xs rounded-full bg-black/20 dark:bg-white/20 hover:bg-black/30 dark:hover:bg-white/30 cursor-pointer text-black/80 dark:text-white/80"
+      >
+        {category}
+      </a>
+    ))}
+  </div>
   {
-    sortedCategories.map((category) => (
-      <section class="mt-8">
+    categories.map((category) => (
+      <section class="mt-8" id={convertToSlug(category)}>
         <h2 class="text-black/50 dark:text-white/50 text-2xl mb-2 text-center md:text-left">
           {category}
         </h2>
