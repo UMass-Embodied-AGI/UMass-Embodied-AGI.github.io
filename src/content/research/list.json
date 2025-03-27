@@ -142,6 +142,62 @@
     "conference": "NeurIPS 2024"
   },
   {
+    "title": "Physically Compatible 3D Object Modeling from a Single Image",
+    "authors": [
+      "Minghao Guo", "Bohan Wang", "Pingchuan Ma", "Tianyuan Zhang", "Crystal Elaine Owens", "Chuang Gan", "Joshua B. Tenenbaum", "Kaiming He", "Wojciech Matusik"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2405.20510",
+    "preview": "https://www.minghaoguo.com/projects/PhysComp.png",
+    "paper": "https://arxiv.org/abs/2405.20510",
+    "website": "https://gmh14.github.io/phys-comp/",
+    "code": "https://github.com/gmh14/PhysComp",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "NeurIPS 2024"
+  },
+  {
+    "title": "ConMe: Rethinking Evaluation of Compositional Reasoning for Modern VLMs",
+    "authors": [
+      "Irene Huang", "Wei Lin", "M. Jehanzeb Mirza", "Jacob A. Hansen", "Sivan Doveh", "Victor Ion Butoi", "Roei Herzig", "Assaf Arbelle", "Hilde Kuehne", "Trevor Darrell", "Chuang Gan", "Aude Oliva", "Rogerio Feris", "Leonid Karlinsky"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2406.08164",
+    "preview": "",
+    "paper": "https://arxiv.org/abs/2406.08164",
+    "website": "https://huggingface.co/conme/ConMe",
+    "code": "https://github.com/jmiemirza/conme",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "NeurIPS 2024"
+  },
+  {
+    "title": "Easy-to-Hard Generalization: Scalable Alignment Beyond Human Supervision",
+    "authors": [
+      "Zhiqing Sun", "Longhui Yu", "Yikang Shen", "Weiyang Liu", "Yiming Yang", "Sean Welleck", "Chuang Gan"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2403.09472",
+    "preview": "https://raw.githubusercontent.com/Edward-Sun/easy-to-hard/main/assets/easy_to_hard_fig.jpg",
+    "paper": "https://arxiv.org/abs/2403.09472",
+    "website": "https://github.com/Edward-Sun/easy-to-hard",
+    "code": "https://github.com/Edward-Sun/easy-to-hard",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "NeurIPS 2024"
+  },
+  {
+    "title": "SocialGPT: Prompting LLMs for Social Relation Reasoning via Greedy Segment Optimization",
+    "authors": [
+      "Wanhua Li*", "Zibin Meng*", "Jiawei Zhou", "Donglai Wei", "Chuang Gan", "Hanspeter Pfister" 
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2410.21411",
+    "preview": "https://li-wanhua.github.io/images/SocialGPT3.jpg",
+    "paper": "https://arxiv.org/abs/2410.21411",
+    "website": "https://mengzibin.github.io/SocialGPT.github.io/",
+    "code": "https://github.com/Mengzibin/SocialGPT",
+    "category": "Social",
+    "conference": "NeurIPS 2024"
+  },
+  {
     "title": "Constrained Human-AI Cooperation: An Inclusive Embodied Social Intelligence Challenge",
     "authors": [
       "Weihua Du*",
