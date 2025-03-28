@@ -529,16 +529,6 @@
     "conference": "ICLR 2024"
   },
   {
-    "title": "EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction",
-    "authors": ["Han Cai", "Junyan Li", "Muyan Hu", "Chuang Gan", "Song Han"],
-    "year": "2023",
-    "url": "https://arxiv.org/abs/2205.14756",
-    "paper": "https://arxiv.org/abs/2411.17735",
-    "preview": "https://senfu.github.io/images/efficientvit/intro.png",
-    "conference": "ICCV 2023",
-    "category": "Large Language Models"
-  },
-  {
     "title": "Open3DIS: Open-Vocabulary 3D Instance Segmentation with 2D Mask Guidance",
     "authors": [
       "Phuc D.A. Nguyen",
@@ -761,24 +751,6 @@
     "website": "https://dingmyu.github.io/physion_v2/",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/pythsion++.jpg",
     "category": "Physical Reasoning and Interaction"
-  },
-  {
-    "title": "A^2Nav: Action-Aware Zero-Shot Robot Navigation by Exploiting Vision-and-Language Ability of Foundation Models",
-    "authors": [
-      "Peihao Chen",
-      "Xinyu Sun",
-      "Hongyan Zhi",
-      "Runhao Zeng",
-      "Thomas H. Li",
-      "Gaowen Liu",
-      "Mingkui Tan",
-      "Chuang Gan"
-    ],
-    "year": "2023",
-    "url": "https://arxiv.org/abs/2308.07997",
-    "paper": "https://arxiv.org/abs/2308.07997",
-    "category": "Physical Reasoning and Interaction",
-    "conference": "NeurIPS Workshop 2023"
   },
   {
     "title": "TextPSG: Panoptic Scene Graph Generation from Textual Descriptions",
