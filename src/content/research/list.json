@@ -276,6 +276,7 @@
     "year": "2024",
     "code": "https://github.com/UMass-Embodied-AGI/FlexAttention",
     "paper": "https://arxiv.org/abs/2407.20228",
+    "website": "https://embodied-agi.cs.umass.edu/flexattention/",
     "url": "https://arxiv.org/abs/2407.20228",
     "preview": "/research/flexattention.jpg",
     "category": "Large Language Models",
