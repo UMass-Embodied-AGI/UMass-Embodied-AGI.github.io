@@ -16,7 +16,7 @@
     "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
     "paper": "https://arxiv.org/abs/2411.17735",
     "preview": "/research/3DMem.mp4",
-    "category": "Multimodal Language Models",
+    "category": "Embodied Intelligence",
     "conference": "CVPR 2025"
   },
   {
@@ -37,7 +37,7 @@
     "code": "https://github.com/Hoyyyaard/LSceneLLM",
     "paper": "https://arxiv.org/abs/2412.01292",
     "preview": "/research/LSceneLLM.png",
-    "category": "Multimodal Language Models",
+    "category": "Foundation Models",
     "conference": "CVPR 2025"
   },
   {
@@ -60,7 +60,7 @@
     "code": "https://github.com/UMass-Embodied-AGI/COMBO",
     "paper": "https://arxiv.org/abs/2404.10775",
     "preview": "/research/combo.webm",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Embodied Intelligence",
     "conference": "ICLR 2025"
   },
   {
@@ -80,7 +80,7 @@
     "code": "https://github.com/snap-research/DELTA_densetrack3d",
     "paper": "https://arxiv.org/abs/2410.24211",
     "preview": "/research/DELTA.mp4",
-    "category": "Vision Learning & Navigation",
+    "category": "Spatial Intelligence",
     "conference": "ICLR 2025"
   },
   {
@@ -98,7 +98,7 @@
     "code": "https://github.com/heaplax/ARMAP",
     "paper": "https://arxiv.org/abs/2502.12130",
     "preview": "/research/armap.svg",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "conference": "ICLR 2025"
   },
   {
@@ -116,7 +116,7 @@
     "website": "https://topo-gaussian.github.io/TopoGaussian/",
     "paper": "https://arxiv.org/abs/2503.12343",
     "preview": "/research/TopoGaussian.png",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "conference": "ICLR 2025"
   },
   {
@@ -135,7 +135,7 @@
     "website": "https://wangyian-me.github.io/MatchMaker/",
     "paper": "https://arxiv.org/abs/2503.05887",
     "preview": "/research/MatchMaker4.gif",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "conference": "ICRA 2025"
   },
   {
@@ -156,7 +156,7 @@
     "preview": "/research/UBsoft.mp4",
     "paper": "https://arxiv.org/abs/2411.12711",
     "website": "https://umass-embodied-agi.github.io/UBSoft/",
-    "category": "Physics Simulation",
+    "category": "Physics AI",
     "conference": "CoRL 2024"
   },
   {
@@ -178,7 +178,7 @@
     "paper": "https://arxiv.org/abs/2411.09823",
     "website": "https://wangyian-me.github.io/Architect/",
     "code": "https://github.com/wangyian-me/architect_official_code",
-    "category": "Physics Simulation",
+    "category": "Physics AI",
     "conference": "NeurIPS 2024"
   },
   {
@@ -192,7 +192,7 @@
     "paper": "https://arxiv.org/abs/2405.20510",
     "website": "https://gmh14.github.io/phys-comp/",
     "code": "https://github.com/gmh14/PhysComp",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "conference": "NeurIPS 2024"
   },
   {
@@ -206,7 +206,7 @@
     "paper": "https://arxiv.org/abs/2406.08164",
     "website": "https://huggingface.co/conme/ConMe",
     "code": "https://github.com/jmiemirza/conme",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "conference": "NeurIPS 2024"
   },
   {
@@ -220,7 +220,7 @@
     "paper": "https://arxiv.org/abs/2403.09472",
     "website": "https://github.com/Edward-Sun/easy-to-hard",
     "code": "https://github.com/Edward-Sun/easy-to-hard",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "conference": "NeurIPS 2024"
   },
   {
@@ -234,7 +234,7 @@
     "paper": "https://arxiv.org/abs/2410.21411",
     "website": "https://mengzibin.github.io/SocialGPT.github.io/",
     "code": "https://github.com/Mengzibin/SocialGPT",
-    "category": "Multimodal Language Models",
+    "category": "Foundation Models",
     "conference": "NeurIPS 2024"
   },
   {
@@ -258,7 +258,7 @@
     "paper": "https://arxiv.org/abs/2411.01796",
     "website": "https://embodied-agi.cs.umass.edu/CHAIC/",
     "code": "https://github.com/UMass-Embodied-AGI/CHAIC",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "conference": "NeurIPS 2024"
   },
   {
@@ -279,138 +279,10 @@
     "website": "https://embodied-agi.cs.umass.edu/flexattention/",
     "url": "https://arxiv.org/abs/2407.20228",
     "preview": "/research/flexattention.jpg",
-    "category": "Multimodal Language Models",
+    "category": "Foundation Models",
     "conference": "ECCV 2024"
   },
-  {
-    "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
-    "authors": [
-      "Yufei Wang",
-      "Zhou Xian",
-      "Feng Chen",
-      "Tsun-Hsuan Wang",
-      "Yian Wang",
-      "Katerina Fragkiadaki",
-      "Zackory Erickson",
-      "David Held",
-      "Chuang Gan"
-    ],
-    "year": "2024",
-    "url": "https://arxiv.org/abs/2311.01455",
-    "preview": "/research/robogen.webm",
-    "paper": "https://arxiv.org/abs/2311.01455",
-    "website": "https://robogen-ai.github.io/",
-    "booktitle": "International conference on machine learning",
-    "code": "https://github.com/Genesis-Embodied-AI/RoboGen",
-    "selected": true,
-    "category": "Physical Reasoning and Interaction",
-    "conference": "ICML 2024"
-  },
-  {
-    "title": "RoboDreamer: Learning Compositional World Models for Robot Imagination",
-    "authors": [
-      "Siyuan Zhou",
-      "Yilun Du",
-      "Jiaben Chen",
-      "Yandong Li",
-      "Dit-Yan Yeung",
-      "Chuang Gan"
-    ],
-    "year": "2024",
-    "paper": "https://arxiv.org/abs/2404.12377",
-    "url": "https://arxiv.org/abs/2404.12377",
-    "preview": "/research/robodreamer.png",
-    "category": "Physical Reasoning and Interaction",
-    "booktitle": "International conference on machine learning",
-    "website": "https://robovideo.github.io/",
-    "code": "https://github.com/rainbow979/robodreamer",
-    "conference": "ICML 2024"
-  },
-  {
-    "title": "Visual Chain-of-Thought Prompting for Knowledge-Based Visual Reasoning",
-    "authors": [
-      "Zhenfang Chen",
-      "Qinhong Zhou",
-      "Yikang Shen",
-      "Yining Hong",
-      "Zhiqing Sun",
-      "Dan Gutfreund",
-      "Chuang Gan"
-    ],
-    "booktitle": "AAAI Conference on Artificial Intelligence",
-    "year": "2024",
-    "url": "https://api.semanticscholar.org/CorpusID:268678279",
-    "code": "https://github.com/UMass-Embodied-AGI/VisualCoT",
-    "paper": "https://arxiv.org/abs/2404.00451",
-    "preview": "https://github.com/UMass-Embodied-AGI/VisualCoT/raw/main/framework.png",
-    "category": "Multimodal Language Models",
-    "conference": "AAAI 2024"
-  },
-  {
-    "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
-    "authors": [
-      "Haoyu Zhen",
-      "Xiaowen Qiu",
-      "Peihao Chen",
-      "Jincheng Yang",
-      "Xin Yan",
-      "Yilun Du",
-      "Yining Hong",
-      "Chuang Gan"
-    ],
-    "year": "2024",
-    "booktitle": "International conference on machine learning",
-    "selected": true,
-    "preview": "/research/3dVLA.webm",
-    "paper": "https://arxiv.org/abs/2403.09631",
-    "url": "https://arxiv.org/abs/2403.09631",
-    "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
-    "category": "Learning World Models",
-    "conference": "ICML 2024"
-  },
-  {
-    "title": "LLM and Simulation as Bilevel Optimizers: A New Paradigm to Advance Physical Scientific Discovery",
-    "authors": [
-      "Pingchuan Ma",
-      "Johnson Tsun-Hsuan Wang",
-      "Minghao Guo",
-      "Zhiqing Sun",
-      "Josh Tenenbaum",
-      "Daniela Rus",
-      "Chuang Gan",
-      "Wojciech Matusik"
-    ],
-    "url": "https://github.com/PingchuanMa/SGA",
-    "website": "https://github.com/PingchuanMa/SGA",
-    "code": "https://github.com/PingchuanMa/SGA",
-    "paper": "https://arxiv.org/abs/2405.09783",
-    "preview": "https://github.com/PingchuanMa/SGA/blob/main/assets/pipeline.jpg?raw=true",
-    "year": "2024",
-    "booktitle": "International conference on machine learning",
-    "conference": "ICML 2024",
-    "category": "Physical Reasoning and Interaction"
-  },
-  {
-    "title": "ContPhy: Continuum Physical Concept Learning and Reasoning from Videos",
-    "authors": [
-      "Zhicheng Zheng",
-      "Xin Yan",
-      "Zhenfang Chen",
-      "Jingzhou Wang",
-      "Qin Zhi Eddie Lim",
-      "Joshua Tenenbaum",
-      "Chuang Gan"
-    ],
-    "year": "2024",
-    "url": "https://physical-reasoning-project.github.io/",
-    "website": "https://physical-reasoning-project.github.io/",
-    "code": "https://github.com/zzcnewly/ContPhy-Gen",
-    "preview": "https://physical-reasoning-project.github.io/static/images/ContPRO.png",
-    "booktitle": "International conference on machine learning",
-    "conference": "ICML 2024",
-    "paper": "https://arxiv.org/abs/2402.06119",
-    "category": "Physical Reasoning and Interaction"
-  },
+  
   {
     "title": "SALMON: Self-Alignment with Instructable Reward Models",
     "authors": [
@@ -428,7 +300,7 @@
     "code": "https://github.com/IBM/SALMON",
     "paper": "https://arxiv.org/abs/2310.05910",
     "preview": "https://github.com/IBM/SALMON/raw/main/assets/images/salmon_logo_with_text.jpeg",
-    "category": "Large Language Models",
+    "category": "Foundation Models",
     "conference": "ICLR 2024"
   },
   {
@@ -447,7 +319,7 @@
     "code": "https://github.com/wangyian-me/ThinShellLab",
     "paper": "https://arxiv.org/abs/2404.00451",
     "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "conference": "ICLR 2024 (Spotlight)"
   },
   {
@@ -467,7 +339,7 @@
     "website": "https://umass-embodied-agi.github.io/CoELA/",
     "paper": "https://arxiv.org/abs/2411.17735",
     "preview": "/research/CoELA.jpg",
-    "category": "Multimodal Language Models",
+    "category": "Foundation Models",
     "conference": "ICLR 2024"
   },
   {
@@ -489,7 +361,7 @@
     "code": "https://github.com/UMass-Embodied-AGI/HAZARD",
     "paper": "https://arxiv.org/abs/2411.17735",
     "preview": "https://github.com/UMass-Embodied-AGI/HAZARD/blob/main/pics/overview.png?raw=true",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Embodied Intelligence",
     "conference": "ICLR 2024"
   },
   {
@@ -547,7 +419,7 @@
     "code": "https://github.com/UMass-Embodied-AGI/CoVLM",
     "paper": "https://arxiv.org/abs/2311.03354",
     "preview": "/research/CoVLM.webm",
-    "category": "Multimodal Language Models",
+    "category": "Foundation Models",
     "conference": "ICLR 2024"
   },
   {
@@ -584,7 +456,7 @@
     "website": "https://bobbywu.com/SOKBench/",
     "paper": "https://arxiv.org/abs/2405.09713",
     "preview": "/research/SOK-Bench.png",
-    "category": "Multimodal Language Models",
+    "category": "Foundation Models",
     "conference": "CVPR 2024"
   },
   {
@@ -601,7 +473,7 @@
     "year": "2024",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yang_RILA_Reflective_and_Imaginative_Language_Agent_for_Zero-Shot_Semantic_Audio-Visual_CVPR_2024_paper.html",
     "preview": "/research/RILA.png",
-    "category": "Vision Learning & Navigation",
+    "category": "Audio",
     "conference": "CVPR 2024"
   },
   {
@@ -618,7 +490,7 @@
     "code": "https://github.com/UMass-Embodied-AGI/MultiPLY",
     "paper": "https://arxiv.org/abs/2401.08577",
     "preview": "/research/multiply.webm",
-    "category": "Multimodal Language Models",
+    "category": "Foundation Models",
     "conference": "CVPR 2024"
   },
   {
@@ -647,7 +519,7 @@
     "code": "https://github.com/concept-graphs/concept-graphs",
     "paper": "https://arxiv.org/abs/2309.16650",
     "preview": "https://concept-graphs.github.io/static/images/pipeline.png",
-    "category": "Vision Learning & Navigation",
+    "category": "3D Vision",
     "conference": "ICRA 2024"
   },
   {
@@ -669,7 +541,7 @@
     "preview": "https://github.com/IBM/Dromedary/raw/main/assets/images/dromedary_logo_with_text.svg",
     "paper": "https://arxiv.org/abs/2305.03047",
     "code": "https://github.com/IBM/Dromedary",
-    "category": "Large Language Models",
+    "category": "Foundation Models",
     "conference": "NeurIPS 2023 (Spotlight)"
   },
   {
@@ -690,7 +562,7 @@
     "code": "https://github.com/umass-foundation-model/3d-llm",
     "preview": "/research/3dllm.webm",
     "journal": "Advances in Neural Information Processing Systems",
-    "category": "Multimodal Language Models",
+    "category": "Foundation Models",
     "conference": "NeurIPS 2023 (Spotlight)"
   },
   {
@@ -788,7 +660,7 @@
     "paper": "https://arxiv.org/abs/2310.07056",
     "code": "https://github.com/chengyzhao/TextPSG",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/textpsg.png",
-    "category": "Vision Learning & Navigation",
+    "category": "3D Vision",
     "conference": "ICCV 2023"
   },
   {
@@ -806,7 +678,7 @@
     "code": "https://github.com/mit-han-lab/efficientvit",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/efficientvit.png",
     "website": "https://hanlab.mit.edu/projects/efficientvit",
-    "category": "Vision Learning & Navigation",
+    "category": "3D Vision",
     "conference": "ICCV 2023"
   },
   {
@@ -824,7 +696,7 @@
     "paper": "https://arxiv.org/abs/2307.11984",
     "code": "https://github.com/JeremyLinky/YouTube-VLN",
     "preview": "https://github.com/JeremyLinky/YouTube-VLN/raw/main/readme/lily.png",
-    "category": "Vision Learning & Navigation",
+    "category": "Embodied Intelligence",
     "conference": "ICCV 2023"
   },
   {
@@ -841,7 +713,7 @@
     "paper": "https://arxiv.org/abs/2310.07096",
     "code": "https://github.com/shawntan/SUT",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/SUT.jpg",
-    "category": "Vision Learning & Navigation",
+    "category": "Foundation Models",
     "conference": "EMNLP 2023"
   },
   {
@@ -860,7 +732,7 @@
     "paper": "https://arxiv.org/abs/2304.14369",
     "code": "https://github.com/PingchuanMa/NCLaw",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/melt.gif",
-    "category": "Physics Simulation",
+    "category": "Physics AI",
     "website": "https://sites.google.com/view/nclaw",
     "conference": "ICML 2023"
   },
@@ -879,7 +751,7 @@
     "paper": "https://haosulab.github.io/RPG/static/icml2023_rpg_camera_ready.pdf",
     "code": "https://github.com/haosulab/RPG",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/RSP.png",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "website": "https://haosulab.github.io/RPG/",
     "conference": "ICML 2023 (Oral)"
   },
@@ -899,7 +771,7 @@
     "paper": "https://arxiv.org/abs/2210.04763",
     "code": "https://github.com/Weixy21/InvarianceNODE",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/ODE_invariance.gif",
-    "category": "Physics Simulation",
+    "category": "Physics AI",
     "website": "https://weixy21.github.io/invariance/",
     "conference": "ICML 2023"
   },
@@ -919,15 +791,15 @@
     "paper": "https://arxiv.org/abs/2302.11553",
     "code": "https://github.com/real-stanford/roboninja",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/RoboNinja_RSS.gif",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "website": "https://roboninja.cs.columbia.edu/",
     "conference": "RSS 2023"
   },
   {
     "title": "JECC: Commonsense Reasoning Tasks Derived from Interactive Fictions",
     "authors": [
-      "Mo Yu",
-      "Yi Gu",
+      "Mo Yu*",
+      "Yi Gu*",
       "Xiaoxiao Guo",
       "Yufei Feng",
       "Xiaodan Zhu",
@@ -940,7 +812,7 @@
     "paper": "https://arxiv.org/abs/2210.15456",
     "code": "https://github.com/Gorov/zucc",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/JFCC.jpeg",
-    "category": "Large Language Models",
+    "category": "Foundation Models",
     "conference": "ACL 2023 (Findings)"
   },
   {
@@ -977,7 +849,7 @@
     "paper": "https://arxiv.org/abs/2212.08066",
     "code": "https://github.com/UMass-Embodied-AGI/Mod-Squad",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/Mod-Squad.png",
-    "category": "Vision Learning & Navigation",
+    "category": "Foundation Models",
     "conference": "CVPR 2023"
   },
   {
@@ -993,7 +865,7 @@
     "url": "https://ecforembodiedai.github.io/",
     "paper": "https://arxiv.org/abs/2304.09448",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/EC2.png",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "website": "https://ecforembodiedai.github.io/",
     "conference": "CVPR 2023"
   },
@@ -1010,7 +882,7 @@
     "url": "https://sukun1045.github.io/video-physics-sound-diffusion/",
     "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Su_Physics-Driven_Diffusion_Models_for_Impact_Sound_Synthesis_From_Videos_CVPR_2023_paper.pdf",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/physics-sound.png",
-    "category": "Vision Learning & Navigation",
+    "category": "Audio",
     "code": "https://github.com/sukun1045/video-physics-sound-diffusion",
     "website": "https://sukun1045.github.io/video-physics-sound-diffusion/",
     "conference": "CVPR 2023"
@@ -1031,7 +903,7 @@
     "url": "https://github.com/dingmyu/DependencyViT",
     "paper": "https://arxiv.org/abs/2304.03282",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/visualdep.png",
-    "category": "Vision Learning & Navigation",
+    "category": "Spatial Intelligence",
     "code": "https://github.com/dingmyu/DependencyViT",
     "conference": "CVPR 2023"
   },
@@ -1051,7 +923,7 @@
     "paper": "https://arxiv.org/abs/2210.06096",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/M3M.png",
     "code": "https://github.com/XinyuSun/MME",
-    "category": "Vision Learning & Navigation",
+    "category": "Spatial Intelligence",
     "conference": "CVPR 2023"
   },
   {
@@ -1069,7 +941,7 @@
     "url": "https://fluidlab2023.github.io/",
     "paper": "https://arxiv.org/abs/2303.02346",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/fluidlab.png",
-    "category": "Physics Simulation",
+    "category": "Physics AI",
     "code": "https://github.com/zhouxian/FluidLab",
     "website": "https://fluidlab2023.github.io/",
     "conference": "ICLR 2023 (Spotlight)"
@@ -1089,7 +961,7 @@
     "url": "https://sites.google.com/view/PAC-NeRF/",
     "paper": "https://openreview.net/pdf?id=tVkrbkz42vc",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/PAC-Nerf.png",
-    "category": "Physics Simulation",
+    "category": "Physics AI",
     "code": "https://github.com/xuan-li/PAC-NeRF",
     "website": "https://sites.google.com/view/PAC-NeRF/",
     "conference": "ICLR 2023 (Spotlight)"
@@ -1110,7 +982,7 @@
     "url": "https://sites.google.com/view/softzoo-iclr-2023",
     "paper": "https://arxiv.org/abs/2303.09555",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/softzoo.png",
-    "category": "Physics Simulation",
+    "category": "Physics AI",
     "code": "https://github.com/zswang666/softzoo",
     "website": "https://sites.google.com/view/softzoo-iclr-2023",
     "conference": "ICLR 2023"
@@ -1129,7 +1001,7 @@
     "url": "https://codeaimcts.github.io/",
     "paper": "https://openreview.net/pdf?id=Lr8cOOtYbfL",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/code_ai.png",
-    "category": "Large Language Models",
+    "category": "Foundation Models",
     "code": "https://github.com/shunzh/Code-AI-Tree-Search",
     "website": "https://codeaimcts.github.io/",
     "conference": "ICLR 2023"
@@ -1149,7 +1021,7 @@
     "url": "https://sites.google.com/view/dexdeform/",
     "paper": "https://openreview.net/pdf?id=LIV7-_7pYPl",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/flip_small.gif",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "code": "https://github.com/sizhe-li/DexDeform",
     "website": "https://sites.google.com/view/dexdeform/",
     "conference": "ICLR 2023"
@@ -1168,26 +1040,26 @@
     "url": "https://sites.google.com/view/hdtforiclr2023/home",
     "paper": "https://arxiv.org/abs/2304.08487",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/HDT.gif",
-    "category": "Physical Reasoning and Interaction",
+    "category": "Physics AI",
     "website": "https://sites.google.com/view/hdtforiclr2023/home",
     "conference": "ICLR 2023"
   },
-  {
-    "title": "ModuleFormer: Learning Modular Large Language Models From Uncurated Data",
-    "authors": [
-      "Yikang Shen",
-      "Zheyu Zhang",
-      "Tianyou Cao",
-      "Shawn Tan",
-      "Zhenfang Chen",
-      "Chuang Gan"
-    ],
-    "year": "2023",
-    "url": "https://github.com/IBM/ModuleFormer",
-    "paper": "https://arxiv.org/abs/2306.04640",
-    "preview": "https://people.csail.mit.edu/ganchuang/imgs/Moduleformer.jpeg",
-    "category": "Large Language Models",
-    "code": "https://github.com/IBM/ModuleFormer",
-    "conference": "Pre-print 2023"
-  }
+  // {
+  //   "title": "ModuleFormer: Learning Modular Large Language Models From Uncurated Data",
+  //   "authors": [
+  //     "Yikang Shen",
+  //     "Zheyu Zhang",
+  //     "Tianyou Cao",
+  //     "Shawn Tan",
+  //     "Zhenfang Chen",
+  //     "Chuang Gan"
+  //   ],
+  //   "year": "2023",
+  //   "url": "https://github.com/IBM/ModuleFormer",
+  //   "paper": "https://arxiv.org/abs/2306.04640",
+  //   "preview": "https://people.csail.mit.edu/ganchuang/imgs/Moduleformer.jpeg",
+  //   "category": "Foundation Models",
+  //   "code": "https://github.com/IBM/ModuleFormer",
+  //   "conference": "Pre-print 2023"
+  // }
 ]
