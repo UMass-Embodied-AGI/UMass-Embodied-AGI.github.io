@@ -1,24 +1,5 @@
 [
   {
-    "title": "MatchMaker: Automated Asset Generation for Robotic Assembly",
-    "authors": [
-      "Yian Wang",
-      "Bingjie Tang",
-      "Chuang Gan",
-      "Dieter Fox",
-      "Kaichun Mo",
-      "Yashraj Narang",
-      "Iretiayo Akinola"
-    ],
-    "year": "2025",
-    "url": "https://wangyian-me.github.io/MatchMaker/",
-    "website": "https://wangyian-me.github.io/MatchMaker/",
-    "paper": "https://arxiv.org/abs/2503.05887",
-    "preview": "/research/MatchMaker4.gif",
-    "category": "Physical Reasoning and Interaction",
-    "conference": "ICRA 2025"
-  },
-  {
     "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
     "authors": [
       "Yuncong Yang*",
@@ -35,6 +16,27 @@
     "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
     "paper": "https://arxiv.org/abs/2411.17735",
     "preview": "/research/3DMem.mp4",
+    "category": "Multimodal Language Models",
+    "conference": "CVPR 2025"
+  },
+  {
+    "title": "LSceneLLM: Enhancing Large 3D Scene Understanding Using Adaptive Visual Preferences",
+    "authors": [
+      "Hongyan Zhi",
+      "Peihao Chen",
+      "Junyan Li",
+      "Shuailei Ma",
+      "Xinyu Sun",
+      "Tianhang Xiang",
+      "Yinjie Lei",
+      "Mingkui Tan",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2412.01292",
+    "code": "https://github.com/Hoyyyaard/LSceneLLM",
+    "paper": "https://arxiv.org/abs/2412.01292",
+    "preview": "/research/LSceneLLM.png",
     "category": "Multimodal Language Models",
     "conference": "CVPR 2025"
   },
@@ -116,6 +118,25 @@
     "preview": "/research/TopoGaussian.png",
     "category": "Physical Reasoning and Interaction",
     "conference": "ICLR 2025"
+  },
+  {
+    "title": "MatchMaker: Automated Asset Generation for Robotic Assembly",
+    "authors": [
+      "Yian Wang",
+      "Bingjie Tang",
+      "Chuang Gan",
+      "Dieter Fox",
+      "Kaichun Mo",
+      "Yashraj Narang",
+      "Iretiayo Akinola"
+    ],
+    "year": "2025",
+    "url": "https://wangyian-me.github.io/MatchMaker/",
+    "website": "https://wangyian-me.github.io/MatchMaker/",
+    "paper": "https://arxiv.org/abs/2503.05887",
+    "preview": "/research/MatchMaker4.gif",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "ICRA 2025"
   },
   {
     "title": "UBSoft: A Simulation Platform for Robotic Skill Learning in Unbounded Soft Environments",
