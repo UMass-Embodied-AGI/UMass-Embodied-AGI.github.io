@@ -618,7 +618,7 @@
     "code": "https://github.com/UMass-Embodied-AGI/MultiPLY",
     "paper": "https://arxiv.org/abs/2401.08577",
     "preview": "/research/multiply.webm",
-    "category": "Audio-Visual Learning",
+    "category": "Multimodal Language Models",
     "conference": "CVPR 2024"
   },
   {
@@ -1010,7 +1010,7 @@
     "url": "https://sukun1045.github.io/video-physics-sound-diffusion/",
     "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Su_Physics-Driven_Diffusion_Models_for_Impact_Sound_Synthesis_From_Videos_CVPR_2023_paper.pdf",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/physics-sound.png",
-    "category": "Audio-Visual Learning",
+    "category": "Vision Learning & Navigation",
     "code": "https://github.com/sukun1045/video-physics-sound-diffusion",
     "website": "https://sukun1045.github.io/video-physics-sound-diffusion/",
     "conference": "CVPR 2023"
