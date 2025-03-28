@@ -1,6 +1,4 @@
----
-import type { GetStaticPaths } from "astro";
-import { getEntry } from "astro:content";
+--- import type { GetStaticPaths } from "astro"; import { getEntry } from "astro:content";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import ImageWrapper from "@/components/misc/ImageWrapper.astro";
 import PersonCard from "@/components/PersonCard.astro";
@@ -10,6 +8,7 @@ const memberList = await getEntry("people", "members");
 const alumniList = await getEntry("people", "alumni");
 const teamImgList = [
   "team-1.jpg",
+  "team-2.jpg",
   "team-3.jpg",
   "team-4.jpg",
   "team-5.jpg",

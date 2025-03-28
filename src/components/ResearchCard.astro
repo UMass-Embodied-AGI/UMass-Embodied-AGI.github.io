@@ -66,11 +66,14 @@ const previewWidth = "50%";
     <div class="text-base italic text-black/80 dark:text-white/80 mb-2">
       <span>{authors.join(", ")}</span>
     </div>
-
     <div class="text-base font-extrabold text-blue-900/80 dark:text-blue-100/80 mb-4">
-      <span>{conference}</span>
+      {conference && 
+        <Fragment set:html={conference.replace(
+          /(\((?:Oral|Spotlight)\))/g, 
+          '<span class="text-red-700/80 dark:text-red-300/80">$1</span>'
+        )} />
+      }
     </div>
-
     <ResearchMeta
       year={year}
       category={category}
