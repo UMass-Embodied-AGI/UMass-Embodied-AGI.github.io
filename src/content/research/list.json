@@ -22,9 +22,9 @@
   {
     "title": "LSceneLLM: Enhancing Large 3D Scene Understanding Using Adaptive Visual Preferences",
     "authors": [
-      "Hongyan Zhi",
-      "Peihao Chen",
-      "Junyan Li",
+      "Hongyan Zhi*",
+      "Peihao Chen*",
+      "Junyan Li*",
       "Shuailei Ma",
       "Xinyu Sun",
       "Tianhang Xiang",
@@ -64,7 +64,7 @@
     "conference": "ICLR 2025"
   },
   {
-    "title": "DELTA: Dense Efficient Long-range 3D Tracking for Any video.",
+    "title": "DELTA: Dense Efficient Long-range 3D Tracking for Any Video",
     "authors": [
       "Tuan Duc Ngo",
       "Peiye Zhuang",
@@ -80,7 +80,7 @@
     "code": "https://github.com/snap-research/DELTA_densetrack3d",
     "paper": "https://arxiv.org/abs/2410.24211",
     "preview": "/research/DELTA.mp4",
-    "category": "3D Vision",
+    "category": "Vision Learning & Navigation",
     "conference": "ICLR 2025"
   },
   {
@@ -178,7 +178,7 @@
     "paper": "https://arxiv.org/abs/2411.09823",
     "website": "https://wangyian-me.github.io/Architect/",
     "code": "https://github.com/wangyian-me/architect_official_code",
-    "category": "Scene Generation",
+    "category": "Physics Simulation",
     "conference": "NeurIPS 2024"
   },
   {
@@ -234,7 +234,7 @@
     "paper": "https://arxiv.org/abs/2410.21411",
     "website": "https://mengzibin.github.io/SocialGPT.github.io/",
     "code": "https://github.com/Mengzibin/SocialGPT",
-    "category": "Social",
+    "category": "Multimodal Language Models",
     "conference": "NeurIPS 2024"
   },
   {
@@ -879,7 +879,7 @@
     "paper": "https://haosulab.github.io/RPG/static/icml2023_rpg_camera_ready.pdf",
     "code": "https://github.com/haosulab/RPG",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/RSP.png",
-    "category": "Reinforce Learning",
+    "category": "Robotics",
     "website": "https://haosulab.github.io/RPG/",
     "conference": "ICML 2023 (Oral)"
   },
