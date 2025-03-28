@@ -519,7 +519,7 @@
     "code": "https://github.com/concept-graphs/concept-graphs",
     "paper": "https://arxiv.org/abs/2309.16650",
     "preview": "https://concept-graphs.github.io/static/images/pipeline.png",
-    "category": "3D Vision",
+    "category": "Spatial Intelligence",
     "conference": "ICRA 2024"
   },
   {
@@ -583,7 +583,7 @@
     "paper": "https://arxiv.org/abs/2310.09629",
     "code": "https://github.com/rainbow979/replandiffuser",
     "preview": "/research/replandiffuser.png",
-    "category": "Vision Learning & Navigation"
+    "category": "Spatial Intelligence",
   },
   {
     "title": "DiffVL: Scaling Up Soft Body Manipulation using Vision-Language Driven Differentiable Physics",
@@ -602,7 +602,7 @@
     "url": "https://sites.google.com/view/diffvl/home",
     "website": "https://sites.google.com/view/diffvl/home",
     "preview": "/research/DiffVL.png",
-    "category": "Physical Reasoning and Interaction"
+    "category": "Physical Intelligence",
   },
   {
     "title": "DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models",
@@ -623,7 +623,7 @@
     "paper": "https://arxiv.org/abs/2311.17053",
     "website": "https://diffusebot.github.io/",
     "preview": "/research/diffusebot.webm",
-    "category": "Physical Reasoning and Interaction"
+    "category": "Physical Intelligence",
   },
   {
     "title": "Physion++: Evaluating Physical Scene Understanding that Requires Online Inference of Different Physical Properties",
@@ -644,7 +644,7 @@
     "paper": "https://arxiv.org/abs/2306.15668",
     "website": "https://dingmyu.github.io/physion_v2/",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/pythsion++.jpg",
-    "category": "Physical Reasoning and Interaction"
+    "category": "Physical Intelligence",
   },
   {
     "title": "TextPSG: Panoptic Scene Graph Generation from Textual Descriptions",
@@ -660,7 +660,7 @@
     "paper": "https://arxiv.org/abs/2310.07056",
     "code": "https://github.com/chengyzhao/TextPSG",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/textpsg.png",
-    "category": "3D Vision",
+    "category": "Spatial Intelligence",
     "conference": "ICCV 2023"
   },
   {
@@ -678,7 +678,7 @@
     "code": "https://github.com/mit-han-lab/efficientvit",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/efficientvit.png",
     "website": "https://hanlab.mit.edu/projects/efficientvit",
-    "category": "3D Vision",
+    "category": "Spatial Intelligence",
     "conference": "ICCV 2023"
   },
   {
