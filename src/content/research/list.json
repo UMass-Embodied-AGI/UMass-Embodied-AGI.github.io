@@ -98,7 +98,7 @@
     "code": "https://github.com/heaplax/ARMAP",
     "paper": "https://arxiv.org/abs/2502.12130",
     "preview": "/research/armap.svg",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "conference": "ICLR 2025"
   },
   {
@@ -116,7 +116,7 @@
     "website": "https://topo-gaussian.github.io/TopoGaussian/",
     "paper": "https://arxiv.org/abs/2503.12343",
     "preview": "/research/TopoGaussian.png",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "conference": "ICLR 2025"
   },
   {
@@ -135,7 +135,7 @@
     "website": "https://wangyian-me.github.io/MatchMaker/",
     "paper": "https://arxiv.org/abs/2503.05887",
     "preview": "/research/MatchMaker4.gif",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "conference": "ICRA 2025"
   },
   {
@@ -156,7 +156,7 @@
     "preview": "/research/UBsoft.mp4",
     "paper": "https://arxiv.org/abs/2411.12711",
     "website": "https://umass-embodied-agi.github.io/UBSoft/",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "conference": "CoRL 2024"
   },
   {
@@ -178,7 +178,7 @@
     "paper": "https://arxiv.org/abs/2411.09823",
     "website": "https://wangyian-me.github.io/Architect/",
     "code": "https://github.com/wangyian-me/architect_official_code",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "conference": "NeurIPS 2024"
   },
   {
@@ -192,7 +192,7 @@
     "paper": "https://arxiv.org/abs/2405.20510",
     "website": "https://gmh14.github.io/phys-comp/",
     "code": "https://github.com/gmh14/PhysComp",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "conference": "NeurIPS 2024"
   },
   {
@@ -206,7 +206,7 @@
     "paper": "https://arxiv.org/abs/2406.08164",
     "website": "https://huggingface.co/conme/ConMe",
     "code": "https://github.com/jmiemirza/conme",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "conference": "NeurIPS 2024"
   },
   {
@@ -220,7 +220,7 @@
     "paper": "https://arxiv.org/abs/2403.09472",
     "website": "https://github.com/Edward-Sun/easy-to-hard",
     "code": "https://github.com/Edward-Sun/easy-to-hard",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "conference": "NeurIPS 2024"
   },
   {
@@ -258,7 +258,7 @@
     "paper": "https://arxiv.org/abs/2411.01796",
     "website": "https://embodied-agi.cs.umass.edu/CHAIC/",
     "code": "https://github.com/UMass-Embodied-AGI/CHAIC",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "conference": "NeurIPS 2024"
   },
   {
@@ -319,7 +319,7 @@
     "code": "https://github.com/wangyian-me/ThinShellLab",
     "paper": "https://arxiv.org/abs/2404.00451",
     "preview": "https://wangyian-me.github.io/images/thinshelllabgif.gif",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "conference": "ICLR 2024 (Spotlight)"
   },
   {
@@ -732,7 +732,7 @@
     "paper": "https://arxiv.org/abs/2304.14369",
     "code": "https://github.com/PingchuanMa/NCLaw",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/melt.gif",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "website": "https://sites.google.com/view/nclaw",
     "conference": "ICML 2023"
   },
@@ -751,7 +751,7 @@
     "paper": "https://haosulab.github.io/RPG/static/icml2023_rpg_camera_ready.pdf",
     "code": "https://github.com/haosulab/RPG",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/RSP.png",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "website": "https://haosulab.github.io/RPG/",
     "conference": "ICML 2023 (Oral)"
   },
@@ -771,7 +771,7 @@
     "paper": "https://arxiv.org/abs/2210.04763",
     "code": "https://github.com/Weixy21/InvarianceNODE",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/ODE_invariance.gif",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "website": "https://weixy21.github.io/invariance/",
     "conference": "ICML 2023"
   },
@@ -791,7 +791,7 @@
     "paper": "https://arxiv.org/abs/2302.11553",
     "code": "https://github.com/real-stanford/roboninja",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/RoboNinja_RSS.gif",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "website": "https://roboninja.cs.columbia.edu/",
     "conference": "RSS 2023"
   },
@@ -865,7 +865,7 @@
     "url": "https://ecforembodiedai.github.io/",
     "paper": "https://arxiv.org/abs/2304.09448",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/EC2.png",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "website": "https://ecforembodiedai.github.io/",
     "conference": "CVPR 2023"
   },
@@ -941,7 +941,7 @@
     "url": "https://fluidlab2023.github.io/",
     "paper": "https://arxiv.org/abs/2303.02346",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/fluidlab.png",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "code": "https://github.com/zhouxian/FluidLab",
     "website": "https://fluidlab2023.github.io/",
     "conference": "ICLR 2023 (Spotlight)"
@@ -961,7 +961,7 @@
     "url": "https://sites.google.com/view/PAC-NeRF/",
     "paper": "https://openreview.net/pdf?id=tVkrbkz42vc",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/PAC-Nerf.png",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "code": "https://github.com/xuan-li/PAC-NeRF",
     "website": "https://sites.google.com/view/PAC-NeRF/",
     "conference": "ICLR 2023 (Spotlight)"
@@ -982,7 +982,7 @@
     "url": "https://sites.google.com/view/softzoo-iclr-2023",
     "paper": "https://arxiv.org/abs/2303.09555",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/softzoo.png",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "code": "https://github.com/zswang666/softzoo",
     "website": "https://sites.google.com/view/softzoo-iclr-2023",
     "conference": "ICLR 2023"
@@ -1021,7 +1021,7 @@
     "url": "https://sites.google.com/view/dexdeform/",
     "paper": "https://openreview.net/pdf?id=LIV7-_7pYPl",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/flip_small.gif",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "code": "https://github.com/sizhe-li/DexDeform",
     "website": "https://sites.google.com/view/dexdeform/",
     "conference": "ICLR 2023"
@@ -1040,26 +1040,8 @@
     "url": "https://sites.google.com/view/hdtforiclr2023/home",
     "paper": "https://arxiv.org/abs/2304.08487",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/HDT.gif",
-    "category": "Physics AI",
+    "category": "Physical Intelligence",
     "website": "https://sites.google.com/view/hdtforiclr2023/home",
     "conference": "ICLR 2023"
-  },
-  // {
-  //   "title": "ModuleFormer: Learning Modular Large Language Models From Uncurated Data",
-  //   "authors": [
-  //     "Yikang Shen",
-  //     "Zheyu Zhang",
-  //     "Tianyou Cao",
-  //     "Shawn Tan",
-  //     "Zhenfang Chen",
-  //     "Chuang Gan"
-  //   ],
-  //   "year": "2023",
-  //   "url": "https://github.com/IBM/ModuleFormer",
-  //   "paper": "https://arxiv.org/abs/2306.04640",
-  //   "preview": "https://people.csail.mit.edu/ganchuang/imgs/Moduleformer.jpeg",
-  //   "category": "Foundation Models",
-  //   "code": "https://github.com/IBM/ModuleFormer",
-  //   "conference": "Pre-print 2023"
-  // }
+  }
 ]
