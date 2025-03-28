@@ -606,7 +606,8 @@
     "code": "https://github.com/UMass-Embodied-AGI/MultiPLY",
     "paper": "https://arxiv.org/abs/2401.08577",
     "preview": "/research/multiply.webm",
-    "category": "Audio-Visual Learning"
+    "category": "Audio-Visual Learning",
+    "conference": "CVPR 2024"
   },
   {
     "title": "ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning",
@@ -638,38 +639,6 @@
     "conference": "ICRA 2024"
   },
   {
-    "title": "3D Concept Learning and Reasoning from Multi-View Images",
-    "authors": [
-      "Yining Hong",
-      "Chunru Lin",
-      "Yilun Du",
-      "Zhenfang Chen",
-      "Joshua B. Tenenbaum",
-      "Chuang Gan"
-    ],
-    "year": "2023",
-    "paper": "https://arxiv.org/abs/2303.11327",
-    "preview": "/research/3dclr.png",
-    "conference": "CVPR 2023",
-    "category": "Learning World Models"
-  },
-  {
-    "title": "DCIR: Dynamic Consistency Intrinsic Reward for Multi-Agent Reinforcement Learning",
-    "authors": [
-      "Kunyang Lin",
-      "Yufeng Wang",
-      "Peihao Chen",
-      "Runhao Zeng",
-      "Siyuan Zhou",
-      "Mingkui Tan",
-      "Chuang Gan"
-    ],
-    "year": "2023",
-    "url": "https://arxiv.org/abs/2312.05783",
-    "paper": "https://arxiv.org/abs/2312.05783",
-    "category": "Large Language Models"
-  },
-  {
     "title": "Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision",
     "authors": [
       "Zhiqing Sun",
@@ -688,41 +657,8 @@
     "preview": "https://github.com/IBM/Dromedary/raw/main/assets/images/dromedary_logo_with_text.svg",
     "paper": "https://arxiv.org/abs/2305.03047",
     "code": "https://github.com/IBM/Dromedary",
-    "journal": "Advances in Neural Information Processing Systems",
-    "category": "Large Language Models"
-  },
-  {
-    "title": "A^2Nav: Action-Aware Zero-Shot Robot Navigation by Exploiting Vision-and-Language Ability of Foundation Models",
-    "authors": [
-      "Peihao Chen",
-      "Xinyu Sun",
-      "Hongyan Zhi",
-      "Runhao Zeng",
-      "Thomas H. Li",
-      "Gaowen Liu",
-      "Mingkui Tan",
-      "Chuang Gan"
-    ],
-    "year": "2023",
-    "url": "https://arxiv.org/abs/2308.07997",
-    "paper": "https://arxiv.org/abs/2308.07997",
-    "category": "Physical Reasoning and Interaction"
-  },
-  {
-    "title": "Learning Vision-and-Language Navigation from YouTube Videos",
-    "authors": [
-      "Kunyang Lin",
-      "Peihao Chen",
-      "Diwei Huang",
-      "Thomas H. Li",
-      "Mingkui Tan",
-      "Chuang Gan"
-    ],
-    "year": "2023",
-    "url": "https://arxiv.org/abs/2307.11984",
-    "paper": "https://arxiv.org/abs/2307.11984",
-    "preview": "https://github.com/JeremyLinky/YouTube-VLN/raw/main/readme/lily.png",
-    "category": "Vision Learning & Navigation"
+    "category": "Large Language Models",
+    "conference": "NeurIPS 2023 (Spotlight)"
   },
   {
     "title": "3D-LLM: Injecting the 3D World into Large Language Models",
@@ -743,24 +679,7 @@
     "preview": "/research/3dllm.webm",
     "journal": "Advances in Neural Information Processing Systems",
     "category": "Multimodal Language Models",
-    "conference": "NeurIPS 2023"
-  },
-  {
-    "title": "Masked Motion Encoding for Self-Supervised Video Representation Learning",
-    "authors": [
-      "Xinyu Sun",
-      "Peihao Chen",
-      "Liangwei Chen",
-      "Changhao Li",
-      "Thomas H. Li",
-      "Mingkui Tan",
-      "Chuang Gan"
-    ],
-    "year": "2023",
-    "url": "https://arxiv.org/abs/2210.06096",
-    "paper": "https://arxiv.org/abs/2210.06096",
-    "preview": "https://github.com/XinyuSun/MME/raw/main/resource/arch.png",
-    "category": "Vision Learning & Navigation"
+    "conference": "NeurIPS 2023 (Spotlight)"
   },
   {
     "title": "Adaptive online replanning with diffusion models",
@@ -815,11 +734,466 @@
       "Daniela Rus"
     ],
     "year": "2023",
-    "conference": "NeurIPS 2023",
+    "conference": "NeurIPS 2023 (Oral)",
     "url": "https://diffusebot.github.io/",
     "paper": "https://arxiv.org/abs/2311.17053",
     "website": "https://diffusebot.github.io/",
     "preview": "/research/diffusebot.webm",
     "category": "Physical Reasoning and Interaction"
+  },
+  {
+    "title": "Physion++: Evaluating Physical Scene Understanding that Requires Online Inference of Different Physical Properties",
+    "authors": [
+      "Hsiao-Yu Tung",
+      "Mingyu Ding",
+      "Zhenfang Chen",
+      "Daniel Bear",
+      "Chuang Gan",
+      "Joshua B. Tenenbaum",
+      "Daniel LK Yamins",
+      "Judith E Fan",
+      "Kevin A. Smith"
+    ],
+    "year": "2023",
+    "conference": "NeurIPS 2023 Dataset Track",
+    "url": "https://dingmyu.github.io/physion_v2/",
+    "paper": "https://arxiv.org/abs/2306.15668",
+    "website": "https://dingmyu.github.io/physion_v2/",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/pythsion++.jpg",
+    "category": "Physical Reasoning and Interaction"
+  },
+  {
+    "title": "A^2Nav: Action-Aware Zero-Shot Robot Navigation by Exploiting Vision-and-Language Ability of Foundation Models",
+    "authors": [
+      "Peihao Chen",
+      "Xinyu Sun",
+      "Hongyan Zhi",
+      "Runhao Zeng",
+      "Thomas H. Li",
+      "Gaowen Liu",
+      "Mingkui Tan",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2308.07997",
+    "paper": "https://arxiv.org/abs/2308.07997",
+    "category": "Physical Reasoning and Interaction",
+    "conference": "NeurIPS Workshop 2023"
+  },
+  {
+    "title": "TextPSG: Panoptic Scene Graph Generation from Textual Descriptions",
+    "authors": [
+      "Chengyang Zhao",
+      "Yikang Shen",
+      "Zhenfang Chen",
+      "Mingyu Ding",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://github.com/chengyzhao/TextPSG",
+    "paper": "https://arxiv.org/abs/2310.07056",
+    "code": "https://github.com/chengyzhao/TextPSG",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/textpsg.png",
+    "category": "Vision Learning & Navigation",
+    "conference": "ICCV 2023"
+  },
+  {
+    "title": "EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction",
+    "authors": [
+      "Han Cai",
+      "Junyan Li",
+      "Muyan Hu",
+      "Chuang Gan",
+      "Song Han"
+    ],
+    "year": "2023",
+    "url": "https://hanlab.mit.edu/projects/efficientvit",
+    "paper": "https://arxiv.org/abs/2205.14756",
+    "code": "https://github.com/mit-han-lab/efficientvit",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/efficientvit.png",
+    "website": "https://hanlab.mit.edu/projects/efficientvit",
+    "category": "Vision Learning & Navigation",
+    "conference": "ICCV 2023"
+  },
+  {
+    "title": "Learning Vision-and-Language Navigation from YouTube Videos",
+    "authors": [
+      "Kunyang Lin",
+      "Peihao Chen",
+      "Diwei Huang",
+      "Thomas H. Li",
+      "Mingkui Tan",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2307.11984",
+    "paper": "https://arxiv.org/abs/2307.11984",
+    "code": "https://github.com/JeremyLinky/YouTube-VLN",
+    "preview": "https://github.com/JeremyLinky/YouTube-VLN/raw/main/readme/lily.png",
+    "category": "Vision Learning & Navigation",
+    "conference": "ICCV 2023"
+  },
+  {
+    "title": "Sparse Universal Transformer",
+    "authors": [
+      "Shawn Tan",
+      "Yikang Shen",
+      "Zhenfang Chen",
+      "Aaron Courville",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2310.07096",
+    "paper": "https://arxiv.org/abs/2310.07096",
+    "code": "https://github.com/shawntan/SUT",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/SUT.jpg",
+    "category": "Vision Learning & Navigation",
+    "conference": "EMNLP 2023"
+  },
+  {
+    "title": "Learning Neural Constitutive Laws from Motion Observations for Generalizable PDE Dynamics",
+    "authors": [
+      "Pingchuan Ma",
+      "Peter Yichen Chen",
+      "Bolei Deng",
+      "Joshua B. Tenenbaum",
+      "Tao Du",
+      "Chuang Gan",
+      "Wojciech Matusik"
+    ],
+    "year": "2023",
+    "url": "https://sites.google.com/view/nclaw",
+    "paper": "https://arxiv.org/abs/2304.14369",
+    "code": "https://github.com/PingchuanMa/NCLaw",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/melt.gif",
+    "category": "Physics Simulation",
+    "website": "https://sites.google.com/view/nclaw",
+    "conference": "ICML 2023"
+  },
+  {
+    "title": "Reparameterized Policy Learning for Multimodal Trajectory Optimization",
+    "authors": [
+      "Zhiao Huang",
+      "Litian Liang",
+      "Zhan Ling",
+      "Xuanlin Li",
+      "Chuang Gan",
+      "Hao Su"
+    ],
+    "year": "2023",
+    "url": "https://haosulab.github.io/RPG/",
+    "paper": "https://haosulab.github.io/RPG/static/icml2023_rpg_camera_ready.pdf",
+    "code": "https://github.com/haosulab/RPG",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/RSP.png",
+    "category": "Reinforce Learning",
+    "website": "https://haosulab.github.io/RPG/",
+    "conference": "ICML 2023 (Oral)"
+  },
+  {
+    "title": "On the Forward Invariance of Neural ODEs",
+    "authors": [
+      "Wei Xiao",
+      "Tsun-Hsuan Wang",
+      "Ramin Hasani",
+      "Mathias Lechner",
+      "Yutong Ban",
+      "Chuang Gan",
+      "Daniela Rus"
+    ],
+    "year": "2023",
+    "url": "https://weixy21.github.io/invariance/",
+    "paper": "https://arxiv.org/abs/2210.04763",
+    "code": "https://github.com/Weixy21/InvarianceNODE",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/ODE_invariance.gif",
+    "category": "Physics Simulation",
+    "website": "https://weixy21.github.io/invariance/",
+    "conference": "ICML 2023"
+  },
+  {
+    "title": "Roboninja: Learning an Adaptive Cutting Policy for Multi-material Objects",
+    "authors": [
+      "Zhenjia Xu",
+      "Zhou Xian",
+      "Xingyu Lin",
+      "Cheng Chi",
+      "Zhiao Huang",
+      "Chuang Gan",
+      "Shuran Song"
+    ],
+    "year": "2023",
+    "url": "https://roboninja.cs.columbia.edu/",
+    "paper": "https://arxiv.org/abs/2302.11553",
+    "code": "https://github.com/real-stanford/roboninja",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/RoboNinja_RSS.gif",
+    "category": "Robotics",
+    "website": "https://roboninja.cs.columbia.edu/",
+    "conference": "RSS 2023"
+  },
+  {
+    "title": "JECC: Commonsense Reasoning Tasks Derived from Interactive Fictions",
+    "authors": [
+      "Mo Yu",
+      "Yi Gu",
+      "Xiaoxiao Guo",
+      "Yufei Feng",
+      "Xiaodan Zhu",
+      "Michael Greenspan",
+      "Murray Campbell",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2210.15456",
+    "paper": "https://arxiv.org/abs/2210.15456",
+    "code": "https://github.com/Gorov/zucc",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/JFCC.jpeg",
+    "category": "Large Language Models",
+    "conference": "ACL 2023 (Findings)"
+  },
+  {
+    "title": "3D Concept Learning and Reasoning from Multi-View Images",
+    "authors": [
+      "Yining Hong",
+      "Chunru Lin",
+      "Yilun Du",
+      "Zhenfang Chen",
+      "Joshua B. Tenenbaum",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "paper": "https://arxiv.org/abs/2303.11327",
+    "url": "https://github.com/evelinehong/3D-CLR-Official",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/3dclr.gif",
+    "code": "https://github.com/evelinehong/3D-CLR-Official",
+    "conference": "CVPR 2023",
+    "category": "Learning World Models"
+  },
+  {
+    "title": "Mod-Squad: Designing Mixture of Experts As Modular Multi-Task Learners",
+    "authors": [
+      "Zitian Chen",
+      "Yikang Shen",
+      "Mingyu Ding",
+      "Zhenfang Chen",
+      "Hengshuang Zhao",
+      "Erik Learned-Miller",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://github.com/UMass-Embodied-AGI/Mod-Squad",
+    "paper": "https://arxiv.org/abs/2212.08066",
+    "code": "https://github.com/UMass-Embodied-AGI/Mod-Squad",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/Mod-Squad.png",
+    "category": "Vision Learning & Navigation",
+    "conference": "CVPR 2023"
+  },
+  {
+    "title": "EC^ 2: Emergent Communication for Embodied Control",
+    "authors": [
+      "Yao Mu",
+      "Shunyu Yao",
+      "Mingyu Ding",
+      "Ping Luo",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://ecforembodiedai.github.io/",
+    "paper": "https://arxiv.org/abs/2304.09448",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/EC2.png",
+    "category": "Robotics",
+    "website": "https://ecforembodiedai.github.io/",
+    "conference": "CVPR 2023"
+  },
+  {
+    "title": "Physics-Driven Diffusion Models for Impact Sound Synthesis from Videos",
+    "authors": [
+      "Kun Su",
+      "Kaizhi Qian",
+      "Eli Shlizerman",
+      "Antonio Torralba",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://sukun1045.github.io/video-physics-sound-diffusion/",
+    "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Su_Physics-Driven_Diffusion_Models_for_Impact_Sound_Synthesis_From_Videos_CVPR_2023_paper.pdf",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/physics-sound.png",
+    "category": "Audio-Visual Learning",
+    "code": "https://github.com/sukun1045/video-physics-sound-diffusion",
+    "website": "https://sukun1045.github.io/video-physics-sound-diffusion/",
+    "conference": "CVPR 2023"
+  },
+  {
+    "title": "Visual Dependency Transformers: Dependency Tree Emerges from Reversed Attention",
+    "authors": [
+      "Mingyu Ding",
+      "Yikang Shen",
+      "Lijie Fan",
+      "Zhenfang Chen",
+      "Zitian Chen",
+      "Ping Luo",
+      "Joshua B Tenenbaum",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://github.com/dingmyu/DependencyViT",
+    "paper": "https://arxiv.org/abs/2304.03282",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/visualdep.png",
+    "category": "Vision Learning & Navigation",
+    "code": "https://github.com/dingmyu/DependencyViT",
+    "conference": "CVPR 2023"
+  },
+  {
+    "title": "Masked Motion Encoding for Self-Supervised Video Representation Learning",
+    "authors": [
+      "Xinyu Sun",
+      "Peihao Chen",
+      "Liangwei Chen",
+      "Changhao Li",
+      "Thomas H. Li",
+      "Mingkui Tan",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://github.com/XinyuSun/MME",
+    "paper": "https://arxiv.org/abs/2210.06096",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/M3M.png",
+    "code": "https://github.com/XinyuSun/MME",
+    "category": "Vision Learning & Navigation",
+    "conference": "CVPR 2023"
+  },
+  {
+    "title": "FluidLab: A Differentiable Environment for Benchmarking Complex Fluid Manipulation",
+    "authors": [
+      "Zhou Xian",
+      "Bo Zhu",
+      "Zhenjia Xu",
+      "Hsiao-Yu Tung",
+      "Antonio Torralba",
+      "Katerina Fragkiadaki",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://fluidlab2023.github.io/",
+    "paper": "https://arxiv.org/abs/2303.02346",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/fluidlab.png",
+    "category": "Physics Simulation",
+    "code": "https://github.com/zhouxian/FluidLab",
+    "website": "https://fluidlab2023.github.io/",
+    "conference": "ICLR 2023 (Spotlight)"
+  },
+  {
+    "title": "PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification",
+    "authors": [
+      "Xuan Li",
+      "Yi-Ling Qiao",
+      "Peter Yichen Chen",
+      "Krishna Murthy Jatavallabhula",
+      "Ming Lin",
+      "Chenfanfu Jiang",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://sites.google.com/view/PAC-NeRF/",
+    "paper": "https://openreview.net/pdf?id=tVkrbkz42vc",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/PAC-Nerf.png",
+    "category": "Physics Simulation",
+    "code": "https://github.com/xuan-li/PAC-NeRF",
+    "website": "https://sites.google.com/view/PAC-NeRF/",
+    "conference": "ICLR 2023 (Spotlight)"
+  },
+  {
+    "title": "SoftZoo: A Soft Robot Co-design Benchmark For Locomotion In Diverse Environments",
+    "authors": [
+      "Tsun-Hsuan Wang",
+      "Pingchuan Ma",
+      "Andrew Everett Spielberg",
+      "Zhou Xian",
+      "Hao Zhang",
+      "Joshua B Tenenbaum",
+      "Daniela Rus",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://sites.google.com/view/softzoo-iclr-2023",
+    "paper": "https://arxiv.org/abs/2303.09555",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/softzoo.png",
+    "category": "Physics Simulation",
+    "code": "https://github.com/zswang666/softzoo",
+    "website": "https://sites.google.com/view/softzoo-iclr-2023",
+    "conference": "ICLR 2023"
+  },
+  {
+    "title": "Planning with Large Language Models for Code Generation",
+    "authors": [
+      "Shun Zhang",
+      "Zhenfang Chen",
+      "Yikang Shen",
+      "Mingyu Ding",
+      "Joshua B Tenenbaum",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://codeaimcts.github.io/",
+    "paper": "https://openreview.net/pdf?id=Lr8cOOtYbfL",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/code_ai.png",
+    "category": "Large Language Models",
+    "code": "https://github.com/shunzh/Code-AI-Tree-Search",
+    "website": "https://codeaimcts.github.io/",
+    "conference": "ICLR 2023"
+  },
+  {
+    "title": "DexDeform: Dexterous Deformable Object Manipulation with Human Demonstrations and Differentiable Physics",
+    "authors": [
+      "Sizhe Li*",
+      "Zhiao Huang*",
+      "Tao Chen",
+      "Tao Du",
+      "Hao Su",
+      "Joshua B Tenenbaum",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://sites.google.com/view/dexdeform/",
+    "paper": "https://openreview.net/pdf?id=LIV7-_7pYPl",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/flip_small.gif",
+    "category": "Robotics",
+    "code": "https://github.com/sizhe-li/DexDeform",
+    "website": "https://sites.google.com/view/dexdeform/",
+    "conference": "ICLR 2023"
+  },
+  {
+    "title": "Hyper-Decision Transformer for Efficient Online Policy Adaptation",
+    "authors": [
+      "Mengdi Xu",
+      "Yuchen Lu",
+      "Yikang Shen",
+      "Shun Zhang",
+      "Ding Zhao",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://sites.google.com/view/hdtforiclr2023/home",
+    "paper": "https://arxiv.org/abs/2304.08487",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/HDT.gif",
+    "category": "Robotics",
+    "website": "https://sites.google.com/view/hdtforiclr2023/home",
+    "conference": "ICLR 2023"
+  },
+  {
+    "title": "ModuleFormer: Learning Modular Large Language Models From Uncurated Data",
+    "authors": [
+      "Yikang Shen",
+      "Zheyu Zhang",
+      "Tianyou Cao",
+      "Shawn Tan",
+      "Zhenfang Chen",
+      "Chuang Gan"
+    ],
+    "year": "2023",
+    "url": "https://github.com/IBM/ModuleFormer",
+    "paper": "https://arxiv.org/abs/2306.04640",
+    "preview": "https://people.csail.mit.edu/ganchuang/imgs/Moduleformer.jpeg",
+    "category": "Large Language Models",
+    "code": "https://github.com/IBM/ModuleFormer",
+    "conference": "Pre-print 2023"
   }
 ]
