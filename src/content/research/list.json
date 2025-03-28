@@ -879,7 +879,7 @@
     "paper": "https://haosulab.github.io/RPG/static/icml2023_rpg_camera_ready.pdf",
     "code": "https://github.com/haosulab/RPG",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/RSP.png",
-    "category": "Robotics",
+    "category": "Physical Reasoning and Interaction",
     "website": "https://haosulab.github.io/RPG/",
     "conference": "ICML 2023 (Oral)"
   },
@@ -919,7 +919,7 @@
     "paper": "https://arxiv.org/abs/2302.11553",
     "code": "https://github.com/real-stanford/roboninja",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/RoboNinja_RSS.gif",
-    "category": "Robotics",
+    "category": "Physical Reasoning and Interaction",
     "website": "https://roboninja.cs.columbia.edu/",
     "conference": "RSS 2023"
   },
@@ -993,7 +993,7 @@
     "url": "https://ecforembodiedai.github.io/",
     "paper": "https://arxiv.org/abs/2304.09448",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/EC2.png",
-    "category": "Robotics",
+    "category": "Physical Reasoning and Interaction",
     "website": "https://ecforembodiedai.github.io/",
     "conference": "CVPR 2023"
   },
@@ -1149,7 +1149,7 @@
     "url": "https://sites.google.com/view/dexdeform/",
     "paper": "https://openreview.net/pdf?id=LIV7-_7pYPl",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/flip_small.gif",
-    "category": "Robotics",
+    "category": "Physical Reasoning and Interaction",
     "code": "https://github.com/sizhe-li/DexDeform",
     "website": "https://sites.google.com/view/dexdeform/",
     "conference": "ICLR 2023"
@@ -1168,7 +1168,7 @@
     "url": "https://sites.google.com/view/hdtforiclr2023/home",
     "paper": "https://arxiv.org/abs/2304.08487",
     "preview": "https://people.csail.mit.edu/ganchuang/imgs/HDT.gif",
-    "category": "Robotics",
+    "category": "Physical Reasoning and Interaction",
     "website": "https://sites.google.com/view/hdtforiclr2023/home",
     "conference": "ICLR 2023"
   },
