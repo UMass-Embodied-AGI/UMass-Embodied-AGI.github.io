@@ -279,7 +279,7 @@
     "website": "https://embodied-agi.cs.umass.edu/flexattention/",
     "url": "https://arxiv.org/abs/2407.20228",
     "preview": "/research/flexattention.jpg",
-    "category": "Large Language Models",
+    "category": "Multimodal Language Models",
     "conference": "ECCV 2024"
   },
   {
@@ -547,7 +547,7 @@
     "code": "https://github.com/UMass-Embodied-AGI/CoVLM",
     "paper": "https://arxiv.org/abs/2311.03354",
     "preview": "/research/CoVLM.webm",
-    "category": "Large Language Models",
+    "category": "Multimodal Language Models",
     "conference": "ICLR 2024"
   },
   {
