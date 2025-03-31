@@ -11,8 +11,8 @@
       "Chuang Gan"
     ],
     "year": "2025",
-    "url": "https://embodied-agi.cs.umass.edu/3dmem/",
-    "website": "https://embodied-agi.cs.umass.edu/3dmem/",
+    "url": "https://umass-embodied-agi.github.io/3D-Mem/",
+    "website": "https://umass-embodied-agi.github.io/3D-Mem/",
     "code": "https://github.com/UMass-Foundation-Model/3D-Mem",
     "paper": "https://arxiv.org/abs/2411.17735",
     "preview": "/research/3DMem.mp4",
