@@ -282,7 +282,135 @@
     "category": "Foundation Models",
     "conference": "ECCV 2024"
   },
-  
+  {
+    "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+    "authors": [
+      "Yufei Wang",
+      "Zhou Xian",
+      "Feng Chen",
+      "Tsun-Hsuan Wang",
+      "Yian Wang",
+      "Katerina Fragkiadaki",
+      "Zackory Erickson",
+      "David Held",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2311.01455",
+    "preview": "/research/robogen.webm",
+    "paper": "https://arxiv.org/abs/2311.01455",
+    "website": "https://robogen-ai.github.io/",
+    "booktitle": "International conference on machine learning",
+    "code": "https://github.com/Genesis-Embodied-AI/RoboGen",
+    "selected": true,
+    "category": "Physical Reasoning and Interaction",
+    "conference": "ICML 2024"
+  },
+  {
+    "title": "RoboDreamer: Learning Compositional World Models for Robot Imagination",
+    "authors": [
+      "Siyuan Zhou",
+      "Yilun Du",
+      "Jiaben Chen",
+      "Yandong Li",
+      "Dit-Yan Yeung",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "paper": "https://arxiv.org/abs/2404.12377",
+    "url": "https://arxiv.org/abs/2404.12377",
+    "preview": "/research/robodreamer.png",
+    "category": "Physical Reasoning and Interaction",
+    "booktitle": "International conference on machine learning",
+    "website": "https://robovideo.github.io/",
+    "code": "https://github.com/rainbow979/robodreamer",
+    "conference": "ICML 2024"
+  },
+  {
+    "title": "Visual Chain-of-Thought Prompting for Knowledge-Based Visual Reasoning",
+    "authors": [
+      "Zhenfang Chen",
+      "Qinhong Zhou",
+      "Yikang Shen",
+      "Yining Hong",
+      "Zhiqing Sun",
+      "Dan Gutfreund",
+      "Chuang Gan"
+    ],
+    "booktitle": "AAAI Conference on Artificial Intelligence",
+    "year": "2024",
+    "url": "https://api.semanticscholar.org/CorpusID:268678279",
+    "code": "https://github.com/UMass-Embodied-AGI/VisualCoT",
+    "paper": "https://arxiv.org/abs/2404.00451",
+    "preview": "https://github.com/UMass-Embodied-AGI/VisualCoT/raw/main/framework.png",
+    "category": "Multimodal Language Models",
+    "conference": "AAAI 2024"
+  },
+  {
+    "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
+    "authors": [
+      "Haoyu Zhen",
+      "Xiaowen Qiu",
+      "Peihao Chen",
+      "Jincheng Yang",
+      "Xin Yan",
+      "Yilun Du",
+      "Yining Hong",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "booktitle": "International conference on machine learning",
+    "selected": true,
+    "preview": "/research/3dVLA.webm",
+    "paper": "https://arxiv.org/abs/2403.09631",
+    "url": "https://arxiv.org/abs/2403.09631",
+    "code": "https://github.com/UMass-Foundation-Model/3D-VLA",
+    "category": "Learning World Models",
+    "conference": "ICML 2024"
+  },
+  {
+    "title": "LLM and Simulation as Bilevel Optimizers: A New Paradigm to Advance Physical Scientific Discovery",
+    "authors": [
+      "Pingchuan Ma",
+      "Johnson Tsun-Hsuan Wang",
+      "Minghao Guo",
+      "Zhiqing Sun",
+      "Josh Tenenbaum",
+      "Daniela Rus",
+      "Chuang Gan",
+      "Wojciech Matusik"
+    ],
+    "url": "https://github.com/PingchuanMa/SGA",
+    "website": "https://github.com/PingchuanMa/SGA",
+    "code": "https://github.com/PingchuanMa/SGA",
+    "paper": "https://arxiv.org/abs/2405.09783",
+    "preview": "https://github.com/PingchuanMa/SGA/blob/main/assets/pipeline.jpg?raw=true",
+    "year": "2024",
+    "booktitle": "International conference on machine learning",
+    "conference": "ICML 2024",
+    "category": "Physical Reasoning and Interaction"
+  },
+  {
+    "title": "ContPhy: Continuum Physical Concept Learning and Reasoning from Videos",
+    "authors": [
+      "Zhicheng Zheng",
+      "Xin Yan",
+      "Zhenfang Chen",
+      "Jingzhou Wang",
+      "Qin Zhi Eddie Lim",
+      "Joshua Tenenbaum",
+      "Chuang Gan"
+    ],
+    "year": "2024",
+    "url": "https://physical-reasoning-project.github.io/",
+    "website": "https://physical-reasoning-project.github.io/",
+    "code": "https://github.com/zzcnewly/ContPhy-Gen",
+    "preview": "https://physical-reasoning-project.github.io/static/images/ContPRO.png",
+    "booktitle": "International conference on machine learning",
+    "conference": "ICML 2024",
+    "paper": "https://arxiv.org/abs/2402.06119",
+    "category": "Physical Reasoning and Interaction"
+  },
   {
     "title": "SALMON: Self-Alignment with Instructable Reward Models",
     "authors": [
