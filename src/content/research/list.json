@@ -1,5 +1,147 @@
 [
   {
+    "title": "TesserAct: Learning 4D Embodied World Models",
+    "authors": [
+      "Haoyu Zhen",
+      "Qiao Sun",
+      "Hongxin Zhang",
+      "Junyan Li",
+      "Siyuan Zhou",
+      "Yilun Du",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "https://tesseractworld.github.io/",
+    "website": "https://tesseractworld.github.io/",
+    "code": "https://github.com/UMass-Embodied-AGI/TesserAct",
+    "paper": "https://arxiv.org/abs/2504.20995",
+    "preview": "https://tesseractworld.github.io/assets/teaser.mp4",
+    "category": "Learning World Models",
+    "conference": "ICCV 2025"
+  },
+  {
+    "title": "VCA: Video Curious Agent for Long Video Understanding",
+    "authors": [
+      "Zeyuan Yang‡",
+      "Delin Chen‡",
+      "Xueyang Yu",
+      "Maohao Shen",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "",
+    "website": "",
+    "code": "",
+    "paper": "",
+    "preview": "",
+    "category": "Multimodal Language Models",
+    "conference": "ICCV 2025"
+  },  
+  {
+    "title": "RapVerse: Coherent Vocals and Whole-Body Motions Generations from Text",
+    "authors": [
+      "Jiaben Chen",
+      "Xin Yan",
+      "Yihang Chen",
+      "Siyuan Cen",
+      "Qinwei Ma",
+      "Haoyu Zhen",
+      "Kaizhi Qian",
+      "Lie Lu",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "",
+    "website": "",
+    "code": "",
+    "paper": "",
+    "preview": "",
+    "category": "Multimodal Language Models",
+    "conference": "ICCV 2025"
+  },
+  {
+    "title": "Satori: Reinforcement Learning with Chain-of-Action-Thought Enhances LLM Reasoning via Autoregressive Search",
+    "authors": [
+      "Maohao Shen",
+      "Guangtao Zeng",
+      "Zhenting Qi",
+      "Zhang-Wei Hong",
+      "Zhenfang Chen",
+      "Wei Lu",
+      "Gregory W. Wornell",
+      "Subhro Das",
+      "David Daniel Cox",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "",
+    "website": "",
+    "code": "",
+    "paper": "",
+    "preview": "",
+    "category": "Foundation Models",
+    "conference": "ICML 2025"
+  },
+  {
+    "title": "ABNet: Adaptive explicit-Barrier Net for Safe and Scalable Robot Learning",
+    "authors": [
+      "Wei Xiao",
+      "Tsun-Hsuan Wang",
+      "Chuang Gan",
+      "Daniela Rus"
+    ],
+    "year": "2025",
+    "url": "",
+    "website": "",
+    "code": "",
+    "paper": "",
+    "preview": "",
+    "category": "Embodied Intelligence",
+    "conference": "ICML 2025"
+  },
+  {
+    "title": "CommVQ: Commutative Vector Quantization for KV Cache Compression",
+    "authors": [
+      "Junyan Li",
+      "Yang Zhang",
+      "Muhammad Yusuf Hassan",
+      "Talha Chafekar",
+      "Tianle Cai",
+      "Zhile Ren",
+      "Pengsheng Guo",
+      "Foroozan Karimzadeh",
+      "Colorado Reed",
+      "Chong Wang",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "",
+    "website": "",
+    "code": "",
+    "paper": "",
+    "preview": "",
+    "category": "Embodied Intelligence",
+    "conference": "ICML 2025"
+  },
+  {
+    "title": "AdaWorld: Learning Adaptable World Models with Latent Actions",
+    "authors": [
+      "Shenyuan Gao",
+      "Siyuan Zhou",
+      "Yilun Du",
+      "Jun Zhang",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "",
+    "website": "",
+    "code": "",
+    "paper": "",
+    "preview": "",
+    "category": "Embodied Intelligence",
+    "conference": "ICML 2025"
+  },
+  {
     "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
     "authors": [
       "Yuncong Yang*",
