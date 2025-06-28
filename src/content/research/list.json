@@ -33,7 +33,7 @@
     "website": "",
     "code": "",
     "paper": "",
-    "preview": "",
+    "preview": "https://miicheyang.github.io/images/VCA.jpg",
     "category": "Multimodal Language Models",
     "conference": "ICCV 2025"
   },  
@@ -55,7 +55,7 @@
     "website": "",
     "code": "",
     "paper": "",
-    "preview": "",
+    "preview": "https://jiabenchen.github.io/images/fig_rapverse.png",
     "category": "Multimodal Language Models",
     "conference": "ICCV 2025"
   },
@@ -78,8 +78,26 @@
     "website": "",
     "code": "",
     "paper": "",
-    "preview": "",
+    "preview": "https://satori-reasoning.github.io/img/schematic.png",
     "category": "Foundation Models",
+    "conference": "ICML 2025"
+  },
+  {
+    "title": "AdaWorld: Learning Adaptable World Models with Latent Actions",
+    "authors": [
+      "Shenyuan Gao",
+      "Siyuan Zhou",
+      "Yilun Du",
+      "Jun Zhang",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "",
+    "website": "",
+    "code": "",
+    "paper": "",
+    "preview": "https://github.com/Little-Podi/AdaWorld/raw/main/assets/teaser.jpg",
+    "category": "Embodied Intelligence",
     "conference": "ICML 2025"
   },
   {
@@ -95,7 +113,6 @@
     "website": "",
     "code": "",
     "paper": "",
-    "preview": "",
     "category": "Embodied Intelligence",
     "conference": "ICML 2025"
   },
@@ -119,25 +136,6 @@
     "website": "",
     "code": "",
     "paper": "",
-    "preview": "",
-    "category": "Embodied Intelligence",
-    "conference": "ICML 2025"
-  },
-  {
-    "title": "AdaWorld: Learning Adaptable World Models with Latent Actions",
-    "authors": [
-      "Shenyuan Gao",
-      "Siyuan Zhou",
-      "Yilun Du",
-      "Jun Zhang",
-      "Chuang Gan"
-    ],
-    "year": "2025",
-    "url": "",
-    "website": "",
-    "code": "",
-    "paper": "",
-    "preview": "",
     "category": "Embodied Intelligence",
     "conference": "ICML 2025"
   },
