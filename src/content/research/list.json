@@ -1,5 +1,36 @@
 [
   {
+    "title": "Virtual Community: An Open World for Humans, Robots, and Society",
+    "authors": [
+      "Qinhong Zhou*",
+      "Hongxin Zhang*",
+      "Xiangye Lin*",
+      "Zheyuan Zhang*",
+      "Yutian Chen",
+      "Wenjun Liu",
+      "Zunzhe Zhang",
+      "Sunli Chen",
+      "Lixing Fang",
+      "Qiushi Lyu",
+      "Xinyu Sun",
+      "Jincheng Yang",
+      "Zeyuan Wang",
+      "Bao Chi Dang",
+      "Zhehuan Chen",
+      "Daksha Ladia",
+      "Jiageng Liu",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "https://virtual-community-ai.github.io/",
+    "website": "https://virtual-community-ai.github.io/",
+    "code": "https://github.com/UMass-Embodied-AGI/Virtual-Community",
+    "paper": "https://virtual-community-ai.github.io/paper.pdf",
+    "preview": "https://virtual-community-ai.github.io/_astro/demo.JCrCm2Oo.mp4",
+    "category": "Embodied Intelligence",
+    "conference": "arXiv 2025"
+  },  
+  {
     "title": "TesserAct: Learning 4D Embodied World Models",
     "authors": [
       "Haoyu Zhen",
@@ -112,7 +143,7 @@
     "url": "",
     "website": "",
     "code": "",
-    "paper": "",
+    "paper": "/research/abnet.png",
     "category": "Embodied Intelligence",
     "conference": "ICML 2025"
   },
