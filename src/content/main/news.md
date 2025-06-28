@@ -2,6 +2,14 @@
 image: ../assets/team.png
 ---
 
-- Five new papers accepted at ICLR 2025!
+- We have received the **NSF CAREER Award**!
 
-- Six new papers accepted at NeurIPS 2024!
+- Three papers were accepted at ICCV 2025!
+
+- Four papers were accepted at ICML 2025!
+
+- Two papers were accepted at CVPR 2025!
+
+- Five papers were accepted at ICLR 2025!
+
+- Six papers were accepted at NeurIPS 2024!
