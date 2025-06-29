@@ -60,10 +60,10 @@
       "Chuang Gan"
     ],
     "year": "2025",
-    "url": "",
+    "url": "https://arxiv.org/abs/2412.10471",
     "website": "",
     "code": "",
-    "paper": "",
+    "paper": "https://arxiv.org/abs/2412.10471",
     "preview": "https://miicheyang.github.io/images/VCA.jpg",
     "category": "Multimodal Language Models",
     "conference": "ICCV 2025"
@@ -82,10 +82,10 @@
       "Chuang Gan"
     ],
     "year": "2025",
-    "url": "",
+    "url": "https://arxiv.org/abs/2405.20336",
     "website": "",
     "code": "",
-    "paper": "",
+    "paper": "https://arxiv.org/abs/2405.20336",
     "preview": "https://jiabenchen.github.io/images/fig_rapverse.png",
     "category": "Multimodal Language Models",
     "conference": "ICCV 2025"
@@ -105,10 +105,10 @@
       "Chuang Gan"
     ],
     "year": "2025",
-    "url": "",
-    "website": "",
-    "code": "",
-    "paper": "",
+    "url": "https://satori-reasoning.github.io/blog/satori/",
+    "website": "https://satori-reasoning.github.io/blog/satori/",
+    "code": "https://github.com/satori-reasoning/Satori",
+    "paper": "https://arxiv.org/abs/2502.02508",
     "preview": "https://satori-reasoning.github.io/img/schematic.png",
     "category": "Foundation Models",
     "conference": "ICML 2025"
@@ -123,10 +123,10 @@
       "Chuang Gan"
     ],
     "year": "2025",
-    "url": "",
-    "website": "",
-    "code": "",
-    "paper": "",
+    "url": "https://adaptable-world-model.github.io/",
+    "website": "https://adaptable-world-model.github.io/",
+    "code": "https://github.com/Little-Podi/AdaWorld",
+    "paper": "https://arxiv.org/abs/2503.18938",
     "preview": "https://github.com/Little-Podi/AdaWorld/raw/main/assets/teaser.jpg",
     "category": "Embodied Intelligence",
     "conference": "ICML 2025"
@@ -140,10 +140,11 @@
       "Daniela Rus"
     ],
     "year": "2025",
-    "url": "",
+    "url": "https://arxiv.org/abs/2406.13025",
     "website": "",
     "code": "",
-    "paper": "/research/abnet.png",
+    "paper": "https://arxiv.org/abs/2406.13025",
+    "preview": "https://people.csail.mit.edu/weixy/paper_figs/abnet.png",
     "category": "Embodied Intelligence",
     "conference": "ICML 2025"
   },
@@ -163,10 +164,10 @@
       "Chuang Gan"
     ],
     "year": "2025",
-    "url": "",
+    "url": "https://arxiv.org/abs/2506.18879",
     "website": "",
     "code": "",
-    "paper": "",
+    "paper": "https://arxiv.org/abs/2506.18879",
     "category": "Embodied Intelligence",
     "conference": "ICML 2025"
   },
