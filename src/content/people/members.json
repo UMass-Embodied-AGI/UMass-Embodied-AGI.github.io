@@ -85,6 +85,23 @@
         "url": "https://miicheyang.github.io/"
       },
       {
+        "name": "Han Yang",
+        "photo": "phd_han.png",
+        "role": "Ph.D. Student",
+        "url": "https://hanyangclarence.github.io/"
+      },
+      {
+        "name": "Junyi Cao",
+        "photo": "phd_junyi.jpg",
+        "role": "Ph.D. Student",
+        "url": "https://xjay18.github.io/"
+      },
+      {
+        "name": "Ziyan Xiong",
+        "photo": "phd_ziyan.jpg",
+        "role": "Ph.D. Student"
+      },
+      {
         "name": "Xiaowen Qiu",
         "photo": "ms_xiaowen.png",
         "role": "Master Student"
@@ -133,6 +150,17 @@
         "photo": "ms_quang.jpg",
         "role": "Master Student",
         "url": "https://github.com/qdang2025"
+      },
+      {
+        "name": "Junyun Huang",
+        "photo": "ms_junyun.png",
+        "role": "Master Student",
+        "url": "https://adrianhuang2002.github.io/"
+      },
+      {
+        "name": "Xiangye Lin",
+        "photo": "ms_xiangye.jpg",
+        "role": "Master Student"
       },
       {
         "name": "Siyuan Zhou",
