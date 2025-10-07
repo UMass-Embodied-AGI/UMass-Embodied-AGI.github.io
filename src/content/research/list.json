@@ -1,5 +1,156 @@
 [
   {
+    "title": "Articulate Anymesh: Open-Vocabulary 3D Articulated Objects Modeling",
+    "authors": [
+      "Xiaowen Qiu",
+      "Jincheng Yang",
+      "Yian Wang",
+      "Zhehuan Chen",
+      "Yufei Wang",
+      "Tsun-Hsuan Wang",
+      "Zhou Xian",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2502.02590",
+    "website": "https://articulate-anymesh.github.io/",
+    "code": "https://github.com/UMass-Embodied-AGI/Articulate-Anymesh",
+    "paper": "https://arxiv.org/abs/2502.02590",
+    "preview": "https://articulateanymesh.github.io/assets/videos/demo.gif",
+    "category": "Physical Intelligence",
+    "conference": "CORL 2025"
+  },
+  {
+    "title": "CameraBench: Towards Understanding Camera Motions in Any Video",
+    "authors": [
+      "Zhiqiu Lin",
+      "Siyuan Cen",
+      "Daniel Jiang",
+      "Jay Karhade",
+      "Hewei Wang",
+      "Chancharik Mitra",
+      "Tiffany Ling",
+      "Yuhan Huang",
+      "Sifan Liu",
+      "Mingyu Chen",
+      "Rushikesh Zawar",
+      "Xue Bai",
+      "Yilun Du",
+      "Chuang Gan",
+      "Deva Ramanan"
+    ],
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2504.15376",
+    "website": "https://linzhiqiu.github.io/papers/camerabench/",
+    "code": "https://github.com/sy77777en/CameraBench",
+    "paper": "https://arxiv.org/abs/2504.15376",
+    "preview": "https://linzhiqiu.github.io/papers/camerabench/images/3.gif",
+    "category": "Spatial Intelligence",
+    "conference": "NeurIPS 2025 Spotlight"
+  },
+  {
+    "title": "MindJourney: Test-Time Scaling with World Models for Spatial Reasoning",
+    "authors": [
+      "Yuncong Yang",
+      "Jiageng Liu",
+      "Zheyuan Zhang",
+      "Siyuan Zhou",
+      "Reuben Tan",
+      "Jianwei Yang",
+      "Yilun Du",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2507.12508",
+    "website": "https://umass-embodied-agi.github.io/MindJourney/",
+    "code": "https://github.com/UMass-Embodied-AGI/MindJourney",
+    "paper": "https://arxiv.org/abs/2507.12508",
+    "preview": "https://umass-embodied-agi.github.io/MindJourney/static/videos/opening_video.mp4",
+    "category": "Embodied Intelligence",
+    "conference": "NeurIPS 2025"
+  },
+  {
+    "title": "RobotSmith: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skills",
+    "authors": [
+      "Chunru Lin",
+      "Haotian Yuan",
+      "Yian Wang",
+      "Xiaowen Qiu",
+      "Tsun-Hsuan Wang",
+      "Minghao Guo",
+      "Bohan Wang",
+      "Yashraj Narang",
+      "Dieter Fox",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "https://umass-embodied-agi.github.io/RobotSmith/",
+    "website": "https://umass-embodied-agi.github.io/RobotSmith/",
+    "code": "https://github.com/UMass-Embodied-AGI/RobotSmith",
+    "paper": "https://www.arxiv.org/abs/2506.14763",
+    "preview": "https://github.com/UMass-Embodied-AGI/RobotSmith/raw/master/assets/task_gallery.png",
+    "category": "Embodied Intelligence",
+    "conference": "NeurIPS 2025"
+  },
+  {
+    "title": "TalkCuts: A Large-Scale Dataset for Multi-Shot Human Speech Video Generation",
+    "authors": [
+      "Jiaben Chen",
+      "Zixin Wang",
+      "Ailing Zeng",
+      "Yang Fu",
+      "Xueyang Yu",
+      "Siyuan Cen",
+      "Julian Tanke",
+      "Yihang Chen",
+      "Koichi Saito",
+      "Yuki Mitsufuji",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "preview": "/research/talkcuts.png",
+    "category": "Embodied Intelligence",
+    "conference": "NeurIPS 2025"
+  },
+  {
+    "title": "Learning 3D Persistent Embodied World Models",
+    "authors": [
+      "Siyuan Zhou",
+      "Yilun Du",
+      "Yuncong Yang",
+      "Lei Han",
+      "Peihao Chen",
+      "Dit-Yan Yeung",
+      "Chuang Gan"
+    ],
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2505.05495",
+    "paper": "https://arxiv.org/abs/2505.05495",
+    "preview": "/research/persistentworld.png",
+    "category": "Learning World Models",
+    "conference": "NeurIPS 2025"
+  },
+  {
+    "title": "LangSplatV2: High-dimensional 3D Language Gaussian Splatting with 450+ FPS",
+    "authors": [
+      "Wanhua Li",
+      "Yujie Zhao",
+      "Minghan Qin",
+      "Yang Liu",
+      "Yuanhao Cai",
+      "Chuang Gan",
+      "Hanspeter Pfister"
+    ],
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2507.07136",
+    "paper": "https://arxiv.org/abs/2507.07136",
+    "website": "https://langsplat-v2.github.io/",
+    "preview": "https://github.com/ZhaoYujie2002/LangSplatV2/raw/main/assets/framework.png",
+    "code": "https://github.com/ZhaoYujie2002/LangSplatV2",
+    "category": "Physical Intelligence",
+    "conference": "NeurIPS 2025"
+  },
+  {
     "title": "Virtual Community: An Open World for Humans, Robots, and Society",
     "authors": [
       "Qinhong Zhou*",
