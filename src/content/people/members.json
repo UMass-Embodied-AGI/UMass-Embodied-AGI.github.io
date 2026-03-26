@@ -25,10 +25,28 @@
         "url": "https://icefoxzhx.github.io/"
       },
       {
+        "name": "Tuan Duc Ngo",
+        "photo": "phd_tuan.png",
+        "role": "Ph.D. Student",
+        "url": "https://ngoductuanlhp.github.io/"
+      },
+      {
+        "name": "Abhinav Sharma",
+        "photo": "ms_abhinav.jpg",
+        "role": "Master Student",
+        "url": "https://a1bhinav.netlify.app/"
+      },
+      {
         "name": "Yian Wang",
         "photo": "phd_yian.png",
         "role": "Ph.D. Student",
         "url": "https://wangyian-me.github.io/"
+      },
+      {
+        "name": "Muhammad Yusuf Hassan",
+        "photo": "ms_muhammad.jpeg",
+        "role": "Master Student",
+        "url": "https://md-hassan.github.io/"
       },
       {
         "name": "Junyan Li",
@@ -43,16 +61,16 @@
         "url": "https://zhouqqhh.github.io/"
       },
       {
-        "name": "Tuan Duc Ngo",
-        "photo": "phd_tuan.png",
-        "role": "Ph.D. Student",
-        "url": "https://ngoductuanlhp.github.io/"
-      },
-      {
         "name": "Haoyu Zhen",
         "photo": "phd_haoyu.jpg",
         "role": "Ph.D. Student",
         "url": "https://haoyuzhen.com/"
+      },
+      {
+        "name": "Quang Dang",
+        "photo": "ms_quang.jpg",
+        "role": "Master Student",
+        "url": "https://github.com/qdang2025"
       },
       {
         "name": "Jiaben Chen",
@@ -102,41 +120,8 @@
         "role": "Ph.D. Student"
       },
       {
-        "name": "Xiaowen Qiu",
-        "photo": "ms_xiaowen.png",
-        "role": "Master Student"
-      },
-      {
-        "name": "Abhinav Sharma",
-        "photo": "ms_abhinav.jpg",
-        "role": "Master Student",
-        "url": "https://a1bhinav.netlify.app/"
-      },
-      {
-        "name": "Delin Chen",
-        "photo": "ms_delin.png",
-        "role": "Master Student",
-        "url": "https://chendl02.github.io/"
-      },
-      {
-        "name": "Jiageng Liu",
-        "photo": "ms_jiageng.png",
-        "role": "Master Student"
-      },
-      {
-        "name": "Muhammad Yusuf Hassan",
-        "photo": "ms_muhammad.jpeg",
-        "role": "Master Student",
-        "url": "https://md-hassan.github.io/"
-      },
-      {
         "name": "Siyuan Cen",
         "photo": "ms_siyuan.png",
-        "role": "Master Student"
-      },
-      {
-        "name": "Wenjun Liu",
-        "photo": "ms_wenjun.png",
         "role": "Master Student"
       },
       {
@@ -144,12 +129,6 @@
         "photo": "ms_zhehuan.png",
         "role": "Master Student",
         "url": "https://acmlczh.github.io/"
-      },
-      {
-        "name": "Quang Dang",
-        "photo": "ms_quang.jpg",
-        "role": "Master Student",
-        "url": "https://github.com/qdang2025"
       },
       {
         "name": "Junyun Huang",
@@ -161,11 +140,6 @@
         "name": "Xiangye Lin",
         "photo": "ms_xiangye.jpg",
         "role": "Master Student"
-      },
-      {
-        "name": "Siyuan Zhou",
-        "photo": "vs_siyuan.jpg",
-        "role": "Visiting Scholar"
       },
       {
         "name": "Bao Dang",
